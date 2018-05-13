@@ -283,8 +283,7 @@ Considering that this project has some significant complexity with
 regards to paths and binaries used it's important to spend some time
 thinking about configuration management. Specifically there are a lot of situations where the path to a specific directory must be specified for loading of data. This previously resided in config.py which had a variety of hardcoded strings which were imported by other modules, here's a snippet that shows the general pattern:
 
-Config.py:
-https://github.com/oadams/persephone/blob/56a22bfcf733dc54734927fbfa198a63c120db78/persephone/config.py\
+In [Config.py](https://github.com/oadams/persephone/blob/56a22bfcf733dc54734927fbfa198a63c120db78/persephone/config.py):
 
 ```python
     # The directory where the preprocessed data will be held.
@@ -299,9 +298,7 @@ https://github.com/oadams/persephone/blob/56a22bfcf733dc54734927fbfa198a63c120db
     KALDI_ROOT = "/home/oadams/tools/kaldi"
 ```
 
-Which is used in the dataset processing files such as Chatino:
-
-https://github.com/oadams/persephone/blob/56a22bfcf733dc54734927fbfa198a63c120db78/persephone/datasets/chatino.py\#L8\
+Which is used in the dataset processing files such as Chatino. In [chatino.py](https://github.com/oadams/persephone/blob/56a22bfcf733dc54734927fbfa198a63c120db78/persephone/datasets/chatino.py\#L8):
 
 ```python
     from .. import config
@@ -321,7 +318,7 @@ There's a variety of issues with this approach to configuration some of which on
 
 The other rather large issue is that the way in which the configuration was being used in other modules was creating a situation where module imports will fail if the paths are incorrect. This leads to some counterintuitive error stacktraces, if a path can't be found generating an `ImportError` is at best a bit misleading. But the bigger issue is that in this project users will often be analyzing one spoken language at a time, say that they are working on language A and supply the paths for language A only, then errors from not specifying the path for files for language B at module import time is an annoying restriction on the user, forcing a user to do exception handling on an import seems like something we should not require. It is far better if the import that requires the a missing data set fails at the time the code is executed as this will allow people to use only the modules that they need without needing to be concerned about how the internals of modules manage the paths.
 
-https://github.com/oadams/persephone/blob/56a22bfcf733dc54734927fbfa198a63c120db78/persephone/datasets/chatino.py\#L29\
+In [chatino.py](https://github.com/oadams/persephone/blob/56a22bfcf733dc54734927fbfa198a63c120db78/persephone/datasets/chatino.py\#L29):
 
 ```python
     PREFIXES = [os.path.splitext(fn)[0]
