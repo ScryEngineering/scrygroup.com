@@ -123,14 +123,14 @@ So now we just need to glue the pieces together to get `cherry-pick` to run:
 ```sh
 janis@janis-workstation:~/CPS/CPS_content (master)$ git remote add original_repo ../CPS_gatsby/
 janis@janis-workstation:~/CPS/CPS_content (master)$ git remote -v 
-original_repo	../CPS_gatsby/ (fetch)
-original_repo	../CPS_gatsby/ (push)
+original_repo   ../CPS_gatsby/ (fetch)
+original_repo   ../CPS_gatsby/ (push)
 janis@janis-workstation:~/CPS/CPS_content (master)$ git fetch original_repo 
 ```
 
 So now our local repository has access to the commits.
 
-We have to make an inital commit of some sort or cherry-pick will fail with a message like this:
+We have to make an initial commit of some sort or cherry-pick will fail with a message like this:
 
 ```sh
 error: Can't cherry-pick into empty head
