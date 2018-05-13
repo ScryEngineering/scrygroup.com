@@ -9,9 +9,8 @@ contentType: "blog"
 ---
 
 Recently I was having discussions with a very long term friend
-[Oliver Adams](https://oadams.github.io/), about what we have been working on lately. He has focused on computer science academic research in natural language processing and started a project to do automatic phonetic transcrptions. The project aims to make it easier for linguists to transcribe the phonemes
-in spoken languages, you can find the source code on GitHub:
-<https://github.com/oadams/persephone/>.
+[Oliver Adams](https://oadams.github.io/), about what we have been working on lately. He has focused on computer science academic research in natural language processing and started a project to do automatic phonetic transcrptions. The project aims to make it easier for linguists to transcribe audio from spoken languages, you can find the source code on GitHub:
+https://github.com/persephone-tools/persephone/.
 
 In the interests of reproducible research he has been working on releasing the code that has powered some of his research. Further he wanted to make it easier for people to use the software in their day-to-day linguistics work as the software has a substantial amount of value beyond the papers and research that the code enabled. Making software more valuable to professional users is a particularly strong area of our skills at CPS so we jumped on the chance to contribute to this project. Making software easier to build and distribute is not an initial priority in an academic environment that has a strong pressure to publish many papers, run classes, attend conferences. Talking to many researchers I have found that they would actually love to improve these aspects of their code, but the harsh reality is that time is very hard to come by and the structural incentives sometimes aren't there to do such work in that environment. Now that this project is starting to deliver gains to professional linguists in the course of their work it became increasingly valuable to work on those aspects of software quality that impact the end users.
 
@@ -163,7 +162,7 @@ Also it's worth noting that while we are writing about these steps here in this 
 **License**
 -----------
 
-This is necessary, without this people will be strongly disincentivized from contributing and will also be unable to use the code in their own projects. We opened an issue: https://github.com/oadams/persephone/issues/19
+This is necessary, without this people will be strongly disincentivized from contributing and will also be unable to use the code in their own projects. We opened an issue: https://github.com/persephone-tools/persephone/issues/19
 
 Choosing licenses for your projects can be tough, but it is absolutely essential, thankfully there's some help out there with sites like https://choosealicense.com/
 
@@ -207,7 +206,7 @@ Have good information on how to install the software is a major win for project 
 
 The relevant issues are here:
 
-- [Support setuptools install issue](https://github.com/oadams/persephone/issues/16)
+- [Support setuptools install issue](https://github.com/persephone-tools/persephone/issues/16)
 
 Some information about installs is now clearly documented in the project readme.
 
@@ -218,7 +217,7 @@ Code reviews and Pull requests
 
 How you deal with contributors work is a very important social aspect of a good project. We try to lead by example by offering a clear review of a PR from a contributor here:
 
-https://github.com/oadams/persephone/pull/68
+https://github.com/persephone-tools/persephone/pull/68
 
 Giving direct feedback without being emotive about it allows people a good chance to improve their code and also strongly signals the projects intent to have solid internal quality.
 
@@ -236,7 +235,7 @@ Being able to cleanly install the project with a package manager is very importa
 
 Via analyzing the code we found one 3rd party package that needed to be installed and created an issue here:
 
-<https://github.com/oadams/persephone/issues/21>
+<https://github.com/persephone-tools/persephone/issues/21>
 
 ### **Installation via setuptools**
 
@@ -244,7 +243,7 @@ In order to be able to install via package managers such as pip you need to be a
 
 We opened a pull request with the changes required to make the code installable as a standalone python package:
 
-<https://github.com/oadams/persephone/pull/22>
+<https://github.com/persephone-tools/persephone/pull/22>
 
 ### **Containers**
 
@@ -252,7 +251,7 @@ Containers are a great way to automate an environment for users. This is exceedi
 
 We were going to make a docker container but another contributor beat us to it!
 
-<https://github.com/oadams/persephone/pull/25>
+<https://github.com/persephone-tools/persephone/pull/25>
 
 This shows the power of a good open source project, we heard that this work was already in progress so we prioritized a couple of other tasks higher to see if this was completed first. This way duplicated effort was avoided while pushing the project forward by continuing with other improvements.
 
@@ -266,15 +265,15 @@ Automated testing is a very powerful tool to have at your disposal, this is espe
 
 For unit testing we set up Pytest via Tox. This lets us run our unit tests against what will be the final installed package and allows us to automate the testing process against all the various combinations of Python implementations and versions. We created a pull request to do that here:
 
-[https://github.com/oadams/persephone/pull/24/](https://github.com/oadams/persephone/pull/24/files)
+[https://github.com/persephone-tools/persephone/pull/24/](https://github.com/persephone-tools/persephone/pull/24/files)
 
 We also set up Pylint error checker in the Tox run here:
 
-https://github.com/oadams/persephone/pull/48/
+https://github.com/persephone-tools/persephone/pull/48/
 
 In order to have a good unit test suite it needs to be able to run fairly quickly. The quick feedback loop is essential. However you might want to have longer running tests to that are more of an integration test nature. Having both run from the same test runner, pytest in this case, is actually quite useful but needs configuration so that you don't have all the test runs be slow. We created a PR to allow you to mark the slow tests accordingly and to have them be skilled by default unless a command line flag is provided to run them:
 
-https://github.com/oadams/persephone/pull/71
+https://github.com/persephone-tools/persephone/pull/71
 
 **Configuration management**
 ----------------------------
@@ -283,7 +282,7 @@ Considering that this project has some significant complexity with
 regards to paths and binaries used it's important to spend some time
 thinking about configuration management. Specifically there are a lot of situations where the path to a specific directory must be specified for loading of data. This previously resided in config.py which had a variety of hardcoded strings which were imported by other modules, here's a snippet that shows the general pattern:
 
-In [Config.py](https://github.com/oadams/persephone/blob/56a22bfcf733dc54734927fbfa198a63c120db78/persephone/config.py):
+In [Config.py](https://github.com/persephone-tools/persephone/blob/56a22bfcf733dc54734927fbfa198a63c120db78/persephone/config.py):
 
 ```python
     # The directory where the preprocessed data will be held.
@@ -298,7 +297,7 @@ In [Config.py](https://github.com/oadams/persephone/blob/56a22bfcf733dc54734927f
     KALDI_ROOT = "/home/oadams/tools/kaldi"
 ```
 
-Which is used in the dataset processing files such as Chatino. In [chatino.py](https://github.com/oadams/persephone/blob/56a22bfcf733dc54734927fbfa198a63c120db78/persephone/datasets/chatino.py\#L8):
+Which is used in the dataset processing files such as Chatino. In [chatino.py](https://github.com/persephone-tools/persephone/blob/56a22bfcf733dc54734927fbfa198a63c120db78/persephone/datasets/chatino.py\#L8):
 
 ```python
     from .. import config
@@ -318,7 +317,7 @@ There's a variety of issues with this approach to configuration some of which on
 
 The other rather large issue is that the way in which the configuration was being used in other modules was creating a situation where module imports will fail if the paths are incorrect. This leads to some counterintuitive error stacktraces, if a path can't be found generating an `ImportError` is at best a bit misleading. But the bigger issue is that in this project users will often be analyzing one spoken language at a time, say that they are working on language A and supply the paths for language A only, then errors from not specifying the path for files for language B at module import time is an annoying restriction on the user, forcing a user to do exception handling on an import seems like something we should not require. It is far better if the import that requires the a missing data set fails at the time the code is executed as this will allow people to use only the modules that they need without needing to be concerned about how the internals of modules manage the paths.
 
-In [chatino.py](https://github.com/oadams/persephone/blob/56a22bfcf733dc54734927fbfa198a63c120db78/persephone/datasets/chatino.py\#L29):
+In [chatino.py](https://github.com/persephone-tools/persephone/blob/56a22bfcf733dc54734927fbfa198a63c120db78/persephone/datasets/chatino.py\#L29):
 
 ```python
     PREFIXES = [os.path.splitext(fn)[0]
@@ -341,7 +340,7 @@ In Python the exceptions that can be thrown in functions form an important part 
 
 One thing that makes the code much easier to consume is a good exception handling hierarchy. In some spots the base Exception is being raised. This makes it impossible for the caller to catch exceptions with any granularity, if they wish to catch any exception from the library they have to  catch this base Exception which means catching all the child class of Exception as well. Very frequently this is not what is wanted because a user only wishes to catch a small group of types of exceptions, if you raise a base Exception you prevent the user being able to do this.
 
-https://github.com/oadams/persephone/pull/47
+https://github.com/persephone-tools/persephone/pull/47
 
 Since this pull request a user can now catch more specific exceptions and an exception class `PersephoneException` has been created that will allow a user to catch exceptions that have come from the library.
 
