@@ -1,5 +1,5 @@
 ---
-title: "Enforcing foreign key contrains with SQLite"
+title: "Enforcing foreign key contraints with SQLite"
 author: "Janis Lesinskis"
 date: "2018-05-07"
 tags:
@@ -11,7 +11,7 @@ tags:
 contentType: "tutorial"
 ---
 
-There was a preplexing issue we ran into when testing the [Persephone web API](https://github.com/persephone-tools/persephone-web-API/). There was a foreign key constraint specified in SQLAlchemy but you could add in new entries with bogus foreign keys without the DB engine raising an `IntegrityError`. Why did this happen?
+There was a perplexing issue we ran into when testing the [Persephone web API](https://github.com/persephone-tools/persephone-web-API/). There was a foreign key constraint specified in SQLAlchemy but you could add in new entries with bogus foreign keys without the DB engine raising an `IntegrityError`. Why did this happen?
 
 <!-- end excerpt -->
 
