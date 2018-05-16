@@ -98,7 +98,7 @@ f1083fc7d3a5288ae66bf6fb5b904f9553067070
 ```
 
 So now the newest commit is last. Now we have to get this all on the one line.
-Here we use `tr` which is the "*tr*anslate" tool to replace newlines with :
+Here we use `tr` which is the "*tr*ansliterate" tool to replace newlines with :
 
 ```sh
 git log --format=oneline --no-merges master content/ | cut -d " " -f 1 | tac | tr '\n' ' '
@@ -165,7 +165,7 @@ Unmerged paths:
 
 The command starts up a cherry-picking session as you can see in the prompt where we have to fix the conflict that's stopping the cherry-pick from succeeding.
 
-This issue has come about because we changed around some files in these commits that were outsite the `content` directory. From the point of view of making clean commits too much has gone on in this commit, we have tried changing conceptually unrelated code, and the issue comes up now when we are trying to cherry-pick. Note that you might have a sloppy commit like this and never run into any issues but this is the downside of that sloppiness.
+This issue has come about because we changed around some files in these commits that were outside the `content` directory. From the point of view of making clean commits too much has gone on in this commit, we have tried changing conceptually unrelated code, and the issue comes up now when we are trying to cherry-pick. Note that you might have a sloppy commit like this and never run into any issues but this is the downside of that sloppiness.
 
 So we have to resolve the issue then issue the command:
 
