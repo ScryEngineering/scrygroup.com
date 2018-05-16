@@ -115,7 +115,7 @@ def client():
         yield c
 ```
 
-Now eveything works well, the test no longer errors. The test itself is fairly simple here but the fixture to set up the test client needed a lot of additional work. There's 2 issues that become immediately apparent here:
+Now everything works well, the test no longer errors. The test itself is fairly simple here but the fixture to set up the test client needed a lot of additional work. There's 2 issues that become immediately apparent here:
 
 1. A lot of code is getting duplicated per file to set up the fixtures.
 2. A lot of the configuration is duplicated with the main app itself.
@@ -124,7 +124,7 @@ So I went about fixing these issues in this PR.
 
 # Using pytest fixtures with Flask
 
-In order to deal with this duplication of the test fixtures we can make use of Pytest's test fixtures. Specifically Pytest provides the ability to specify a fixture to multiple test files via conftest.
+In order to deal with this duplication of the test fixtures we can make use of Pytest's test fixtures. Specifically Pytest provides the ability to specify a fixture to multiple test files via `conftest.py`.
 
 So we set up a file `tests/conftest.py` in which we can set up fixtures that will be available to all the tests we wish to run.
 
@@ -135,7 +135,7 @@ E           AssertionError: A setup function was called after the first request 
 E           To fix this make sure to import all your view modules, database models and everything related at a central place before the application starts serving requests.
 ```
 
-So we have to make sure that these functions that create DB tables are called only once. To do this we can make good use of the fact that Python modules are effectively singletons and we can place the relevant configuration at the top level of conftest.py:
+So we have to make sure that these functions that create DB tables are called only once. To do this we can make good use of the fact that Python modules are effectively singletons and we can place the relevant configuration at the top level of `conftest.py`:
 
 ```python
 # conftest.py

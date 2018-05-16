@@ -11,7 +11,7 @@ contentType: "blog"
 
 We have re-launched the site with a new technology, [Gatsby.js](https://www.gatsbyjs.org/).
 
-We did this for a few reasons, most notably that we were actively searching for alternaitves to WordPress for clients and unfortunately had a bunch of issues with regards to the old Drupal powered site. Given these two things it seemed to make sense to investigate other options in the Content management systems (CMS) space.
+We did this for a few reasons, most notably that we were actively searching for alternatives to WordPress for clients and unfortunately had a bunch of issues with regards to the old Drupal powered site. Given these two things it seemed to make sense to investigate other options in the Content management systems (CMS) space.
 
 The site is a bit unpolished at the moment because we needed to release fast. Instead of patching the various severe Drupal security issues just to abandon that platform very soon afterwards we decided it was best to just push the release of our new site forward a few days. We started writing the new site as soon as we saw [this security report](https://groups.drupal.org/security/faq-2018-002) so we already had a significant amount of the work done.
 
@@ -65,7 +65,7 @@ By using a system with fewer moving parts that has fewer security and deployment
 
 There's a lot of React components out there and being able to reuse them is a really big win. We like to write less code when possible. Related to this we can now reuse the components we made for this site which will make it quicker to create other client sites.
 
-### Can pull data from headless CMS's
+### Can pull data from headless CMS sources
 
 Gatsby has support for pulling data directly from WordPress and other sources. This means you can install WordPress in a headless setup and firewall it off from everything else. Now you can capture the value of those other systems while simultaneously reducing the lock-in factor to the themes systems found there.
 

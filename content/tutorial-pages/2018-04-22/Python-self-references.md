@@ -7,7 +7,7 @@ tags:
     - trivia
 contentType: "tutorial"
 ---
-This is a bit of python trivia but python containers can store items that are self references.
+This is a bit of Python trivia but Python containers can store items that are self references.
 
 <!-- end excerpt -->
 

@@ -37,7 +37,7 @@ One of the main reasons OpenAPI is good is because there's a API explorer in man
 
 This reduces friction for people wanting to explore what you have. All the API endpoints are nicely rendered in the provided web app and there's a good interface to test out various queries.
 
-There's definitely a lot of overlap in the usefulness of the swagger tool and postman when it comes to submitting basic requests. It's when things are more complex that Postman starts to really show it's value, for simple request testing the swagger ui is far better than nothing. But if you were doing a lot of API work then a more specialized tool such as Postman that allows you to save compelx queries will become increasingly more valuable.
+There's definitely a lot of overlap in the usefulness of the swagger tool and postman when it comes to submitting basic requests. It's when things are more complex that Postman starts to really show it's value, for simple request testing the swagger ui is far better than nothing. But if you were doing a lot of API work then a more specialized tool such as Postman that allows you to save complex queries will become increasingly more valuable.
 
 
 TODO: insert screenshot

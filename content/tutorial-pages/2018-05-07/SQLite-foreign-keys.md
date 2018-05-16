@@ -1,5 +1,5 @@
 ---
-title: "Enforcing foreign key contraints with SQLite"
+title: "Enforcing foreign key constraints with SQLite"
 author: "Janis Lesinskis"
 date: "2018-05-07"
 tags:
@@ -19,7 +19,7 @@ This API requires some tables that have foreign key relationships between them, 
 
 ```python
 class Utterance(db.Model):
-    """Database ORM definiton for Utterances.
+    """Database ORM definition for Utterances.
     This consists of a relationship between an Audio file and a transcription file
     """
     __tablename__ = 'utterance'
