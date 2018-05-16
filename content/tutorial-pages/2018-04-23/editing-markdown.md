@@ -18,7 +18,7 @@ Getting any extra efficiency for performing frequent tasks such as this is a not
 
 ## Use an editor that can properly support markdown
 
-Because Markdown is a markup language an editor that will do proper [syntax highlighting](https://en.wikipedia.org/wiki/Syntax_highlighting) is very uesful when editing Markdown files. As such we often edit markdown with [Vim](https://www.vim.org/) or [VS code](https://code.visualstudio.com/).
+Because Markdown is a markup language an editor that will do proper [syntax highlighting](https://en.wikipedia.org/wiki/Syntax_highlighting) is very useful when editing Markdown files. As such we often edit markdown with [Vim](https://www.vim.org/) or [VS code](https://code.visualstudio.com/).
 
 Just like editing other code you could use any text editor but one that is designed for editing code will provide a substantially better user experience for editing. Proper syntax highlighting in particular lets you more readily see the structure of what you are doing and makes it easier to spot mistakes.
 
@@ -35,3 +35,9 @@ So for example have a look at this screen-shot from when I was writing a draft f
 ![example of linter UX in VS Code](markdownLinter.png "VS Code markdownlint extension")
 
 Because of the integration with the IDE I'm getting immediate feedback in my editor that something is wrong via those green squiggly underlines, I don't have to generate the pages to catch these errors and every time I can catch a mistake faster is a productivity gain.
+
+## Spell checking
+
+It's great to have a spell checker in the editor if you are editing a lot of Markdown content. This allows you to get immediate feedback about spelling mistakes which will let you be more productive and write higher quality content.
+
+VS Code has a [spell checking plugin](https://github.com/Jason-Rev/vscode-spell-checker) that we install for our Markdown editing environment.
