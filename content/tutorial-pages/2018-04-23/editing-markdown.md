@@ -12,8 +12,8 @@ contentType: "tutorial"
 
 Even before we moved our site to a [JAM stack](https://jamstack.org/) we found that we edited a number of [Markdown](https://en.wikipedia.org/wiki/Markdown) files every day, for example those README.md files on our GitHub repositories and various other bits of documentation.
 
-Because markdown is not WYSIWYG unless you have an editor with a preview a noticeable hassle when you edit markdown files is that sometimes you have errors that you only notice when you build the pages.
-Having a long feedback definitely impacts your productivity, most notably because it risks interrupting the flow of your writing if you have to build the pages to validate that they work.
+Because markdown is not [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) unless you have an editor with a built in preview a noticeable hassle when you edit markdown files is that sometimes you have errors that you only notice when you build the pages.
+Having a long feedback loop definitely impacts your productivity, most notably because it risks interrupting the flow of your writing if you have to build the pages to validate that they work.
 Getting any extra efficiency for performing frequent tasks such as this is a noticeable win.
 
 ## Use an editor that can properly support markdown
