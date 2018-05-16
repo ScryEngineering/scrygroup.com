@@ -9,8 +9,7 @@ contentType: "blog"
 ---
 
 Recently I was having discussions with a very long term friend
-[Oliver Adams](https://oadams.github.io/), about what we have been working on lately. He has focused on computer science academic research in natural language processing and started a project to do automatic phonetic transcriptions. The project aims to make it easier for linguists to transcribe audio from unwritten languages, you can find the source code on GitHub:
-https://github.com/persephone-tools/persephone/.
+[Oliver Adams](https://oadams.github.io/), about what we have been working on lately. He has focused on computer science academic research in natural language processing and started a project to do automatic phonetic transcriptions. The project aims to make it easier for linguists to transcribe audio from unwritten languages, you can find the [source code on GitHub](https://github.com/persephone-tools/persephone/).
 
 In the interests of reproducible research he has been working on releasing the code that has powered some of his research. Further he wanted to make it easier for people to use the software in their day-to-day linguistics work as the software has a substantial amount of value beyond the papers and research that the code enabled. Making software more valuable to professional users is a particularly strong area of our skills at CPS so we jumped on the chance to contribute to this project. Making software easier to build and distribute is not an initial priority in an academic environment that has a strong pressure to publish many papers, run classes, attend conferences. Talking to many researchers I have found that they would actually love to improve these aspects of their code, but the harsh reality is that time is very hard to come by and the structural incentives sometimes aren't there to do such work in that environment. Now that this project is starting to deliver gains to professional linguists in the course of their work it became increasingly valuable to work on those aspects of software quality that impact the end users.
 
@@ -144,9 +143,9 @@ Before improving any API or architectural details it's important that we preserv
 
 The initial prioritization for our time is as follows:
 
-1. Work require to enable easier contributions (especially since we are contributers and making this easier will help our later work)
+1. Work required to enable easier contributions (especially since we are contributors and making this easier will help our later work)
 2. Set up packaging
-3. Set up code quality tooling
+3. Set up tooling to assist with code quality
 4. Improvements to APIs/architecture
 5. Performance
 
@@ -162,7 +161,7 @@ Also it's worth noting that while we are writing about these steps here in this 
 **License**
 -----------
 
-This is necessary, without this people will be strongly disincentivized from contributing and will also be unable to use the code in their own projects. We opened an issue: https://github.com/persephone-tools/persephone/issues/19
+This is necessary, without this people will be strongly disincentivized from contributing as they will be unable to use the code in their own projects. We opened an issue: https://github.com/persephone-tools/persephone/issues/19
 
 Choosing licenses for your projects can be tough, but it is absolutely essential, thankfully there's some help out there with sites like https://choosealicense.com/
 
@@ -317,7 +316,7 @@ Which is used in the dataset processing files such as Chatino. In [chatino.py](h
 
 There's a variety of issues with this approach to configuration, some of which only appear after you create an installable package. In a small project storing configuration as Python files directly in the source is usually fine because you are able to quickly edit those files. If however you are packaging an install your source files are no longer in the current working directory, as they are installed into the Python site-packages directory. This makes a significant barrier to configuration changes for non-technical users as many people are not aware of how to edit those files. Not to mention that this would be a poor place to store configuration considering that multiple projects could use the same package if it was installed system wide (this type of general issue is why it is strongly advisable to use Python virtual environments for your projects as it makes your projects isolated from external changes like the one just mentioned). To resolve this issue it makes a lot of sense to read in configuration from a file. Python supplies the `ConfigParser` in the standard library to help you do just this. Due to this being in the standard library this is often our preferred way of setting up a configuration from file system because it doesn't need to bring in any additional package dependencies. If the configuration gets complicated we will consider a move to YAML or some other more robust format.
 
-The other rather large issue is that the way in which the configuration was being used in other modules was creating a situation where module imports will fail if the paths are incorrect. This leads to some counterintuitive error stacktraces, if a path can't be found generating an `ImportError` is at best a bit misleading. But the bigger issue is that in this project users will often be analyzing one spoken language at a time and modules that were irrelevant to that language would be imported anyway. So say that a user is working on `language A` and they supply the paths required for `language A` only, then errors from not specifying the path for files for `language B` at module import time could arise. This is an annoying restriction on the user if they supply everything needed for `language A` but then get errors related to `langauge B` that they are not using. So forcing a user to do exception handling on an import seems like something we should not require (generally speaking having to do exception handling on imports is a strong signal of a structural problem, it is a defintely code-smell). It is far better if the import that requires the a missing data set fails at the time the code is executed as this will allow people to use only the modules that they need without needing to be concerned about how the internals of modules manage the paths. So for an example of where this came up in code, in [chatino.py](https://github.com/persephone-tools/persephone/blob/56a22bfcf733dc54734927fbfa198a63c120db78/persephone/datasets/chatino.py\#L29):
+The other rather large issue is that the way in which the configuration was being used in other modules was creating a situation where module imports will fail if the paths are incorrect. This leads to some counterintuitive error stacktraces, if a path can't be found generating an `ImportError` is at best a bit misleading. But the bigger issue is that in this project users will often be analyzing one spoken language at a time and modules that were irrelevant to that language would be imported anyway. So say that a user is working on `language A` and they supply the paths required for `language A` only, then errors from not specifying the path for files for `language B` at module import time could arise. This is an annoying restriction on the user if they supply everything needed for `language A` but then get errors related to `language B` that they are not using. So forcing a user to do exception handling on an import seems like something we should not require (generally speaking having to do exception handling on imports is a strong signal of a structural problem, it is a definitely code-smell). It is far better if the import that requires the a missing data set fails at the time the code is executed as this will allow people to use only the modules that they need without needing to be concerned about how the internals of modules manage the paths. So for an example of where this came up in code, in [chatino.py](https://github.com/persephone-tools/persephone/blob/56a22bfcf733dc54734927fbfa198a63c120db78/persephone/datasets/chatino.py\#L29):
 
 ```python
 PREFIXES = [os.path.splitext(fn)[0]
@@ -373,7 +372,7 @@ For example:
 
 This is a situation where it is much better to pass in the directory as a parameter, even if the calling sites are always passing the same thing it helps the ability to run tests on the function. Without a specific parameter testing the function is much more difficult and is harder to reuse. We fixed some of these and raised the more general issue with the project maintainer.
 
-## Conculsion
+## Conclusion
 
 We have outlined some of the steps we took to get a library in a state that was easier to work on for collaborators and easier for the end users to install and use. When you are working on a library the tasks that make it easier for people to collaborate are very valuable and some of those tasks do not take much effort to get in place. Those low-effort collaboration enablers are a very good starting point when releasing a library, as there is a very high return on time investment for them.
 
