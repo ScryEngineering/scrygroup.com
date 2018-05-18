@@ -225,7 +225,7 @@ One of the biggest ways in which we can bring value to the project is via improv
 **Cleaning up the install**
 ---------------------------
 
-Being able to cleanly install the project with a package manager is very important, this involves tracking down package dependencies and doing the required work to make the package installable via a package manager. Python package installs require you to write a setup.py file that encodes various metadata about the project. In any install automation process you are forced to carefully analyze and then record your project dependencies in a machine readable format. This is done in the `install_requires` section of the setup command.
+Being able to cleanly install the project with a package manager is very important, this involves tracking down package dependencies and doing the required work to enable the package to be installed via a package manager. Python package installs require you to write a `setup.py` file that contains various metadata required to install the project. In any install automation process you are forced to carefully analyze and then record your project dependencies in a machine readable format. This is done in the `install_requires` section of the setup command.
 
 There are a few general processes that you can use to introduce formal package dependency management into an existing Python project. One simple way is to make a fresh install with no package dependencies installed, from there you can then attempt to iteratively run the code+tests and find out where the failing imports occur. After each failing import is fixed you then record the code dependency in your requirements and commit the changes. You then iterate until this is completed for all dependencies.
 
@@ -239,7 +239,7 @@ Via analyzing the code we found one 3rd party package that needed to be installe
 
 ### **Installation via setuptools**
 
-In order to be able to install via package managers such as pip you need to be able to have a properly defined setup.py with setuptools.
+In order to be able to install via package managers such as pip you need to be able to have a properly defined `setup.py` with setuptools.
 
 We opened a pull request with the changes required to make the code installable as a standalone python package:
 
@@ -249,13 +249,11 @@ We opened a pull request with the changes required to make the code installable 
 
 Containers are a great way to automate an environment for users. This is exceedingly beneficial for getting new contributors on board quickly as they don't need to spend as much time setting up the environment to run the code. Consider someone who finds a bug that takes 15 minutes to fix, you want to let them fix that bug in as close to 15 minutes as possible, if people have to spend multiple hours getting the environment right first it will act as a very strong disincentive from one-off contributors. Getting a container for development is a big win.
 
-We were going to make a docker container but another contributor beat us to it!
-
-<https://github.com/persephone-tools/persephone/pull/25>
+We were going to make a docker container but another contributor beat us to it! Their contribution can be found in [this pull request](https://github.com/persephone-tools/persephone/pull/25)
 
 This shows the power of a good open source project, we heard that this work was already in progress so we prioritized a couple of other tasks higher to see if this was completed first. This way duplicated effort was avoided while pushing the project forward by continuing with other improvements.
 
-After these pull requests were merged in you could then easily install the package via Pip or by fetching the Docker image. The end result is a massive efficiency win for anyone wishing to install the code or develop on the code. Having to track down dependencies is a massive pain and has the potential to waste a lot of time, making this as automated as possible both documents the state of the external dependencies and frees up a lot of project setup time for people who wish to be contributors/testers/users/etc.
+After these pull requests were merged in you could then easily install the package via [`pip`](https://pip.pypa.io/en/stable/) or by fetching the Docker image. The end result is a massive efficiency win for anyone wishing to install the code or develop on the code. Having to track down dependencies is a massive pain and has the potential to waste a lot of time, making this as automated as possible both documents the state of the external dependencies and frees up a lot of project setup time for people who wish to be contributors/testers/users/etc.
 
 **Automated testing setup**
 ---------------------------
