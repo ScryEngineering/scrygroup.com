@@ -9,18 +9,17 @@ tags:
 contentType: "tutorial"
 ---
 
-
-A common situation is that you want to be able to get good logging data from your applications to be able to reduce the amount of time that you require in order to fix issues and debug problems. This tutorial will show you a convienent way of achieving this.
+You want to be able to get good logging data from your applications to be able to reduce the amount of time that you require in order to fix issues and debug problems. This is especially important for any unhandled exceptions that crash the program. This tutorial will show you a convenient way of making sure these are logged.
 
 <!-- end excerpt -->
 
 Example code for this tutorial can be found on our GitHub page: [https://github.com/customprogrammingsolutions/excepthook\_logging\_example](https://github.com/customprogrammingsolutions/excepthook_logging_example)
 
-The logging package in the standard library is very good for general purpose logging, this lets you put in code that will write to the logs without needing any external packages. For the most part it will cover all your most common logging needs, however uncaught exceptions is something it can't handle on it's own.
+The logging package in the standard library is very good for general purpose logging, this lets you put in code that will write to the logs without needing any external packages. For the most part it will cover all your most common logging needs, however uncaught exceptions is something it can't handle on its own.
 
-One situation that you want to make sure you get in your logs is when an unhandled exception occurs in the program. Since this will always crash the program you will want to be able to gather information about the crash from a user by giveing them the ability to send in a log with enough details to start pointing you in the right direction. Making this step easy for your support staff is especially important because the user may not be a technical user and uploading a logfile is much easier to explain then getting a user to find the right stacktrace to email you. (This is espeically so if the invocation of the code was not from the command line as the stacktrace may be harder to find)
+One situation that you want to make sure you get in your logs is when an unhandled exception occurs in the program. Since this will always crash the program you will want to be able to gather information about the crash from a user by giving them the ability to send in a log with enough details to start pointing you in the right direction. Making this step easy for your support staff is especially important because the user may not be a technical user and uploading a log file is much easier to explain then getting a user to find the right stacktrace to email you. (This is especially so if the invocation of the code was not from the command line as the stacktrace may be harder to find)
 
-You might think of executing everything in a try-catch to make sure any uncaught exception gets logged. This is better than nothing as it will capture exceptions on the main thread (more about threading later) but it requires modifying existing code. For example you could modify your code to run it in a big exception block by doing something like:
+You might think of executing everything in a try-catch to make sure any uncaught exception gets logged in the catch. This is better than nothing as it will capture exceptions on the main thread (more about threading later) but it requires modifying existing code. For example you could modify your code to run it in a big exception block by doing something like:
 
 ```python
 import sys
@@ -31,7 +30,10 @@ except:
     print("Unhandled exception:", sys.exc_info()[0])
     raise
 ```
-(Note that you may not want to have the exception caught, such as a `KeyboardInterrupt` when people are running your code from the REPL. We do this in the next step)
+
+One really important thing to note with this approach is that you *must* re-raise the exception via `raise` here otherwise you have altered the program substantially. Silently catching exceptions leads to all sorts of nasty bugs that can cause a large amount of damage.
+
+(Note that there are some exceptions that you want to not catch such as a `KeyboardInterrupt` when people are running your code from the REPL. We will account for this in the next step)
 
 A better approach that doesn't require modifying existing code is to make use of the [sys module](https://docs.python.org/3/library/sys.html) which provides [excepthook](https://docs.python.org/3/library/sys.html#sys.excepthook) to allow you to attach a handler for any unhandled exception.
 
@@ -67,7 +69,7 @@ Traceback (most recent call last):
 threaded_exception.ExceptionFromThread: Runs on thread
 ```
 
-We get this console output without anything being written to the logs. This clearly isn't what we want with a global exception handler and there's a bug report about it here: https://bugs.python.org/issue1230540. The reason this happens is because because both threading and multiprocessing have their own unhandled exception machinery that is a bit customized. An unhandled exception on a thread gets handled by the threading code so no unhandled exception exists at the top level so `sys.exechook` never gets a chance to be called, it's the same machinery that will print out what thread the exception occurs on (the "Exception in thread Thread-1:" bit). We can patch this however like follows:
+We get this console output without anything being written to the logs. This clearly isn't what we want with a global exception handler and there's a [bug report about this](https://bugs.python.org/issue1230540) on Python's issue tracker. The reason this happens is because because both threading and multiprocessing have their own unhandled exception machinery that is a bit customized. An unhandled exception on a thread gets handled by the threading code so no unhandled exception exists at the top level. So if an exception gets raised in a thread but not handled `sys.excepthook` never gets a chance to be called as the thread will handle that first. This is the same machinery that will print out what thread the exception occurs on (the "Exception in thread Thread-1:" bit). We can patch this behavior as follows:
 
 ```python
 def patch_threading_excepthook():
@@ -91,7 +93,7 @@ def patch_threading_excepthook():
 patch_threading_excepthook()
 ```
 
-If maintaining the threading information matters we can modify our excepthook caller in the patch code to be as follows:
+If maintaining the threading information matters we can modify how our `excepthook` is called in the patch code to as follows:
 
 ```python
 sys.excepthook(*sys.exc_info(), thread_identifier=threading.get_ident())
@@ -99,6 +101,6 @@ sys.excepthook(*sys.exc_info(), thread_identifier=threading.get_ident())
 
 This assumes a slight modification to our excepthook handler to take a default argument that will handle the threading identifier passed into it.
 
-Now that we have done this the excepthook approach for logging unhandled exceptions works great, we can't get this to work with the naive try-catch-everything approach though since the exception that occurs on the other thread cannot be logged in the main thread of execution.
+Now that we have done this the excepthook approach for logging unhandled exceptions works great. Note that we can't get this behavior with the naive try-catch-everything approach since any exception that occurs on a different thread cannot be logged in the main thread of execution.
 
-So that's it, you should be able to log all unhandled exceptions now with your function specified in `sys.excepthook` even if they are running in other threads (unless code similar to what Thread does handles it before you get a chance to first).
+So that's it, you should be able to log all unhandled exceptions now with your function specified in `sys.excepthook` even if they are running in other threads (unless you have code similar to what `Thread` does by default handling it before you get a chance to first).
