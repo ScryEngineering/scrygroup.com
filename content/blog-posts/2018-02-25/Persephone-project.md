@@ -1,5 +1,5 @@
 ---
-title: "Getting started with improving the Persephone library"
+title: "Open sourcing the Persephone library"
 date: "2018-02-21"
 tags:
     - project-management
@@ -8,19 +8,18 @@ tags:
 contentType: "blog"
 ---
 
-Recently I was having discussions with a very long term friend
-[Oliver Adams](https://oadams.github.io/), about what we have been working on lately. He has focused on computer science academic research in natural language processing and started a project to do automatic phonetic transcriptions. The project aims to make it easier for linguists to transcribe audio from unwritten languages, you can find the [source code on GitHub](https://github.com/persephone-tools/persephone/).
+Recently we have been collaborating with [Oliver Adams](https://oadams.github.io/). He is a computer science researcher who has done some very interesting work in the field of computational linguistics. One of his research projects was creating automatic phonetic transcriptions for low resource languages. This project aims to make it much easier for linguists to transcribe audio from unwritten languages, you can find the [source code on GitHub](https://github.com/persephone-tools/persephone/).
 
-In the interests of reproducible research he has been working on releasing the code that has powered some of his research. Further he wanted to make it easier for people to use the software in their day-to-day linguistics work as the software has a substantial amount of value beyond the papers and research that the code enabled. Making software more valuable to professional users is a particularly strong area of our skills at CPS so we jumped on the chance to contribute to this project. Making software easier to build and distribute is not an initial priority in an academic environment that has a strong pressure to publish many papers, run classes, attend conferences. Talking to many researchers I have found that they would actually love to improve these aspects of their code, but the harsh reality is that time is very hard to come by and the structural incentives sometimes aren't there to do such work in that environment. Now that this project is starting to deliver gains to professional linguists in the course of their work it became increasingly valuable to work on those aspects of software quality that impact the end users.
+In the interests of reproducible research he has been working on releasing the code that has powered some of his research. Further he wanted to make it easier for people to use the software in their day-to-day linguistics work as the software has a substantial amount of value beyond the papers and research that the code enabled. Making software more valuable to professional users is a particularly strong area of our skills at CPS so we jumped on the chance to contribute to this project and do the work needed to successfully transition the project to an open source library. Making software easier to build and distribute is not an initial priority in an academic environment that has a strong pressure to publish many papers, run classes, attend conferences. Talking to many researchers I have found that they would actually love to improve these aspects of their code, but the harsh reality is that time is very hard to come by and the structural incentives sometimes aren't there to do such work in that environment. Now that this project is starting to deliver gains to professional linguists in the course of their work it became increasingly valuable to work on those aspects of software quality that impact the end users.
 
-Keeping this very practical we will focus on this initial stage of consultation on an open source library and show you some of the process that we took to decide on the initial scope of work. We outline what improvements can be made, the various methodologies involved and show via links to the repository where we created code to meet these requirements. Some of these tasks will be common to projects transitioning from a proof-of-concept that is supporting research into standalone libraries.
+Keeping this very practical we will focus on this initial stage of consultation on open sourcing the library and show you some of the process that we took to decide on the initial scope of work. We outline what improvements can be made, the various methodologies involved and show via links to the repository where we created code to meet these requirements. Some of these tasks will be common to projects transitioning from a proof-of-concept that is supporting research into standalone libraries.
 
-Overall we are trying to prioritize the tasks that will bring the greatest return for time invested (ROI) given the transition the project is undergoing. In a commercial setting the priorities could be different but this is the sort of thing we would figure out via consulting with the client directly.
+Overall we are trying to prioritize the tasks that will bring the greatest return for time invested (ROI) given the transition the project is undergoing. In a commercial setting the priorities could be different but this is the sort of thing we would figure out on a case-by-case basis via consulting with the client directly.
 
 Preliminaries
 =============
 
-Any good software project work has to start with a conversation about the aims and goals of the project and clear communications on what the scope of work is. The following is a summary of the communications between CustomProgrammingSolutions and the author of the project [Oliver Adams.](https://oadams.github.io/)
+Any good software project work has to start with a conversation about the aims and goals of the project and clear communications on what the scope of work is. The following is a summary of the communications between CustomProgrammingSolutions and the author of the project [Oliver Adams](https://oadams.github.io/).
 
 What is the high level summary of this project? What problems does it solve?
 
@@ -121,7 +120,7 @@ The first step we undertook was a quick scan through the code to get a first rou
     -   Command line interface or GUIs built off the code need this --
         talk about implications
 -   Improve packaging
-    -   Make installable by package managers -- pip, setuptools
+    -   Make the install easy with package managers -- pip, setuptools
     -   Share the packages -- PyPi, other methods
     -   Reproducible requirements
 -   Improving internal code quality
