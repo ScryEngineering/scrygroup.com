@@ -95,7 +95,6 @@ assistance with?
 > interested in learning about the issues I don't know I don't know
 > about, and improving myself and the codebase at the same time.
 
-
 Prioritization of work
 ======================
 
@@ -160,9 +159,9 @@ Also it's worth noting that while we are writing about these steps here in this 
 **License**
 -----------
 
-This is necessary, without this people will be strongly disincentivized from contributing as they will be unable to use the code in their own projects. We opened an issue: https://github.com/persephone-tools/persephone/issues/19
+This is necessary, without this people will be strongly disincentivized from contributing as they will be unable to use the code in their own projects. We opened an issue: <https://github.com/persephone-tools/persephone/issues/19>
 
-Choosing licenses for your projects can be tough, but it is absolutely essential, thankfully there's some help out there with sites like https://choosealicense.com/
+Choosing licenses for your projects can be tough, but it is absolutely essential, thankfully there's some help out there with sites like [Choose A Licence](https://choosealicense.com/)
 
 After discussing the overall project goals and how those fit in with the research work the project decided on using the GPLv3 as the license.
 
@@ -214,7 +213,7 @@ Code reviews and Pull requests
 
 How you deal with contributors work is a very important social aspect of a good project. We try to lead by example by offering a clear review of a Pull Request (PR) from a contributor here:
 
-https://github.com/persephone-tools/persephone/pull/68
+<https://github.com/persephone-tools/persephone/pull/68>
 
 Giving direct feedback without being emotive about it allows people a good chance to improve their code and also strongly signals the projects intent to have solid internal quality.
 
@@ -269,11 +268,11 @@ For unit testing we set up [pytest](https://docs.pytest.org/en/latest/) to run v
 
 We also set up Pylint error checker in the Tox run here:
 
-https://github.com/persephone-tools/persephone/pull/48/
+<https://github.com/persephone-tools/persephone/pull/48/>
 
 In order to have a good unit test suite it needs to be able to run fairly quickly. The quick feedback loop is essential. However you might want to have longer running tests to that are more of an integration test nature. Having both run from the same test runner, pytest in this case, is actually quite useful but needs configuration so that you don't have all the test runs be slow. We created a PR to allow you to mark the slow tests accordingly and to have them be skilled by default unless a command line flag is provided to run them:
 
-https://github.com/persephone-tools/persephone/pull/71
+<https://github.com/persephone-tools/persephone/pull/71>
 
 **Configuration management**
 ----------------------------
@@ -338,7 +337,7 @@ In Python the exceptions that can be thrown in functions form an important part 
 
 One thing that makes the code much easier to consume is a good exception handling hierarchy. In some spots the base Exception is being raised. This makes it impossible for the caller to catch exceptions with any granularity, if they wish to catch any exception from the library they have to  catch this base Exception which means catching all the child class of Exception as well. Very frequently this is not what is wanted because a user only wishes to catch a small group of types of exceptions, if you raise a base Exception you prevent the user being able to do this.
 
-https://github.com/persephone-tools/persephone/pull/47
+<https://github.com/persephone-tools/persephone/pull/47>.
 
 Since this pull request a user can now catch more specific exceptions and an exception class `PersephoneException` has been created that will allow a user to catch exceptions that have come from the library.
 
