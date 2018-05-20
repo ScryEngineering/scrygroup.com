@@ -38,11 +38,9 @@ Letsencrypt is free.
 
 ### HTTPS will be too much of a performance hit
 
-Generally speaking almost anyone who has said this in the last few years has not actually done any benchmarking. If someone says this ask to see their benchmarks, we would guess there aren't any.
+Generally speaking almost anyone who has said this in the last few years has not actually done any benchmarking. If someone says the performance hit would be too much you should ask to see their benchmarks with the page load times, we would guess there aren't any.
 
-Back in the 1990's [when HTTPS was being standardized](https://web.archive.org/web/19970614020952/http://home.netscape.com/newsref/std/SSL.html) I remember hearing people grumble about . The reason this might have come up was in an era when server architecture was worse for encryption. In a general sense modern server hardware is so much faster than it was 20 years ago when the HTTPS standard were defined.
-
-But there's a more specific reason why this is likely to be a complete non-issue now and that's hardware supported encryption. For example on any modern Intel CPU you have the [AES-NI instruction set](https://en.wikipedia.org/wiki/AES_instruction_set) which will implement some cryptography functions in dedicated fast silicon. Despite the high computational complexity these operations are exceedingly fast due to dedicated hardware support. AES-NI capable hardware has existed since 2008, with already over a decade of hardware support any new server you deploy on will be fine.
+Back in the 1990's [when HTTPS was being standardized](https://web.archive.org/web/19970614020952/http://home.netscape.com/newsref/std/SSL.html) I remember hearing people grumble about performance. The reason this might have come up then was because that was an era when server architecture was worse for encryption. In a general sense modern server hardware is so much faster than it was 20 years ago when the HTTPS standard were defined. But there's a more specific reason why this is likely to be a complete non-issue now and that's hardware supported encryption. For example on any modern Intel CPU you have the [AES-NI instruction set](https://en.wikipedia.org/wiki/AES_instruction_set) which will implement some cryptography functions in dedicated fast silicon. So while on average servers are much faster than they were 20 years ago in this specific case they are even faster than that average. Despite the high computational complexity these operations are exceedingly fast due to dedicated hardware support. AES-NI capable hardware has existed since 2008, with already over a decade of hardware support any new server you deploy on will be fine.
 
 ### Some browsers won't support it
 
