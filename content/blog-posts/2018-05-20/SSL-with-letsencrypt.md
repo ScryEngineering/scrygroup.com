@@ -6,6 +6,7 @@ tags:
     - SSL
     - encryption
     - web-development
+    - security
 contentType: "blog"
 ---
 
@@ -13,7 +14,7 @@ Now that [Letsencrypt](https://letsencrypt.org/) is offering free certificates i
 
 <!-- end excerpt -->
 
-The [HTTPS](https://en.wikipedia.org/wiki/HTTPS) is important because it gives you the ability to verify that the server you are connecting to is the server you thought you were connecting to and lets you communicate privately with that server. It does this by encrypting the communications between the web browser and the web server. In a practical business sense there are many ways in which this is important. HTTPS prevents eavesdropping on the connections with your clients. Say you were running an e-commerce store, would you want a 3rd party to be able to record all of your customers interactions and information then sell it to your competitors? HTTPS will prevent these types of issues. Many other [man-in-the-middle attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack) are prevented with HTTPS. For example when your customers attempt to connect to your site you don't want them to land on an impostor site that is pretending to be you. This is not a hypothetical either, such attacks are exceedingly common and the more successful you are the more adversaries will be incentivised to take advantage.
+[HTTPS](https://en.wikipedia.org/wiki/HTTPS) is important because it gives you the ability to verify that the server you are connecting to is the server you thought you were connecting to and lets you communicate privately with that server. It does this by encrypting the communications between the web browser and the web server. In a practical business sense there are many ways in which this is important. HTTPS prevents eavesdropping on the connections with your clients. Say you were running an e-commerce store, would you want a 3rd party to be able to record all of your customers interactions and information then sell it to your competitors? HTTPS will prevent these types of issues. Many other [man-in-the-middle attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack) are prevented with HTTPS. For example when your customers attempt to connect to your site you don't want them to land on an impostor site that is pretending to be you. This is not a hypothetical either, such attacks are exceedingly common and the more successful you are the more adversaries will be incentivised to take advantage.
 
 *From a security point of view HTTPS is a vital aspect of the web.*
 
