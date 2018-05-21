@@ -15,7 +15,7 @@ There was a perplexing issue we ran into when testing the [Persephone web API](h
 
 <!-- end excerpt -->
 
-This API requires some tables that have foreign key relationships between them, no big deal I thought so I wrote some definitions as follows:
+This API requires some tables that have foreign key relationships between them, so I wrote some definitions as follows:
 
 ```python
 class Utterance(db.Model):
@@ -48,12 +48,12 @@ class Utterance(db.Model):
 Which is then called like this:
 
 ```python
-    current_utterance = Utterance(audio_id=audioId, transcription_id=transcriptionId)
-    db.session.add(current_utterance)
-    db.session.commit()
+current_utterance = Utterance(audio_id=audioId, transcription_id=transcriptionId)
+db.session.add(current_utterance)
+db.session.commit()
 ```
 
-Now given bogus IDs for foreign keys this should just fail. But it didn't! So I knew something was wrong and immediately wrote a failing test case to cover this behavior.
+Now given bogus IDs for foreign keys this should just fail. But it didn't! So I knew something was wrong and immediately wrote a test case to cover this behavior.
 I spent some time studying the SQLAlchemy docs for foreign keys to see if I'd done something stupid in my ORM definitions but I didn't spot anything.
 
 So the next thing to look at is the rest of the configuration. I'm using SQLite for the tests and I remember that SQL implementations can differ so I look it up issues relating to SQLite.
@@ -80,7 +80,7 @@ def _set_sqlite_pragma(dbapi_connection, connection_record):
         cursor.close()
 ```
 
-(From https://stackoverflow.com/questions/2614984/sqlite-sqlalchemy-how-to-enforce-foreign-keys)
+(From <https://stackoverflow.com/questions/2614984/sqlite-sqlalchemy-how-to-enforce-foreign-keys>)
 
 Now we get this:
 
