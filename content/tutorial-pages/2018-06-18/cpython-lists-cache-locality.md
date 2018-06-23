@@ -6,6 +6,7 @@ tags:
     - Python
     - performance
     - implementation-details
+    - numpy
 contentType: "tutorial"
 ---
 
