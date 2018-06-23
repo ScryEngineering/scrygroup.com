@@ -12,7 +12,7 @@ contentType: "tutorial"
 
 Ever needed to limit how long your unit tests can run for? Here's an easy way to do that with pytest.
 
-There's a package called [pytest-timeout](https://pypi.org/project/pytest-timeout/) that provides a utilities for limiting the tiem unit test cases will run for.
+There's a package called [pytest-timeout](https://pypi.org/project/pytest-timeout/) that provides utilities for limiting the time unit test cases will run for.
 
 Usage is fairly simple:
 
@@ -30,6 +30,6 @@ def test_foo():
     pass
 ```
 
-If the test runs longer than this it will be terminated.
+In this example if the test runs longer than 60 seconds it will be terminated.
 
 This is useful in situations where the run time of the code must be bounded, some algorithms can run indefinitely and you may still want to test them. This gives you the ability to make sure your test suite runs properly even in these situations.
