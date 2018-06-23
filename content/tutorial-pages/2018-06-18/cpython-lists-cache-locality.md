@@ -105,10 +105,44 @@ So the pointers to the list elements are allocated in a contiguous manner but th
 
 ## Practically speaking what does this cost anyway?
 
-TODO: Benchmark some stuff...
 
-Array.array vs List
+As always with questions of performance, *profile instead of guessing*.
+Here's a quick and dirty performance benchmark:
 
-for
+```python
+import array
+import random
+import timeit
+from statistics import mean
 
-sum/max/min/average
+items = list(range(10000))
+random.shuffle(items)
+list_version = list(items)
+array_version = array.array('I', items)
+
+print("Results for max of the list:")
+print(timeit.repeat(stmt="max(list_version)", number=10000, globals=globals()))
+print("Results for max of the array:")
+print(timeit.repeat(stmt="max(array_version)", number=10000, globals=globals()))
+
+print("Results for sum of the list:")
+print(timeit.repeat(stmt="sum(list_version)", number=10000, globals=globals()))
+print("Results for sum of the array:")
+print(timeit.repeat(stmt="sum(array_version)", number=10000, globals=globals()))
+
+print("Results for mean of the list:")
+print(timeit.repeat(stmt="mean(list_version)", number=1000, globals=globals()))
+print("Results for mean of the array:")
+print(timeit.repeat(stmt="mean(array_version)", number=1000, globals=globals()))
+```
+
+Here's the results I got for `array.array` vs `list` on a Intel(R) Core(TM) i7-4500U CPU @ 1.80GHz processor, taking best of 3 with times in this list in seconds:
+
+|Function | list | array |
+|max      | 1.91 | 3.48  |
+|sum      | 0.89 | 1.85  |
+|average  | 4.99 | 5.02  |
+
+One thing that's interesting here is the difference between max/sum and average. If I were to guess why this is it comes down to the cost of boxing/unboxing the Python objects, in the case of `statistic.mean` there's always a type conversion made in [`_convert`](https://github.com/python/cpython/blob/9b7cf757213cf4d7ae1d436d86ad53f5ba362d55/Lib/statistics.py#L232) so we see roughly the same cost here.
+
+If memory locality is a make or break part of your project you should strongly consider not using Python for that component, either FFI out to another language or write the code in a language that explicitly supports determinism of memory layouts.
