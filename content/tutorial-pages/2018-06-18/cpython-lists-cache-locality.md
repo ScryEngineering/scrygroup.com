@@ -5,16 +5,17 @@ date: "2018-06-18"
 tags:
     - Python
     - performance
+    - implementation-details
 contentType: "tutorial"
 ---
 
-The other day I got asked what the cache locality of lists in CPython was. Because I always tend to use contiguous memory whenever this is an issue I hadn't looked into it until now.
+The other day I got asked what the cache locality of lists in CPython was and how the lists are layed out in memory. Because I always tend to use contiguous memory whenever this is an issue I hadn't looked into it until now.
 
-As with these questions with CPython we can just look at the source code. In this case it is in [Objects/listobject.c](https://github.com/python/cpython/blob/8c663fd60ecba9c82aa4c404dbfb1aae69fe8553/Objects/listobject.c).
+[Locality of reference](https://en.wikipedia.org/wiki/Locality_of_reference) is an important consideration in any high performance system, lets have a look into how these concepts apply with CPython lists. Because CPython is open source we can gain insight by studying the source code. In this case it is in [Objects/listobject.c](https://github.com/python/cpython/blob/8c663fd60ecba9c82aa4c404dbfb1aae69fe8553/Objects/listobject.c).
 
 First of all we see that there is a struct called `PyListObject`. Which is found in [Include/listobject.h](https://github.com/python/cpython/blob/1a5856bf9295fa73995898d576e0bedf016aee1f/Include/listobject.h)
 
-and is the following:
+and is defined as the following:
 
 ```c
 typedef struct {
@@ -105,7 +106,6 @@ So the pointers to the list elements are allocated in a contiguous manner but th
 
 ## Practically speaking what does this cost anyway?
 
-
 As always with questions of performance, *profile instead of guessing*.
 Here's a quick and dirty performance benchmark:
 
@@ -139,10 +139,11 @@ print(timeit.repeat(stmt="mean(array_version)", number=1000, globals=globals()))
 Here's the results I got for `array.array` vs `list` on a Intel(R) Core(TM) i7-4500U CPU @ 1.80GHz processor, taking best of 3 with times in this list in seconds:
 
 |Function | list | array |
+|---------|------|-------|
 |max      | 1.91 | 3.48  |
 |sum      | 0.89 | 1.85  |
 |average  | 4.99 | 5.02  |
 
-One thing that's interesting here is the difference between max/sum and average. If I were to guess why this is it comes down to the cost of boxing/unboxing the Python objects, in the case of `statistic.mean` there's always a type conversion made in [`_convert`](https://github.com/python/cpython/blob/9b7cf757213cf4d7ae1d436d86ad53f5ba362d55/Lib/statistics.py#L232) so we see roughly the same cost here.
+One thing that's interesting here is the difference between max/sum and average. If I were to guess why this is it comes down to the cost of boxing/unboxing the Python objects, in the case of `statistics.mean` there's always a type conversion made in [`_convert`](https://github.com/python/cpython/blob/9b7cf757213cf4d7ae1d436d86ad53f5ba362d55/Lib/statistics.py#L232) so we see roughly the same cost here.
 
 If memory locality is a make or break part of your project you should strongly consider not using Python for that component, either FFI out to another language or write the code in a language that explicitly supports determinism of memory layouts.
