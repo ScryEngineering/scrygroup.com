@@ -114,6 +114,7 @@ import array
 import random
 import timeit
 from statistics import mean
+import numpy as np
 
 items = list(range(10000))
 random.shuffle(items)
@@ -122,28 +123,36 @@ array_version = array.array('I', items)
 
 print("Results for max of the list:")
 print(timeit.repeat(stmt="max(list_version)", number=10000, globals=globals()))
-print("Results for max of the array:")
+print("Results for max of the array.array:")
 print(timeit.repeat(stmt="max(array_version)", number=10000, globals=globals()))
+print("Results for max of array.array with np.max:")
+print(timeit.repeat(stmt="np.max(array_version)", number=10000, globals=globals()))
 
 print("Results for sum of the list:")
 print(timeit.repeat(stmt="sum(list_version)", number=10000, globals=globals()))
-print("Results for sum of the array:")
+print("Results for sum of the array.array:")
 print(timeit.repeat(stmt="sum(array_version)", number=10000, globals=globals()))
+print("Results for sum of array.array with np.sum:")
+print(timeit.repeat(stmt="np.sum(array_version)", number=10000, globals=globals()))
 
 print("Results for mean of the list:")
-print(timeit.repeat(stmt="mean(list_version)", number=1000, globals=globals()))
-print("Results for mean of the array:")
-print(timeit.repeat(stmt="mean(array_version)", number=1000, globals=globals()))
+print(timeit.repeat(stmt="mean(list_version)", number=10000, globals=globals()))
+print("Results for mean of the array.array:")
+print(timeit.repeat(stmt="mean(array_version)", number=10000, globals=globals()))
+print("Results for mean of array.array with np.average:")
+print(timeit.repeat(stmt="np.average(array_version)", number=10000, globals=globals()))
 ```
 
 Here's the results I got for `array.array` vs `list` on a Intel(R) Core(TM) i7-4500U CPU @ 1.80GHz processor, taking best of 3 with times in this list in seconds:
 
-|Function | list | array |
-|---------|------|-------|
-|max      | 1.91 | 3.48  |
-|sum      | 0.89 | 1.85  |
-|average  | 4.99 | 5.02  |
+|Function | list  | array | numpy on array.array|
+|---------|-------|-------|---------------------|
+|max      | 1.91  | 3.48  | 0.16                |
+|sum      | 0.89  | 1.85  | 0.15                |
+|average  | 49.71 | 50.09 | 0.20                |
 
 One thing that's interesting here is the difference between max/sum and average. If I were to guess why this is it comes down to the cost of boxing/unboxing the Python objects, in the case of `statistics.mean` there's always a type conversion made in [`_convert`](https://github.com/python/cpython/blob/9b7cf757213cf4d7ae1d436d86ad53f5ba362d55/Lib/statistics.py#L232) so we see roughly the same cost here.
 
-If memory locality is a make or break part of your project you should strongly consider not using Python for that component, either FFI out to another language or write the code in a language that explicitly supports determinism of memory layouts.
+Now compare this to Numpy which is not making any intermediate Python objects at all and is fully taking advantage of the contiguous memory and the results are striking.
+
+If memory locality is a "make or break" part of your project you should strongly consider not using pure Python for that component by either FFI-ing out to another language (using numpy is an example) or write that part of the code in a language that explicitly supports determinism of memory layouts.
