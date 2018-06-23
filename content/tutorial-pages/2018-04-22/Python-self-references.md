@@ -24,4 +24,4 @@ True
 
 So you can see here from the object identity test that `foo` has a self reference in it now.
 
-This can be useful sometimes but for the most part this will just be a bit of trivia.
+This knowledge can be useful sometimes (like explaining to people why there's 2 garbage collection mechanisms in CPython) but for the most part this will just be a bit of trivia.
