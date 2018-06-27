@@ -1,0 +1,153 @@
+# CPS content
+
+This is the content for the Custom Programming Solutions website.
+
+## Directory structure
+
+There is a folder called `content` that is the top level directory for content.
+
+Within that there are some subdirectories:
+
+* blog-posts
+* tutorial-pages
+* people
+
+Example directory tree:
+
+```sh
+content/
+├── blog-posts
+│   ├── 2018-02-25
+│   │   └── Persephone-project.md
+│   ├── 2018-04-21
+│   │   └── CPS-site-relaunched.md
+│   └── 2018-06-26
+│       └── Tensorflow-serving-python-3.md
+├── people
+│   └── people.json
+└── tutorial-pages
+    ├── 2018-02-06
+    │   └── python-excepthook-logging.md
+    └── 2018-06-23
+        └── limiting-unit-test-runtime.md
+```
+
+The structure is set up for ease of use with Gatsby.js but is by no means limited to just that.
+Some conventions however make it easier to manage and edit the content.
+
+## Creating a post
+
+Posts are written in markdown. If you are unfamiliar with markdown please see the [markdown guide](https://guides.github.com/features/mastering-markdown/) for help with understanding markdown syntax.
+
+### Post body (main contents of a post)
+
+The content of a post is just the contents of the markdown file.
+Static assets from the post is pulled in via a gatsby plugin by searching the current directory that the post resides in.
+
+This is useful if you need to have some images or similar included in your post. So for example lets look at our tutorial about workflows for editing markdown to see how this works.
+
+Here's the directory structure:
+
+```sh
+└── tutorial-pages
+    ├── 2018-04-23
+    │   ├── editing-markdown.md
+    │   ├── markdownLinter.png
+    │   └── markdownSyntaxHighlighting.png
+```
+
+The directory structure itself determines the slug in Gatsby. So this generates a post at `/tutorials/2018-04-23/editing-markdown`.
+Here's some markdown from the post itself:
+
+```md
+## Linting via VS Code plugin
+
+Seeing as we use VS Code already we can install a [markdown linter extension](https://github.com/DavidAnson/vscode-markdownlint) that gives immediate linting for our Markdown files.
+
+So for example have a look at this screen-shot from when I was writing a draft for a post on here:
+
+![example of linter UX in VS Code](markdownLinter.png "VS Code markdownlint extension")
+```
+
+So we see that creating an image just involves making a reference to the image file name in the current directory.
+
+### Metadata
+
+Metadata for the various posts is stored in the frontmatter. This is a section at the top of the markdown file that is fenced off with `---` as a delimiter. Let's again use the markdown article as an example:
+
+```md
+---
+title: "Editing markdown"
+author: "Janis Lesinskis"
+date: "2018-04-23"
+tags:
+    - markdown
+    - tooling
+    - productivity
+    - linting
+contentType: "tutorial"
+---
+
+Even before we moved our site to a [JAM stack](https://jamstack.org/) we found that we edited a number of [Markdown](https://en.wikipedia.org/wiki/Markdown) files every day, for example those README.md files on our GitHub repositories and various other bits of documentation.
+
+More article content here...
+```
+
+You can see that various pieces of metadata are stored here that are later parsed by Gatsby when building the pages and associated site structure.
+
+### Specifying drafts
+
+Add in a `draft: true` in the frontmatter to prevent a post from being published on the site:
+
+```markdown
+---
+title: "how to use mark a post as a draft"
+date: "2018-02-06"
+tags:
+    - markdown
+draft: true
+---
+
+This page won't be built when you run gatsby-build
+```
+
+This lets you work on new posts within version control without having to publish them.
+
+### Excerpts
+
+When you are writing a post in markdown you can specify the excerpt by using the separator configured in `gatsby-config.js` in the `excerpt_separator` option for the `gatsby-transformer-remark` plugin.
+
+For now it is `<!-- end excerpt -->`.
+You would use this like so:
+
+```markdown
+---
+title: "how to use the excerpt separator"
+date: "2018-02-06"
+tags:
+    - markdown
+    - excerpts
+    - howto
+    - someOtherTag
+---
+
+The excerpt written here can be used on various pages to render a summary, don't make it too long though as that might break formatting on some listing pages in the site!
+
+<!-- end excerpt -->
+
+Rest of the tutorial text is here....
+```
+
+## Author information
+
+We are using json files to store the information about the people/authors which is later used to create biography pages. The file path is in `content/people`
+
+```sh
+content/
+├── people
+│   └── people.json
+```
+
+Author information is extracted via [gatsby-transformer-json](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-transformer-json) plugin which will make the JSON contents available via Gatsby.js GraphQL.
+
+Modify the JSON file to add in a new author, the templating system will then create the page for all people specified in that file.
