@@ -21,5 +21,17 @@
       "https://github.com/shuttle1987",
       "mailto:janis@example.com"
     ]
+  },
+  {
+    "id": "aapeli",
+    "name": "Aapeli Vuorinen",
+    "image": "aapeli.png",
+    "url": "https://www.aapelivuorinen.com",
+    "location": "Australia",
+    "bio": "Partner / Consultant",
+    "socialUrls": [
+      "https://github.com/aapeliv",
+      "mailto:aapeli@customprogrammingsolutions.com.au"
+    ]
   }
 ]
