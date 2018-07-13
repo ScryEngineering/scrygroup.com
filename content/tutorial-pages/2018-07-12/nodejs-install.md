@@ -15,7 +15,7 @@ Here's how we go about installing Node.js
 
 <!-- end excerpt -->
 
-## Manage Node.Js versions with NVM
+## Manage Node.js versions with NVM
 
 The [node version manager](https://github.com/creationix/nvm) makes it much easier to have the right versions of node installed.
 
