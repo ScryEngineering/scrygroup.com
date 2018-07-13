@@ -11,6 +11,10 @@ tags:
 contentType: "tutorial"
 ---
 
+Here's how we go about installing Node.js
+
+<!-- end excerpt -->
+
 ## Manage Node.Js versions with NVM
 
 The [node version manager](https://github.com/creationix/nvm) makes it much easier to have the right versions of node installed.
@@ -21,11 +25,13 @@ We use the Git install [as described here](https://github.com/creationix/nvm#git
 
 ## Update npm/yarn
 
-There’s a lot of benefits to running the latest npm and yarn versions. We have been using Yarn in house because it was first to have lock files and solved many issues at the time, since then npm has improved. To make the most of these improvements you will want to get the most recent versions installed.
+There’s a lot of benefits to running the latest npm and [Yarn](https://yarnpkg.com/lang/en/) versions. We have been using Yarn in house because it was first to have lock files and solved many issues at the time, since that time npm has also improved. To make the most of these improvements you will want to get the most recent versions installed.
 
 ## Global packages
 
-Some packages assume that you are installing globally. One such package we regularly encounter is [`firebase-admin`](https://firebase.google.com/docs/admin/setup), this is a bit easier to use in a globally installed manner. If you happen to have a very old Node.js version with your operating system you can still run into some issues even if you have the latest Node.js installed via nvm because a global install can use the system version of node.
+Some packages assume that you are installing globally. One such package we regularly encounter is [`firebase-admin`](https://firebase.google.com/docs/admin/setup), this is a bit easier to use in a globally installed manner. If your operating system ships with an old Node.js version you can still run into some issues even if you are using NVM. If you use sudo it will call the system `node` not the NVM managed one. So we like to update the system Node.js before we install our global packages.
+
+For the most part the only global packages generators or some non-project specific deployment packages. As much as possible we try to install per-project.
 
 ## Ubuntu Node.js packages
 
