@@ -9,6 +9,10 @@ tags:
     - hashing
     - cryptography
     - merkle-tree
+    - mining
+    - ASICs
+    - digital-signatures
+    - elliptic-curve-cryptography
 contentType: "blog"
 ---
 
