@@ -1,3 +1,16 @@
+---
+title: "Demystifying the blockchain"
+date: "2018-07-03"
+tags:
+    - blockchain
+    - bitcoin
+    - ethereum
+    - hashing
+    - cryptography
+    - merkle-tree
+contentType: "blog"
+---
+
 # Demystifying the blockchain
 
 ## Introduction
