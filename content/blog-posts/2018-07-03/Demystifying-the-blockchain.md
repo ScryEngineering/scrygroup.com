@@ -12,8 +12,6 @@ tags:
 contentType: "blog"
 ---
 
-# Demystifying the blockchain
-
 ## Introduction
 
 In this post we'll discuss the main building blocks of blockchain technology. We'll introduce concepts such as transactions, signatures through public-key cryptography, blocks, mining, proof-of-work algorithms, and touch on some of the more advanced topics such as Merkle trees, ASICs and proof-of-stake.
