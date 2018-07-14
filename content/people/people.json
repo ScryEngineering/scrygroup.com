@@ -2,6 +2,7 @@
   {
     "id": "CPS",
     "name": "Custom Programming Solutions",
+    "teamMember": false,
     "image": "cps.png",
     "url": "https://www.customprogrammingsolutions.com",
     "location": "Australia/Canada",
@@ -13,18 +14,20 @@
   {
     "id": "janis",
     "name": "Janis Lesinskis",
+    "teamMember": true,
     "image": "janis.png",
     "url": "https://www.lesinskis.com",
     "location": "Australia/Canada",
-    "bio": "Co founder of CPS",
+    "bio": "Co founder and Partner / Consultant",
     "socialUrls": [
       "https://github.com/shuttle1987",
-      "mailto:janis@example.com"
+      "mailto:janis@customprogrammingsolutions.com.au"
     ]
   },
   {
     "id": "aapeli",
     "name": "Aapeli Vuorinen",
+    "teamMember": true,
     "image": "aapeli.png",
     "url": "https://www.aapelivuorinen.com",
     "location": "Australia",
