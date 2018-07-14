@@ -26,8 +26,6 @@ Blockchain technology relies very heavily on [public-key cryptography](https://e
 
 In particular, most cryptocurrencies use the [Elliptic Curve Digital Signature Algorithm (ECDSA)](https://en.wikipedia.org/wiki/ECDSA) on a 256-bit [Koblitz curve](https://www.sciencedirect.com/science/article/pii/S1071579704000395) called [secp256k1](https://en.bitcoin.it/wiki/Secp256k1), whose parameters are defined in [SEC2](http://www.secg.org/sec2-v2.pdf). The cornerstone of these algorithms is that there exist some mathematical operations that are easy to do in one direction while being difficult in the other, except if you have some more information. These are called [trapdoor functions](https://en.wikipedia.org/wiki/Trapdoor_function), and in [elliptic curve cryptography (ECC)](https://en.wikipedia.org/wiki/Elliptic-curve_cryptography), this central problem is known as the [elliptic curve discrete logarithm problem](https://wstein.org/edu/2007/spring/ent/ent-html/node89.html). The mathematics of elliptic curve cryptography are unfortunately beyond the scope of this article.
 
-For a more in-depth discussion on the public-key algorithms used in blockchain, read [our article on it](link to Janis's article).
-
 ## Transactions
 
 The blockchain is centered around two fundamental data structures; transactions and blocks.
