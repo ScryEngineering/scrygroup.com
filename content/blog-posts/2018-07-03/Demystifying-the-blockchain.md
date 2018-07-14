@@ -64,16 +64,16 @@ The following snippet of [Python](https://www.python.org/) code illustrating the
 
 ```python
 >>> from hashlib import sha256
->>> def hash(input):
-...     bytes = input.encode('utf-8')
-...     digest = sha256(bytes).hexdigest()
-...     print('The hash of "{}" is "{}".'.format(input, digest))
-... 
->>> hash('This is an illustration.')
+>>> def sha_hash(input_string):
+...     _bytes = input_string.encode('utf-8')
+...     digest = sha256(_bytes).hexdigest()
+...     print('The hash of "{}" is "{}".'.format(input_string, digest))
+...
+>>> sha_hash('This is an illustration.')
 The hash of "This is an illustration." is "cc60b0d0b6c02f3ebb026a3c6487a6a891179224313531e5eaecb989eec4565a".
->>> hash('This is an illustration!')
+>>> sha_hash('This is an illustration!')
 The hash of "This is an illustration!" is "82a52d1f876eca019919de34365ac37ffac3f00ce2f6c75260005df2043383b5".
->>> hash('This is an illustration?')
+>>> sha_hash('This is an illustration?')
 The hash of "This is an illustration?" is "cecf000fb26efec9c32624703582f56deb5ff24f08f3ae1501dd4a336bf491bc".
 ```
 
