@@ -12,7 +12,7 @@ contentType: "blog"
 
 Last night Robbie Clarken presented a great talk about Mocking and how it fits in with testing in general.
 
-There were a few questions he had over email about mypy and instead of just answering via email we figured that there's some value in this to the wider audience.
+There were a few questions he had over email about how mypy could be used in addition to Mocking to get better coverage of issues with parameters in function calls being tested. Seeing as this is helping him with a real process we agreed that there's value in blogging this so a wider audience can get exposure to these techniques.
 
 <!-- end excerpt -->
 
@@ -23,12 +23,11 @@ We particularly like using this at CPS because some bugs get caught by our CI pi
 This has saved us a large amount of debugging time and has improved the correctness of our programs without costing us much at all.
 It fits in with our overall approach of having multiple lines of defense as no one methodology will catch everything.
 
-
-All the example code in this post can be found over on our GitHub repo: <https://github.com/customprogrammingsolutions/mypy_mocks>
+All the example code in this post can be found over on our GitHub repository: <https://github.com/customprogrammingsolutions/mypy_mocks>
 
 Here are the questions that Robbie was interested in:
 
-### Question 1 - type checking an instance variable
+## Question 1 - type checking an instance variable
 
 What does mypy report here?
 
@@ -67,11 +66,36 @@ The reason this is the case is that any function that does not have a return val
 <class 'NoneType'>
 ```
 
-Since returning from `__init__` is not allowed the return type must be `None`.
+Since returning from `__init__` is not allowed the return type must much up with the no-return value of `None`.
 
-### Question 2 - type checking a forwarded function
+## Question 2 - type checking a forwarded function
 
-Forwarding of arguments is an area that can make it harder to test, consider this situation:
+Good practice involves creating a specification for mocks such that the mock has the same interface as the actual method/function.
+This is important because you don't want a situation where the mock isn't matching the underlying call properly.
+There's a really good things called [Autospeccing](https://docs.python.org/3/library/unittest.mock.html#autospeccing) in the standard library to make this process easier, it limits the api of mocks to the api of an original object and removes a whole class of possible bugs.
+
+This was really good info in the talk, I'd encourage everyone to look into this if the use mocks heavily. I completely agree with Robbie that using `autospec=True` in your [`patch`s](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.patch) as a default is a really good idea in general.
+
+One pain point that came up is situations like the requests library, for example [this code](https://github.com/requests/requests/blob/master/requests/api.py#L104)
+
+```python
+def post(url, data=None, json=None, **kwargs):
+    r"""Sends a POST request.
+    :param url: URL for the new :class:`Request` object.
+    :param data: (optional) Dictionary, list of tuples, bytes, or file-like
+        object to send in the body of the :class:`Request`.
+    :param json: (optional) json data to send in the body of the :class:`Request`.
+    :param \*\*kwargs: Optional arguments that ``request`` takes.
+    :return: :class:`Response <Response>` object
+    :rtype: requests.Response
+    """
+
+return request('post', url, data=data, json=json, **kwargs)
+```
+
+The forwarding of arguments via kwargs is an area that can make it harder to test with the [standard library mocks](https://docs.python.org/3/library/unittest.mock.html)because autospeccing just won't work on this now. You can of course write a manual specification by using the `spec` parameter in such cases and this would be the way to do this.
+
+Unlike autospeccing which is essentially a [Pareto improvement option] over not autospeccing, having to write manual specifications takes a bit more time and effort so we may or may not want to do that depending on our priorities. I had suggested that this is a situation where mypy could help add an additional line of defense. I was asked what mypy does in this situation:
 
 ```python
 def outer(**kwargs):
@@ -93,9 +117,9 @@ If you don't want this to silently pass you can use the `--disallow-untyped-call
 examples/question2.py:8: error: Call to untyped function "outer" in typed context
 ```
 
-Now we see we got the feedback we expected there.
+Now we see we got the feedback we expected there. But how do we make this actually work with type annotations?
 
-But how to make this actually work?
+### Homogenous types being forwarded
 
 One thing we can do is to mark the type of the `kwargs` if they are all homogenous as follows:
 
@@ -115,13 +139,18 @@ To which mypy will give the following:
 examples/annotating_kwargs.py:11: error: Argument "num" to "outer" has incompatible type "str"; expected "float"
 ```
 
+### Non-homogenous types being forwarded
+
 Now if the arguments are not homogenous because we are using function dispatch as a form of method overloading we need to annotate differently.
 
 Consider if there's 2 different functions for inner that we want to call based on the type passed, say one for floats but a different one for lists:
 
 ```python
-def outer(**kwargs: float):
-    inner(**kwargs)
+def outer2(**kwargs):
+    if isinstance(kwargs['num'], list):
+        inner_lists(**kwargs)
+    else:
+        inner_floats(**kwargs)
 
 def inner_lists(num: List[float]):
     for item in num:
@@ -130,5 +159,42 @@ def inner_lists(num: List[float]):
 def inner_floats(num: float):
     print(num * 2)
 
-outer(num="abc")
+# OK
+outer2(num=0.1)
+
+# OK
+outer2(num=[0.2,0.3])
+
+# bad
+outer2(num="abc")
 ```
+
+To get this to catch the bad case we have to use the aptly named `@overload` decorator as follows:
+
+```python
+from typing import List, overload
+
+@overload
+def outer2(num: float) -> None:
+    ...
+
+@overload
+def outer2(num: List[float]) -> None:
+    ...
+
+# Code for outer2 must occur after these type annotations
+```
+
+Now when we run this with mypy we get the following:
+
+```
+examples/annotating_kwargs.py:11: error: Argument "num" to "outer" has incompatible type "str"; expected "float"
+examples/annotating_kwargs.py:48: error: No overload variant of "outer2" matches argument type "str"
+examples/annotating_kwargs.py:48: note: Possible overload variants:
+examples/annotating_kwargs.py:48: note:     def outer2(num: float) -> None
+examples/annotating_kwargs.py:48: note:     def outer2(num: List[float]) -> None
+```
+
+Perfect!
+
+Using `@overload` is starting to introduce significant additional code overhead however and you may find you get better mileage out of just manually creating the specification of your tests if you were only doing this to mock calls for testing.
