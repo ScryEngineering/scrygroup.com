@@ -93,9 +93,9 @@ def post(url, data=None, json=None, **kwargs):
 return request('post', url, data=data, json=json, **kwargs)
 ```
 
-The forwarding of arguments via kwargs is an area that can make it harder to test with the [standard library mocks](https://docs.python.org/3/library/unittest.mock.html)because autospeccing just won't work on this now. You can of course write a manual specification by using the `spec` parameter in such cases and this would likely be the way to do this.
+The forwarding of arguments via kwargs is an area that can make it harder to test with the [standard library mocks](https://docs.python.org/3/library/unittest.mock.html) because autospeccing just won't work on this now. You can of course write a manual specification by using the `spec` parameter in such cases and this would likely be the way to do this.
 
-Unlike autospeccing which is essentially a [Pareto improvement option] over not autospeccing, having to write manual specifications takes a bit more time and effort so we may or may not want to do that depending on our priorities. I had suggested that this is a situation where mypy could help add an additional line of defense. So I was asked what mypy does in this situation:
+Unlike autospeccing which is essentially a [Pareto improvement option](https://en.wikipedia.org/wiki/Pareto_efficiency) over not autospeccing, having to write manual specifications takes a bit more time and effort so we may or may not want to do that depending on our priorities. I had suggested that this is a situation where mypy could help add an additional line of defense. So I was asked what mypy does in this situation:
 
 ```python
 def outer(**kwargs):
@@ -109,8 +109,8 @@ outer(num="abc")
 
 On a first run of mypy this provides no feedback. This might not be what [you'd expect](https://en.wikipedia.org/wiki/Principle_of_least_astonishment).
 
-The reason is because there's type annotations on `outer` so mypy ignores this function for it's analysis.
-For reasons of backwards compatibility the default behavior of mypy is to not type check un-annotated functions.
+The reason is because there's no type annotations on `outer` so mypy ignores this function for its analysis.
+For reasons of backwards compatibility the default behavior of mypy is to not type check any un-annotated functions.
 If you don't want this to silently pass you can use the `--disallow-untyped-calls` command line option for mypy:
 
 ```
