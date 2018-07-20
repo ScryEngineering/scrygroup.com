@@ -47,7 +47,7 @@ examples/question1.py:3: error: The return type of "__init__" must be None
 examples/question1.py:7: error: Unsupported operand types for + ("float" and "str")
 ```
 
-So it does correctly catch that you can't add a string to a float. So in this case if you knew you needed the price to be a float and only a float this would catch a large number of bugs essentially for free from your CI pipeline.
+So it does correctly catch that you can't add a string to a float. So in this case if you knew you needed the `price` to be a float type this would catch a large number of bugs essentially for free from your CI pipeline.
 It also complains that the return type of `__init__` must be `None`, we can fix that as follows:
 
 ```python
@@ -56,7 +56,7 @@ class Item:
        self.price = price
 ```
 
-The reason this is the case is that any function that does not have a return value actually returns `None`.
+The reason this is the case is that any Python function that does not have a return statement actually returns `None`. (Some languages do not return a type from void functions which is a substantial pain, it's great Python gets this right, though some sort of specific `void` type would likely be even better to differentiate that there was no return at all. This differentiation is useful for metaprogramming.)
 
 ```python
 >>> def no_return():
@@ -71,10 +71,10 @@ Since returning from `__init__` is not allowed the return type must much up with
 ## Question 2 - type checking a forwarded function
 
 Good practice involves creating a specification for mocks such that the mock has the same interface as the actual method/function.
-This is important because you don't want a situation where the mock isn't matching the underlying call properly.
-There's a really good things called [Autospeccing](https://docs.python.org/3/library/unittest.mock.html#autospeccing) in the standard library to make this process easier, it limits the api of mocks to the api of an original object and removes a whole class of possible bugs.
+This is important because you don't want a situation where the mock isn't matching the interface of the thing it is mocking.
+There is a really good thing called [Autospeccing](https://docs.python.org/3/library/unittest.mock.html#autospeccing) in the standard library that makes this process easier, it limits the API of mocks to the API of the original object that it is mocking which removes a whole class of possible bugs.
 
-This was really good info in the talk, I'd encourage everyone to look into this if the use mocks heavily. I completely agree with Robbie that using `autospec=True` in your [`patch`s](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.patch) as a default is a really good idea in general.
+This was really good info in the talk, I'd encourage everyone to look into this if they use mocks heavily. I completely agree with Robbie that using `autospec=True` in your [`patch`'s](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.patch) as a default is a really good idea in general. Please tell your team to do that if they aren't already.
 
 One pain point that came up is situations like the requests library, for example [this code](https://github.com/requests/requests/blob/master/requests/api.py#L104)
 
@@ -93,9 +93,9 @@ def post(url, data=None, json=None, **kwargs):
 return request('post', url, data=data, json=json, **kwargs)
 ```
 
-The forwarding of arguments via kwargs is an area that can make it harder to test with the [standard library mocks](https://docs.python.org/3/library/unittest.mock.html)because autospeccing just won't work on this now. You can of course write a manual specification by using the `spec` parameter in such cases and this would be the way to do this.
+The forwarding of arguments via kwargs is an area that can make it harder to test with the [standard library mocks](https://docs.python.org/3/library/unittest.mock.html)because autospeccing just won't work on this now. You can of course write a manual specification by using the `spec` parameter in such cases and this would likely be the way to do this.
 
-Unlike autospeccing which is essentially a [Pareto improvement option] over not autospeccing, having to write manual specifications takes a bit more time and effort so we may or may not want to do that depending on our priorities. I had suggested that this is a situation where mypy could help add an additional line of defense. I was asked what mypy does in this situation:
+Unlike autospeccing which is essentially a [Pareto improvement option] over not autospeccing, having to write manual specifications takes a bit more time and effort so we may or may not want to do that depending on our priorities. I had suggested that this is a situation where mypy could help add an additional line of defense. So I was asked what mypy does in this situation:
 
 ```python
 def outer(**kwargs):
