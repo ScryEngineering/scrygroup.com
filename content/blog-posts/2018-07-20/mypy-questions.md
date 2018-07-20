@@ -10,7 +10,7 @@ tags:
 contentType: "blog"
 ---
 
-Last night Robbie Clarken presented a great talk about Mocking and how it fits in with testing in general.
+Last night [Robbie Clarken](http://twitter.com/RobbieClarken) presented a great talk about Mocking and how it fits in with testing in general.
 
 There were a few questions he had over email about how mypy could be used in addition to Mocking to get better coverage of issues with parameters in function calls being tested. Seeing as this is helping him with a real process we agreed that there's value in blogging this so a wider audience can get exposure to these techniques.
 
