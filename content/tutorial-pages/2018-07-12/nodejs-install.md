@@ -69,6 +69,7 @@ Once you have got this sorted out it is good to update the base node version
 The “suggested” way to to fetch the `.deb` files from nodesource is to do this:
 
 ```sh
+# UNSAFE !!!
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 ```
 
@@ -86,8 +87,8 @@ Then
 
 ```sh
 curl -s https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add -
-echo 'deb https://deb.nodesource.com/${NODEREPO} $(lsb_release -sc) main' > /etc/apt/sources.list.d/nodesource.list
-echo 'deb-src https://deb.nodesource.com/${NODEREPO} $(lsb_release -sc) main' >> /etc/apt/sources.list.d/nodesource.list
+echo "deb https://deb.nodesource.com/${NODEREPO} $(lsb_release -sc) main" > /etc/apt/sources.list.d/nodesource.list
+echo "deb-src https://deb.nodesource.com/${NODEREPO} $(lsb_release -sc) main" >> /etc/apt/sources.list.d/nodesource.list
 sudo apt-get update
 ```
 
