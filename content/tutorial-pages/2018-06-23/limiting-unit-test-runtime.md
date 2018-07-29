@@ -8,7 +8,7 @@ tags:
     - pytest
     - unit-tests
 contentType: "tutorial"
-callToActionText: "Are you looking to improve your Python testing experience? Fill in the form below with some details and one of our Python experts will get back to you."
+callToActionText: "Are you looking to improve your Python testing? Fill in the form below with some details and one of our Python experts will get back to you."
 hideCallToAction: false
 
 ---
