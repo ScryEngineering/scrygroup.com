@@ -8,6 +8,8 @@ tags:
     - implementation-details
     - numpy
 contentType: "tutorial"
+callToActionText: "Have you got a project that requires in depth knowledge of implementation details? Or do you have a topic about Python internals you would like to see a post about? We'd love to hear about it so fill in the form below with some details."
+hideCallToAction: false
 ---
 
 The other day I got asked what the cache locality of lists in CPython was and how the lists are layed out in memory. Because I always tend to use contiguous memory whenever this is an issue I hadn't looked into it until now.
