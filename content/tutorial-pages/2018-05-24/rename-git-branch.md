@@ -5,6 +5,8 @@ date: "2018-05-24"
 tags:
     - Git
 contentType: "tutorial"
+callToActionText: "Got any tips for using Git that you'd like to share? Fill in the form below, we'd love to hear from you!"
+hideCallToAction: false
 ---
 
 I've spent a few days in a cold office And one thing I notice is that I'm making a lot more typo's when it's cold.
