@@ -6,6 +6,8 @@ tags:
     - software-engineering
     - open-source
 contentType: "blog"
+callToActionText: "Is your business interested in discussing the benefits/costs of open sourcing code? Fill in the form below and one of our expert partners will get back to you about how open source could help you."
+hideCallToAction: false
 ---
 
 Recently we have been collaborating with [Oliver Adams](https://oadams.github.io/). He is a computer science researcher who has done some very interesting work in the field of computational linguistics. One of his research projects was creating automatic phonetic transcriptions for low resource languages. This project aims to make it much easier for linguists to transcribe audio from unwritten languages, you can find the [source code on GitHub](https://github.com/persephone-tools/persephone/).
