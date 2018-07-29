@@ -8,6 +8,8 @@ tags:
     - testing
     - mocks
 contentType: "blog"
+callToActionText: "Looking for ways to use static analysis and continuous integration to improve the quality of your Python software? Fill in the form below with some details so we can discuss what options would be best for you."
+hideCallToAction: false
 ---
 
 Last night [Robbie Clarken](http://twitter.com/RobbieClarken) presented a great talk about Mocking and how it fits in with testing in general.
