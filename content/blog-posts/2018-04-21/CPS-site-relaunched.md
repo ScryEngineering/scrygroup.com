@@ -7,6 +7,8 @@ tags:
 - CMS
 - web-development
 contentType: "blog"
+callToActionText: "Are you interested in improving the technology that powers your websites? Fill in the form below with some details about your needs and we can start a discussion about what would most effectively meet your needs while giving you room to scale."
+hideCallToAction: false
 ---
 
 We have re-launched the site with a new technology, [Gatsby.js](https://www.gatsbyjs.org/).
@@ -103,6 +105,6 @@ It would be disingenuous to say there are no downsides for this approach, overal
 
 So right now if anyone needed to post something and didn't know how to use Git we would just accept an email and then post it up for them. This of course wouldn't scale to a huge number of non-technical collaborators but all main contributors to our site can use Git effectively so this is a non issue *for us*. If we got a large number of non-technical collaborators we would set up some form of a drop-off-box so that files could be uploaded outside the usual Git workflow, with some tooling to moderate the content before committing the new files in. We would happily help people learn more about Git but we appreciate that people have a lot on their plates already.
 
-One thing that has to be said in favor of WordPress is the editor experience is good. It lets people work on articles with a minimal amount of learning time required. Specifically the ability to copy and paste from other sources and preserve formatting is very nice.
+One thing that has to be said in favor of WordPress is the editor experience is good. It lets people work on articles with a minimal amount of learning time required. Specifically the ability to copy and paste from other sources and preserve formatting is very nice. We would likely use the WordPress editor for content creation and hook this up to a static site generator if our client was non-technical.
 
 We are working on a way to give people a nice editor experience while retaining the benefits of a static site deployment such as this. However it is a work in progress right now, if this would benefit you [let us know](/contact) and we might be able to bump up the priority of this work.
