@@ -8,7 +8,7 @@ tags:
     - testing
     - mocks
 contentType: "blog"
-callToActionText: "Looking for ways to use static analysis and continuous integration to improve the quality of your Python software? Fill in the form below with some details so we can discuss what options would be best for you."
+callToActionText: "Looking for advice with how to use static analysis and continuous integration to improve the quality of your Python software? Fill in the form below with some details so we can discuss preventing bugs from getting into your code!"
 hideCallToAction: false
 ---
 
