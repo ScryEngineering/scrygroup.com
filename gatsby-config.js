@@ -79,7 +79,60 @@ module.exports = {
       resolve: `gatsby-plugin-feed`
     },
     {
-      resolve: `gatsby-plugin-sass`
+      resolve: `gatsby-plugin-feed`,
+      options: {
+        feeds: [
+          {
+            query: `
+            {
+              allMarkdownRemark(
+                limit: 1000,
+                sort: {
+                  order: DESC,
+                  fields: [frontmatter___date]
+                },
+                filter: {
+                  fields: { isPost: { eq: true } },
+                  frontmatter: { draft: { ne: true } }
+                }
+              ) {
+                edges {
+                  node {
+                    frontmatter {
+                      title
+                      date
+                    }
+                    fields {
+                      slug
+                    }
+                    excerpt
+                    html
+                  }
+                }
+              }
+            }`,
+            output: `/rss.xml`
+          }
+        ]
+      }
+    },
+    {
+      resolve: `gatsby-plugin-favicon`,
+      options: {
+        logo: "./src/favicon.png",
+        icons: {
+          android: false,
+          appleIcon: true,
+          appleStartup: true,
+          coast: false,
+          favicons: true,
+          firefox: true,
+          opengraph: false,
+          twitter: false,
+          yandex: false,
+          windows: false
+        }
+      }
     }
   ],
 };
