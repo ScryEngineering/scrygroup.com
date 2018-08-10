@@ -24,7 +24,9 @@ content/
 │   └── 2018-06-26
 │       └── Tensorflow-serving-python-3.md
 ├── people
-│   └── people.json
+│   ├── aapeli.md
+│   ├── cps.md
+│   └── janis.md
 └── tutorial-pages
     ├── 2018-02-06
     │   └── python-excepthook-logging.md
@@ -145,9 +147,9 @@ We are using json files to store the information about the people/authors which 
 ```sh
 content/
 ├── people
-│   └── people.json
+│   ├── aapeli.md
+│   ├── cps.md
+│   └── janis.md
 ```
 
-Author information is extracted via [gatsby-transformer-json](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-transformer-json) plugin which will make the JSON contents available via Gatsby.js GraphQL.
-
-Modify the JSON file to add in a new author, the templating system will then create the page for all people specified in that file.
+Author information is extracted from these markdown documents, templating system will then create the page for all people specified in that file.
