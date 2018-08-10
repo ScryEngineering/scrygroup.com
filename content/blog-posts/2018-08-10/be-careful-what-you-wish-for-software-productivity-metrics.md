@@ -7,6 +7,8 @@ tags:
     - management
     - software-engineering
 contentType: "blog"
+callToActionText: "Looking to improve your understanding of software projects and how this relates to managing smart software teams? Fill in the form below if you would like to discuss how we can help."
+hideCallToAction: false
 ---
 
 Recently I've been working on a few open source projects and a few commercial closed source projects. One very insightful comment that has stuck with me was made at Scram where they commented that "nobody ever got paid for removing lines of code" during a code QA phase where they were removing unnecessary code. Ultimately good design involves reducing duplication, the structuring of projects should be based around reducing the total cost of maintenance and one particularly good way to do this is to reduce duplication of code and remove all unused code. In the context of the discussion dead-code removal actually fixed a potential security flaw, *fewer lines of code, directly increased the value of the software being delivered*.
