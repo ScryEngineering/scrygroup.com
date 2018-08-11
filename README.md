@@ -142,7 +142,7 @@ Rest of the tutorial text is here....
 
 ## Author information
 
-We are using json files to store the information about the people/authors which is later used to create biography pages. The file path is in `content/people`
+We are using Markdown files to store the information about the people/authors which is later used to create biography pages. The file path is in `content/people`
 
 ```sh
 content/
