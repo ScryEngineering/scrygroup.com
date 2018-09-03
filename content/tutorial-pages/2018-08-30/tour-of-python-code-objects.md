@@ -191,6 +191,8 @@ print("f.__code__.co_varnames")
 print(f.__code__.co_varnames)
 print("f.__code__.co_names")
 print(f.__code__.co_names)
+print("f.__code__.co_nlocals")
+print(f.__code__.co_nlocals)
 ```
 
 This prints out:
@@ -200,9 +202,14 @@ f.__code__.co_varnames
 ('c',)
 f.__code__.co_names
 ('a', 'b')
+f.__code__.co_nlocals
+1
 ```
 
-So this lets you know which varables the function defines locally with `co_varnames` and which global variables the function references `co_names`
-
+So this lets you know how many local variables exist via `co_nlocals` and the names of those local variables in `co_varnames`. We can also see which global variables the function references `co_names`.
 
 TODO: discuss the zombie frames and free mechanism.
+
+
+## Function definiton file and location
+
