@@ -257,7 +257,12 @@ You can see here that there's a constant for `None` despite this not being defin
 
 This is something I find quite annoying actually that there's no void return type, but that's a topic for another post.
 
-
 ## Function definiton file and location
 
 We can see where the code object was defined in 
+
+
+## Bytecode
+
+TODO: co_code
+co_lnotab (the line number table, for extracting hte source for the exceptions when dealing with tracebacks)
