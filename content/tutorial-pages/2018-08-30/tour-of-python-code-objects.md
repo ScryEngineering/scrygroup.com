@@ -37,7 +37,7 @@ Let's have a look through the `__code__`.
 
 This provides some information about the code object that this function defines. We will go through some of these in groups of what they do.
 
-## Argument related
+## Function argument related
 
 There's `co_argcount` and `cokwonlyargcount` that will give you information about the function arguments:
 
@@ -91,7 +91,7 @@ Try this:
 
 `inspect.currentframe()` will give you information about the current frame of evaluation in Python.
 
-This is useful for a variety of things, generally speaking you don't need this except in some circumstances
+This is useful for a variety of things, generally speaking you don't need this except in some circumstances. Say we wanted to find the name of the function that we were in without having to 
 
 ```python
 >>> def test():
@@ -171,3 +171,38 @@ Names:
 Variable names:
    0: a
 ```
+
+## what variables exist in the function
+
+The code object gives you the ability to get some information about variable names contained within the function that is defined.
+
+co_varnames # local variable names
+
+co_names # global names used in the function
+
+```python
+a = 1
+b = "b"
+
+def f():
+    c = a * b
+
+print("f.__code__.co_varnames")
+print(f.__code__.co_varnames)
+print("f.__code__.co_names")
+print(f.__code__.co_names)
+```
+
+This prints out:
+
+```sh
+f.__code__.co_varnames
+('c',)
+f.__code__.co_names
+('a', 'b')
+```
+
+So this lets you know which varables the function defines locally with `co_varnames` and which global variables the function references `co_names`
+
+
+TODO: discuss the zombie frames and free mechanism.
