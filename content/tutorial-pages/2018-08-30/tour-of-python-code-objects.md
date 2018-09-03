@@ -172,7 +172,14 @@ Variable names:
    0: a
 ```
 
-## what variables exist in the function
+
+## Variables and constants
+
+In order for python to be able to define function it needs to be able to allocate the memory for the variables and constants inside them. This means that when the interpreter goes through the function it has to find how many variables have been defined and how many constants have been defined.
+
+This information is stored in the code object for that function
+
+### what variables exist in the function
 
 The code object gives you the ability to get some information about variable names contained within the function that is defined.
 
@@ -210,6 +217,47 @@ So this lets you know how many local variables exist via `co_nlocals` and the na
 
 TODO: discuss the zombie frames and free mechanism.
 
+### What constants are defined
+
+We want to know which constants are defined in our function:
+
+```python
+def example_with_return(a:int, b:int) -> int:
+    """Example of co_consts"""
+    a = a * 2
+    b = b + 3
+    return a * b
+```
+
+This gives the following output:
+
+```sh
+example_with_return.__code__.co_consts
+('Example of co_consts', 2, 3)
+```
+
+Here you can see that the constants defined in the function the string for `__doc__` and the integral constants `2` and `3`
+
+```python
+def example_without_return(a:int, b:int):
+    """Example of co_consts"""
+    a = a * 2
+    b = b + 3
+    print(a*b)
+```
+
+This is a slight modification of the function from before except in this we have no return value.
+
+```sh
+example_without_return.__code__.co_consts
+('Example of co_consts', 2, 3, None)
+```
+
+You can see here that there's a constant for `None` despite this not being defined in the function itself. This is because any function that doesn't have a return value in Python actually returns None.
+
+This is something I find quite annoying actually that there's no void return type, but that's a topic for another post.
+
 
 ## Function definiton file and location
 
+We can see where the code object was defined in 
