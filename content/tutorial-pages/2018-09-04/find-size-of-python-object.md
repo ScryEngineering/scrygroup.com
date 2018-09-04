@@ -25,7 +25,7 @@ That said it's still very valuable to know approximately how many bytes of memor
 
 # sys.sizeof
 
-The starting point for these things is the functionality in `sys` called [getsizeof](https://docs.python.org/dev/library/sys.html#sys.getsizeof) that will let you do some sizeof checks:
+The starting point for these things is the functionality in the `sys` library called [getsizeof](https://docs.python.org/dev/library/sys.html#sys.getsizeof) that will let you do some sizeof checks:
 
 ```python
 >>> import sys
