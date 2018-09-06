@@ -168,9 +168,8 @@ When run this gives the following:
 896
 ```
 
-This heuristic is better than nothing but it still only looks into the object passed into it a maximum of one level deep. We still run into the issue where an object might not define its size properly where you run into the original problem again.
-
-To deal with this properly we have to recurse into the object and keep track of references to avoid duplicate counts of memory usage. We could write our own or use a library...
+This heuristic is much better because it will recurse into the objects members and attempt to find the size of all of those. We still run into the issue where an object might not define its size properly where you run into the original problem again.
+The other thing is that we have to specify a handler for all the various types that can be found as members, if we miss any we will get an incorrect size. To deal with this properly we would have to recurse into the object and attempt to find the size of each and every item. Like the recipe we also need to keep track of references to avoid duplicate counts of memory usage. We would also want to be able to handle things like `weakref`. All of this would be a lot of work...
 
 ## Using pympler
 
