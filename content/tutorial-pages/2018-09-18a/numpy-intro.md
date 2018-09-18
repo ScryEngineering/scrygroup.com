@@ -3,11 +3,12 @@ title: "NumPy introduction"
 author: "Nick Downing"
 date: "2018-18-09"
 tags:
-    - Python
-    - NumPy
-    - Image processing
-    - Signal processing
-    - Arrays
+    - python
+    - numpy
+    - colourspace
+    - image processing
+    - signal processing
+    - arrays
     - SIMD
 contentType: "tutorial"
 ---
@@ -47,9 +48,9 @@ Let us think of some examples of things we could store in a NumPy array:
 So the classical things to do with these kinds of arrays might be collapsing the channels: Convert stereo to mono, or convert colour to monochrome. We will see how to use `numpy.sum()` for this kind of thing, but for now, let us continue.
 
 * A digitized sine wave. This is a 1-dimensional array of real numbers. Let us suppose the sine wave has a period of 8 units, then the first 8 entries will look like [0.000, 0.707, 1.000, 0.707, 0.000, -0.707, -1.000, -0.707] and then it will repeat for some number of periods. Suppose there are 55,125 periods, then we are talking about a 1-dimensional array of 441,000 entries.
-* A digital filter kernel. This is the same kind of idea as the sine wave example. You may have used something like the `blur' filter in Photoshop or GIMP. We can represent this with an array of say 10 × 10 real numbers describing how a pixel of an original image smears out into a 10 × 10 region in a blurred image.
+* A digital filter kernel. This is the same kind of idea as the sine wave example. You may have used something like the \`blur' filter in Photoshop or GIMP. We can represent this with an array of say 10 × 10 real numbers describing how a pixel of an original image smears out into a 10 × 10 region in a blurred image.
 
-The classic thing to do with these further kinds of arrays containing more abstract data is **element-wise multiplication**, for example NumPy can take an audio signal and put a sine wave next to it and multiply each audio cell by its corresponding sine wave cell. This is useful in itself, but can be even more powerful when combined with `numpy.sum()` to collapse the results of the multiplication.
+The classic thing to do with these further kinds of arrays containing more abstract data is *element-wise multiplication*, for example NumPy can take an audio signal and put a sine wave next to it and multiply each audio cell by its corresponding sine wave cell. This is useful in itself, but can be even more powerful when combined with `numpy.sum()` to collapse the results of the multiplication.
 
 The above examples were in keeping with a signal-processing theme, which we will be looking at in this article, in particular we'll be looking at image processing because it is easy and fun and accessible (everybody has a computer monitor).
 
@@ -59,7 +60,7 @@ However, NumPy isn't limited to signal processing, you could store...
 
 * Financial data. Historical share prices, dollar values extracted from your bank statement, etc. We won't emphasize this usage as much, since you would need some other way of keeping track of what the columns or rows mean, but NumPy certainly has a role to play in this kind of analysis even if it's more advanced.
 * Textual data. You might want to quickly replace certain character values with other character values, find the first location of a particular character, etc.
-* Coordinate data. You might have a line-drawing consisting of 50 points to be connected in sequence, each point being an (x, y) position. This is more-or-less how line drawing tools such as Inkscape store drawings. You could keep this coordinate data in an array of 50 rows (one per point) × 2 columns (x and y).
+* Coordinate data. You might have a line-drawing consisting of 50 points to be connected in sequence, each point being an (*x*, *y*) position. This is more-or-less how line drawing tools such as Inkscape store drawings. You could keep this coordinate data in an array of 50 rows (one per point) × 2 columns (*x* and *y*).
 * Mapping data. You might have an array indexed by latitude/longitude coordinates (at some suitable resolution) giving the terrain altitude at each coordinate in your home city. You could use this to help cyclists find a less hilly route.
 
 The uses of NumPy arrays are only limited by your imagination, especially considering the absolutely enormous explosion in computer memory and processing capacity in recent decades. Say you're studying meteorology and you want to do some weather data analysis. You could quickly download a gigantic array from the Internet filled with atmospheric pressures or some such, and easily do simulations and so on, on an ordinary home or lab PC or even your laptop, with NumPy! Meteorologists of 20 years ago would have spent millions for this capability that we take for granted today. I want to put this million-dollar capability in your hands!
@@ -71,13 +72,14 @@ There are ample resources for installing Python, NumPy and other things elsewher
 Personally, I use a Ubuntu-derived Linux system, and I highly recommend to my readers to use Linux for anything involving Python, since it will be about 500% easier to get anything working. You could spend days installing Python on Windows and figuring out where the batch file is to start it and how to install add-on modules and so forth. Do not bother, you can quickly install Linux (in a virtual machine if you do not want to commit your PC or laptop) and get started.
 
 In Ubuntu the best thing to do would be something like this:
-```
+
+```sh
 sudo apt-get install python3-numpy python3-imageio
 ```
 
 Another approach would be to use `pip`, which will download and install the package in a private location that Ubuntu's package manager won't know about. `pip` can sometimes give more up-to-date versions of packages, but I recommend to stick with the distribution's packaged software for standard things like NumPy.
 
-Of course you might also want to use a virtualenv or a docker container or whatnot. Personally I find these things to be a distraction, and while they have their place I would rather just set up my system for the things I need in the traditional way. I do pay the price though when it comes to moving my projects around.
+Of course you might also want to use a *virtualenv* or a *docker container* or whatnot. Personally I find these things to be a distraction, and while they have their place I would rather just set up my system for the things I need in the traditional way. I do pay the price though when it comes to moving my projects around.
 
 # Image processing with NumPy
 
@@ -110,13 +112,14 @@ So what we have done is to:
 
 We often see Lena in this kind of work. I have taken her image from [here](http://caca.zoy.org/study/lena256.png) and I highly recommend to read the containing website, [Libcaca study: the science behind colour ASCII art](http://caca.zoy.org/wiki/libcaca/study/introduction). We will briefly look at some of the same concepts in a later NumPy tutorial.
 
-We can read more about Lena [here](http://www.lenna.org/). Supposedly, a group of computer science researchers tracked her down in Sweden for an interview and explained that her Playboy image is often used as an example in image processing research, and she replied `Dear me, that must be so boring for everybody, looking at me all day!'. Quite so, and we will transition away from Lena to some other images that I like better, but let us have a little bit of fun before we do.
+We can read more about Lena [here](http://www.lenna.org/). Supposedly, a group of computer science researchers tracked her down in Sweden for an interview and explained that her Playboy image is often used as an example in image processing research, and she replied \`Dear me, that must be so boring for everybody, looking at me all day!'. Quite so, and we will transition away from Lena to some other images that I like better, but let us have a little bit of fun before we do.
 
 At this point, may I recommend that you check out the repository [here](https://github.com/nickd4/numpy_tutorial) containing the files from this tutorial and have a play. Reading is so fascinating, but you will only understand in depth by doing! What happens if you introduce some other operators like `+` or `-`? Can you replace the `/=` statement by a more complicated expression? What kind of operators might be relevant when working with brightness values from images?
 
 ## Monochrome conversion with NumPy
 
 I promised that I would show you how to collapse the channels and thereby convert the RGB Lena image into a monochrome image. We will do it the long way first:
+
 ```python
 #!/usr/bin/env python3
 
@@ -133,9 +136,11 @@ for i in range(256):
 
 imageio.imsave('test.png', test.astype(numpy.uint8))
 ```
-What we have done here is very straightforward. For each pixel `(i, j)` in the image, we calculate a mean of the red, green, and blue channels of the original image. We get the red pixel value from `orig[i, j, 0]`, the blue pixel value from `orig[i, j, 1]` and so on.
 
-This would be the time to let NumPy take a bit of the load off us. Suppose we want to deal with each pixel as a unit. What we can do is type `orig[i, j, :]` where using `:` instead of an index means `take all of the values in this dimension', thus it will extract a subarray of 3 elements being the red, green and blue values for the pixel. We can put this into `numpy.mean()` as follows:
+What we have done here is very straightforward. For each pixel (*i*, *j*) in the image, we calculate a mean of the red, green, and blue channels of the original image. We get the red pixel value from `orig[i, j, 0]`, the blue pixel value from `orig[i, j, 1]` and so on.
+
+This would be the time to let NumPy take a bit of the load off us. Suppose we want to deal with each pixel as a unit. What we can do is type `orig[i, j, :]` where using `:` instead of an index means \`take all of the values in this dimension', thus it will extract a subarray of 3 elements being the red, green and blue values for the pixel. We can put this into `numpy.mean()` as follows:
+
 ```python
 #!/usr/bin/env python3
 
@@ -171,14 +176,13 @@ test = numpy.mean(orig, 2)
 imageio.imsave('test.png', test.astype(numpy.uint8))
 ```
 
-We need to think carefully about how NumPy numbers things and the difference between axis numbering and element numbering. When we have an original image of 256 × 256 × 3, this has 3 axes being `y`, `x` and `channels` respectively. That's to say, an element in this array is indexed by 3 numbers (because there are 3 axes) and the numbers are `y` in range 0..255, then `x` in range 0..255, then `channel` in range 0..2, in that order. The axis numbering is therefore that `y` is axis 0, `x` is axis 1, and `channel` is axis 2. Clear as mud?
+We need to think carefully about how NumPy numbers things and the difference between axis numbering and element numbering. When we have an original image of 256 × 256 × 3, this has 3 axes being *y*, *x* and *channel* respectively. That's to say, an element in this array is indexed by 3 numbers (because there are 3 axes) and the numbers are *y* in range 0..255, then *x* in range 0..255, then *channel* in range 0..2, in that order. The axis numbering is therefore that *y* is axis 0, *x* is axis 1, and *channel* is axis 2. Clear as mud?
 
 Also consider the difference between a 256 × 256 × 3 array and a 256 × 256 array. Although axis number 2 has gone (which had 3 values in it previously) the information hasn't actually gone, it has been collapsed to a scalar, and a scalar requires no indexing which is why the corresponding axis has gone. Thus a 256 × 256 array can also be considered as something like a 256 × 256 × 1 array when we want. This makes it a little bit clearer what's happened to the 3-element axis.
 
-So when `numpy.mean()` takes a mean along axis 2, it notes that the array also has several other axes, being axis 0 (`y`) and axis 1 (`x`), and thus the mean will have to be taken separately for each element in these axes. So it will make 256 × 256 separate mean calculations and construct an array similar to the original but with axis 2 missing, since it has been collapsed to a scalar. Yeah!
+So when `numpy.mean()` takes a mean along axis 2, it notes that the array also has several other axes, being axis 0 (*y*) and axis 1 (*x*), and thus the mean will have to be taken separately for each element in these axes. So it will make 256 × 256 separate mean calculations and construct an array similar to the original but with axis 2 missing, since it has been collapsed to a scalar. Yeah!
 
 ## Broadcasting our calculations
-
 
 We saw that `numpy.mean()` is rather smart and can take a lot of the load off us, and in the process we avoid the tedious and time-consuming `for i in range` and `for j in range` style of repeating operations, which is difficult for Python but easy for NumPy. The same is true of the ordinary calculation operators such as `+` and `-`. Repeating calculations is called **broadcasting**.
 
@@ -198,7 +202,7 @@ test /= 2.
 imageio.imsave('test.png', test.astype(numpy.uint8))
 ```
 
-That's right: if you just treat the array as a scalar and do operations on it, the operations are repeated over the entire array. Or we can be more technical if we like and say `test[:, :, :] /= 2.` and this says, do the operation for every element over the `y`, `x` and `channel` axes. If we don't specify the full 3 indices to cover the 3 axes of the array, NumPy provides `:` indices.
+That's right: if you just treat the array as a scalar and do operations on it, the operations are repeated over the entire array. Or we can be more technical if we like and say `test[:, :, :] /= 2.` and this says, do the operation for every element over the *y*, *x* and *channel* axes. If we don't specify the full 3 indices to cover the 3 axes of the array, NumPy provides `:` indices.
 
 To see how the `:` syntax (for repeating operations) and ordinary indexing can be used together, consider a version of the above example where we only darken the green and blue channels, and thus we give the image more of a reddish tint:
 
@@ -217,7 +221,7 @@ test[:, :, 2] /= 2.
 imageio.imsave('test.png', test.astype(numpy.uint8))
 ```
 
-Even easier is to collapse both of those `/= 2.` lines into the single statement `test[:, :, 1:] /= 2.` which means, for all `y`, and for all `x`, and for all `channel` from 1 onwards, divide the cell value by 2. Truly this is powerful!
+Even easier is to collapse both of those `/= 2.` lines into the single statement `test[:, :, 1:] /= 2.` which means, for all *y*, and for all *x*, and for all *channel* from 1 onwards, divide the cell value by 2. Truly this is powerful!
 
 ## Monochrome conversion, the NTSC way
 
@@ -228,6 +232,7 @@ Y = 0.299 R + 0.587 G + 0.114 B
 where Y is the monochrome pixel value, whereas R, G, B are the red, green and blue pixel channel values. If R, G, B are in the range [0, 255] as in our case, then so will be the result Y.
 
 How do we go about making such a summation with NumPy?
+
 ```python
 #!/usr/bin/env python3
 
@@ -241,11 +246,13 @@ test = .299 * orig[:, :, 0] + .587 * orig[:, :, 1] + .114 * orig[:, :, 2]
 
 imageio.imsave('test.png', test.astype(numpy.uint8))
 ```
+
 Niiice! We are becoming masters of this, we will not explain in detail about how the operations are repeated by NumPy over the various axes because it starts to become obvious once you have played with it a bit. But if you are still having trouble conceptualizing it, consider it like adding 3 matrices in mathematics.
 
 But weight (ahem) wait, there is more! Surely we should not need to type all those `+`s and `\`*s, since NumPy is so good at repeating things for us! Let us put the NTSC weights somewhere, and have NumPy put the weights against the pixel values and do some element-by-element multiplication.
 
 First we'll do it the long way which emphasizes the element-by-element multiplication. Try this out:
+
 ```python
 #!/usr/bin/env python3
 
@@ -264,16 +271,17 @@ test = numpy.sum(orig * weight, 2)
 
 imageio.imsave('test.png', test.astype(numpy.uint8))
 ```
+
 Here we are basically putting together everything we know about NumPy. Firstly, we create an array of weights which is dimensioned the exact same as the original image, that is 256 × 256 × 3. So each red, green or blue value of the original image has a corresponding weight that it will be multiplied by. Then, we broadcast the `=` to make all the red weights = .299, all the blue weights = .587, etc.
 
-The next step, which we haven't seen before, is to do `orig \* weight`. Here NumPy notices that the dimensions of the arrays are the same, and therefore we are not asking for some weight to be broadcast over every element of the image, we are asking for the `\`* (times) operation to occur between corresponding elements of the two arrays. NumPy builds a new array with the same dimensions as both the input arrays, where each cell is the product of corresponding input cells.
+The next step, which we haven't seen before, is to do `orig * weight`. Here NumPy notices that the dimensions of the arrays are the same, and therefore we are not asking for some weight to be broadcast over every element of the image, we are asking for the `*` (times) operation to occur between corresponding elements of the two arrays. NumPy builds a new array with the same dimensions as both the input arrays, where each cell is the product of corresponding input cells.
 
-Finally, we did something like `numpy.mean()` to collapse out the now unwanted axis 2, containing the weighted red, green and blue values, by summing them to produce a scalar. In this case we did not want the result divided by 3 since we already have our own weights, hence we used plain old `numpy.sum()` instead of `numpy.mean()`. You will extremely often see `numpy.sum()` used after some elementwise multiplication.
+Finally, we used `numpy.sum()` to collapse out the now unwanted axis 2, containing the weighted red, green and blue values, by summing them to produce a scalar. In this case we did not want the result divided by 3 since we already have our own weights, hence we used plain old `numpy.sum()` instead of `numpy.mean()` that we saw earlier. You will extremely often see `numpy.sum()` used after some elementwise multiplication.
 
 ## Using dummy axes to line things up
 
-
 As the last step of today's tutorial, we will be repeating the monochrome conversion but this time we'll use a simple vector of the NTSC weights (rather than a gigantic and redundant array of elementwise weights dimensioned the same as the input image):
+
 ```python
 #!/usr/bin/env python3
 
@@ -288,15 +296,16 @@ test = numpy.sum(orig * weight[numpy.newaxis, numpy.newaxis, :], 2)
 
 imageio.imsave('test.png', test.astype(numpy.uint8))
 ```
+
 How this works is complicated so we are going to build up the idea step by step.
 
 It has previously been mentioned that an image dimensioned 256 × 256 can be considered also to be like an image dimensioned 256 × 256 × 1, since the reason an axis disappears is when it becomes a scalar and hence requires no indexing, not because the information in the actual cells has disappeared.
 
 The same thing happens with the vector of NTSC weights here. Initially it's a 3 element vector (a weight of .299 for red and so on), but then after we apply the special index of `numpy.newaxis` twice inside `weight[]`, it becomes a 1 × 1 × 3 array, although it still contains exactly the same 3 values of [.299, .587, .114]. Adding extra axes does not imply any extra cells.
 
-Then what we've done is asked NumPy to elementwise multiply a 256 × 256 × 3 array against a 1 × 1 × 3 array. NumPy puts these shapes side-by-side to figure out that the vector of R, G, B weights in axis 2 of `weight`, is intended to go against axis 2 of the image `orig`, i.e. the R, G, B pixel values. On the other hand, in the `y` and `x` axes NumPy sees something like vector vs. scalar multiplication and so it decides to apply the same vector of R, G, B weights to every pixel of the image. Great!
+Then what we've done is asked NumPy to elementwise multiply a 256 × 256 × 3 array against a 1 × 1 × 3 array. NumPy puts these shapes side-by-side to figure out that the vector of R, G, B weights in axis 2 of `weight`, is intended to go against axis 2 of the image `orig`, i.e. the R, G, B pixel values. On the other hand, in the *y* and *x* axes NumPy sees something like vector vs. scalar multiplication and so it decides to apply the same vector of R, G, B weights to every pixel of the image. Great!
 
-So the new thing we've learned here is that a 1 × 1 × 3 array of weights can stand in for the large and redundant 256 × 256 × 3 array of weights (where the entire red channel was filled with .299, the entire blue channel was filled with .587 and so on). This is the essence of NumPy broadcasting: figure out which axes correspond to which, and either do an elementwise or a vector vs. scalar operation in each axis, and figure out a suitable `Cartesian product' of all of these.
+So the new thing we've learned here is that a 1 × 1 × 3 array of weights can stand in for the large and redundant 256 × 256 × 3 array of weights (where the entire red channel was filled with .299, the entire blue channel was filled with .587 and so on). This is the essence of NumPy broadcasting: figure out which axes correspond to which, and either do an elementwise or a vector vs. scalar operation in each axis, and figure out a suitable \`Cartesian product' of all of these.
 
 ## Conclusion and what we have learnt
 
