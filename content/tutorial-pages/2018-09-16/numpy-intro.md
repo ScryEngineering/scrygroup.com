@@ -83,7 +83,7 @@ sudo apt-get install python3-numpy python3-imageio
 
 Another approach would be to use `pip`, which will download and install the package in a private location that Ubuntu's package manager won't know about. `pip` can sometimes give more up-to-date versions of packages, but I recommend to stick with the distribution's packaged software for standard things like NumPy.
 
-Of course you might also want to use a *virtualenv* or a *docker container* or whatnot. Personally I find these things to be a distraction, and while they have their place I would rather just set up my system for the things I need in the traditional way. I do pay the price though when it comes to moving my projects around.
+Of course you might also want to use a *virtualenv* or a *docker container* or similar. Personally I find these things to be a distraction for a tutorial. You do however pay a price when it comes to moving a project around if you do it this way.
 
 # Image processing with NumPy
 
