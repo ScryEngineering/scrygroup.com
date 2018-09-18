@@ -13,7 +13,7 @@ tags:
     - mathematical modelling
     - mathematical programming
 contentType: "tutorial"
-callToActionText: "Have you got a scheduling or logistics problem that would be helped by a knowledge of modelling and solving technologies? We'd love to hear about it, so fill in the form below with some details. We are adept at backend solving, and more importantly, integrating the solutions into your workflow."
+callToActionText: "Do you have a scheduling or logistics problem that could be improved by a deeper knowledge of modelling and solving technologies? We are experts at solving difficult optimisation problems, and more importantly, integrating the solutions into existing workflows. Interested in talking further? Fill in the form below with some details and we'll get back to you as soon as possible."
 hideCallToAction: false
 ---
 
