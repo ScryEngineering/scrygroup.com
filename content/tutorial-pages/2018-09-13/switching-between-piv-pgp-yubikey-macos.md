@@ -23,7 +23,7 @@ Quick tip on using the PIV and PGP applets simultaneously on a YubiKey on macOS
 
 <!-- end excerpt -->
 
-We use YubiKeys for a variety of purposes, and as this involves using different functionality, we often have to switch between the PGP and PIV applets.
+We use [YubiKeys](https://www.yubico.com/) for a variety of purposes, and as this involves using different functionality, we often have to switch between the PGP and PIV applets.
 
 [PGP](https://en.wikipedia.org/wiki/Pretty_Good_Privacy), or "Pretty Good Privacy", is a format for encrypted messages, cryptographic signatures and keys. Initially developed in 1991 by [Phil Zimmermann](https://en.wikipedia.org/wiki/Phil_Zimmermann), it was later standardised in [RFC4880](https://tools.ietf.org/html/rfc4880) as the [OpenPGP](https://www.openpgp.org/) format. We use PGP to sign [git](https://git-scm.com) commits, for encrypted email, for code and release signing, and so on. The PGP trust model is based on a web of trust.
 
