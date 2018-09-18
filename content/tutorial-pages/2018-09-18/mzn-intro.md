@@ -23,7 +23,8 @@ You want to solve some kind of a combinatorial problem, it involves putting lots
 
 ## Introduction to MiniZinc
 
-In this tutorial we are going to look at an advanced technique of solving industrial problems. I say industrial because this is where the true value of the technique lies, but the technique has also been used for things as trivial as
+In this tutorial we are going to look at an advanced technique of solving industrial problems. I say industrial because this is where the true value of the technique lies, but the technique has also been used for things as trivial as:
+
 * (in abstract) solving the Zebra puzzle: there are 5 houses, the Englishman lives in the red house, the Spaniard owns the dog, etc, etc, ... therefore, who owns the zebra?
 * (in real life) arranging the seating for my PhD supervising professor's family reunion: certain relatives cannot sit together as they will fight, certain relatives must be placed in a certain way so as to reassure them of their status, males and females must be mixed, children must be near their parents, ...
 
@@ -60,7 +61,7 @@ total = die1 + die2
 print(f'You rolled a {total}')
 ```
 
-If you are not familiar with the `assert` statement in Python, you should become so. What it does is to check things are sensible: stop the program if the user did not type a number 1, 2, ..., 6 for each of the die rolls. It is particularly handy for in-house or test programs that don't need to be fancy.
+If you are not familiar with the [`assert` statement](https://docs.python.org/3/reference/simple_stmts.html#the-assert-statement) in Python, you should become so. What it does is to check things are sensible: stop the program if the user did not type a number 1, 2, ..., 6 for each of the die rolls. It is particularly handy for in-house or test programs that don't need to be fancy.
 
 An important part of our presentation today, is that we will make an input file, which can be saved as `dice.in` although the filename is not critical here:
 
@@ -106,7 +107,7 @@ Similarly to what we did in Python, the purpose of the `dzn` file is to allow yo
 
 ## Running the MiniZinc model
 
-Now it is time to run our model. Luckily, the MiniZinc team has done a very good job of packaging MiniZinc for students, researchers, beginners and/or everyone to use directly. At the time of writing, you can download a comprehensive package from [http://www.minizinc.org/software.html], I will not go into detail about installation and other requirements since their page explains it all quite well.
+Now it is time to run our model. Luckily, the MiniZinc team has done a very good job of packaging MiniZinc for students, researchers, beginners and/or everyone to use directly. At the time of writing, you can download a comprehensive package from [the MiniZinc website](http://www.minizinc.org/software.html), I will not go into detail about installation and other requirements since their page explains it all quite well.
 
 In this tutorial, I will be using the command-line MiniZinc since this is my normal practice. You should have no trouble following the examples in the MiniZinc IDE if that is your choice. I downloaded the MiniZinc IDE package since unfortunately the compiler-only package is not there anymore. When I unpack this and `cd` into the root of the package, I see the following directory listing:
 
