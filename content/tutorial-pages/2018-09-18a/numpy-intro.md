@@ -5,12 +5,16 @@ date: "2018-18-09"
 tags:
     - python
     - numpy
-    - colourspace
+    - colour spaces
     - image processing
     - signal processing
+    - number crunching
+    - big data
     - arrays
     - SIMD
 contentType: "tutorial"
+callToActionText: "Do you have Big Data projects which require large amounts of number crunching, statistical analysis, etc? Along with rapid prototyping ability? We'd love to hear about them, so fill in the form below with some details."
+hideCallToAction: false
 ---
 
 You want to deal with bulk data from your Python program. You realise that looping over every cell of a huge array from your Python code would be silly. You also would like the convenience of many kinds of canned routine to transform your data easily and efficiently. Enter NumPy!
@@ -249,7 +253,7 @@ imageio.imsave('test.png', test.astype(numpy.uint8))
 
 Niiice! We are becoming masters of this, we will not explain in detail about how the operations are repeated by NumPy over the various axes because it starts to become obvious once you have played with it a bit. But if you are still having trouble conceptualizing it, consider it like adding 3 matrices in mathematics.
 
-But weight (ahem) wait, there is more! Surely we should not need to type all those `+`s and `\`*s, since NumPy is so good at repeating things for us! Let us put the NTSC weights somewhere, and have NumPy put the weights against the pixel values and do some element-by-element multiplication.
+But weight (ahem) wait, there is more! Surely we should not need to type all those `+`s and `*`s, since NumPy is so good at repeating things for us! Let us put the NTSC weights somewhere, and have NumPy put the weights against the pixel values and do some element-by-element multiplication.
 
 First we'll do it the long way which emphasizes the element-by-element multiplication. Try this out:
 
