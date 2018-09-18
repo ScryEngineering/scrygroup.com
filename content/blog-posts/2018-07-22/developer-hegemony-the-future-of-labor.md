@@ -5,6 +5,10 @@ author: "Aapeli Vuorinen"
 tags:
     - book
     - software
+    - project-management
+    - software-industry
+    - book-review
+    - non-technical
 contentType: "blog"
 ---
 
