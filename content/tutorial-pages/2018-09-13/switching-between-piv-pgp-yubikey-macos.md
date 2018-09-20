@@ -53,3 +53,9 @@ yubico-piv-tool -astatus
 # To use PGP
 gpg --card-status
 ```
+
+## Why this works
+
+The upstream version of GPG does not allow sharing the security device, and holds a lock on it. This was reported to the GPGTools team [here](https://gpgtools.tenderapp.com/discussions/problems/50028-macgpg2-scdaemon-pcsc-open-failed-sharing-violation-0x8010000b), and they patched it to add the configuration flag as explaiend [here](https://gpgtools.tenderapp.com/discussions/problems/50028-macgpg2-scdaemon-pcsc-open-failed-sharing-violation-0x8010000b/page/1#comment_42960303).
+
+See also [this](https://github.com/OpenSC/OpenSC/issues/953) discussion on the OpenSC issue tracker.
