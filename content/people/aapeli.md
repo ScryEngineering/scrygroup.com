@@ -1,7 +1,7 @@
 ---
 name: "Aapeli Vuorinen"
 teamMember: true
-image: "aapeli.png"
+image: "aapeli.jpg"
 url: "https://www.aapelivuorinen.com"
 location: "Australia"
 bio: "Partner / Consultant"

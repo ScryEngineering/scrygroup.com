@@ -1,7 +1,7 @@
 ---
 name: "Nick Downing"
 teamMember: true
-image: "nick.png"
+image: "nick.jpg"
 url: "https://www.customprogrammingsolutions.com"
 location: "Australia"
 bio: "Senior Consultant"

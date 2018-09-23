@@ -1,7 +1,7 @@
 ---
 name: "Janis Lesinskis"
 teamMember: true
-image: "janis.png"
+image: "janis.jpg"
 url: "https://www.lesinskis.com"
 location: "Australia/Canada"
 bio: "Co founder and Partner / Consultant"
