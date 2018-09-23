@@ -4,7 +4,7 @@ teamMember: true
 image: "nick.jpg"
 url: "https://www.customprogrammingsolutions.com"
 location: "Australia"
-bio: "Senior Consultant"
+bio: "Chief Technologist"
 socialUrls:
     - "https://github.com/nickd4"
     - "https://www.linkedin.com/in/nicholas-downing-1b015824/"

@@ -4,7 +4,7 @@ teamMember: true
 image: "aapeli.jpg"
 url: "https://www.aapelivuorinen.com"
 location: "Australia"
-bio: "Partner / Consultant"
+bio: "Senior Technical Consultant"
 socialUrls:
     - "https://github.com/aapeliv"
     - "mailto:aapeli@customprogrammingsolutions.com.au"

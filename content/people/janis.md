@@ -4,7 +4,7 @@ teamMember: true
 image: "janis.jpg"
 url: "https://www.lesinskis.com"
 location: "Australia/Canada"
-bio: "Co founder and Partner / Consultant"
+bio: "Director of Technological Innovation"
 socialUrls:
     - "https://github.com/shuttle1987"
     - "mailto:janis@customprogrammingsolutions.com.au"
