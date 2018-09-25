@@ -45,7 +45,7 @@ echo "shared-access" >> ~/.gnupg/scdaemon.conf
 
 ## Switching between the PIV and PGP applets
 
-Now to switch between the applets, just either of the two commands:
+Now to switch between the applets, just use either of the two commands:
 
 ```
 # To use PIV
