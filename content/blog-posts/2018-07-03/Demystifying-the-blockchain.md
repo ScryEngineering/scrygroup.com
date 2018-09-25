@@ -62,7 +62,7 @@ Before we go on to discuss how exactly this voting mechanism works, we must disc
 
 A [*cryptographically secure hash function*](https://en.wikipedia.org/wiki/Cryptographic_hash_function) is a function that takes as an input an arbitrary number of arbitrary bytes, and produces a fixed length output called a *hash* with a few crucial properties. Essentially, the idea is that the output looks random, and it is very hard to produce inputs that give a certain output hash. This property is known as [pseudorandomness](https://en.wikipedia.org/wiki/Pseudorandomness). More rigorously, the output for any given input should always be the same, the output should be very sensitive to inputs so that changing the input slightly changes the output completely, and finally, given an output it should be almost impossible to create an input that produces that output, and it should even be almost impossible to create two inputs with the same output.
 
-The following snippet of [Python](https://www.python.org/) code illustrating the way in which a slight change in the input drastically changes the output. The hash function used is [SHA-256](https://en.wikipedia.org/wiki/SHA-2), the hashing function used throughout Bitcoin.
+The following snippet of [Python](https://www.python.org/) code illustrates the way in which a slight change in the input drastically changes the output. The hash function used is [SHA-256](https://en.wikipedia.org/wiki/SHA-2), the hashing function used throughout Bitcoin.
 
 ```python
 >>> from hashlib import sha256
