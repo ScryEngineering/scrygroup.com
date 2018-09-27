@@ -13,6 +13,10 @@ tags:
 contentType: "blog"
 ---
 
+A review of Erik Dietrich's book titled Developer Hegemony: The Future of Labor.
+
+<!-- end excerpt -->
+
 In *Developer Hegemony: The Future of Labor*, Erik Dietrich outlines his harsh criticism of the current state of software development -- or in somewhat more general terms anyone who makes a living through non-routine problem solving: what he calls "knowledge work". He also sets out his vision for a more just, better functioning, and more efficient future consisting of "developer hegemony".
 
 Dietrich divides the book into five sections. He starts off with an example of his ideal future company, then backtracks to describe his relatively cynical judgement of corporate software development today, which is followed by a description of the history of the corporation. He then presents almost a guide to winning the current game by throwing your ethics away and playing dirty, and finally he proposes an alternative company structure based on a partnership of "efficiencers".
