@@ -1,7 +1,7 @@
 ---
 title: "Developer Hegemony: The Future of Labor"
 date: "2018-07-22"
-author:
+authors:
     - "Aapeli Vuorinen"
 tags:
     - book
