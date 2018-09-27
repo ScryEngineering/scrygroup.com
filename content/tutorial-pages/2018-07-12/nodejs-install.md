@@ -1,6 +1,7 @@
 ---
 title: "How we install Node.js"
-author: "Janis Lesinskis"
+authors:
+    - "Janis Lesinskis"
 date: "2018-07-12"
 tags:
     - nodejs

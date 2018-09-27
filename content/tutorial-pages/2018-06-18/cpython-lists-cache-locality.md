@@ -1,6 +1,7 @@
 ---
 title: "Cache locality in Python lists"
-author: "Janis Lesinskis"
+authors:
+    - "Janis Lesinskis"
 date: "2018-06-18"
 tags:
     - Python

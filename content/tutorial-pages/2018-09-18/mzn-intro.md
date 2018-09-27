@@ -1,6 +1,7 @@
 ---
 title: "MiniZinc introduction"
-author: "Nick Downing"
+authors:
+    - "Nick Downing"
 date: "2018-09-18"
 tags:
     - minizinc

@@ -1,6 +1,7 @@
 ---
 title: "Python's __hash__ function is not a cryptographic hash"
-author: "Janis Lesinskis"
+authors:
+    - "Janis Lesinskis"
 date: "2018-07-14"
 tags:
     - Python

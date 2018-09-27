@@ -1,6 +1,7 @@
 ---
 title: "Finding the size of Python Objects"
-author: "Janis Lesinskis"
+authors:
+    - "Janis Lesinskis"
 date: "2018-09-04"
 tags:
     - Python

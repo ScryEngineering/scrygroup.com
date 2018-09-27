@@ -1,6 +1,7 @@
 ---
 title: "Moving commits from one repository to another."
-author: "Janis Lesinskis"
+authors:
+    - "Janis Lesinskis"
 date: "2018-05-11"
 tags:
     - Git

@@ -1,7 +1,8 @@
 ---
 title: "Demystifying the blockchain"
 date: "2018-07-03"
-author: "Aapeli Vuorinen"
+authors:
+    - "Aapeli Vuorinen"
 tags:
     - blockchain
     - bitcoin

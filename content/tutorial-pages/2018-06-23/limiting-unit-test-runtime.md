@@ -1,6 +1,7 @@
 ---
 title: "Limiting the runtime of Python unit tests"
-author: "Janis Lesinskis"
+authors:
+    - "Janis Lesinskis"
 date: "2018-06-23"
 tags:
     - Python

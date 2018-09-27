@@ -1,6 +1,7 @@
 ---
 title: "Enforcing foreign key constraints with SQLite"
-author: "Janis Lesinskis"
+authors:
+    - "Janis Lesinskis"
 date: "2018-05-07"
 tags:
     - Python

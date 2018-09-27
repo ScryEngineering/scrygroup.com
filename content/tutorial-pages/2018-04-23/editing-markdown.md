@@ -1,6 +1,7 @@
 ---
 title: "Editing markdown"
-author: "Janis Lesinskis"
+authors:
+    - "Janis Lesinskis"
 date: "2018-04-23"
 tags:
     - markdown

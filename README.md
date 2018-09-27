@@ -80,7 +80,8 @@ Metadata for the various posts is stored in the frontmatter. This is a section a
 ```md
 ---
 title: "Editing markdown"
-author: "Janis Lesinskis"
+authors:
+    - "Janis Lesinskis"
 date: "2018-04-23"
 tags:
     - markdown

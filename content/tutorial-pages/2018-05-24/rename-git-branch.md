@@ -1,6 +1,7 @@
 ---
 title: "Renaming Git branches"
-author: "Janis Lesinskis"
+authors:
+    - "Janis Lesinskis"
 date: "2018-05-24"
 tags:
     - Git
