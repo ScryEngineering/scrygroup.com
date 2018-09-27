@@ -1,6 +1,7 @@
 ---
 title: "Switching between YubiKey's PIV and PGP applets on macOS"
-author: "Aapeli Vuorinen"
+authors:
+    - "Aapeli Vuorinen"
 date: "2018-09-13"
 tags:
     - security

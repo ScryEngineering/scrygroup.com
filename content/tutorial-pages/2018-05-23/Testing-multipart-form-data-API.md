@@ -1,6 +1,7 @@
 ---
 title: "Testing an API that accepts multipart/form-data"
-author: "Janis Lesinskis"
+authors:
+    - "Janis Lesinskis"
 date: "2018-05-23"
 tags:
     - web-development

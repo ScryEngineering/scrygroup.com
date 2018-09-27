@@ -1,6 +1,7 @@
 ---
 title: "Logging uncaught exceptions in Python applications"
-author: "Janis Lesinskis"
+authors:
+    - "Janis Lesinskis"
 date: "2018-02-06"
 tags:
     - exception-handling

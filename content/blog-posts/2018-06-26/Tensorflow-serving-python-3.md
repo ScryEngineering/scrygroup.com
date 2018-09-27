@@ -1,6 +1,7 @@
 ---
 title: "Tensorflow serving now officially supports python3"
-author: "Janis Lesinskis"
+authors:
+    - "Janis Lesinskis"
 date: "2018-06-26"
 tags:
     - Tensorflow

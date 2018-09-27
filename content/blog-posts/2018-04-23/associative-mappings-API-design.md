@@ -1,6 +1,7 @@
 ---
 title: "Associative mappings in language design"
-author: "Janis Lesinskis"
+authors:
+    - "Janis Lesinskis"
 date: "2018-04-23"
 tags:
     - javascript

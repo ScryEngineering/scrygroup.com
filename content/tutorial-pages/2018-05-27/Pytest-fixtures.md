@@ -1,6 +1,7 @@
 ---
 title: "Pytest fixtures with Flask"
-author: "Janis Lesinskis"
+authors:
+    - "Janis Lesinskis"
 date: "2018-05-27"
 tags:
     - Python

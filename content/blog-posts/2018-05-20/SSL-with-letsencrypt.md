@@ -1,6 +1,7 @@
 ---
 title: "Get HTTPS on your site for free!"
-author: "Janis Lesinskis"
+authors:
+    - "Janis Lesinskis"
 date: "2018-05-20"
 tags:
     - SSL

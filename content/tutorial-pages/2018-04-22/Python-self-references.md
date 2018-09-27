@@ -1,6 +1,7 @@
 ---
 title: "Python self references"
-author: "Janis Lesinskis"
+authors:
+    - "Janis Lesinskis"
 date: "2018-04-22"
 tags:
     - Python

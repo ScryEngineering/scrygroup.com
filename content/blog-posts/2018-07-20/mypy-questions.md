@@ -1,6 +1,7 @@
 ---
 title: "A couple of questions about mypy"
-author: "Janis Lesinskis"
+authors:
+    - "Janis Lesinskis"
 date: "2018-07-20"
 tags:
     - python
