@@ -99,4 +99,15 @@ We can see that this has resolved the call to `c.foo()` to `B1.foo` over `B2.foo
 
 This thankfully is a deterministic situation that is goverened by Python's method resolution order.
 
-Since Python 2.3 Python has used the [C3 linearization algorithm](https://en.wikipedia.org/wiki/C3_linearization) to determine the order in which classes are searched.
+[Since version 2.3](https://www.python.org/download/releases/2.3/mro/) Python has used the [C3 linearization algorithm](https://en.wikipedia.org/wiki/C3_linearization) to determine the order in which classes are searched.
+
+## How to investiage the MRO
+
+Let's use the langauge features to see how the MRO works in these cases:
+
+In the simple case:
+
+```python
+C.__class__.mro(C)
+B.__class__.mro(B)
+```
