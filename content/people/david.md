@@ -7,6 +7,7 @@ location: "Canada"
 bio: "Business Development and Canadian Operations Manager"
 socialUrls:
     - "https://www.linkedin.com/in/davidjameslake/"
+    - "https://github.com/Niagaradad"
 shortBlurb: "David is a Business Development and Canadian Operations Manager at Custom Programming Solutions."
 miniBlurb: "David is a Business Development and Canadian Operations Manager at Custom Programming Solutions."
 ---
