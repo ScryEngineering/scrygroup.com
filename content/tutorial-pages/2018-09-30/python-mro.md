@@ -14,21 +14,29 @@ callToActionText: "Have you got a project that requires in depth knowledge of im
 hideCallToAction: false
 ---
 
-Wondered how Python chooses what method to call in complex class hierarchies?
+Wondered how Python chooses what method to call in class hierarchies?
 
 Sample code can be found here: https://github.com/CustomProgrammingSolutions/PythonMRO.git
 
-
-## Figuring out how what method to call
+## Figuring out what method will be called
 
 In an arbitrary class hierarchy we have a graph of dependencies that overall specifies the behaviour of the classes.
 
 When we call a method on a class we have to find some way in which we will look up which method to call.
-To make this work we have to make an ordering in which we will check classes for the methods.
+This order of classes in which a method is searched is the Method Resolution Order (MRO).
 
-What we have to do is to perform a  _linearization_ of this graph to make an ordering with which the interpreter will look up the classes.
+## MRO
+
+When a class is instantiated it calls the function `class.mro` which computes the MRO for this instance and stores this in `__mro__`.
+We can use this to see the ordering.
+
+[Since version 2.3](https://www.python.org/download/releases/2.3/mro/) Python has used the [C3 linearization algorithm](https://en.wikipedia.org/wiki/C3_linearization) to determine the order in which classes are searched.
+
+You can change the `mro` function via a metaclass if you want.
 
 ## A simple example
+
+Single inheritance is the simplest case we will encounter, consider the following class heirarchy:
 
 ![Simple class hierarchy](simple.png)
 
@@ -63,6 +71,15 @@ A
 ```
 
 This is mostly what you'd expect, the derived classes are looked up first and any method not implemented is then searched for in the base class.
+
+```python
+>>> C.__mro__
+[<class '__main__.C'>, <class '__main__.A'>, <class 'object'>]
+>>> B.__mro__
+[<class '__main__.B'>, <class '__main__.A'>, <class 'object'>]
+```
+
+The lookups are as indicated by what's found in `__mro__`.
 
 ## A more complex example
 
@@ -122,39 +139,9 @@ What about `c.bar()`?
 "B2"
 ```
 
-We can see from this that `B2` is checked first before `A` in this case. This thankfully is a deterministic situation that is goverened by Python's method resolution order.
-[Since version 2.3](https://www.python.org/download/releases/2.3/mro/) Python has used the [C3 linearization algorithm](https://en.wikipedia.org/wiki/C3_linearization) to determine the order in which classes are searched.
-
-## How to investiage the MRO
-
-Python provides a method on the class called `__mro__` that will tell you the order in which lookups will be performed. Let's use that langauge features to see how the MRO works in these cases:
-
-In the simple case:
-
-```python
->>> C.__class__.mro(C)
-[<class '__main__.C'>, <class '__main__.A'>, <class 'object'>]
->>> B.__class__.mro(B)
-[<class '__main__.B'>, <class '__main__.A'>, <class 'object'>]
-```
-
-This is what we would expect.
-
-The diamond case:
+We can see from this that `B2` is checked first before `A` in this case. This thankfully is a deterministic situation that is governed by Python's method resolution order.
 
 ```python
 >>> C.__mro__
 (<class '__main__.C'>, <class '__main__.B1'>, <class '__main__.B2'>, <class '__main__.A'>, <class 'object'>)
 ```
-
-## Monotonicity
-
-In the case of multiple inheritance there's a subtle edge case that any sensible methor resolution strategy will have to handle.
-
-A definition:
-
-    A MRO is monotonic when the following is true: if C1 precedes C2 in the linearization of C, then C1 precedes C2 in the linearization of any subclass of C
-
-The reason this matters is because we need a situation where adding any new derived class doesn't change the lookup behavior of any of the base classes it just derived from.
-This property of monotonicity is very useful because otherwise we would get very annoying bugs where classes could change the behavior of other classes in a non-direct manner.
-The C3 linearization that Python uses has this property.
