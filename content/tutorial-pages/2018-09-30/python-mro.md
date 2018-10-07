@@ -145,3 +145,7 @@ We can see from this that `B2` is checked first before `A` in this case. This th
 >>> C.__mro__
 (<class '__main__.C'>, <class '__main__.B1'>, <class '__main__.B2'>, <class '__main__.A'>, <class 'object'>)
 ```
+
+Note that this does not contain any duplicate entries.
+
+## The role of super
