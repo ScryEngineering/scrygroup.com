@@ -27,10 +27,25 @@ This order of classes in which a method is searched is the Method Resolution Ord
 
 ## MRO
 
-When a class is instantiated it calls the function `class.mro` which computes the MRO for this instance and stores this in `__mro__`.
-We can use this to see the ordering.
-
 [Since version 2.3](https://www.python.org/download/releases/2.3/mro/) Python has used the [C3 linearization algorithm](https://en.wikipedia.org/wiki/C3_linearization) to determine the order in which classes are searched.
+
+TODO: rule of thumb about how this works
+
+
+When a class is instantiated it calls the function `class.mro` which computes the MRO for this instance and stores this in `__mro__`.
+We can access this `__mro__` attribute to see the ordering.
+
+Note that the `__mro__` attribute is read only:
+
+```python
+>>> class A:
+...     pass
+...
+>>> A.__mro__ = []
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: readonly attribute
+```
 
 You can change the `mro` function via a metaclass if you want.
 
@@ -70,13 +85,13 @@ B
 A
 ```
 
-This is mostly what you'd expect, the derived classes are looked up first and any method not implemented is then searched for in the base class.
+This is mostly what you'd expect, the derived classes are looked up first and any method that is not implemented is then searched for in the base class.
 
 ```python
->>> C.__mro__
-[<class '__main__.C'>, <class '__main__.A'>, <class 'object'>]
 >>> B.__mro__
 [<class '__main__.B'>, <class '__main__.A'>, <class 'object'>]
+>>> C.__mro__
+[<class '__main__.C'>, <class '__main__.A'>, <class 'object'>]
 ```
 
 The lookups are as indicated by what's found in `__mro__`.
@@ -146,6 +161,8 @@ We can see from this that `B2` is checked first before `A` in this case. This th
 (<class '__main__.C'>, <class '__main__.B1'>, <class '__main__.B2'>, <class '__main__.A'>, <class 'object'>)
 ```
 
-Note that this does not contain any duplicate entries.
+Note that this does not contain any duplicate entries, this is actually guaranteed by the algorithm used.
 
 ## The role of super
+
+TODO: super
