@@ -13,15 +13,19 @@ contentType: "tutorial"
 
 Even before we moved our site to a [JAM stack](https://jamstack.org/) we found that we edited a number of [Markdown](https://en.wikipedia.org/wiki/Markdown) files every day, for example those README.md files on our GitHub repositories and various other bits of documentation.
 
-Because markdown is not [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) unless you have an editor with a built in preview a noticeable hassle when you edit markdown files is that sometimes you have errors that you only notice when you build the pages.
-Having a long feedback loop definitely impacts your productivity, most notably because it risks interrupting the flow of your writing if you have to build the pages to validate that they work.
+## Use an editor that properly supports markdown
+
+Because markdown is not [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) you don't see what the documents look like until they have been rendered.
+As with anything else having a long feedback loop definitely impacts your productivity, most notably because it risks interrupting the flow of your writing if you have to build the pages to validate that they work.
+This post is about how to make a good workflow for editing markdown content that has a short feedback loop.
 Getting any extra efficiency for performing frequent tasks such as this is a noticeable win.
 
-## Use an editor that can properly supports markdown
-
 Using an editor that properly supports markdown is a huge boost to your productivity.
+At a minimum you'll want syntax highlighting and linting for almost all markdown editing workflows.
+If you are blogging or writing technical documentation a spell checker and an automatic preview are also extremely useful.
+The following examples should show what these are worth setting up:
 
-### Syntax highlighting
+## Syntax highlighting
 
 Because Markdown is a markup language an editor that will do proper [syntax highlighting](https://en.wikipedia.org/wiki/Syntax_highlighting) is very useful when editing Markdown files. As such we often edit markdown with [Vim](https://www.vim.org/) or [VS code](https://code.visualstudio.com/).
 
@@ -31,7 +35,7 @@ Just like editing other code you could use any text editor but one that is desig
 
 One really good feature of editors that support Markdown well is that they highlight the code blocks with the same syntax highlighting for that language. This makes writing articles containing code snippets much easier. Notice in this screen-shot how JavaScript and Python are both highlighted properly.
 
-### Live preview
+## Live preview
 
 One of the main issues with editing markdown is you have to render it to see what it looks like.
 Some editors support a live preview where you can see the rendered document side by side as you are writing it.
@@ -45,6 +49,9 @@ Having the live rendering preview gives us almost all the benefits we would want
 
 ## Linting via VS Code plugin
 
+There are a variety of tools that will check that your documents are in the right format and are free of errors.
+Using such tools is helpful but the reduction in feedback loop time from having them directly integrated in your editor is transformative.
+
 Seeing as we use VS Code already we can install a [markdown linter extension](https://github.com/DavidAnson/vscode-markdownlint) that gives immediate linting for our Markdown files.
 
 So for example have a look at this screen-shot from when I was writing a draft for a post on here:
@@ -52,6 +59,8 @@ So for example have a look at this screen-shot from when I was writing a draft f
 ![example of linter UX in VS Code](markdownLinter.png "VS Code markdownlint extension")
 
 Because of the integration with the IDE I'm getting immediate feedback in my editor that something is wrong via those green squiggly underlines, I don't have to generate the pages to catch these errors and every time I can catch a mistake faster is a productivity gain.
+Consider I didn't have a linter, in the best case scenario I'd have spent a few seconds to see this is an issue and fixed it.
+In the worst case scenario I occasionally might have missed the mistake and it could have ended up published to the site, beyond it looking bad the act of fixing that now takes minutes or longer.
 
 ## Spell checking
 
