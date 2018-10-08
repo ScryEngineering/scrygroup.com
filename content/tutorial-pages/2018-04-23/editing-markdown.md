@@ -17,15 +17,31 @@ Because markdown is not [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) unless 
 Having a long feedback loop definitely impacts your productivity, most notably because it risks interrupting the flow of your writing if you have to build the pages to validate that they work.
 Getting any extra efficiency for performing frequent tasks such as this is a noticeable win.
 
-## Use an editor that can properly support markdown
+## Use an editor that can properly supports markdown
+
+Using an editor that properly supports markdown is a huge boost to your productivity.
+
+### Syntax highlighting
 
 Because Markdown is a markup language an editor that will do proper [syntax highlighting](https://en.wikipedia.org/wiki/Syntax_highlighting) is very useful when editing Markdown files. As such we often edit markdown with [Vim](https://www.vim.org/) or [VS code](https://code.visualstudio.com/).
 
-Just like editing other code you could use any text editor but one that is designed for editing code will provide a substantially better user experience for editing. Proper syntax highlighting in particular lets you more readily see the structure of what you are doing and makes it easier to spot mistakes.
+Just like editing other code you could use any text editor but one that is designed for editing code will provide a _substantially_ better user experience for editing. Proper syntax highlighting in particular lets you more readily see the structure of what you are doing and makes it easier to spot mistakes.
 
 ![example of syntax highlighting of code snippets when editing markdown](markdownSyntaxHighlighting.png "Syntax highlighting of embedded code snippets")
 
 One really good feature of editors that support Markdown well is that they highlight the code blocks with the same syntax highlighting for that language. This makes writing articles containing code snippets much easier. Notice in this screen-shot how JavaScript and Python are both highlighted properly.
+
+### Live preview
+
+One of the main issues with editing markdown is you have to render it to see what it looks like.
+Some editors support a live preview where you can see the rendered document side by side as you are writing it.
+When we are writing blog posts we find this to be very useful because we are interested in how the document looks when rendered and this makes the feedback loop time instant.
+
+Take for example the example snippet seen above, this is what it looks like in our editor:
+
+![example of live rendering preview when editing markdown](markdownLivePreview.png "example of live rendering preview of markdown.")
+
+Having the live rendering preview gives us almost all the benefits we would want from a more [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) system without the downsides from such a system (like being unable to use version control software as effectively).
 
 ## Linting via VS Code plugin
 
