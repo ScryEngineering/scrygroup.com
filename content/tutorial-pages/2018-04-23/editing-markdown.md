@@ -13,23 +13,23 @@ contentType: "tutorial"
 
 Even before we moved our site to a [JAM stack](https://jamstack.org/) we found that we edited a number of [Markdown](https://en.wikipedia.org/wiki/Markdown) files every day, for example those README.md files on our GitHub repositories and various other bits of documentation.
 
-## Use an editor that properly supports markdown
+## Use an editor that properly supports Markdown
 
-Because markdown is not [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) you don't see what the documents look like until they have been rendered.
+Because Markdown is not [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) you don't see what the documents look like until they have been rendered.
 As with anything else having a long feedback loop definitely impacts your productivity, most notably because it risks interrupting the flow of your writing if you have to build the pages to validate that they work.
-This post is about how to make a good workflow for editing markdown content that has a short feedback loop.
+This post is about how to make a good workflow for editing Markdown content that has a short feedback loop.
 Getting any extra efficiency for performing frequent tasks such as this is a noticeable win.
 
-Using an editor that properly supports markdown is a huge boost to your productivity.
-At a minimum you'll want syntax highlighting and linting for almost all markdown editing workflows.
+Using an editor that properly supports Markdown is a huge boost to your productivity but comes at no extra cost (it's a classic example of a non-tradeoff).
+At a minimum you'll want syntax highlighting and linting for almost all Markdown editing workflows.
 If you are blogging or writing technical documentation a spell checker and an automatic preview are also extremely useful.
-The following examples should show what these are worth setting up:
+The following examples should show why these are worth setting up:
 
 ## Syntax highlighting
 
-Because Markdown is a markup language an editor that will do proper [syntax highlighting](https://en.wikipedia.org/wiki/Syntax_highlighting) is very useful when editing Markdown files. As such we often edit markdown with [Vim](https://www.vim.org/) or [VS code](https://code.visualstudio.com/).
+Because Markdown is a markup language an editor that will do proper [syntax highlighting](https://en.wikipedia.org/wiki/Syntax_highlighting) is very useful when editing Markdown files. As such we often edit Markdown with [Vim](https://www.vim.org/) or [VS code](https://code.visualstudio.com/).
 
-Just like editing other code you could use any text editor but one that is designed for editing code will provide a _substantially_ better user experience for editing. Proper syntax highlighting in particular lets you more readily see the structure of what you are doing and makes it easier to spot mistakes.
+Since Markdown is stored in plain text you could use any text editor but one that is designed for editing code will provide a _substantially_ better user experience for editing. Proper syntax highlighting in particular lets you more readily see the structure of what you are doing and makes it easier to spot mistakes.
 
 ![example of syntax highlighting of code snippets when editing markdown](markdownSyntaxHighlighting.png "Syntax highlighting of embedded code snippets")
 
@@ -37,13 +37,13 @@ One really good feature of editors that support Markdown well is that they highl
 
 ## Live preview
 
-One of the main issues with editing markdown is you have to render it to see what it looks like.
+One of the main issues with editing Markdown is you have to render it to see what it looks like.
 Some editors support a live preview where you can see the rendered document side by side as you are writing it.
 When we are writing blog posts we find this to be very useful because we are interested in how the document looks when rendered and this makes the feedback loop time instant.
 
 Take for example the example snippet seen above, this is what it looks like in our editor:
 
-![example of live rendering preview when editing markdown](markdownLivePreview.png "example of live rendering preview of markdown.")
+![example of live rendering preview when editing Markdown](markdownLivePreview.png "example of live rendering preview of Markdown.")
 
 Having the live rendering preview gives us almost all the benefits we would want from a more [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) system without the downsides from such a system (like being unable to use version control software as effectively).
 
@@ -52,7 +52,7 @@ Having the live rendering preview gives us almost all the benefits we would want
 There are a variety of tools that will check that your documents are in the right format and are free of errors.
 Using such tools is helpful but the reduction in feedback loop time from having them directly integrated in your editor is transformative.
 
-Seeing as we use VS Code already we can install a [markdown linter extension](https://github.com/DavidAnson/vscode-markdownlint) that gives immediate linting for our Markdown files.
+Seeing as we use VS Code already we can install a [Markdown linter extension](https://github.com/DavidAnson/vscode-Markdownlint) that gives immediate linting for our Markdown files.
 
 So for example have a look at this screen-shot from when I was writing a draft for a post on here:
 
