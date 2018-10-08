@@ -1,5 +1,5 @@
 ---
-title: "Open sourcing the Persephone library"
+title: "Improving the Persephone library"
 date: "2018-02-21"
 tags:
     - project-management
