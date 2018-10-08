@@ -1,5 +1,5 @@
 ---
-title: "Editing markdown"
+title: "Markdown editing workflows"
 authors:
     - "Janis Lesinskis"
 date: "2018-04-23"
