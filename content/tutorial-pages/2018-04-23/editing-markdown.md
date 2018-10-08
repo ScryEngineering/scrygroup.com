@@ -12,6 +12,7 @@ contentType: "tutorial"
 ---
 
 Even before we moved our site to a [JAM stack](https://jamstack.org/) we found that we edited a number of [Markdown](https://en.wikipedia.org/wiki/Markdown) files every day, for example those README.md files on our GitHub repositories and various other bits of documentation.
+Here's some of the things we have found helpful in making a good workflow for editing Markdown documents.
 
 ## Use an editor that properly supports Markdown
 
