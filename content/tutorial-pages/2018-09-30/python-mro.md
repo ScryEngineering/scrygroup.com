@@ -25,15 +25,28 @@ In an arbitrary class hierarchy we have a graph of dependencies that overall spe
 When we call a method on a class we have to find some way in which we will look up which method to call.
 This order of classes in which a method is searched is the Method Resolution Order (MRO).
 
-## MRO
+## Python's MRO
 
 [Since version 2.3](https://www.python.org/download/releases/2.3/mro/) Python has used the [C3 linearization algorithm](https://en.wikipedia.org/wiki/C3_linearization) to determine the order in which classes are searched.
 
-TODO: rule of thumb about how this works
+In a single inheritance case you just look recursively at each base class until that Base class has no parents.
+Given that every class in Python inherits from `object` that will always be the ending point for the search.
 
+Multiple inheritance is a bit more complex, the [documentation on inheritance](https://docs.python.org/3/tutorial/classes.html#inheritance) has an example of how this works with a rule of thumb that should help in understanding the process:
 
-When a class is instantiated it calls the function `class.mro` which computes the MRO for this instance and stores this in `__mro__`.
-We can access this `__mro__` attribute to see the ordering.
+```python
+class DerivedClassName(Base1, Base2, Base3):
+    <statement-1>
+    .
+    .
+    .
+    <statement-N>
+```
+
+    For most purposes, in the simplest cases, you can think of the search for attributes inherited from a parent class as depth-first, left-to-right, not searching twice in the same class where there is an overlap in the hierarchy. Thus, if an attribute is not found in DerivedClassName, it is searched for in Base1, then (recursively) in the base classes of Base1, and if it was not found there, it was searched for in Base2, and so on.
+
+When any class is instantiated it calls the function `class.mro` which computes the MRO for this instance and stores this in `__mro__`.
+We can access this `__mro__` attribute to see the ordering with which any attribute search will use.
 
 Note that the `__mro__` attribute is read only:
 
@@ -51,7 +64,7 @@ You can change the `mro` function via a metaclass if you want.
 
 ## A simple example
 
-Single inheritance is the simplest case we will encounter, consider the following class heirarchy:
+Single inheritance is the simplest case we will encounter, consider the following class hierarchy:
 
 ![Simple class hierarchy](simple.png)
 
@@ -154,14 +167,16 @@ What about `c.bar()`?
 "B2"
 ```
 
-We can see from this that `B2` is checked first before `A` in this case. This thankfully is a deterministic situation that is governed by Python's method resolution order.
+We can see from this that `B2` is checked first before `A` in this case.
+Dealing with multiple classes on the same level of the inheritance graph is a deterministic situation governed by Python's method resolution order.
+(The rule of thumb states that left-to-right is the order of classes)
 
 ```python
 >>> C.__mro__
 (<class '__main__.C'>, <class '__main__.B1'>, <class '__main__.B2'>, <class '__main__.A'>, <class 'object'>)
 ```
 
-Note that this does not contain any duplicate entries, this is actually guaranteed by the algorithm used.
+Note that this does not contain any duplicate entries, which is guaranteed by the algorithm used.
 
 ## The role of super
 
