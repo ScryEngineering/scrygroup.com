@@ -37,10 +37,10 @@ Now enter in a number between `00` and `ff` in the box (this must be unique for 
 
 This will associate that `/64` block of IPv6 addresses to that subnet (this is \\(2^{64}\\) addresses).
 
-## Allocation an IPv6 address to a new EC2 instance
+## Allocating an IPv6 address to a new EC2 instance
 
 Proceed through the configuration wizard like normal, but at `Step 3: Configure Instance Details`, you need to explicitly choose a subnet which has an IPv6 address block. You can then choose to `Auto-assign IPv6 IP`.
 
-## Allocation an IPv6 address to an existing EC2 instance or Elastic network interface
+## Allocating an IPv6 address to an existing EC2 instance or Elastic network interface
 
 Go to the EC2 console and choose the instance you want to add an IPv6 address to. Right click it and choose `Networking > Manage IP addresses` (or just `Manage IP addresses` for an Elastic network interface), then under `IPv6 Addresses`, choose `Assign new IP`. You can then either auto-assign an address within the right range, or choose one yourself.
