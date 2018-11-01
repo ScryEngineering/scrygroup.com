@@ -178,6 +178,30 @@ Dealing with multiple classes on the same level of the inheritance graph is a de
 
 Note that this does not contain any duplicate entries, which is guaranteed by the algorithm used.
 
+### All multiple inheritance in Python has a diamond topology embedded in it
+
+The diamond pattern for illustrating a multiple inheritance trouble zone is a bit of a cliche in other languages because you can often structure your classes to not do this with a bit of work.
+
+However all classes in Python inherit from `object` which means that any time you have inherited from multiple classes you effectively have a diamond pattern with `object` at the base.
+
+For example:
+
+```python
+class B1:
+    pass
+
+class B2:
+    pass
+
+class Derived(B1, B2):
+    pass
+```
+
+Will have a topology like this:
+
+![Multiple base class hierarchy](multiple_bases.png "We still have a diamond here in the hierarchy even though it was not expressed explicitly in the code.")
+
+
 ## The role of super
 
 TODO: super
