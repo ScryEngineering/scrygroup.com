@@ -181,3 +181,8 @@ Note that this does not contain any duplicate entries, which is guaranteed by th
 ## The role of super
 
 TODO: super
+
+Super calls the next method along in the MRO chain.
+Note that this is NOT necessarily the same as the superclass.
+
+The [Dylan language](https://en.wikipedia.org/wiki/Dylan_(programming_language)), which influenced Python's MRO development, refers to this as [the `next-method` function](https://opendylan.org/books/drm/Method_Dispatch#XREF-858) which more clearly explains what it does.
