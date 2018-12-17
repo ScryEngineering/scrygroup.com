@@ -17,3 +17,5 @@ hideCallToAction: false
 On Thursday I presented a talk about how CPython manages memory at the [Melbourne Python Users Group](https://wiki.python.org/moin/MelbournePUG).
 
 The talk slides can be found here: https://github.com/CustomProgrammingSolutions/python-memory-management-talk
+
+There's a number of notes in the slides so check out the presenter mode (by pressing `p`) to see those notes.
