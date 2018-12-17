@@ -19,3 +19,5 @@ On Thursday I presented a talk about how CPython manages memory at the [Melbourn
 The talk slides can be found here: https://github.com/CustomProgrammingSolutions/python-memory-management-talk
 
 There's a number of notes in the slides so check out the presenter mode (by pressing `p`) to see those notes.
+
+We would like to extend our thanks to [Python Charmers](https://pythoncharmers.com/) for hosting the event!
