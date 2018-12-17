@@ -28,14 +28,21 @@ Which we want to then be able to use via an installed pacakge via `from hello_wo
 
 ## Python packaging
 
-When you issue a command such as `pip install path/to/package` you are installing a package specified at that path. [The way this works internally](https://pip.pypa.io/en/stable/reference/pip_install/#usage) is that pip will go to that path and will look for a `setup.py` file which it will then execute.
+[From the docs](https://pip.pypa.io/en/stable/reference/pip_install/#overview) the way `pip install` works is as follows:
 
+1. Identify the base requirements. The user supplied arguments are processed here.
+2. Resolve dependencies. What will be installed is determined here.
+3. Build wheels. All the dependencies that can be are built into wheels.
+4. Install the packages (and uninstall anything being upgraded/replaced).
+
+When you issue a command such as `pip install path/to/package` pip will go to that path and will resolve the dependencies found there. If the package dependencies are successfully installed `pip` will then it will attempt to install your package into the site-pacakges directory.
+
+How it installs this is determined by the contents of the `setup.py` file.
 Within that `setup.py` file you will need to specify a function called `setup` that will define how your package is installed.
-
 
 ## Filesystem conventions
 
-For tools such as pip to work you need to follow some filesystem conversions, specifically this is what the sample repository includes:
+For tools such as pip to work you need to follow some filesystem conventions, specifically this is what the sample repository includes:
 
 ```sh
 $ tree .
@@ -48,8 +55,36 @@ $ tree .
 
 ```
 
-In this structure `setup.py` must be found at the top level as pip will look here for how to install your package. It will then execute this file to install your package.
+In this structure `setup.py` must be found at the top level as pip will look here for how to install your package. It will then execute this `setup.py` file to install your package.
 
 ## The anatomy of setup.py
 
-When we execute `setup.py` we are installing 
+The setup.py file in this example includes the following:
+
+```python
+from setuptools import setup
+
+setup(name='hello_world',
+      version='0.0.1',
+      description='Shows how to use setup.py',
+      url='https://www.customprogrammingsolutions.com',
+      author='Janis Lesinskis',
+      license='GPLv3',
+      packages=['hello_world'],
+      classifiers = [
+          'Development Status :: 4 - Beta',
+          'Intended Audience :: Developers',
+          'Programming Language :: Python',
+          'Programming Language :: Python :: 3.5',
+          'Programming Language :: Python :: 3.6',
+      ],
+      keywords='tutorial',
+      include_package_data = True,
+)
+```
+
+The most important arguments to `setup` are the following:
+
+* The `name` which will be the directory your package is installed in.
+* The `version` of your package, semantic versioning is a good choice for this.
+* The `packages` which specifies the directories that the installed packages reside in. in this case `hello_world` is the directory where our code resides in.
