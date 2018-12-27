@@ -1,5 +1,5 @@
 ---
-title: "Limiting the runtime of Python unit tests"
+title: Cpython internals talk at Melbourne Python Users Group"
 authors:
     - "Janis Lesinskis"
 date: "2018-11-17"
