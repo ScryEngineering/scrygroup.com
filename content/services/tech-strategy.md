@@ -1,6 +1,7 @@
 ---
 name: "Tech strategy"
-
+callToActionText: "Want to learn more about how tech strategy can help your firm be more efficient and profitable? Fill in the form below and we would be happy to start a discussion."
+draft: true
 ---
 Technology exists in a broader context in businesses and organizations.
 Even in the most technological of projects there will always be important non-technical components.
