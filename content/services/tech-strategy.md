@@ -1,3 +1,7 @@
+---
+name: "Tech strategy"
+
+---
 Technology exists in a broader context in businesses and organizations.
 Even in the most technological of projects there will always be important non-technical components.
 We have had an ongoing interest in the context of which tech projects are done.
