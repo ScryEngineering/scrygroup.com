@@ -7,6 +7,7 @@ draft: true
 The power of mathematical optimization to improve organizational efficiency has been known for over 50 years now. The big change is in just how much more accessible it is now.
 
 Mathematical optimization is now accessible to all sized organization that have the mathematical optimization algorithms expertise.
+Some have proclaimed that the ["Compute moats are dead"](https://smerity.com/articles/2018/limited_compute.html) and that computing power is no longer the barrier to entry it used to be for profitable mathematical optimization and [machine learning](/services/machine-learning) to be put to profitable use.
 
 ![Cray1 supercomputer](https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Cray-1_%281%29.jpg/480px-Cray-1_%281%29.jpg)
 
