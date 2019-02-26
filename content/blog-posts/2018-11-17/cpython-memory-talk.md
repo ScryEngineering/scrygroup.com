@@ -8,6 +8,7 @@ tags:
     - talks
     - community
     - unit-tests
+    - CPython
 contentType: "blog"
 callToActionText: "Are you looking to improve the memory footprint of your Python programs? Fill in the form below with some details and one of our Python experts will get back to you."
 hideCallToAction: false
