@@ -1,7 +1,7 @@
 ---
 name: "Data science"
 callToActionText: ""
-hideCallToAction: true
+hideCallToAction: We'd love to learn more about your data science and analytics requirements. Contact us today.
 ---
 
 # Data science 
