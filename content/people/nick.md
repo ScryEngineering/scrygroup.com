@@ -1,6 +1,6 @@
 ---
 name: "Nick Downing"
-teamMember: true
+teamMember: false
 image: "nick.jpg"
 url: "https://www.customprogrammingsolutions.com"
 location: "Australia"
