@@ -14,7 +14,7 @@ This is actually happening today. With more data being generated in the 21st cen
 
 ## What is machine learning? 
 
-Machine learning (a sub-field of artificial intelligence) is the process of creating functionality trained from data. A by-product of both traditional statistics and computer science, it involves algorithms and statistical models that computer systems use to effectively perform a specific task. 
+Machine learning is the process of creating functionality trained from data. A by-product of both traditional statistics and computer science, it involves algorithms and statistical models that computer systems use to effectively perform a specific task. 
 
 The computer systems rely on patterns and inference  instead of explicit instructions. The more data we have, the better the statistical model will be, which will result in a more accurate outcome.
 
@@ -65,9 +65,11 @@ That's where we can help. With years of practical experience in machine learning
 
 Related competencies: 
 
-Operations research will often use approaches and algorithms from machine learning in practical settings 
+Operations research will often use approaches and algorithms from machine learning in practical settings. 
 
-Systems architecture has an enormous impact on the effectiveness  of a machine learning rollout since machine learning is a very complex field. In general, machine learning is a very resource intensive activity that's often bounded by resources available, this puts more stress on good systems architecture design.
+Systems architecture has an enormous impact on the effectiveness  of a machine learning rollout since machine learning is a very complex field. In general, machine learning is a very resource intensive activity that's often bounded by resources available. This puts more stress on good systems architecture design. Custom Programming Solutions builds real-time machine learning systems, which have different, more stringent requirements on performance and latency. 
+
+
 
 
 
