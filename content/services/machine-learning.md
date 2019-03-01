@@ -6,38 +6,38 @@ draft: true
 
 
 
-# Machine Learning and artificial intelligence
+# Machine Learning 
 
-We can train machines to "learn" from past data and do what humans do, faster.
+Wouldn't it be great if you didn't have to spend late nights combing through spreadsheets of mind-numbing data to pull insights for that quarterly meeting or annual report? What if you had a machine do it for you?
 
-The more data we have, the better the statistical model will be, which will result in a more accurate outcome.
+This is actually happening today. With more data being generated in the 21st century than any other time in history, our computers' memory capacities have vastly increased, meaning they can process data without delay. We can train machines to learn from past data and do what humans do, faster. 
 
 ## What is machine learning? 
 
-Machine learning is the process of creating functionality trained from data. A by-product of both traditional statistics and computer science, it involves algorithms and statistical models that computer systems use to effectively perform a specific task. 
+Machine learning (a sub-field of artificial intelligence) is the process of creating functionality trained from data. A by-product of both traditional statistics and computer science, it involves algorithms and statistical models that computer systems use to effectively perform a specific task. 
 
-The computer systems rely on patterns and inference  instead of explicit instructions. 
+The computer systems rely on patterns and inference  instead of explicit instructions. The more data we have, the better the statistical model will be, which will result in a more accurate outcome.
 
-Machines learn by machine learning methods. These methods are classified as supervised, unsupervised or semi-supervised (reinforcement) learning.
+Machines learn by machine learning methods, which are classified as supervised, unsupervised or semi-supervised (reinforcement) learning.
 
 **Supervised learning**
 
-Supervised learning uses input and output data labeled by humans to train the model. The algorithm learns by comparing actual output with taught output to find mistakes and change the model, then uses patterns to predict values on additional unlabeled data.
+Supervised learning uses input and output data labeled by humans to train the model. The algorithm learns by comparing actual output with taught output to find mistakes and change the model, then uses patterns to predict values on additional unlabeled data. For example, you could feed an algorithm data with images of bees labeled as insects and images of lilacs labeled as flowers. The algorithm should then be able to detect unlabeled images of bees as insects and  unlabeled images of lilacs as flowers.  
 
 
 **Unsupervised learning**
 
-Unsupervised learning doesn't provide the algorithm with any labeled data (using unlabeled data to train the model), allowing it to find structure within the data that's entered. The algorithm finds commonalities among input data, sometimes discovering hidden patterns within a data set to organize it in meaningful ways. 
+Unsupervised learning doesn't provide the algorithm with any labeled data (using unlabeled data to train the model), allowing it to find structure within the data that's entered. The algorithm finds commonalities among input data, sometimes discovering hidden patterns within a data set to organize it in meaningful ways. For example, a zoo or animal rescue sanctuary could use untagged photos of birds as input data for an algorithm to find similarities and classify bird photos in the same group. Another common use case is in the finance and insurance industries, which often use unsupervised learning to detect anomalies in a bid to find fraud.
 
 **Semi-supervised learning**
 
-Semi-supervised (or reinforcement) learning is behavior-based. The model is rewarded based on how it behaves, and makes decisions to earn as many rewards as possible. 
-
-
+Semi-supervised (or reinforcement) learning is behavior-based. The model is rewarded based on how it behaves, which means it learns from feedback and makes decisions to earn as many rewards as possible. 
 
 
 
 ## What machine learning can do for you
+
+Machine learning can help your organization discover new efficiencies, potential product lines or profitable ventures. 
 
 Machine Learning algorithms are used when it would be impractical to build an algorithm to provide specific instructions to perform the task, including:
 
@@ -51,19 +51,15 @@ Machine Learning algorithms are used when it would be impractical to build an al
 
 Machine learning lets you build efficiency into your business. By automating tedious tasks, you and your staff can take on higher value work to bring in more revenue.
 
+
+
 ## Why work with us?
 
-With machine learning projects, it's imperative that the right data is chosen and the right problems identified during the discovery phase. Without highly specialized expertise in machine learning, you could end up wasting valuable time and revenue solving the wrong problem. 
+It's imperative that the right data is chosen and the right problems identified during the discovery phase of any machine learning project. Without highly specialized expertise in the field, you could end up wasting valuable time and revenue solving the wrong problem. 
 
-That's where we can help. With years of practical experience in machine learning and artificial intelligence, we create and deploy machine learning systems with a wide range of applications, including Natural Language Processing and associated work.
+That's where we can help. With years of practical experience in machine learning and artificial intelligence, we create and deploy machine learning systems with a wide range of applications, including Natural Language Processing and associated work. We guide you through every critical decision, from planning to packaging and launch stages. 
 
-You need someone with the expertise and practical experience to act as your partner, from the first conversation about your project to the packaging and launch stages. 
 
-We help you prioritize tasks so you achieve the highest possible return on your investment
-
-We have been involved in machine learning for many years now and have followed the various developments in the field.
-
-We can create and deploy machine learning systems with a wide range of applications, including Natural Language Processing and associated work. 
 
 
 
