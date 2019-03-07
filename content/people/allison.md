@@ -1,3 +1,14 @@
+---
+name: "Allison Smith"
+teamMember: true
+url: "https://www.aesmithwriting.com/"
+location: "Canada"
+bio: "Content and SEO expert"
+socialUrls:
+    - "https://twitter.com/aesmithwriting"
+shortBlurb: "Allison's short blurb"
+miniBlurb: "Allison's mini blurb"
+---
 
 Allison's valuable combination of copywriting, research and journalistic style storytelling skills has proven to be an invaluable asset to Custom Programming Solutions.
 
