@@ -2,7 +2,6 @@
 name: "Nick Downing"
 teamMember: false
 image: "nick.jpg"
-url: "https://www.customprogrammingsolutions.com"
 location: "Australia"
 bio: "Chief Technologist"
 socialUrls:
