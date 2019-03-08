@@ -1,6 +1,6 @@
 ---
 title: "Simplistic heuristics for productivity are damaging"
-date: "2018-08-10"
+date: "2019-03-13"
 author: "Janis Lesinskis"
 tags:
     - productivity
