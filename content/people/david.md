@@ -2,7 +2,6 @@
 name: "David Lake"
 teamMember: true
 image: "david.jpg"
-url: "https://www.customprogrammingsolutions.com"
 location: "Canada"
 bio: "Business Development and Canadian Operations Manager"
 socialUrls:
