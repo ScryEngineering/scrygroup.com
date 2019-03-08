@@ -1,5 +1,5 @@
 ---
-title: "Simplistic heuristics for productivity are damaging"
+title: "Simplistic heuristics for software development productivity are damaging"
 date: "2019-03-13"
 author: "Janis Lesinskis"
 tags:
