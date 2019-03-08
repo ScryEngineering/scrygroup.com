@@ -6,6 +6,8 @@ tags:
     - productivity
     - management
     - software-engineering
+    - KPIs
+    - heuristics
 contentType: "blog"
 callToActionText: "Looking to improve your understanding of software projects and how this relates to managing smart software teams? Fill in the form below if you would like to discuss how we can help."
 hideCallToAction: false
