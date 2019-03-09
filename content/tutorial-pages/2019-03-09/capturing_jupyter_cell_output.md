@@ -11,14 +11,12 @@ callToActionText: "Have you got a project that requires in depth knowledge of Py
 hideCallToAction: false
 ---
 
-
-See the notebook [source on Github](https://github.com/CustomProgrammingSolutions/jupyter_examples/blob/master/CaptureOutputFromCell.ipynb)
-
 One thing you may want to do is to capture all of the output of a cell in a jupyter notebook.
 You might also not want to change your code, here's how you can do that...
 
 <!-- end excerpt -->
 
+See the [notebook source on Github](https://github.com/CustomProgrammingSolutions/jupyter_examples/blob/master/CaptureOutputFromCell.ipynb)
 
 For example say you have this cell:
 
