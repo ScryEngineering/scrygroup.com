@@ -1,22 +1,22 @@
 ---
-title: "How to capture the standard output stream from a jupyter notebook cell"
+title: "How to capture the standard output stream from a Jupyter notebook cell"
 authors:
     - "Janis Lesinskis"
 date: "2019-03-09"
 tags:
     - Python
-    - jupyter
+    - Jupyter
 contentType: "tutorial"
 callToActionText: "Have you got a project that requires in depth knowledge of Python or Jupyter notebooks? We'd love to hear about it so fill in the form below with some details."
 hideCallToAction: false
 ---
 
-One thing you may want to do is to capture all of the standard output stream from a cell in a jupyter notebook.
+One thing you may want to do is to capture all of the standard output stream from a cell in a Jupyter notebook.
 You might also not want to change your code, here's how you can do that...
 
 <!-- end excerpt -->
 
-See the [notebook source on Github](https://github.com/CustomProgrammingSolutions/jupyter_examples/blob/master/CaptureOutputFromCell.ipynb)
+See the [notebook source on Github](https://github.com/CustomProgrammingSolutions/Jupyter_examples/blob/master/CaptureOutputFromCell.ipynb)
 
 For example say you have this cell:
 
