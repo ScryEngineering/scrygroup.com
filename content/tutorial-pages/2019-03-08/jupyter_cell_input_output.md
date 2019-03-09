@@ -17,7 +17,7 @@ Wondered what those `In[10]` and `Out[10]` things are in your Jupyter notebooks 
 
 See the [notebook source on Github](https://github.com/CustomProgrammingSolutions/Jupyter_examples/blob/master/CellInputsAndOutputs.ipynb)
 
-[Jupyter notebooks](https://Jupyter.org/) are a powerful browser based interactive computing notebook that makes it super easy to make high quality presentations of data. Jupyter has got popular in recent years because it lends itself very well to data science tasks as it makes it easy to work with data and create nice visualizations and reports from within the browse.
+[Jupyter notebooks](https://Jupyter.org/) are a powerful browser based interactive computing notebook that makes it super easy to make high quality presentations of data. Jupyter has got popular in recent years because it lends itself very well to data science tasks as it makes it easy to work with data and create nice visualizations and reports from within the browser.
 
 These notebooks are built on top of [IPython](https://ipython.org/) which provides the kernel that Jupyter notebooks run on top of. So in the background the code is sent to the kernel where it is then run (unlike JavaScript the code doesn't run in the browser).
 
@@ -29,7 +29,7 @@ Here's a fairly simple example of a Jupyter notebook:
 
 Breaking this down a but we see on the first line marked with `In[1]` that we have defined some items in a list.
 
-On the second line we output a single item and because it's the last item executed it gets placed into the output for that cell which is `Out[2]` (note that this is just the default behavior, you can change this if you want).
+On the second line we output a single item, and because it's the last item executed it gets placed into the output for that cell which is `Out[2]` (note that this is just the default behavior, you can change this if you want).
 
 You can interact directly with the `In` and `Out` from within cells themselves like so:
 
