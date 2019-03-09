@@ -1,6 +1,7 @@
 ---
 name: "Allison Smith"
 teamMember: true
+image: "allison.jpg"
 url: "https://www.aesmithwriting.com/"
 location: "Canada"
 bio: "Copywriter and content wrangler"
