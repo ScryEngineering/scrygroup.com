@@ -12,6 +12,10 @@ hideCallToAction: false
 ---
 
 One thing you may want to do is to capture all of the output of a cell in a jupyter notebook.
+You might also not want to change your code, here's how you can do that...
+
+<!-- end excerpt -->
+
 
 For example say you have this cell:
 
