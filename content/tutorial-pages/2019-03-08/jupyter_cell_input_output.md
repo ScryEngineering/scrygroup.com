@@ -17,9 +17,9 @@ Wondered what those `In[10]` and `Out[10]` things are in your jupyter notebooks 
 
 See the [notebook source on Github](https://github.com/CustomProgrammingSolutions/jupyter_examples/blob/master/CellInputsAndOutputs.ipynb)
 
-[jupyter notebooks](https://jupyter.org/) are a powerful browser based interactive computing notebook that makes it super easy to make high quality presentations of data.
+[jupyter notebooks](https://jupyter.org/) are a powerful browser based interactive computing notebook that makes it super easy to make high quality presentations of data. Jupyter has got popular in recent years because it lends itself very well to data science tasks as it makes it easy to work with data and create nice visualizations and reports from within the browse.
 
-These notebooks are built on top of [IPython](https://ipython.org/) which provides the kernel that jupyter notebooks run on top of.
+These notebooks are built on top of [IPython](https://ipython.org/) which provides the kernel that jupyter notebooks run on top of. So in the background the code is sent to the kernel where it is then run (unlike javascript the code doesn't run in the browser).
 
 The nature of the interactivity is such that the input and outputs are not based on the traditional file based structure but on cells that get executed in a certain order.
 
