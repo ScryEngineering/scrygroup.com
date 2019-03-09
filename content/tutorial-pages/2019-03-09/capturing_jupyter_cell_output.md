@@ -1,5 +1,5 @@
 ---
-title: "How to capture the output from a jupyter notebook cell"
+title: "How to capture the standard output stream from a jupyter notebook cell"
 authors:
     - "Janis Lesinskis"
 date: "2019-03-09"
@@ -11,7 +11,7 @@ callToActionText: "Have you got a project that requires in depth knowledge of Py
 hideCallToAction: false
 ---
 
-One thing you may want to do is to capture all of the output of a cell in a jupyter notebook.
+One thing you may want to do is to capture all of the standard output stream from a cell in a jupyter notebook.
 You might also not want to change your code, here's how you can do that...
 
 <!-- end excerpt -->
@@ -41,7 +41,8 @@ Item 8: is c
 Item 9: is a
 ```
 
-You may want to extract that output into a variable. In a simple case like this you might just want to change the code, but if you don't want to change the code for whatever reason you can still do this.
+If you can change the code you could easily just build a string instead of printing.
+In a simple case like this you might just want to change the code, but if you don't want to change the code for whatever reason (like it's a big chunk of code) you can still achieve this result.
 
 Jupyter provides a magic cell command called `%%capture` that allows you to capture all of to outputs from that cell.
 
