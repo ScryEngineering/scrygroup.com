@@ -1,29 +1,29 @@
 ---
-title: "How to work with jupyter notebook cell input and output"
+title: "How to work with Jupyter notebook cell input and output"
 authors:
     - "Janis Lesinskis"
 date: "2019-03-08"
 tags:
     - Python
-    - jupyter
+    - Jupyter
 contentType: "tutorial"
 callToActionText: "Have you got a project that requires in depth knowledge of Python or Jupyter notebooks? We'd love to hear about it so fill in the form below with some details."
 hideCallToAction: false
 ---
 
-Wondered what those `In[10]` and `Out[10]` things are in your jupyter notebooks and how to make use of them?
+Wondered what those `In[10]` and `Out[10]` things are in your Jupyter notebooks and how to make use of them?
 
 <!-- end excerpt -->
 
-See the [notebook source on Github](https://github.com/CustomProgrammingSolutions/jupyter_examples/blob/master/CellInputsAndOutputs.ipynb)
+See the [notebook source on Github](https://github.com/CustomProgrammingSolutions/Jupyter_examples/blob/master/CellInputsAndOutputs.ipynb)
 
-[jupyter notebooks](https://jupyter.org/) are a powerful browser based interactive computing notebook that makes it super easy to make high quality presentations of data. Jupyter has got popular in recent years because it lends itself very well to data science tasks as it makes it easy to work with data and create nice visualizations and reports from within the browse.
+[Jupyter notebooks](https://Jupyter.org/) are a powerful browser based interactive computing notebook that makes it super easy to make high quality presentations of data. Jupyter has got popular in recent years because it lends itself very well to data science tasks as it makes it easy to work with data and create nice visualizations and reports from within the browse.
 
-These notebooks are built on top of [IPython](https://ipython.org/) which provides the kernel that jupyter notebooks run on top of. So in the background the code is sent to the kernel where it is then run (unlike javascript the code doesn't run in the browser).
+These notebooks are built on top of [IPython](https://ipython.org/) which provides the kernel that Jupyter notebooks run on top of. So in the background the code is sent to the kernel where it is then run (unlike JavaScript the code doesn't run in the browser).
 
 The nature of the interactivity is such that the input and outputs are not based on the traditional file based structure but on cells that get executed in a certain order.
 
-Here's a fairly simple example of a jupyter notebook:
+Here's a fairly simple example of a Jupyter notebook:
 
 ![Jupyter's cell based structure](JupyterNotebookExample.png)
 
