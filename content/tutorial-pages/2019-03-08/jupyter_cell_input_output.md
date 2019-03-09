@@ -38,3 +38,7 @@ You can interact directly with the `In` and `Out` from within cells themselves l
 The `In` and `Out` are just a simple `list` and a `dict`:
 
 ![Types of The In and Out variables](JupyterTypes_InOut.png)
+
+`In` is a list of strings that form the contents of the cells.
+
+`Out` is a dictionary of pairs of line numbers with strings that contained the output. The reason `Out` is not a list is because some lines don't contain an output, like line 1 in this example.
