@@ -17,7 +17,7 @@ miniBlurb: "Aapeli is a Senior Technical Consultant at Custom Programming Soluti
 
 As co-founder and Senior Technical Consultant at Custom Programming Solutions, Aapeli partnered with Janis Lesinskis to take the company from concept to reality in early 2018. A problem solver at heart, he knew he had a big challenge on his hands when it came to building a software company he could be proud of.
 
-Aapeli is our in-house blockchain and mathematics specialist and has a passion for using technology and abstract reasoning to solve complex problems with smart, creative people. He brings rigorous mathematical thinking and in-depth expertise in cryptography, mathematical optimization and general systems architecture & development to his role. He also possesses experience in distributed systems, full-stack software engineering, data analysis and other areas.
+Aapeli is our in-house blockchain and mathematics specialist and has a passion for using technology and abstract reasoning to solve complex problems with smart, creative people. He brings rigorous mathematical thinking and in-depth expertise in cryptography, machine learning, mathematical optimization and general systems architecture & development to his role. He also possesses experience in distributed systems, full-stack software engineering, Natural Language Processing, data analysis and deploying data science solutions, as well as other areas.
 
 “I find cryptography very interesting,” he says. “The idea of having security that even the greatest nation-states won’t be able to break in the foreseeable future is very empowering and somehow oddly satisfying.”
 
