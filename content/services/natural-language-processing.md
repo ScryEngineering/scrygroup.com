@@ -1,7 +1,6 @@
 ---
 name: "Natural language processing"
 callToActionText: "Looking to see how natural language processing can help your organization unlock new efficiencies and product possibilities? We would be happy to talk about how natural language processing could be utilized in your organization"
-draft: true
 ---
 
 Every day, companies of all sizes in the telemarketing and communications industries are flooded with data from customers, clients and stakeholders.
@@ -14,7 +13,7 @@ That's where Natural Language Processing comes in.
 
 ## What is Natural Language Processing?
 
-[Natural Language Processing is a field of Artificial Intelligence] (https://towardsdatascience.com/your-guide-to-natural-language-processing-nlp-48ea2511f6e1) that gives machines the ability to read, understand and derive meaning from human languages. 
+[Natural Language Processing is a field of Artificial Intelligence](https://towardsdatascience.com/your-guide-to-natural-language-processing-nlp-48ea2511f6e1) that gives machines the ability to read, understand and derive meaning from human languages. 
 
 With NLP, we can use computers to do things like:
 
@@ -27,7 +26,7 @@ With NLP, we can use computers to do things like:
 - Run chat bots that greet visitors to your website, which can help connect people with the information they need more effectively in some circumstances
 
 
-Natural Language Processing plays a critical role in interactions between humans and machines. It often overlaps with [machine learning] (/services/machine-learning/). Recent progress in Natural Language Processing, machine learning and data science means we can write programs to translate, analyze and summarize text. 
+Natural Language Processing plays a critical role in interactions between humans and machines. It often overlaps with [machine learning](/services/machine-learning/). Recent progress in Natural Language Processing, machine learning and data science means we can write programs to translate, analyze and summarize text. 
 
 
 
