@@ -26,7 +26,7 @@ With NLP, we can use computers to do things like:
 - Build personal assistant applications and voice recognition software that respond to users' voices
 - Run chat bots that greet visitors to your website 
 
-Natural Language Processing plays a critical role in interactions between humans and machines. It often overlaps with [machine learning] (</services/machine-learning/>). Recent progress in Natural Language Processing, machine learning and data science means we can write programs to translate, analyze and summarize text. 
+Natural Language Processing plays a critical role in interactions between humans and machines. It often overlaps with [machine learning] (/services/machine-learning/). Recent progress in Natural Language Processing, machine learning and data science means we can write programs to translate, analyze and summarize text. 
 
 
 
