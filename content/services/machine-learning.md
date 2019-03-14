@@ -1,12 +1,7 @@
 ---
 name: "Machine learning"
 callToActionText: "Looking to see how machine learning can help your organization unlock new efficiencies and product possibilities? We would be happy to talk about how machine learning could be utilized in your organization"
-draft: true
 ---
-
-
-
-# Machine Learning 
 
 Wouldn't it be great if you didn't have to spend late nights combing through spreadsheets of mind-numbing data to pull insights for that quarterly meeting or annual report? What if you had a machine do it for you?
 
