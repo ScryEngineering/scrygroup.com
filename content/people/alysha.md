@@ -2,14 +2,16 @@
 name: "Alysha "
 teamMember: true
 image: 
-url: " "
-location:
+url: "https://alysha-94.github.io/"
+location: Australia
 bio: "Junior Developer"
 socialUrls:
+    - "https://www.linkedin.com/in/alysha-iannetta/"
 shortBlurb: "Alysha is a Junior Developer at Custom Programming Solutions. Her focus is on front-end development (the side of software we see and interact with, particularly user interface and experience).
 
 A self-taught developer, she brings previous design-related experience to her position, as well as an advance diploma of fashion design and technology, and a diploma in Information Technology."
 miniBlurb: "As a Junior Developer, Alysha focuses on front-end development (the side of software we see and interact with, particularly user interface and experience)."
+draft: true
 ---
 
 As a Junior Developer, Alysha's focus is on front-end development (the side of software we see and interact with, particularly user interface and experience). 
