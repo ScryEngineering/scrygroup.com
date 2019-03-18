@@ -1,3 +1,19 @@
+---
+title: Guide to Git and GitHub for Writers
+author:
+    - "Allison Smith"
+date: "2019-03-25"
+tags:
+    - GitHub
+    - Git
+contentType: "tutorial"
+callToActionText: "Have you got a project that requires a copywriter who uses GitHub? Did we miss any tips you think should be in this guide? We'd love to hear from you - fill in the form below with some details."
+hideCallToAction: false
+draft: true
+---
+
+
+
 # Guide to Git and GitHub for Writers
 
 
