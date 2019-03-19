@@ -33,3 +33,10 @@ Think carefully about what your users need when editing content. In many cases i
 But these assumptions will cause pain when they do not hold.
 
 TODO: explain some pain points.
+
+
+## Simultaneous editing
+
+This is perhaps one application of centralized content editing that's worth the tradeoff.
+
+Examples: Google docs, subethaEdit
