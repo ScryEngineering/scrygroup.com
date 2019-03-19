@@ -1,5 +1,5 @@
 ---
-name: "Alysha "
+name: "Alysha Iannetta"
 teamMember: true
 image: 
 url: "https://alysha-94.github.io/"
@@ -14,7 +14,7 @@ miniBlurb: "As a Junior Developer, Alysha focuses on front-end development (the 
 draft: true
 ---
 
-As a Junior Developer, Alysha's focus is on front-end development (the side of software we see and interact with, particularly user interface and experience). 
+As a Junior Developer, Alysha Iannetta's focus is on front-end development (the side of software we see and interact with, particularly user interface and experience). 
 
 "My role is a wonderful mix of creativity and logic, where I can use code to build and design software," she says, adding, "I'm given the opportunity to learn about the industry and expand my skills by working on web applications."
 
