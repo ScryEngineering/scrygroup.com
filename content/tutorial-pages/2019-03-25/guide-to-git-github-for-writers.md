@@ -442,7 +442,39 @@ Committing pushes your work to GitHub and lets you take advantage of version man
 
 
 
+**Pro tip:** If your commit is still a work in progress, add [WIP] to the front of your title when you create your Pull Request to let your teammates know the status of your work. When it's ready to merge, replace it with [MRG].
+
 #### Important to know: Conflicts and how to resolve them
+
+
+
+### Exploring Pull Requests 
+
+#### Conversations
+
+Under this tab, you'll get an 
+
+#### Commits
+
+Under the Commits tab, you'll see a historical overview of your commits, starting with the oldest.
+
+Each commit is assigned a dedicated number. When you click on the number, you'll be taken to what we call the Diff Viewer, which allows you to see changes that were made in that commit. Clicking the "Diff settings" button at the top right allows you to view your changes in different layouts. To see just the changes you've made in this commit, choose "Unified". To see the changes compared to your last commit, choose "Split."
+
+When you choose "Split", you'll see your changes highlighted - red on the left (your previous commit) and green on the right (current commit). 
+
+
+
+#### Comments
+
+Collaboration is at the heart of GitHub, and this really shows when it comes to how the platform handles comments. Hover over any numbered line within the green space in your Diff Viewer and you'll see a blue (+) symbol appear. Click on it and you'll be taken to a comment box where you can not only type your comment but also add a file by dragging, dropping, selecting or pasting. You can also insert a quote, add code, links or lists. 
+
+Click the "@" symbol to mention another user team, or the ribbon symbol next to it to reference an issue or Pull Request (insanely valuable when you've got a million works in progress and you're trying to keep track of your issues and PRs). You can even add a saved reply to easily post the replies you use most frequently by clicking the arrow symbol - again saving yourself time! 
+
+To make a comment on any text not highlighted in green, go to the left hand side of your diff viewer and click the "Expand Up" or "Expand Down" arrows, then click on any numbered line, then the blue (+) symbol.
+
+
+
+
 
 ### Merge Pull Request (Review and publish)
 
