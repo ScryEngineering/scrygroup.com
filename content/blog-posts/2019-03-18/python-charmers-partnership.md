@@ -9,7 +9,7 @@ tags:
         - training
         - workshops
 contentType: "blog"
-callToActionText: "Are you looking to learn more about Python or book a workshop for your team? Fill in the form below with some details and one of our Python experts will get back to you."
+callToActionText: "Are you looking to learn more about Python or book a workshop for your team? We offer an integrated mix of consulting and training. Fill in the form below with some details and one of our Python experts will get back to you."
 ---
 
 The story of our partnership with Python Charmers
@@ -30,7 +30,7 @@ The teaching position not only gave me the opportunity to work closely with Pyth
 
 At the same time, CPS was shifting to consulting and focusing less on offering educational services (especially after learning some valuable lessons about the market with an earlier failed Stacked Training venture). 
 
-Python Charmers' stellar reputation for offering extremely high-quality training and good standing in the tech community, makes them a partner for these sorts of projects. This also provided a great opportunity to introduce ourselves as consultants. When people see that they're investing in a good quality product created by highly skilled professionals, this puts their minds at ease - one of the most common fears for event planners and others is unwittingly hiring unskilled consultants. (I co-facilitated a [Girls in Tech](https://girlsintech.org/) workshop focusing on intermediate web development skills with [Ed Schofield](https://www.linkedin.com/in/edschofield0/), director of Python Charmers, in February 2019, and had a fantastic time. [Read more about that here](https://www.lesinskis.com/GIT_workshop_San_Francisco_February_2019.html).)
+Python Charmers' stellar reputation for offering extremely high-quality training and good standing in the tech community, makes them an ideal partner for these sorts of projects. This also provided a great opportunity to introduce ourselves as consultants. When people see that they're investing in a good quality product created by highly skilled professionals, this puts their minds at ease - one of the most common fears for event planners and others is unwittingly hiring unskilled consultants. (I co-facilitated a [Girls in Tech](https://girlsintech.org/) workshop focusing on intermediate web development skills with [Ed Schofield](https://www.linkedin.com/in/edschofield0/), director of Python Charmers, in February 2019, and had a fantastic time. [Read more about that here](https://www.lesinskis.com/GIT_workshop_San_Francisco_February_2019.html).)
 
 This partnership came along at exactly the right time. We agreed to refer any Python-related training to Python Charmers for a fee, and in return, any consulting work would be referred to us.
 
