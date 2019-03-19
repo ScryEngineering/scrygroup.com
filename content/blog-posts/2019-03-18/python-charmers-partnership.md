@@ -19,6 +19,10 @@ The story of our partnership with Python Charmers
 
 ![CPS co-founder Janis Lesinskis (left) with some attendees at a Girls in Tech workshop in February 2019. He co-facilitated the workshop on intermediate web development skills in Python with Dr Ed Schofield, director of Python Charmers.](Janis-Girls-in-Tech-San-Francisco-2019.jpg)
 
+*CPS co-founder Janis Lesinskis (left) with some attendees at a Girls in Tech workshop in February 2019. He co-facilitated the workshop on intermediate web development skills in Python with Dr Ed Schofield, director of Python Charmers.*
+
+
+
 Flashback to early 2018: CPS was striving to grow our base of consulting clients. Through a local meetup, we discovered the [Python Charmers](https://pythoncharmers.com/), the leading Python training and consulting company in the Asia Pacific Region. This is the story of our partnership: how we met, why we work together and what we're hoping to accomplish as we look to the future. 
 
 We met the Python Charmers group via the [Melbourne Python Users Group Meetup](https://www.meetup.com/Melbourne-Python-Meetup-Group/), where I'd had some discussions with one of their team members about how I, as a senior Python developer, could upskill. Since I had experience in educating other professionals and was frequently doing talks about Python in Melbourne, they offered me a position teaching introductory to intermediate level Python courses and web development workshops with their group. 
