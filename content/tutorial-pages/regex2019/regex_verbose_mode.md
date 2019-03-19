@@ -28,3 +28,23 @@ It's a simple lift and shift job. We don't want to boil the ocean your work on t
 As you can see here there's some emails of various different formats and also a few other almost-matching parts too.
 
 (Note accurately parsing all valid emails with regex is **hard**, TODO: example links)
+
+Here's an email pattern specified in the verbose mode:
+
+```python
+email_pattern = r'''
+\S+     # username: one or more non-whitespace chars
+@
+\S+     # domain: 1+ non-whitespace chars
+\.      # matches exactly a dot
+[a-zA-Z]+
+'''
+```
+
+Non verbose mode looks like this:
+
+```python
+email_p = r'\S+@\S+\.[a-zA-Z]+'
+```
+
+I find the readability is starting to already be a win with verbose mode here, but it gets more pronounced as the regex gets longer.
