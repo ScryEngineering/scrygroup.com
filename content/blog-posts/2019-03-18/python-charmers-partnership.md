@@ -10,7 +10,6 @@ tags:
         - workshops
 contentType: "blog"
 callToActionText: "Are you looking to learn more about Python or book a workshop for your team? Fill in the form below with some details and one of our Python experts will get back to you."
-draft: true
 ---
 
 The story of our partnership with Python Charmers
