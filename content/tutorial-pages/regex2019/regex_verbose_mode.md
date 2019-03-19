@@ -48,3 +48,69 @@ email_p = r'\S+@\S+\.[a-zA-Z]+'
 ```
 
 I find the readability is starting to already be a win with verbose mode here, but it gets more pronounced as the regex gets longer.
+
+## Capture groups
+
+Let's try to capture the name in email:
+
+```python
+email_name_only_re = r'''
+(?P<name>    # capture this following block into name
+  \S+        # username: one or more non-whitespace chars
+)
+@
+\S+        # domain: 1+ non-whitespace chars
+\.         # matches exactly a dot
+[a-zA-Z]+  # matches characters
+'''
+```
+
+This will capture the name. You can use the indentation to show the scope of the capture group.
+
+```python
+names = re.findall(email_name_only_re, office_ipsum, flags=re.VERBOSE)
+print(names)
+```
+
+TODO: output
+
+## Capture of the entire domain
+
+```python
+email_capture_re = r'''
+(?P<entire_email>
+    (?P<name>    # capture this following block into name
+      \S+        # username: one or more non-whitespace chars
+    )
+    @
+    (?P<domain>  # capture this following block into domain
+      \S+        # domain: 1+ non-whitespace chars
+      \.         # matches exactly a dot
+      [a-zA-Z]+  # matches characters
+    )
+)
+'''
+```
+
+
+## Capturing the TLD
+
+TODO test this
+
+```python
+email_capture_re = r'''
+(?P<entire_email>
+    (?P<name>    # capture this following block into name
+      \S+        # username: one or more non-whitespace chars
+    )
+    @
+    (?P<domain>  # capture this following block into domain
+      \S+        # domain: 1+ non-whitespace chars
+      \.         # matches exactly a dot
+      (?P<tld>   # capture this following block into tld
+        [a-zA-Z]+  # matches characters
+      )
+    )
+)
+'''
+```
