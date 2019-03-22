@@ -20,6 +20,8 @@ draft: true
 
 ## Introduction
 
+---
+
 Earlier this year, my simmering rage at conventional word processors finally boiled to the surface, driving me to take the drastic action I'd been putting off for years: Learn to write and publish content using Git and GitHub (*insert gasp here*.) 
 
 Okay, maybe that's being a *bit* dramatic (hey, I'm a writer - I'm using creative license here). It wasn't exactly rage. More like an underlying frustration I couldn't quite put my finger on. After all, what was different about this project versus the hundreds I've worked on before, that made working with Word (or Google Docs, my old go-to) untenable? 
@@ -39,7 +41,9 @@ I'll cover the following:
 
 [TOC]
 
-### What are Git and GitHub?
+## What are Git and GitHub?
+
+---
 
 ### Git
 
@@ -61,7 +65,11 @@ Git is a general purpose distributed revision control system. Essentially, it's 
 
 
 
-### Who needs this guide?
+### GitHub
+
+
+
+## Who needs this guide?
 
 ------
 
@@ -69,13 +77,13 @@ Git is a general purpose distributed revision control system. Essentially, it's 
 
 
 
-### Why should writers use GitHub?
+## Why should writers use GitHub?
 
 ---
 
  Though Git is a repository hosting service much-loved by developers for its robust version control, issues management and change tracking capabilities. It turns out, writers are on a continual quest for a tool that offers these features and allows them to work on a truly collaborative basis with their clients.
 
-#### The problem with word processors and web-based writing tools 
+### The problem with word processors and web-based writing tools 
 
 *Explanation*
 
@@ -98,7 +106,7 @@ Git is a decentralized version control system. Here's why that's important:
 
 
 
-### What you need to get started
+## What you need to get started
 
 ---
 
@@ -112,7 +120,7 @@ Brush up on Markdown with a tutorial, and keep a cheat sheet on hand. https://ww
 
 https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet
 
-#### Typora
+### Typora
 
 [Typora]: https://typora.io/	"Typora"
 
@@ -156,13 +164,13 @@ That's it! With Git, you can track your own and others' revisions far easier and
 
 
 
-### Getting ready to work
+## Getting ready to work
 
 ------
 
 Now that you've got your workspace set up (think of it as having put one of those IKEA desks together), it's time to create a place for your files and make them accessible to your team via GitHub (kind of like setting up a filing cabinet with folders inside). Here's how to do that. 
 
-#### 1. Create a folder and file
+### 1. Create a folder and file
 
 1.  Just like on Google Drive, you should keep all related work in one folder so anyone who needs it can find it. I'll share my folder structure for this repository dedicated to the Guide to Git and GitHub. I've got one folder for the main document and supporting files, and one for images. 
 2. Open Typora.
@@ -177,7 +185,7 @@ To see that outline feature in Typora I talked about before, go to your Typora d
 
 
 
-#### 2. Build your GitHub repository
+### 2. Build your GitHub repository
 
 Git might seem intimidating when you first dig into it (I was lucky enough to have Janis personally tutor me in all things Git/GitHub). If you don't have a tutor, this process can still be easily broken down into steps:
 
@@ -191,7 +199,7 @@ Git might seem intimidating when you first dig into it (I was lucky enough to ha
 
 
 
-#### 3. Push your repository to github.com 
+### 3. Push your repository to github.com 
 
 Right now, your GitHub repository is stored on your computer (what we nerds call "stored locally"), but that won't do - the whole point is to have your stuff secure and backed up in a non-proprietary "cloud", accessible and editable by your team. Here's how to make that happen:
 
@@ -206,21 +214,21 @@ Now comes the fun part! You get to log in to github.com and see your repository 
 
 
 
-#### Some extra stuff to do
+### Some extra stuff to do
 
-##### 1. Invite collaborators to your repository
+#### 1. Invite collaborators to your repository
 
 As we've said above, the real power of Git and GitHub lies in its ability to allow groups and remote teams to collaborate easily when it's time to edit and revise your work. 
 
 
 
-##### 2. Create a branch
+#### 2. Create a branch
 
 When you create your repository, you start with one master definitive branch. A branch is a copy or "snapshot" of the master as it was at a specific point in time. Anyone working on the repository can create a branch to experiment or make edits before committing them to master. 
 
 This is kind of like when you have different versions of the same file, except with the power of Git and GitHub, it's easy to eventually merge them all together and see changes, instead of ending up with different versions of the same file floating around your team and confusing everyone.
 
-**How to create a branch**
+##### How to create a branch
 
 1. In GitHub Desktop, go to the **Branch** menu (second from right).
 2. Click **Branch -> New Branch**.
@@ -231,7 +239,7 @@ Learn more about branches in the GitHub Guide https://guides.github.com/activiti
 
 
 
-##### 3. Write a good README file
+#### 3. Write a good README file
 
 A README is just like an About or FAQ page for your project.
 
@@ -253,9 +261,7 @@ Now it's time to get to work!
 
 ### Write
 
-------
-
- Now that you've got your workspace set up and a way to get your stuff online, it's time to do your thing. So create content - write that blog post, article, e-book or whatever. Here are some tips to keep in mind:
+Now that you've got your workspace set up and a way to get your stuff online, it's time to do your thing. So create content - write that blog post, article, e-book or whatever. Here are some tips to keep in mind:
 
 #### 1. Give your document structure
 
@@ -371,7 +377,7 @@ However, if you're converting to WordPress or another CMS, you'll have to insert
 
 
 
-#### See your outline
+### See your outline
 
 Typora's Outline viewer gives you a nifty way to see exactly how your headlines are structured and where you are in your document at any given time - useful for large projects and for when you need to see all your headings and sub-headings at a glance.
 
@@ -401,9 +407,11 @@ Committing pushes your work to GitHub and lets you take advantage of version man
 
 
 
-   ### Push your changes to GitHub
+   ## Push your changes to GitHub
 
-   Right now, your file is saved to your computer and you've made a commit, but that won't help you if:
+---
+
+Right now, your file is saved to your computer and you've made a commit, but that won't help you if:
 
    * You want your editor, boss or other team member to take a look at your stuff, but dread the exchange of 40 billion emails as everyone suggests changes
 
@@ -436,25 +444,31 @@ Committing pushes your work to GitHub and lets you take advantage of version man
 
 
 
-### Collaborate (Create a Pull Request)
+## Collaborate (Create a Pull Request)
 
-#### Create a draft pull request (different from a Pull Request)
+---
+
+### Create a draft pull request (different from a Pull Request)
 
 
 
 **Pro tip:** If your commit is still a work in progress, add [WIP] to the front of your title when you create your Pull Request to let your teammates know the status of your work. When it's ready to merge, replace it with [MRG].
 
-#### Important to know: Conflicts and how to resolve them
 
 
 
-### Exploring Pull Requests 
 
-#### Conversations
+## Exploring Pull Requests 
+
+---
+
+
+
+### Conversations
 
 Under this tab, you'll get an 
 
-#### Commits
+### Commits
 
 Under the Commits tab, you'll see a historical overview of your commits, starting with the oldest.
 
@@ -464,7 +478,7 @@ When you choose "Split", you'll see your changes highlighted - red on the left (
 
 
 
-#### Comments
+### Comments
 
 Collaboration is at the heart of GitHub, and this really shows when it comes to how the platform handles comments. Hover over any numbered line within the green space in your Diff Viewer and you'll see a blue (+) symbol appear. Click on it and you'll be taken to a comment box where you can not only type your comment but also add a file by dragging, dropping, selecting or pasting. You can also insert a quote, add code, links or lists. 
 
@@ -482,7 +496,28 @@ To make a comment on any text not highlighted in green, go to the left hand side
 
 
 
-### Limitations of Git and GitHub for writers and teams
+## Resolve a merge conflict 
+
+------
+
+If you spend enough late nights writing content and making commits, you'll inevitably end up with a merge conflict. These happen when you merge branches which have competing commits, and Git needs your help to decide which changes it should incorporate in the final merge. 
+
+Git is so smart that it can sometimes resolve differences between branches and merge them automatically. Usually these changes are on different lines or in different files. This makes the merge easy for the program to understand. But sometimes, Git won't be able to resolve competing changes without your help. 
+
+Merge conflicts can happen when: 
+
+- people (for example, you and a client or editor) make different changes to the same line of the same file, or
+- when one person edits a file and someone else deletes that same file
+
+Before you can merge a Pull Request on GitHub, you must resolve all merge conflicts. If you've got a merge conflict between a compare branch and base branch in your PR, you can see a list of the files with conflicting changes above the Merge pull request button. You'll see that the button deactivates until all conflicts between the compare and base branch are resolved.
+
+In this example, I *write example of conflict*
+
+
+
+
+
+## Limitations of Git and GitHub for writers and teams
 
 ---
 
@@ -490,17 +525,15 @@ To make a comment on any text not highlighted in green, go to the left hand side
 
 
 
-### Wrap up
+## Wrap up
 
 ---
-
-
 
 Do you use Git and GitHub in your content workflow? Do you love it or hate it? What was the learning process like for you, and do you have any tips, tricks, or advice you think should be included in this guide? Tell me in the comments! 
 
 
 
-### Extra resources
+## Extra resources
 
 ------
 
