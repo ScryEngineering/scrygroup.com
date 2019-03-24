@@ -11,7 +11,7 @@ callToActionText: "Have you got a project that requires in depth knowledge of Py
 hideCallToAction: false
 ---
 
-Have you ever found the autocompletion of certain characters like brackets or quotes to be an annoyance in JuPyter? If so here's how to change the configuration to disable this.
+Have you ever found the autocompletion of certain characters like brackets or quotes to be an annoyance in Jupyter? If so here's how to change the configuration to disable this.
 
 <!-- end excerpt -->
 
@@ -19,7 +19,7 @@ There's 2 main ways to do this, you can edit the configuration file directly or 
 
 ## From configuration file
 
-You need to put this in the jupyter configuration directory.
+You need to put this in the Jupyter configuration directory.
 
 ```json
 {
