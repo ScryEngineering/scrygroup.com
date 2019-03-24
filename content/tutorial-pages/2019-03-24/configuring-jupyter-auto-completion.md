@@ -2,7 +2,7 @@
 title: "How to configure Jupyter to not autocomplete"
 authors:
     - "Janis Lesinskis"
-date: "2019-03-09"
+date: "2019-03-24"
 tags:
     - Python
     - Jupyter
