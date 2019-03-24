@@ -15,7 +15,7 @@ Have you ever found the autocompletion of certain characters like brackets or qu
 
 <!-- end excerpt -->
 
-There's 2 main ways to do this, you can edit the configuration file directly or you can do it from code in the notebook
+There's 2 main ways to do this, you can edit the configuration file directly or you can do it from code in the notebook. The following instructions have been tested on version 4.4.0.
 
 ## From configuration file
 
@@ -31,6 +31,8 @@ You need to put this in the jupyter configuration directory.
 }
 ```
 
+Note you may need to refresh the browser to get this to apply.
+
 ## From code
 
 ```python
@@ -41,4 +43,4 @@ c.update('notebook', {"CodeCell": {"cm_config": {"autoCloseBrackets": False}}})
 
 Note you may need to refresh the browser to get this to apply.
 
-This is just an automated version of editing the configuration file directly.
+This is just an automated version of editing the configuration file directly. As this created a file `~/.jupyter/nbconfig/notebook.json` containing the configuration from above.
