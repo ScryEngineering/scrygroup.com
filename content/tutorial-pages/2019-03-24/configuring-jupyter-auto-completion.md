@@ -1,5 +1,5 @@
 ---
-title: "How to configure jupyter to not autocomplete"
+title: "How to configure Jupyter to not autocomplete"
 authors:
     - "Janis Lesinskis"
 date: "2019-03-09"
@@ -20,6 +20,14 @@ There's 2 main ways to do this, you can edit the configuration file directly or 
 ## From configuration file
 
 You need to put this in the Jupyter configuration directory.
+
+To find the correct location for your configuration files you can run:
+
+```bash
+jupyter --paths
+```
+
+Then create or modify the `nbconfig/notebook.json` file to contain this section for `CodeCell` behavior:
 
 ```json
 {
@@ -43,4 +51,4 @@ c.update('notebook', {"CodeCell": {"cm_config": {"autoCloseBrackets": False}}})
 
 Note you may need to refresh the browser to get this to apply.
 
-This is just an automated version of editing the configuration file directly. As this created a file `~/.jupyter/nbconfig/notebook.json` containing the configuration from above.
+This is just an automated version of editing the configuration file directly. This file will go in the first configuration path as seen in `jupyter --paths`, this my case this was `~/.jupyter/nbconfig/notebook.json`.
