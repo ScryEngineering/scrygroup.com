@@ -19,6 +19,17 @@ There's 2 main ways to do this, you can edit the configuration file directly or 
 
 ## From configuration file
 
+You need to put this in the jupyter configuration directory.
+
+```json
+{
+  "CodeCell": {
+    "cm_config": {
+      "autoCloseBrackets": false
+    }
+  }
+}
+```
 
 ## From code
 
@@ -29,3 +40,5 @@ c.update('notebook', {"CodeCell": {"cm_config": {"autoCloseBrackets": False}}})
 ```
 
 Note you may need to refresh the browser to get this to apply.
+
+This is just an automated version of editing the configuration file directly.
