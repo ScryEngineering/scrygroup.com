@@ -19,8 +19,7 @@ There's 2 main ways to do this, you can edit the configuration file directly or 
 
 ## From configuration file
 
-You need to put this in the Jupyter configuration directory.
-
+You will need to put this into the Jupyter configuration directory.
 To find the correct location for your configuration files you can run:
 
 ```bash
@@ -51,4 +50,4 @@ c.update('notebook', {"CodeCell": {"cm_config": {"autoCloseBrackets": False}}})
 
 Note you may need to refresh the browser to get this to apply.
 
-This is just an automated version of editing the configuration file directly. This file will go in the first configuration path as seen in `jupyter --paths`, this my case this was `~/.jupyter/nbconfig/notebook.json`.
+This is just an automated version of editing the configuration file directly. This file will go in the first configuration path as seen in `jupyter --paths`, in my case this was `~/.jupyter/nbconfig/notebook.json`.
