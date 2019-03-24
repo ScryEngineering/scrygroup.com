@@ -1,5 +1,5 @@
 ---
-title: CPS + Python Charmers: Partners in Education 
+title: "CPS + Python Charmers: Partners in Education"
 authors: 
         - "Janis Lesinskis"
 date: "2019-03-18"
