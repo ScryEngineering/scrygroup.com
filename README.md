@@ -12,6 +12,7 @@ Within that there are some subdirectories:
 * tutorial-pages
 * people
 * faces (which contains the portrait images on the people pages)
+* services
 
 Example directory tree:
 
@@ -31,6 +32,13 @@ content/
 │   ├── aapeli.md
 │   ├── cps.md
 │   └── janis.md
+├── services
+│   ├── data-science.md
+│   ├── machine-learning.md
+│   ├── mathematical-optimization.md
+│   ├── natural-language-processing.md
+│   ├── process-automation.md
+│   └── tech-strategy.md
 └── tutorial-pages
     ├── 2018-02-06
     │   └── python-excepthook-logging.md
@@ -186,3 +194,18 @@ miniBlurb: "A single sentence about the author goes here."
 ```
 
 The `images` section here will look for the file `faces/janis.jpg` when creating the portrait photo images.
+
+## Creating a service page
+
+Create a page in the `/services` directory, for example `data-science.md`:
+
+```markdown
+---
+name: "Data science"
+callToActionText: "We'd love to learn more about your data science and analytics requirements. Contact us today."
+hideCallToAction: false
+---
+
+Writing for this service page goes here
+
+```
