@@ -73,7 +73,7 @@ Here's the directory structure:
 The directory structure itself determines the slug in Gatsby. So this generates a post at `/tutorials/2018-04-23/editing-markdown`.
 Here's some markdown from the post itself:
 
-```md
+```markdown
 ## Linting via VS Code plugin
 
 Seeing as we use VS Code already we can install a [markdown linter extension](https://github.com/DavidAnson/vscode-markdownlint) that gives immediate linting for our Markdown files.
@@ -82,6 +82,8 @@ So for example have a look at this screen-shot from when I was writing a draft f
 
 ![example of linter UX in VS Code](markdownLinter.png "VS Code markdownlint extension")
 ```
+
+Note that the post body text starts with a second level heading, this is because a first level heading is generated on the website above the post body text.
 
 So we see that creating an image just involves making a reference to the image file name in the current directory.
 
@@ -101,6 +103,7 @@ tags:
     - productivity
     - linting
 contentType: "tutorial"
+callToActionText: "Are you looking for ways to improve the editing workflows your team uses? Let us know about your current workflow and requirements bu filling in the form below and one of our content workflow experts will get back to you."
 ---
 
 Even before we moved our site to a [JAM stack](https://jamstack.org/) we found that we edited a number of [Markdown](https://en.wikipedia.org/wiki/Markdown) files every day, for example those README.md files on our GitHub repositories and various other bits of documentation.
@@ -109,6 +112,20 @@ More article content here...
 ```
 
 You can see that various pieces of metadata are stored here that are later parsed by Gatsby when building the pages and associated site structure.
+
+### Call to action text
+
+At the bottom of the pages as they are rendered there's the option to have a call to action section. Specifying what text goes here is done in the metadata section called `callToActionText`.
+
+For example
+
+```markdown
+---
+callToActionText: "Are you looking for ways to improve the editing workflows your team uses? Let us know about your current workflow and requirements bu filling in the form below and one of our content workflow experts will get back to you."
+---
+```
+
+If you don't supply anything here a default call to action text will be rendered at the bottom of the page.
 
 ### Specifying drafts
 
