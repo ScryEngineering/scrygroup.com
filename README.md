@@ -11,6 +11,7 @@ Within that there are some subdirectories:
 * blog-posts
 * tutorial-pages
 * people
+* faces (which contains the portrait images on the people pages)
 
 Example directory tree:
 
@@ -23,6 +24,9 @@ content/
 │   │   └── CPS-site-relaunched.md
 │   └── 2018-06-26
 │       └── Tensorflow-serving-python-3.md
+├── faces
+│   ├── aapeli.jpg
+│   └── janis.jpg
 ├── people
 │   ├── aapeli.md
 │   ├── cps.md
