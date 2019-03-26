@@ -151,6 +151,9 @@ We are using Markdown files to store the information about the people/authors wh
 
 ```sh
 content/
+├── faces
+│   ├── aapeli.jpg
+│   └── janis.jpg
 ├── people
 │   ├── aapeli.md
 │   ├── cps.md
@@ -158,3 +161,28 @@ content/
 ```
 
 Author information is extracted from these markdown documents, templating system will then create the page for all people specified in that file.
+
+The image data for portrait photos is found in the `faces` directory at the filename provided in the metadata section `image` key.
+
+For example
+
+```markdown
+---
+name: "Janis Lesinskis"
+teamMember: true
+image: "janis.jpg"
+url: "https://www.lesinskis.com"
+location: "Australia/Canada"
+bio: "Director of Technological Innovation"
+socialUrls:
+    - "https://github.com/shuttle1987"
+    - "mailto:janis@customprogrammingsolutions.com.au"
+    - "https://www.linkedin.com/in/janislesinskis/"
+shortBlurb: "The short blurb is a few of sentences long about the author.
+
+This is the other sentence"
+miniBlurb: "A single sentence about the author goes here."
+---
+```
+
+The `images` section here will look for the file `faces/janis.jpg` when creating the portrait photo images.
