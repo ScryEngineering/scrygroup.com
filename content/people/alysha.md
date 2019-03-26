@@ -11,7 +11,6 @@ shortBlurb: "Alysha is a Junior Developer at Custom Programming Solutions. Her f
 
 A self-taught developer, she brings previous design-related experience to her position, as well as an advance diploma of fashion design and technology, and a diploma in Information Technology."
 miniBlurb: "As a Junior Developer, Alysha focuses on front-end development (the side of software we see and interact with, particularly user interface and experience)."
-draft: true
 ---
 
 As a Junior Developer, Alysha Iannetta's focus is on front-end development (the side of software we see and interact with, particularly user interface and experience). 
