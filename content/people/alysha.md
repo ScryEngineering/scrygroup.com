@@ -2,7 +2,7 @@
 name: "Alysha Iannetta"
 teamMember: true
 image: "alysha.jpg"
-url: "https://alysha-94.github.io/"
+url: "https://www.aiannetta.com/"
 location: "Australia"
 bio: "Junior Developer"
 socialUrls:
