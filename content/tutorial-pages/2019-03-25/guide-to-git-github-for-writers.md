@@ -235,6 +235,14 @@ This is kind of like when you have different versions of the same file, except w
 3. Give your branch a name. 
 4. Click the blue **Create branch** button or hit the Enter key.
 
+#### Use topic branches in shared repositories 
+
+If you're collaborating or have a review/editing process, use a topic branch. For example, I wrote a bio for each of my team members. When I made my commits, I titled my branches (based on the master)  `bio-team-member-name` . So if I was writing a bio for Alysha, the name of that branch would be `bio-alysha`. All other bios had their own individual branches. 
+
+With a topic branch, I can push follow-up commits if edits are required, and the text on the page that's live on the website stays untouched until your changes are merged - important if you've got a client or team members who need final approval on content before it goes live.
+
+Note: When pushing commits to a PR, don't force push, because force pushing can corrupt your PR.
+
 Learn more about branches in the GitHub Guide https://guides.github.com/activities/hello-world/#branch
 
 
@@ -448,13 +456,16 @@ Right now, your file is saved to your computer and you've made a commit, but tha
 
 ---
 
+Use Pull Requests (PRs) to tell others about changes you've pushed to a branch in a GitHub repository. Once you open a PR, you'll be able to review and discuss potential  changes with collaborators. Then you can add subsequent commits before merging your changes into the base (master) branch.
+
+
 ### Create a draft pull request (different from a Pull Request)
 
+When you create your PR, you can make one that's ready for review or a draft PRs to show you'll be continuously making commits. Draft PRs cannot be merged, and code owners won't be automatically requested to review them. 
 
+Mark your PR as ready for review when you'd like feedback on your draft PR. If the author is unavailable, a collaborator with write access to the repository can mark the PR as ready for review. It can then be merged and code owners will be asked to review it. 
 
 **Pro tip:** If your commit is still a work in progress, add [WIP] to the front of your title when you create your Pull Request to let your teammates know the status of your work. When it's ready to merge, replace it with [MRG].
-
-
 
 
 
@@ -462,21 +473,25 @@ Right now, your file is saved to your computer and you've made a commit, but tha
 
 ---
 
+After you've initialized a PR, on your review page you'll see a high-level overview of the changes between your branch (a.k.a. the compare branch) and the repository's base branch. Add a summary of the proposed changes, review changes made by commits, and add labels, milestones, and assignees. You can also mention individual contributors or teams.
 
+Other contributors can review your proposed changes, comment, add their thoughts to the PR conversation, and add commits to your PR.
 
-### Conversations
+### Conversation
 
-Under this tab, you'll get an 
+Under this tab, you'll get an overview of the branch's past deployment activity and its current deployment status. If you're satisfied with proposed changes, congrats! You can go ahead and click the green "Merge pull request" button. If you're working in a shared repository, proposed changes will be merged from the head branch to the base branch specified in the PR. 
 
-### Commits
+### Commits and Files changed
 
-Under the Commits tab, you'll see a historical overview of your commits, starting with the oldest.
+Under the Commits tab, you'll see a historical overview of your commits you've pushed from your topic branch added to your existing PR, starting with the oldest.
 
-Each commit is assigned a dedicated number. When you click on the number, you'll be taken to what we call the Diff Viewer, which allows you to see changes that were made in that commit. Clicking the "Diff settings" button at the top right allows you to view your changes in different layouts. To see just the changes you've made in this commit, choose "Unified". To see the changes compared to your last commit, choose "Split."
+Each commit is assigned a dedicated number. When you click on the number, you'll be taken to the Files changed tab, and what we call the Diff Viewer, which allows you to see changes that were made in that commit. Clicking the "Diff settings" button at the top right allows you to view your changes in different layouts. To see just the changes you've made in this commit, choose "Unified". To see the changes compared to your last commit, choose "Split."
 
 When you choose "Split", you'll see your changes highlighted - red on the left (your previous commit) and green on the right (current commit). 
 
 
+
+ 
 
 ### Comments
 
@@ -488,13 +503,27 @@ To make a comment on any text not highlighted in green, go to the left hand side
 
 
 
-
-
 ### Merge Pull Request (Review and publish)
 
+Merge your PR into an upstream (master) branch when your work is done. Anyone with push access to the repository can merge the PR. 
 
+Make sure yours is a regular PR and not a draft - draft PRs can't be merged. 
 
+If for some reason, you don't want to merge the changes in your topic branch with the upstream branch, you can close your PR without merging.
 
+#### How to merge a Pull Request
+
+1. Click "Pull requests" under your repository name. 
+
+2. Under the "Pull Requests" tab, click the pull request you want to merge.
+
+3. Click "Merge pull request" to merge all commits into the base branch.
+
+4. Type a commit message (suggested) or accept the default message. Under your commit message box, click "Confirm merge".
+
+5. You'll now have the option to delete the branch to keep your list of branches in your repository organized and up to date.
+
+   
 
 ## Resolve a merge conflict 
 
