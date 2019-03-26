@@ -1,9 +1,9 @@
 ---
 name: "Alysha Iannetta"
 teamMember: true
-image: 
+image: "alysha.jpg"
 url: "https://alysha-94.github.io/"
-location: Australia
+location: "Australia"
 bio: "Junior Developer"
 socialUrls:
     - "https://www.linkedin.com/in/alysha-iannetta/"
