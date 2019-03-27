@@ -1,5 +1,5 @@
 ---
-title: "How to work with Jupyter notebook cell input and output"
+title: "Making Raw NBConvert cells look visually distinct"
 authors:
     - "Janis Lesinskis"
 date: "2019-03-27"
