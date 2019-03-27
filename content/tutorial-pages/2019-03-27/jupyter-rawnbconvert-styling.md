@@ -54,3 +54,14 @@ HTML("""
 """)
 ```
 
+## Before and after
+
+This is what it looks like as a default:
+
+![What it looks like before changing the CSS](before.png)
+
+And this is what it looks like after the CSS change:
+
+![What it looks like after changing the CSS](after.png)
+
+It's far more obvious at a glance that these are different by changing the background color.
