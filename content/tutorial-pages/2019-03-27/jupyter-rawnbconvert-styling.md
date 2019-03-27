@@ -10,7 +10,7 @@ tags:
     - usability
     - UX
 contentType: "tutorial"
-callToActionText: "Have you got a project that requires in depth knowledge of Python or Jupyter notebooks? We'd love to hear about it so fill in the form below with some details."
+callToActionText: "Have you got a project that requires in depth knowledge of Python or Jupyter notebooks? Interested in how your company could benefit from our extensive experience in running workshops? We'd love to hear about it so fill in the form below with some details and we will get back to you as soon as possible."
 hideCallToAction: false
 ---
 
