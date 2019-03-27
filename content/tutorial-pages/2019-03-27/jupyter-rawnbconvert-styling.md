@@ -20,7 +20,7 @@ When using Jupyter notebooks have you found the styling of code cells to be too 
 
 [Raw NBConvert](https://ipython.org/ipython-doc/3/notebook/nbformat.html#raw-nbconvert-cells) let you pass whatever you want through to the NBConvert function without any processing. This is great when you want to run NBConvert to turn your notebooks into various other output formats.
 
-You may have a situation, like the educational workshops we sometimes run, where you are using a notebook just to demonstrate concepts and don't have any need for the Raw NBCovert cells. In such a case it's really good to visually distinguish these cell types from code cells because it makes it far easier to see at a glance when someone has chosen the wrong cell type. (We have seen that beginners can find these cells to be a gotcha where the issue of having the wrong cell type is not immediately obvious at a glance)
+You may have a situation, like the educational workshops we sometimes run, where you are using a notebook just to demonstrate concepts and don't have any need for the Raw NBConvert cells. In such a case it's really good to be able to _visually_ distinguish these cell types from code cells because it makes it far easier to see at a glance when someone has chosen the wrong cell type. (We have seen that beginners can find these cells to be a gotcha where the issue of having the wrong cell type is not immediately obvious at a glance)
 
 Even if you do need to use the Raw NBCovert cells making them visually distinct helps eliminate many mistakes. Making code that's correct look correct and making code that is not correct look incorrect is very valuable.
 
