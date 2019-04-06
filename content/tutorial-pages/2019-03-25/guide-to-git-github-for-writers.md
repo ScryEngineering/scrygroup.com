@@ -35,8 +35,6 @@ Actually, a few things:
 
 Enter GitHub. After a couple of months plugging away on Google Docs (a tool I'd sworn by previously and still use for collaborating with less technically savvy clients on short-term projects), we all began to discover its limitations when it came to formalizing an efficient content production and approval process. My client (Custom Programming Solutions) generously offered to teach me how to use Git and GitHub so we could collaborate more productively long-term. *Bonus: I get to share what I learned with you!* 
 
- This is a guide for writers, by a writer/content marketer who's been where you are: frustrated with the constraints and headaches current writing software and workflows foist on us, and wondering if there's anything better - an open source, distraction-free, secure platform that supports hassle-free collaboration between you and your clients. 
-
 I'll cover the following: 
 
 [TOC]
@@ -47,7 +45,7 @@ I'll cover the following:
 
 ### Git
 
-Git is a general purpose distributed revision control system. Essentially, it's version control software (VCS) designed to let you manage your workflow and keep track of versions of documents. 
+[Git](https://git-scm.com/) is a general purpose, open source distributed revision control system. Essentially, it's version control software (VCS) designed to let you manage your workflow and keep track of versions of documents. 
 
  VCS systems calculate differences, or deltas, between documents. Comparing differences between versions means some exciting options appear at your fingertips, including:
 
@@ -67,13 +65,23 @@ Git is a general purpose distributed revision control system. Essentially, it's 
 
 ### GitHub
 
+[GitHub](https://github.com/) is a free website that stores files for your projects. Powered by Git, it allows you to: 
+
+- collaborate with other authors on code, web pages, etc.,
+-  review one another's edits 
+- create or start a dialogue using Issues 
+- make your repositories public or private, accessible only by contributors you choose (paid version)
+- allow your repositories to be cloned or downloaded, so other people can work on the files they contain
+
 
 
 ## Who needs this guide?
 
 ------
 
+This is a guide for writers, by a writer/content marketer who's been where you are: frustrated with the constraints and headaches current writing software and workflows foist on us, and wondering if there's anything better - an open source, distraction-free, secure platform that supports hassle-free collaboration between you and your clients. 
 
+That said, you don't have to have "writer" anywhere in your title to use this guide. If you produce text content that gets published online, this primer is for you.
 
 
 
@@ -84,6 +92,12 @@ Git is a general purpose distributed revision control system. Essentially, it's 
  Though Git is a repository hosting service much-loved by developers for its robust version control, issues management and change tracking capabilities. It turns out, writers are on a continual quest for a tool that offers these features and allows them to work on a truly collaborative basis with their clients.
 
 ### The problem with word processors and web-based writing tools 
+
+Have you ever worked on a document with multiple authors? Some of you may be Mac people, while others are Windows diehards. Someone starts a Google doc or a Word document, emails or sends the link, and off you go. 
+
+Soon, that Word doc has somehow become a Definitely-Final-Revised-Version-12, or even worse, there are multiple documents floating around with changes that will have to be vetted and amalgamated into one. And what if you've got file formats that not everyone can open? Even with Google Docs, which allows for more conversation about your content with the ability to highlight words or passages and comment, there are limitations. Once you have a bunch of Suggested Edits, you take one look at your document and dread having to review each and every one. But just using the regular editing feature doesn't let you see what text was edited. And what if you have an actionable item to add to someone's to-do list? You'd have to hope they see you've mentioned them in a comment, then do the thing you need them to.
+
+
 
 *Explanation*
 
@@ -566,5 +580,6 @@ Do you use Git and GitHub in your content workflow? Do you love it or hate it? W
 
 ------
 
-The GitHub Guide - github.com https://guides.github.com/activities/hello-world/
+[The GitHub Guide - github.com](https://guides.github.com/activities/hello-world/) 
 
+[GitHub Glossary - GitHub Help](https://help.github.com/en/articles/github-glossary)
