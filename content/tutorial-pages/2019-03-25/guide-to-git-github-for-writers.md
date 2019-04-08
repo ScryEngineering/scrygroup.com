@@ -91,32 +91,47 @@ That said, you don't have to have "writer" anywhere in your title to use this gu
 
  Though Git is a repository hosting service much-loved by developers for its robust version control, issues management and change tracking capabilities. It turns out, writers are on a continual quest for a tool that offers these features and allows them to work on a truly collaborative basis with their clients.
 
-### The problem with word processors and web-based writing tools 
+### The problem(s) with word processors and web-based writing tools 
 
-Have you ever worked on a document with multiple authors? Some of you may be Mac people, while others are Windows diehards. Someone starts a Google doc or a Word document, emails or sends the link, and off you go. 
+Have you ever worked on a document with multiple authors? Some of you may be Mac people, while others are Windows diehards. Regardless, you all need to be able to see and give feedback on each other's work. This is where conventional Word processors and web-based programs can get a little clunky. Here are some common pitfalls:
 
-Soon, that Word doc has somehow become a Definitely-Final-Revised-Version-12, or even worse, there are multiple documents floating around with changes that will have to be vetted and amalgamated into one. And what if you've got file formats that not everyone can open? Even with Google Docs, which allows for more conversation about your content with the ability to highlight words or passages and comment, there are limitations. Once you have a bunch of Suggested Edits, you take one look at your document and dread having to review each and every one. But just using the regular editing feature doesn't let you see what text was edited. And what if you have an actionable item to add to someone's to-do list? You'd have to hope they see you've mentioned them in a comment, then do the thing you need them to.
+**Duplicate or redundant content**
+With word processors, you often end up with a Definitely-Final-Revised-Version-12, or even worse, there are multiple documents floating around with changes that will have to be vetted and amalgamated into one. 
+
+**Unfriendly file formats make for wasted time**
+Sometimes things can go wonky if documents are saved and opened in different file formats, or saved on different versions of the same program (not all is equal in the land of Mac, Windows and other operating systems). Even today, devices don't always play nicely with one another. Consequently, you can't be 100% sure your document will open and display correctly for everyone.
+
+**Content loses formatting when transferred**
+If you've ever spent a tedious half-hour formatting your document in Word, then copied and pasted it to the web, a Content Management System, or somewhere else, you've probably watched the formatting disappear before your eyes or some of your text turn to gibberish. This is because the formatting rules you used were specific to the software you used to create the document. Depending on where you transfer your content, you could end up having to reformat all over again, doubling your time spent on task.
+
+**True collaboration is a hassle**
+Dialogue makes collaboration work, and the ability to easily provide feedback on documents (especially if you work remotely) is essential. The commenting systems in both conventional and web-based programs leave a lot to be desired, as your page gets so messy, the content becomes obscured. You find yourself actually dreading giving or receiving feedback, as each comment adds to a tangled web of suggestions, crossed-out paragraphs, and different-coloured replies in the margin. The content takes a back seat to noise. 
+
+**Losing data could mean a frustrating setback**
+We've all done it: spent days working away painstakingly on a document, saving it, shutting down and forgetting to back up. Then disaster strikes: our laptop goes missing, a flood happens, or a hard drive quits. All of our work is up in smoke and we've got some explaining to do. Always frustrating, and sometimes devastating to a project on a tight timeline. Unless you save your file in the right place and take the time to back up, you're taking a huge unnecessary risk with your team's hard work.
 
 
-
-*Explanation*
-
-Multiple formats, repurposed content, collaborators, need to be cross-compatible with different devices 
-
-Use this workflow and your content will be ready for the web faster
 
 ### Benefits of distributed vs. centralized systems
 
+In contrast, distributed systems *just work*. Your content will be ready for the web faster, you'll be more productive, and hopefully you'll notice a lot less hassle happening in the process.
+
 Git is a decentralized version control system. Here's why that's important: 
 
-- **Each repository is essentially a backup.**
-  My client (who's used Git for several years) says he has yet to lose a large amount of data on any project using Git. Even if one machine goes down, you can still access your data from other machines. The decentralized system is a nice backup feature in disguise. If you didn't have this, you'd need to consider backups and disaster recovery strategies. Not having to be so worried about this means you reduce the mental burden on you and your team, and reduce the risk of a devastating loss of data and hours. 
+**One master document means everyone is (literally) on the same page**
+No more wasting time trying to figure out which is the authoritative or most up to date version! When anyone clones a repository to their local machine (computer), opens their document, then makes and commits changes, Git checks those changes against previous versions and tracks them. You'll be able to tell who made changes, when, and (if the contributor writes a message in their commit) why.
 
-- **You'll have a stable platform to collaborate with clients and partners.**
+**You'll have a stable platform to collaborate with clients and partners**
+Because the system is decentralized, it's designed to handle multiple people can work on the same document at the same time. While some centralized systems (such as Joomla) will lock you out of a page as a protective measure while someone else is editing it, you won't run into this challenge with Git and GitHub. 
 
-  Because the system is decentralized, it's designed to handle multiple people can work on the same document at the same time. While some centralized systems (such as Joomla, *other examples*)
+**One formatting language to rule them all**
+Markdown is a lightweight markup language you'll swear by once you start using it. Because it's formatted using plain text, your content will transfer easily wherever you need to put it. It will also open and display as intended in any modern word processor.
 
+**Content is easily re-purposed**
+You don't just create content once and forget about it. More than ever, a modern marketing strategy demands content that's re-purposed and reused. As [Daring Fireball](https://daringfireball.net/projects/markdown/syntax) mentions, with Markdown readability is emphasized above all else, and its syntax is intended for the singular purpose of being used as a format for writing for the web. The potential is endless, meaning you've unlocked your content from unwieldy programs and proprietary software. It's free!
 
+**Each repository is essentially a backup**
+My client (who's used Git for several years) says he has yet to lose a large amount of data on any project using Git. Even if one machine goes down, you can still access your data from other machines. The decentralized system is a nice backup feature in disguise. If you didn't have this, you'd need to consider backups and disaster recovery strategies. Not having to be so worried about this means you reduce the mental burden on you and your team, and reduce the risk of a devastating loss of data and hours. 
 
 
 
