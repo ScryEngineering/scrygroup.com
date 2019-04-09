@@ -210,10 +210,6 @@ You should have a basic file structure that looks like this:
 
 
 
-To see that outline feature in Typora I talked about before, go to your Typora document and create some headlines and sub-headlines. Then click View -> Outline to see a structural overview of your content. 
-
-
-
 ### 2. Build your GitHub repository
 
 Git might seem intimidating when you first dig into it (I was lucky enough to have Janis personally tutor me in all things Git/GitHub). If you don't have a tutor, this process can still be easily broken down into steps:
@@ -247,7 +243,17 @@ Now comes the fun part! You get to log in to github.com and see your repository 
 
 #### 1. Invite collaborators to your repository
 
-As we've said above, the real power of Git and GitHub lies in its ability to allow groups and remote teams to collaborate easily when it's time to edit and revise your work. 
+As we've said above, the real power of Git and GitHub lies in its ability to allow groups and remote teams to collaborate easily when it's time to edit and revise your work. Therefore, you'll want to invite collaborators to your repository. 
+
+To do that: 
+
+1. Request the username of the person you want to invite as a collaborator. If they don't have a username, they should sign up for GitHub ([see instructions on signing up here](https://help.github.com/en/articles/signing-up-for-a-new-github-account)).
+2. On the main page of your repository on github.com, go to **Settings ->Collaborators**. In the search box on that page, type in the username, full name or email address of the person(s) you want to add (you'll only be able to find a GitHub user by their email address if they've listed it publicly. Otherwise, use their username). 
+3. Select the collaborator's username from the dropdown menu.
+4. Click **Add collaborator**.
+5. The user will receive an invite by email. Once they accept the invitation, they'll have collaborator access to your repository.
+
+Keep in mind that if you're using GitHub Free, you can add unlimited collaborators on public repositories and up to three collaborators on private repositories owned by your personal account. You'll need to upgrade to GitHub Pro to add more than three people as collaborators. 
 
 
 
@@ -290,6 +296,8 @@ If you want others to use or contribute to your project, creating a README file 
 ### So, now you have:
 
 - Someplace to store your stuff, both on your computer and on github.com. 
+- Added collaborators who have access to your work. 
+- A topic branch, which will later be merged with your master branch.
 - Your first project and README files. 
 
 Now it's time to get to work!
@@ -406,17 +414,9 @@ However, if you're converting to WordPress or another CMS, you'll have to insert
 
 
 
-### So, now you have:
-
-- Your content structured in a Markdown file, ready for exporting to Word, PDF, HTML or other formats.
-- Images placed where they belong within your content. 
-- Images stored on your computer for uploading into WordPress or your favourite CMS.  
-
-
-
 ### See your outline
 
-Typora's Outline viewer gives you a nifty way to see exactly how your headlines are structured and where you are in your document at any given time - useful for large projects and for when you need to see all your headings and sub-headings at a glance.
+Typora's Outline viewer gives you a nifty way to see exactly how your headlines are structured and where you are in your document at any given time - useful for large projects and for when you need to see all your headings and sub-headings at a glance. To see it, click **View -> Outline**.
 
 
 
@@ -424,23 +424,29 @@ Typora's Outline viewer gives you a nifty way to see exactly how your headlines 
 
 As writers, we're used to saving our work to a folder or the cloud. With GitHub, your saved changes are called commits. Each time you commit a change, you're able to attach a description explaining why you made that change (for example, if you describe the section you've written in both the title and description for your commit, you'll have an at-a-glance-history of the progress of your work from the day you started until now.)
 
-Committing pushes your work to GitHub and lets you take advantage of version management. Get into the habit of making your commits at natural break points - when you complete a main section, after adding links and support files, after making edits, when you pack it in for the day, etc. Here's how to do that: 
+Committing pushes your work to GitHub and lets you take advantage of version management. Get into the habit of making your commits at natural break points - when you complete a main section, after adding links and support files, after making major edits, when you pack it in for the day, etc. Here's how to do that: 
 
 1. Open GitHub Desktop.
-
 2. Choose your project.
-
 3. Once you've made a few commits, you'll see: 
 
    * which files have changed
-   * which text has been added
-   * which text has been deleted 
 
-   4) In the bottom left corner, you'll see a summary section. Type a short title and description here to let everyone know what you've updated.
+   * which text has been added (highlighted in green)
 
-   5) Hit **Commit to master**.
+   * which text has been deleted (highlighted in red) 
+4. In the bottom left corner, you'll see a summary section. Type a short title and description here to let everyone know what you've updated.
+5. Hit **Commit to master**.
+6. You're done! Your file will now have its title and description attached, and you'll be able to see it on github.com...after you do one last thing. 
 
-   6) You're done! Your file will now have its title and description attached, and you'll be able to see it on github.com...after you do one last thing. 
+
+
+### So, now you have:
+
+- Your content structured in a Markdown file, ready for exporting to Word, PDF, HTML or other formats.
+- Images placed where they belong within your content. 
+- Images stored on your computer for uploading into WordPress or your favourite CMS.  
+- Your first committed file ready to push to github.com, via GitHub Desktop. 
 
 
 
@@ -450,7 +456,7 @@ Committing pushes your work to GitHub and lets you take advantage of version man
 
 Right now, your file is saved to your computer and you've made a commit, but that won't help you if:
 
-   * You want your editor, boss or other team member to take a look at your stuff, but dread the exchange of 40 billion emails as everyone suggests changes
+   * You want your editor, boss or other team member to take a look at your stuff, but dread the exchange of 40 billion emails or notifications as everyone suggests changes
 
    * You leave your computer sitting on a bus when you get off at your stop 
    * Your hard drive suddenly goes kaput, your document was on your computer and you haven't backed up to the cloud or to an external hard drive 
@@ -458,8 +464,6 @@ Right now, your file is saved to your computer and you've made a commit, but tha
 
 
    To prevent hours of work being tossed away in a catastrophe, you'll want to push your changes to github.com. Here's how to do that:
-
-
 
    1. Open GitHub Desktop. 
    2. Click **Push Origin**. 
@@ -479,22 +483,53 @@ Right now, your file is saved to your computer and you've made a commit, but tha
 * Others can review your words and offer their thoughts 
 * You can recover deleted files (If you've ever feverishly pounded out an idea on your keyboard, sworn you've saved it in one of your umpteen "trusted" places only to never find it again, and cursed the writing gods forever after, this is huge for you.)
 
-
+###  
 
 ## Collaborate (Create a Pull Request)
 
 ---
 
-Use Pull Requests (PRs) to tell others about changes you've pushed to a branch in a GitHub repository. Once you open a PR, you'll be able to review and discuss potential  changes with collaborators. Then you can add subsequent commits before merging your changes into the base (master) branch.
+Use Pull Requests (PRs) to tell others about changes you've pushed to a branch in a GitHub repository. These can only be opened if there are differences between your branch and the branch that's upstream. Once you open a PR, you'll be able to review and discuss potential  changes with collaborators. Your changes are proposed in a branch, which ensures only finished and approved work is merged into the master branch. 
+
+To open a PR in a public repository, you need write access to the head/source branch. On repositories owned by an organization, to open a PR you must be a member of the organization that owns the repository.
+
+### Change your branch range and destination repository
+
+PRs are based on the parent repository's default branch. If the default parent repository is not the right one, you're able to change both the parent repository and the branch with dropdown lists.  You can also swap dropdown lists with your head and base branches to establish diffs between reference points. References here are names of branches in your GitHub repository.
+
+Your base branch is *where* you want changes to be applied, while *what* changes are applied are in your head branch. Change any information in the branch range and you'll also see your Commit and Files changed previews will update to show the new range.
+
+How to create a Pull Request:
+
+1. Go to the main page of your repository on github.com. 
+2. In the **Branch** Menu, choose the branch with your commits.
+3. Hit **New pull request**. 
+4. Choose the branch you'd like to merge your changes into from the base branch dropdown menu. In the compare branch dropdown menu, select the topic branch your changes are in.
+5. Create a title and description to describe the changes in your PR.
+6. If your PR is ready for review, click **Create Pull Request**.
+   
 
 
 ### Create a draft pull request (different from a Pull Request)
 
-When you create your PR, you can make one that's ready for review or a draft PRs to show you'll be continuously making commits. Draft PRs cannot be merged, and code owners won't be automatically requested to review them. 
+When you create your PR, you also have the option to create a Draft PR to show you'll be continuously making commits. Draft PRs cannot be merged, and code owners won't be automatically requested to review them. 
 
 Mark your PR as ready for review when you'd like feedback on your draft PR. If the author is unavailable, a collaborator with write access to the repository can mark the PR as ready for review. It can then be merged and code owners will be asked to review it. 
 
 **Pro tip:** If your commit is still a work in progress, add [WIP] to the front of your title when you create your Pull Request to let your teammates know the status of your work. When it's ready to merge, replace it with [MRG].
+
+
+
+## Request a review
+
+
+
+### So, now you have:
+
+- Pushed your work (or changes to it) to GitHub
+- Recorded your ideas for future pieces of content 
+- Created a Draft or regular Pull Request to alert collaborators that their feedback is needed
+- Asked someone to review your work.
 
 
 
@@ -536,7 +571,7 @@ To make a comment on any text not highlighted in green, go to the left hand side
 
 Merge your PR into an upstream (master) branch when your work is done. Anyone with push access to the repository can merge the PR. 
 
-Make sure yours is a regular PR and not a draft - draft PRs can't be merged. 
+Make sure yours is a regular PR and not a Draft - Draft PRs can't be merged. 
 
 If for some reason, you don't want to merge the changes in your topic branch with the upstream branch, you can close your PR without merging.
 
