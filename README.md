@@ -11,6 +11,8 @@ Within that there are some subdirectories:
 * blog-posts
 * tutorial-pages
 * people
+* faces (which contains the portrait images on the people pages)
+* services
 
 Example directory tree:
 
@@ -23,10 +25,20 @@ content/
 │   │   └── CPS-site-relaunched.md
 │   └── 2018-06-26
 │       └── Tensorflow-serving-python-3.md
+├── faces
+│   ├── aapeli.jpg
+│   └── janis.jpg
 ├── people
 │   ├── aapeli.md
 │   ├── cps.md
 │   └── janis.md
+├── services
+│   ├── data-science.md
+│   ├── machine-learning.md
+│   ├── mathematical-optimization.md
+│   ├── natural-language-processing.md
+│   ├── process-automation.md
+│   └── tech-strategy.md
 └── tutorial-pages
     ├── 2018-02-06
     │   └── python-excepthook-logging.md
@@ -61,7 +73,7 @@ Here's the directory structure:
 The directory structure itself determines the slug in Gatsby. So this generates a post at `/tutorials/2018-04-23/editing-markdown`.
 Here's some markdown from the post itself:
 
-```md
+```markdown
 ## Linting via VS Code plugin
 
 Seeing as we use VS Code already we can install a [markdown linter extension](https://github.com/DavidAnson/vscode-markdownlint) that gives immediate linting for our Markdown files.
@@ -70,6 +82,8 @@ So for example have a look at this screen-shot from when I was writing a draft f
 
 ![example of linter UX in VS Code](markdownLinter.png "VS Code markdownlint extension")
 ```
+
+Note that the post body text starts with a second level heading, this is because a first level heading is generated on the website above the post body text.
 
 So we see that creating an image just involves making a reference to the image file name in the current directory.
 
@@ -89,6 +103,7 @@ tags:
     - productivity
     - linting
 contentType: "tutorial"
+callToActionText: "Are you looking for ways to improve the editing workflows your team uses? Let us know about your current workflow and requirements bu filling in the form below and one of our content workflow experts will get back to you."
 ---
 
 Even before we moved our site to a [JAM stack](https://jamstack.org/) we found that we edited a number of [Markdown](https://en.wikipedia.org/wiki/Markdown) files every day, for example those README.md files on our GitHub repositories and various other bits of documentation.
@@ -97,6 +112,20 @@ More article content here...
 ```
 
 You can see that various pieces of metadata are stored here that are later parsed by Gatsby when building the pages and associated site structure.
+
+### Call to action text
+
+At the bottom of the pages as they are rendered there's the option to have a call to action section. Specifying what text goes here is done in the metadata section called `callToActionText`.
+
+For example
+
+```markdown
+---
+callToActionText: "Are you looking for ways to improve the editing workflows your team uses? Let us know about your current workflow and requirements bu filling in the form below and one of our content workflow experts will get back to you."
+---
+```
+
+If you don't supply anything here a default call to action text will be rendered at the bottom of the page.
 
 ### Specifying drafts
 
@@ -147,6 +176,9 @@ We are using Markdown files to store the information about the people/authors wh
 
 ```sh
 content/
+├── faces
+│   ├── aapeli.jpg
+│   └── janis.jpg
 ├── people
 │   ├── aapeli.md
 │   ├── cps.md
@@ -154,3 +186,43 @@ content/
 ```
 
 Author information is extracted from these markdown documents, templating system will then create the page for all people specified in that file.
+
+The image data for portrait photos is found in the `faces` directory at the filename provided in the metadata section `image` key.
+
+For example
+
+```markdown
+---
+name: "Janis Lesinskis"
+teamMember: true
+image: "janis.jpg"
+url: "https://www.lesinskis.com"
+location: "Australia/Canada"
+bio: "Director of Technological Innovation"
+socialUrls:
+    - "https://github.com/shuttle1987"
+    - "mailto:janis@customprogrammingsolutions.com.au"
+    - "https://www.linkedin.com/in/janislesinskis/"
+shortBlurb: "The short blurb is a few of sentences long about the author.
+
+This is the other sentence"
+miniBlurb: "A single sentence about the author goes here."
+---
+```
+
+The `images` section here will look for the file `faces/janis.jpg` when creating the portrait photo images.
+
+## Creating a service page
+
+Create a page in the `/services` directory, for example `data-science.md`:
+
+```markdown
+---
+name: "Data science"
+callToActionText: "We'd love to learn more about your data science and analytics requirements. Contact us today."
+hideCallToAction: false
+---
+
+Writing for this service page goes here
+
+```

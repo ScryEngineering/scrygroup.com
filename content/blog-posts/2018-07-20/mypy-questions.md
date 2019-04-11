@@ -22,7 +22,7 @@ There were a few questions he had over email about how mypy could be used in add
 ## mypy background
 
 There's a package called [mypy](http://mypy-lang.org/) that does static type checking analysis for Python.
-We particularly like using this at CPS because some bugs get caught by our CI pipeline that would have otherwise slipped though the unit tests.
+We particularly like using this because some bugs get caught by our CI pipeline that would have otherwise slipped though the unit tests.
 This has saved us a large amount of debugging time and has improved the correctness of our programs without costing us much at all.
 It fits in with our overall approach of having multiple lines of defense as no one methodology will catch everything.
 
