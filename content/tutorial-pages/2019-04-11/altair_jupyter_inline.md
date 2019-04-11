@@ -101,7 +101,9 @@ See https://altair-viz.github.io/getting_started/installation.html
 for more information.
 ```
 
-Given that Vega is already installed this is a highly annoying error.
+Given that the workshops I've been running with [Python Charmers](https://pythoncharmers.com/?ref=CPS-altair-post) have been highly organized with a lot of hours put into preparations time I had an immediate intuition that something may have been amiss with the more recent package versions.
+
+Since we explicitly installed Vega just before running this makes for a highly annoying error.
 There's an open issue about this over on the GitHub page: https://github.com/altair-viz/altair/issues/1114
 
 Effectively the reason this happens is because Altair does not work well with the 2.x.x version of Vega.
