@@ -1,5 +1,5 @@
 ---
-title: "A tour of Python's commandline options"
+title: "A tour of Python's command line options"
 authors:
     - "Janis Lesinskis"
 date: "2019-03-09"
