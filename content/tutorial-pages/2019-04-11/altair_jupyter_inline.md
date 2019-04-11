@@ -2,7 +2,7 @@
 title: "Getting Altair to render inline in Jupyter"
 authors:
     - "Janis Lesinskis"
-date: "2019-03-09"
+date: "2019-04-11"
 tags:
     - altair
     - jupyter
