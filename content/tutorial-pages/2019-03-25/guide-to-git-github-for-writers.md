@@ -128,7 +128,7 @@ Because the system is decentralized, it's designed to handle multiple people can
 Markdown is a lightweight markup language you'll swear by once you start using it. Because it's formatted using plain text, your content will transfer easily wherever you need to put it. It will also open and display as intended in any modern word processor.
 
 **Content is easily re-purposed**
-You don't just create content once and forget about it. More than ever, a modern marketing strategy demands content that's re-purposed and reused. As [Daring Fireball](https://daringfireball.net/projects/markdown/syntax) mentions, with Markdown readability is emphasized above all else, and its syntax is intended for the singular purpose of being used as a format for writing for the web. The potential is endless, meaning you've unlocked your content from unwieldy programs and proprietary software. It's free!
+You don't just create content once for a singular format and forget about it. More than ever, a modern marketing strategy demands content that's re-purposed and reused. As [Daring Fireball](https://daringfireball.net/projects/markdown/syntax) mentions, with Markdown readability is emphasized above all else, and its syntax is intended for the singular purpose of being used as a format for writing for the web. The potential is endless, meaning you've unlocked your content from unwieldy programs and proprietary software. It's free!
 
 **Each repository is essentially a backup**
 My client (who's used Git for several years) says he has yet to lose a large amount of data on any project using Git. Even if one machine goes down, you can still access your data from other machines. The decentralized system is a nice backup feature in disguise. If you didn't have this, you'd need to consider backups and disaster recovery strategies. Not having to be so worried about this means you reduce the mental burden on you and your team, and reduce the risk of a devastating loss of data and hours. 
@@ -537,7 +537,7 @@ Mark your PR as ready for review when you'd like feedback on your draft PR. If t
 
 ---
 
-After you've initialized a PR, on your review page you'll see a high-level overview of the changes between your branch (a.k.a. the compare branch) and the repository's base branch. Add a summary of the proposed changes, review changes made by commits, and add labels, milestones, and assignees. You can also mention individual contributors or teams.
+After you've started a PR, on your review page you'll see a high-level overview of the changes between your branch (a.k.a. the compare branch) and the repository's base branch. Add a summary of the proposed changes, review changes made by commits, and add labels, milestones, and assignees. You can also mention individual contributors or teams.
 
 Other contributors can review your proposed changes, comment, add their thoughts to the PR conversation, and add commits to your PR.
 
@@ -604,7 +604,7 @@ Merge conflicts can happen when:
 
 Before you can merge a Pull Request on GitHub, you must resolve all merge conflicts. If you've got a merge conflict between a compare branch and base branch in your PR, you can see a list of the files with conflicting changes above the Merge pull request button. You'll see that the button deactivates until all conflicts between the compare and base branch are resolved.
 
-In this example, I *write example of conflict*
+In this example, I *write example of conflict*  
 
 
 
@@ -613,6 +613,32 @@ In this example, I *write example of conflict*
 ## Limitations of Git and GitHub for writers and teams
 
 ---
+
+As much as we love Git and GitHub, this wouldn't be a true "guide" to the software if we weren't honest about its drawbacks and limitations (and there are a few). The ones we've discovered in our work include:
+
+**The significant learning curve can intimidate new users.**
+
+Google Docs will be familiar to many and is easy to use for writers and editors who are even a little tech-literate. Though it's not particularly powerful, you're not likely to get into a battle with your team over adoption, because almost anyone can jump right in on day one. 
+
+In contrast, GitHub is an incredibly powerful piece of software that takes time to learn. It is **not** what I'd call intuitive. It can be frustrating and took me a while to commit the basics (branches, Pull Requests, the diff viewer) to memory. I still haven't run into enough merge conflicts to solve them comfortably. You will make mistakes...and that's okay. Be prepared to invest the time in learning, and helping your teammates learn. Once you start to get proficient with GitHub and build a process that works for you, your patience and persistence will pay off - you'll have a better, more secure tool for true collaboration. 
+
+**You may have to herd some cats to get long-term buy-in.**
+
+
+
+**Get ready for some arguments/discussions about Git and version control.**
+
+
+
+**The lack of live editing/preview will grate on those used to modern CMS environments.**
+
+
+
+That said, the break-even point for any team that publishes content on a regular basis is somewhere between 5 to 10 people. If you're within that range, it makes sense to have some sort of Content Management or revision control system to track your projects and everyone's contributions to them. The kicker, of course, is that the internal quality of your processes and tools is a hidden attribute. As software developer [Martin Fowler writes in his post Tradable Quality Hypothesis](https://martinfowler.com/bliki/TradableQualityHypothesis.html):
+
+'>'...it's vital to focus on the true value of internal quality - that it's the enabler to speed. The purpose of internal quality is to go faster.'>'
+
+In your case, once you structure your content production around GitHub, your improved internal quality will mean your team creates better content faster, using a process that's much more manageable and streamlined thanks to GitHub's revision control system. 
 
 
 
