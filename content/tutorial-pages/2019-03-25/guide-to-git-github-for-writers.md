@@ -604,7 +604,35 @@ Merge conflicts can happen when:
 
 Before you can merge a Pull Request on GitHub, you must resolve all merge conflicts. If you've got a merge conflict between a compare branch and base branch in your PR, you can see a list of the files with conflicting changes above the Merge pull request button. You'll see that the button deactivates until all conflicts between the compare and base branch are resolved.
 
-In this example, I *write example of conflict*  
+In this example, my client and I both try to add text on the same lines in a README.md file at the same time, creating a conflict. 
+
+First, my client created a branch (cheese-ipsum) based on the master branch, and opened a PR (as you're supposed to do). I also added my own text and committed to master (a huge no-no in GitHub...when you're committing new content to be reviewed, **never** push to master - always create a branch to avoid your changes going live on your website before they've been approved). 
+
+When that happens, you get a warning on your PR page that the branch has conflicts that must be resolved:
+
+
+
+1. Look at the diff viewer to see the conflicts. 
+
+   `# merge-conflict-example` is the name of the repository (at the top of the file). 
+
+   My client's commit appears first. `## Ipsum Zone` is the name of the document's heading.
+
+   `<<<<<< cheese-ipsum` is the name of the branch my client created.
+
+   Next, you'll see the text he wrote on lines 9 and 11. 
+
+   The `======` on line 12 separates his text from mine, which appears on lines 13 through 16. On line 17, where `>>>>>>> master` appears, you can see that I committed my changes to the master branch. 
+
+2. Choose which text to keep/get rid of.
+
+   To resolve the conflict, I need to choose which lines of text to delete (any text appearing between lines 5 and 17, which are highlighted in yellow, is fair game). 
+
+   After choosing to delete my own changes and clicking the **Mark as resolved** button, I see that the conflict has been resolved and a green **Commit merge** button appears in the top right of my screen, next to the title of my client's PR. I click the button, and voilà! There are no conflicts with the base branch and I can now merge my PR by hitting the friendly green **Merge pull request** button as I normally would.
+
+3. Merge is confirmed.
+
+   I then see this screen. At the top, I receive a notification that the merge conflict is resolved. You can also see that the PR has been successfully merged and closed (it's great that the status of PRs is colour-coded, so you immediately know that all is good - or not - before you even start to read).
 
 
 
@@ -624,11 +652,15 @@ In contrast, GitHub is an incredibly powerful piece of software that takes time 
 
 **You may have to herd some cats to get long-term buy-in.**
 
+It's part of the human condition to fear the unknown. Getting people to adopt complex new concepts and software (especially those that require the user to be proficient before they see a payoff) is almost never an easy sell. Given the choice, many would opt to keep using mediocre software they're comfortable with than endure relatively short-term pain (in the form of training/onboarding time) for long-term gain (a much more efficient workflow using a program that fulfills requirements). 
 
+If your team is mired in complacency with its current solution, you may be facing an uphill battle in motivating them to switch. Consider whether your organizational culture possesses enough willpower to make people do what's right, even if it's difficult.
 
 **Get ready for some arguments/discussions about Git and version control.**
 
 
+
+Since Git prevents people from deferring the cost of version control, it drives arguments that need to happen within teams, but wouldn't occur under other conditions. Because some organizations insist on kicking the can down the road indefinitely, this is another area where complacency becomes apparent quickly; with Git's version control, you're forced to 
 
 **The lack of live editing/preview will grate on those used to modern CMS environments.**
 
