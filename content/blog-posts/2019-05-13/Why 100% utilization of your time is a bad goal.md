@@ -10,7 +10,9 @@ There are a few problems with booking out 100% of your time. Here are the ones w
 
 ### You don't have any time to assess priorities and processes 
 
-Processes aren't just a "set it and forget" thing. They're the foundation of everything you do in your business, so they need to be kept lean, reviewed regularly and updated (or revamped) when required. We suggest our clients review their processes annually, preferably before you take end-of-year holidays since everyone is in a reflective state of mind. 
+Processes aren't just a "set it and forget" thing. They're the foundation of everything you do in your business, from marketing to client onboarding, project management, accounting and disaster recovery (see below).
+
+They need to be kept lean, reviewed regularly and updated (or revamped) when required. We suggest our clients review their processes annually, preferably before you take end-of-year holidays since everyone is in a reflective state of mind. 
 
 When you've got 100% of your team and 100% of your calendar full, there's no time for those critical breaks to work *on* your business vs. *in* it. That's a huge problem for companies of any size, because outdated or incomplete processes mean things start to slip through the cracks. Dedicating time to assess your priorities and processes, and whether you're on course to achieve your goals, is crucial to your long-term success.
 
@@ -18,19 +20,37 @@ When you've got 100% of your team and 100% of your calendar full, there's no tim
 
 Customers are at the heart of any business; without them, there's no revenue, no product or service to sell, and no staff. It's often the little details - a last review before sending your work to a client, a brief phone call to clarify a request, or an extra half-hour spent fixing a problem before they spot it - that differentiate you from the competition and turn your client into an ambassador for your business. 
 
-Tragically, these are also the first details to be missed when staff time and workload aren't managed appropriately. Clients are the first ones to suffer, but if they leave to work with your competition, the impact can be devastating - not only on the project and on your current cashflow, but the long-term impact on your reputation could be severe  (since customers are far more likely to talk about poor experiences than good ones). 
+Tragically, these are also the first details to be missed when staff time and workload aren't managed appropriately. And if service neglect becomes chronic, important details are missed, leaving clients frustrated (and depending on your service, potentially at risk for security breaches, embarrassing downtime or worse). 
+
+SHARE EXAMPLE
+
+Clients are the first ones to suffer, but if they leave to work with your competition, the impact can be devastating - not only on the project and on your current cashflow, but the long-term impact on your reputation could be severe  (since customers are far more likely to talk about poor experiences than good ones). 
 
 ### You won't be able to respond to emergencies as quickly as you need to 
 
-In the lifespan of any business, disaster is likely to strike at least once.
+In the lifespan of any business, disaster is likely to strike at least once. It could be: 
+
+- within your physical environment (an earthquake or other natural disaster)
+- personnel-related (you have to quickly discipline or terminate an employee, help them through a crisis or allow extended time off for medical reasons) or 
+- virtual (your website or network goes down or is hacked, you get locked out of your accounts, or you have a data breach)
+
+Needless to say, emergencies require both effective immediate response and ongoing care to address fallout and issues. If you're utilizing 100% of your staff's time on projects, addressing the emergency would require you to pull them off the project, renegotiate any deadlines, then reallocate work to existing staff while you're paying that employee to address the emergency. This entails doing a lot of work during what will already be a stressful time. The worst part is, you could have left time in your schedule to allow for this.
+
+While you can't predict which emergencies will come up or when, it's important to assume that at least one thing will go wrong, plan for disaster recovery and leave room to implement the process.
 
 ### You won't have any bandwidth for business development and growth 
 
 Business development and growth can be compared to growing a vegetable garden in your backyard; it as long as you consistently maintain it, plant regularly and balance out your crops (grow your business using a number of different methods), you'll be well-fed. But forget about it, or do too much of one thing, and you'll be in trouble. It's imperative to make time to plant these seeds of growth before you're (quite literally) starving for business, because your busy days won't last forever.
 
-Skills development gets put on the back burner 
+### Skills development gets put on the back burner 
+
+Your ability to effectively serve your customers and attract lucrative new clients relies partly on your commitment to honing your skills, then adapting them to solve your client's problems. New tools and technologies are released all the time, and we can either learn to use them or fade into irrelevance. While a serious skills deficit is difficult to recover from, you can avoid the panic-inducing feeling of lagging behind by dedicating time in your week for learning and skills development. 
+
+This could be:
 
 Work-life balance flies out the window 
+
+- importance of sleep 
 
 Employees don't learn how to effectively manage their time
 
