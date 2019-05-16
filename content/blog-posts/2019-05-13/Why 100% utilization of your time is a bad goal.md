@@ -68,11 +68,15 @@ KEN STANLEY: DISCOVERY WITHOUT OBJECTIVES https://www.youtube.com/watch?reload=9
 
 While it's true that scheduling hours of meaningless meetings each month will thwart productivity, every team needs a chance to touch base about the work they're doing, new ideas that come up, challenges that affect the group, etc. Those open-ended sessions often fall off the calendar when everyone's calendar is full. And why not - you assume that anything that can be said in a meeting can be put in an email (that will probably get buried in your inbox). 
 
-However, this isn't always true. "Free hours" or open-ended team sessions are often fertile ground for new ideas to be proposed and discussed. Even in 2019, nothing replaces in-person interaction.
+But have you ever considered the value of not attaching an objective to complex issues? Kenneth Stanley, a professor in Computer Science, founding member of Uber AI Labs and author of Why Greatness Cannot Be Planned, proposed that highly ambitious objectives ultimately block their own achievement (in other words, it's "probably not a good idea if you have a really ambitious objective to try to achieve it."). 
 
-Scheduling 100% of our time robs us of the ability to have any of those conversations, effectively preventing discovery of opportunities, challenges and problems. 
+"Almost no prerequisite to any major invention was invented with that invention in mind. This should give us great pause for those who think that objectives should drive achievement."
 
+If you want to achieve something that's many stepping stones away, "forget having an objective. You can not define your goal, and you may achieve greatness, but you won't know what that greatness ultimately will be. You have to let go of the idea that you have to define where you're going in order to get there. Then you may find something great, and who knows where that may be."
 
+He argued that "great invention does not mean seeing many stepping stones into the future, although we think of visionaries in that way. What it means is seeing one stepping stone ahead. That's the nature of great invention."
+
+As for what this means for your team, "free hours" or open-ended team sessions are often fertile ground for new ideas to be proposed and discussed. Scheduling 100% of our time robs us of the ability to have any of those conversations, effectively preventing discovery of opportunities, challenges and problems. Not to mention that even in 2019, nothing replaces in-person interaction.
 
 ## How did we get here?
 
@@ -96,10 +100,6 @@ We've all had those months where we've pulled consecutive all-nighters to hit a 
 
 This scenario can happen in companies managed by well-intentioned but overwhelmed leaders. Left unchecked, it can become the norm by default. However, the results are the same: leaders model acceptable behavior, and both longtime and new staff take note (consciously or sub-consciously) and behave accordingly. The result: an erosion of best practices and a descent into dysfunctional culture.
 
-### Chronic understaffing
-
-This can be a separate issue or a result of the company being poorly managed. No matter the cause, sudden mass layoffs or gradual attrition leaves employees chronically overworked, resentful, ineffective and eventually, burnt out or sick. Even the most dedicated staff members won't be able to keep up if they're chronically swamped. 
-
 ## What can you do?
 
 Now that we understand the problem of 100% time utilization and how it's caused, let's look at how to prevent it from happening at all. It amounts to religiously blocking off time each week that's not assigned to client work. Here are some tips on how to do that:
@@ -108,7 +108,7 @@ Now that we understand the problem of 100% time utilization and how it's caused,
 
 Sometimes, when a large project stretches out in front of you, it's tempting to pour all of your time and energy into making progress toward large milestones. Although it's great to be focused, spending time on a singular project to the exclusion of all others is bad practice for both creative and practical (time management) reasons. 
 
-The popular [Pomodoro Technique](https://francescocirillo.com/pages/pomodoro-technique) is based on this rationale. Developed  by Francesco Cirillo, the technique involves taking either a small or large task and breaking it down into small, manageable chunks. Those who practice it set a timer for 25 minutes, work on the task uninterrupted until the timer rings, take a break, and repeat. It's a great time management practice for when you need to get a significant amount of work done in a few focused sprints. 
+The popular [Pomodoro Technique](https://francescocirillo.com/pages/pomodoro-technique) is based on this rationale. Developed  by Francesco Cirillo, it involves taking either a small or large task and breaking it down into small, manageable chunks. Set a timer for 25 minutes, work on the task uninterrupted until the timer rings, take a break, and repeat. It's a great time management practice for when you need to get a significant amount of work done in a few focused sprints. 
 
 When it comes to deciding how much time to spend on each task, it's critical to find a balance between working on (and thinking about) one exclusively and multi-tasking, which isn't possible, because although we can do many things in succession, we can't do more than one thing at a time.
 
@@ -136,3 +136,8 @@ To be their most productive during work hours, everyone needs unqualified time o
 
 
 ### Wrap up
+
+There are several reasons not to fill 100% of your time. 
+
+
+
