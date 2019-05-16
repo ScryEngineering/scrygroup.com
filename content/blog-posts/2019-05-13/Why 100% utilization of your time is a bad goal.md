@@ -64,11 +64,9 @@ In short, it's fundamentally important for those of us in programming or creativ
 
 When we're using 100% of our time, every conversation has to have explicit objectives attached to it. Otherwise, why waste our time when there's so much work to get done, calls to return and emails to read? 
 
-KEN STANLEY: DISCOVERY WITHOUT OBJECTIVES https://www.youtube.com/watch?reload=9&v=tZBViI8ZaU0
-
 While it's true that scheduling hours of meaningless meetings each month will thwart productivity, every team needs a chance to touch base about the work they're doing, new ideas that come up, challenges that affect the group, etc. Those open-ended sessions often fall off the calendar when everyone's calendar is full. And why not - you assume that anything that can be said in a meeting can be put in an email (that will probably get buried in your inbox). 
 
-But have you ever considered the value of not attaching an objective to complex issues? Kenneth Stanley, a professor in Computer Science, founding member of Uber AI Labs and author of Why Greatness Cannot Be Planned, proposed that highly ambitious objectives ultimately block their own achievement (in other words, it's "probably not a good idea if you have a really ambitious objective to try to achieve it."). 
+But have you ever considered the value of not attaching an objective to complex issues? Kenneth Stanley, a professor in Computer Science, founding member of Uber AI Labs and author of Why Greatness Cannot Be Planned, proposed in his talk [Discovery Without Objectives]( https://www.youtube.com/watch?reload=9&v=tZBViI8ZaU0) that highly ambitious objectives ultimately block their own achievement (in other words, it's "probably not a good idea if you have a really ambitious objective to try to achieve it."). 
 
 "Almost no prerequisite to any major invention was invented with that invention in mind. This should give us great pause for those who think that objectives should drive achievement."
 
