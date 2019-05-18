@@ -2,11 +2,11 @@
 
 Do you ever look at your calendar and wonder where the week (or month) went? Thinking back, you may be startled that you've become one of those people who responds with "crazy busy" when you're asked how things are going. You're exhausted, overwhelmed and concerned about what the future holds. After all, how long can you and your team keep running at 100% capacity without a break? 
 
-The answer: not long. Whether this is your situation now or you're headed here, it's a bad idea to spend 100% of your time on-task. The outcomes of doing so are also terrible, since you'll miss out on opportunities to grow. Worse, you'll actively put the health of yourself, your team and your entire business at risk. In this post, we'll break down some of the negative impacts of using 100% of your time on current projects, how businesses end up in this trap and what you can do to keep it from happening.
+The answer: not long. Whether this is your situation now or you're headed here, it's a bad idea to spend 100% of your time on-task. The outcomes of doing so are terrible, since you'll miss out on opportunities to grow. Worse, you'll actively put the health of yourself, your team and your entire business at risk. In this post, we'll break down some of the negative impacts of using 100% of your time on current projects, how businesses end up in this trap and what you can do to keep it from happening.
 
 ## 7 problems with 100% utilization
 
-There are a few problems with booking out 100% of your time. Here are the ones we see that have had the most negative impact on clients I've worked with in the past:
+There are a few problems with booking out 100% of your time. Here are the ones I see that have had the most negative impact on clients I've worked with in the past:
 
 ### You don't have any time to assess priorities and processes 
 
@@ -20,9 +20,9 @@ When you've got 100% of your team booked and 100% of your calendar full, there's
 
 It's often the little details - a last review before sending your work to a client, a brief phone call to clarify a request, or 20 minutes spent helping them solve a problem - that differentiate you from the competition and turn your client into an ambassador for your business. 
 
-Tragically, these are also the first details to be missed when staff time and workload aren't managed appropriately. And if neglect of customer service becomes chronic, important details are missed, leaving clients frustrated (and depending on your service, potentially at risk for security breaches, embarrassing downtime or worse). 
+Tragically, these are also the first details to be missed when staff time and workload aren't managed appropriately. And if neglect of customer service becomes chronic, important details are overlooked, leaving clients frustrated (and depending on your service, potentially at risk for security breaches, embarrassing downtime or worse). 
 
-Clients are the first ones to suffer, but if they leave to work with your competition, the impact can be devastating - not only on the project and on your current cashflow, but the long-term damage to your reputation could be severe  (since customers are far more likely to talk about poor experiences than good ones). 
+Clients are the first ones to suffer, but if they leave to work with your competition, the impact can be devastating - not only on the project and on your current cashflow, but the long-term damage to your reputation could be severe  (since [customers are more likely to talk about poor experiences than good ones](https://www.inc.com/andrew-thomas/the-hidden-ratio-that-could-make-or-break-your-company.html)). 
 
 ### You won't be able to respond to emergencies as quickly as you need to 
 
@@ -52,7 +52,7 @@ Self-care and sleep aren't luxuries, but we often treat them as if they are; cut
 
 In his TED Talk "[Sleep is your superpower](https://www.ted.com/talks/matt_walker_sleep_is_your_superpower/transcript?language=en#t-451119)", sleep researcher Matt Walker talks about the advantages of getting a proper seven-plus hours of restorative sleep per night. On the flip side, when that doesn't happen there are devastating short and long-term consequences for our brains and bodies. Since sleep affects everything from our learning ability and memory function to our cardiovascular and systems, a lot can go wrong when we lose even four hours in a single night, never mind consistently pull all-nighters.
 
-"In fact, the link between a lack of sleep and cancer is now so strong that the World Health Organization has classified any form of nighttime shift work as a probably carcinogen, because of a disruption of your sleep-wake rhythms," said Walker, who adds that the old maxim that you can sleep when you're dead is mortally unwise advice. 
+"In fact, the link between a lack of sleep and cancer is now so strong that the World Health Organization has classified any form of nighttime shift work as a probable carcinogen, because of a disruption of your sleep-wake rhythms," said Walker, who adds that the old maxim that you can sleep when you're dead is mortally unwise advice. 
 
 "There's a simple truth: the shorter your sleep, the shorter your life. Short sleep predicts all-cause mortality," he said. "There is simply no aspect of your wellness that can retreat at the sign of sleep deprivation and get away unscathed." 
 
@@ -64,7 +64,7 @@ In short, it's fundamentally important for those of us in programming or creativ
 
 When we're using 100% of our time, every conversation has to have explicit objectives attached to it. Otherwise, why waste our time when there's so much work to get done, calls to return and emails to read? 
 
-While it's true that scheduling hours of meaningless meetings each month will thwart productivity, every team needs a chance to touch base about the work they're doing, new ideas that come up, challenges that affect the group, etc. Those open-ended sessions often fall off the calendar when everyone's calendar is full. And why not - you assume that anything that can be said in a meeting can be put in an email (that will probably get buried in your inbox). 
+While it's true that scheduling hours of meaningless meetings each month will thwart productivity, every team needs a chance to touch base about the work they're doing, new ideas that come up, challenges that affect the group, etc. Those open-ended sessions often fall off the calendar when everyone's calendar is full. And why not? You assume that anything that can be said in a meeting can be put in an email (that will probably get buried in your inbox). 
 
 But have you ever considered the value of not attaching an objective to complex issues? Kenneth Stanley, a professor in Computer Science, founding member of Uber AI Labs and author of Why Greatness Cannot Be Planned, proposed in his talk [Discovery Without Objectives]( https://www.youtube.com/watch?reload=9&v=tZBViI8ZaU0) that highly ambitious objectives ultimately block their own achievement (in other words, it's "probably not a good idea if you have a really ambitious objective to try to achieve it."). 
 
@@ -82,13 +82,13 @@ As for what this means for your team, "free hours" or open-ended team sessions a
 
 ### Outdated thinking regarding productivity and time management
 
-In both corporate and startup cultures, you'll find the toxic mindset of presenteeism abounds. Many labor under the notion that to be seen as productive, we need to be in the office, on our computers, and that we should book up 100% of our time. 
+In both corporate and startup cultures, the toxic mindset of [presenteeism](https://www.forbes.com/sites/karenhigginbottom/2018/04/20/the-price-of-presenteeism-2/#5e123ced7f9c) abounds. Many labor under the notion that to be seen as productive, we need to be in the office, on our computers, and that we should book up 100% of our time. 
 
 The (counter-intuitive) truth is that aiming to use less than 100% of your time actually makes you more productive, because you give yourself a finite amount of time to accomplish your task. Think of the last time you set a self-imposed deadline on a personal or work project, rather than procrastinating and taking all day (or week!) to complete it. You probably felt more productive when you focused on finishing your task in a shorter time span, then rewarding yourself with an afternoon or weekend off. 
 
 ### Poor, fear-based management
 
-There's no way to sugarcoat this harsh reality. Some businesses are badly managed for so long that toxic culture permeates the company. Short-sighted, incompetent leaders can leave a devastating impact on employees and their environment long after they depart or retire. 
+There's no way to sugarcoat this harsh reality. Some businesses are badly managed for so long that toxic culture permeates the company. 
 
 Bad leaders often use fear to wield power over staff, and implement unrealistic expectations and policies. One of those is that staff are seen as nothing more than behinds in seats, cost centres who must generate revenue for the business. And they're *always* expected to be productive and within reach. Good employees either wither under this type of leadership, or leave in search of healthier environments. 
 
@@ -112,11 +112,11 @@ When it comes to deciding how much time to spend on each task, it's critical to 
 
 ### Dedicate time to strategy, learning and skills development
 
-New tools and technologies are released all the time, and we can either learn to use them or fade into irrelevance. While a serious skills deficit is difficult to recover from, you can avoid the panic-inducing feeling of lagging behind by dedicating time in your week for learning and skills development. 
+New tools and technologies are released all the time, and we can either learn to use the ones applicable to us or fade into irrelevance. A serious skills deficit is difficult to recover from, but you can avoid the panic-inducing feeling of lagging behind by dedicating time in your week for learning and skills development. 
 
 This could include:
 
-- taking an online or in-classroom course to gain or renew certification 
+- taking an online or in-classroom course to obtain or renew certification 
 - reading books, trade publications or industry websites
 - attending a conference, networking event or workshop 
 - learning how to use new technologies, software, apps, etc. 
@@ -129,13 +129,16 @@ Need to work on strategy and planning? Do the same - make a list of processes an
 
 ### Encourage employees to balance work with personal time
 
-To be their most productive during work hours, everyone needs unqualified time off. That means building and sustaining a workplace culture that actively encourages work-life balance, and helps employees achieve it. [According to this article on The Balance Careers](https://www.thebalancecareers.com/top-ways-to-encourage-employee-work-balance-1919353), you can do that in any number of ways, including modeling the work-life balance you expect, setting expectations that time off is indeed time off, and not confusing commitment, engagement and dedication with 60 to 70 hours weeks. 
+To be their most productive during work hours, everyone needs unqualified time off. That means building and sustaining a [workplace culture that actively encourages work-life balance](https://www.thebalancecareers.com/top-ways-to-encourage-employee-work-balance-1919353), and helps employees achieve it. This can be as simple as insisting that employees take time off to recover when they're sick, modeling the work-life balance you expect, and setting expectations that time off is indeed time off. 
 
-
+ 
 
 ### Wrap up
 
-There are several reasons not to fill 100% of your time. 
+While filling 100% of your time is easy, it can have a devastating impact on your business as customer service can suffer, we miss opportunities to grow and even neglect our health and well-being. As entrepreneurs, it's incumbent on us to lead our teams by example - manage time appropriately, encourage learning and skills development and insist on a healthy workplace culture that encourages work-life balance. 
 
+ 
+
+ 
 
 
