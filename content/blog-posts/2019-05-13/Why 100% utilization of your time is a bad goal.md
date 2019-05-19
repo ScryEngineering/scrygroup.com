@@ -2,7 +2,7 @@
 
 Do you ever look at your calendar and wonder where the week (or month) went? Thinking back, you may be startled that you've become one of those people who responds with "crazy busy" when you're asked how things are going. You're exhausted, overwhelmed and concerned about what the future holds. After all, how long can you and your team keep running at 100% capacity without a break? 
 
-The answer: not long. Whether this is your situation now or you're headed here, it's a bad idea to spend 100% of your time on-task. The outcomes of doing so are terrible, since you'll miss out on opportunities to grow. Worse, you'll actively put the health of yourself, your team and your entire business at risk. In this post, we'll break down some of the negative impacts of using 100% of your time on current projects, how businesses end up in this trap and what you can do to keep it from happening.
+The answer: not long. Whether this is your situation now or you're headed here, it's a bad idea to spend 100% of your time on-task. The outcomes of doing so are terrible, since you'll miss out on opportunities to grow. Worse, you'll actively put the health of yourself, your team and your entire business at risk. In this post, I'll break down some of the negative impacts of using 100% of your time on current projects, how businesses end up in this trap and what you can do to keep it from happening.
 
 ## 7 problems with 100% utilization
 
