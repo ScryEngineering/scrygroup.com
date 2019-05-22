@@ -61,6 +61,8 @@ I'll cover the following:
 
   For Git to be able to calculate differences between files, the files must be stored in a document that the software can "read" so it can detect what's changed. A plain text file (e.g.: a Markdown document) is perfect for this. Any changes to the document will be seen in the lines of the file that are responsible for it. Contrast this to other file types like Word .doc files, where a change to one line is hard to locate in the file, or images, where changing the file won't lead to a nice textual summary of what's changed. 
 
+Admittedly, Git isn't the important part here - the command line is terrible and usability leaves much to be desired. In fact, it's often derided as user hostile and although the interface has marginally improved, it's still one of the worst in the world.
+
 
 
 ### GitHub
@@ -79,7 +81,7 @@ I'll cover the following:
 
 ------
 
-This is a guide for writers, by a writer/content marketer who's been where you are: frustrated with the constraints and headaches current writing software and workflows foist on us, and wondering if there's anything better - an open source, distraction-free, secure platform that supports hassle-free collaboration between you and your clients. 
+This is a guide for writers, by a content marketer who's been where you are: frustrated with the constraints and headaches current writing software and workflows foist on us, and wondering if there's anything better - an open source, distraction-free, secure platform that supports hassle-free collaboration between you and your clients. 
 
 That said, you don't have to have "writer" anywhere in your title to use this guide. If you produce text content that gets published online, this primer is for you.
 
@@ -89,7 +91,7 @@ That said, you don't have to have "writer" anywhere in your title to use this gu
 
 ---
 
- Though Git is a repository hosting service much-loved by developers for its robust version control, issues management and change tracking capabilities. It turns out, writers are on a continual quest for a tool that offers these features and allows them to work on a truly collaborative basis with their clients.
+Git is a repository hosting service much-loved by developers for its robust version control, issues management and change tracking capabilities. It turns out, writers are on a continual quest for a tool that offers these features and allows them to work on a truly collaborative basis with their clients.
 
 ### The problem(s) with word processors and web-based writing tools 
 
@@ -99,13 +101,13 @@ Have you ever worked on a document with multiple authors? Some of you may be Mac
 With word processors, you often end up with a Definitely-Final-Revised-Version-12, or even worse, there are multiple documents floating around with changes that will have to be vetted and amalgamated into one. 
 
 **Unfriendly file formats make for wasted time**
-Sometimes things can go wonky if documents are saved and opened in different file formats, or saved on different versions of the same program (not all is equal in the land of Mac, Windows and other operating systems). Even today, devices don't always play nicely with one another. Consequently, you can't be 100% sure your document will open and display correctly for everyone.
+Sometimes things can go wonky if documents are saved and opened in different file formats or programs, or saved on different versions of the same program (not all is equal in the land of Mac, Windows and other operating systems). Even today, devices don't always play nicely with one another. Consequently, you can't be 100% sure your document will open and display correctly for everyone.
 
 **Content loses formatting when transferred**
 If you've ever spent a tedious half-hour formatting your document in Word, then copied and pasted it to the web, a Content Management System, or somewhere else, you've probably watched the formatting disappear before your eyes or some of your text turn to gibberish. This is because the formatting rules you used were specific to the software you used to create the document. Depending on where you transfer your content, you could end up having to reformat all over again, doubling your time spent on task.
 
 **True collaboration is a hassle**
-Dialogue makes collaboration work, and the ability to easily provide feedback on documents (especially if you work remotely) is essential. The commenting systems in both conventional and web-based programs leave a lot to be desired, as your page gets so messy, the content becomes obscured. You find yourself actually dreading giving or receiving feedback, as each comment adds to a tangled web of suggestions, crossed-out paragraphs, and different-coloured replies in the margin. The content takes a back seat to noise. 
+Dialogue makes collaboration work, and the ability to easily provide feedback on documents (especially if you work remotely) is essential. The commenting systems in both conventional and web-based programs leave much to be desired, as your page gets so messy, the content becomes obscured. You find yourself actually dreading giving or receiving feedback, as each comment adds to a tangled web of suggestions, crossed-out paragraphs, and different-coloured replies in the margin. The content takes a back seat to noise. 
 
 **Losing data could mean a frustrating setback**
 We've all done it: spent days working away painstakingly on a document, saving it, shutting down and forgetting to back up. Then disaster strikes: our laptop goes missing, a flood happens, or a hard drive quits. All of our work is up in smoke and we've got some explaining to do. Always frustrating, and sometimes devastating to a project on a tight timeline. Unless you save your file in the right place and take the time to back up, you're taking a huge unnecessary risk with your team's hard work.
@@ -116,13 +118,13 @@ We've all done it: spent days working away painstakingly on a document, saving i
 
 In contrast, distributed systems *just work*. Your content will be ready for the web faster, you'll be more productive, and hopefully you'll notice a lot less hassle happening in the process.
 
-Git is a decentralized version control system. Here's why that's important: 
+Git is what we call a *decentralized version control system*. Here's why that's important: 
 
 **One master document means everyone is (literally) on the same page**
 No more wasting time trying to figure out which is the authoritative or most up to date version! When anyone clones a repository to their local machine (computer), opens their document, then makes and commits changes, Git checks those changes against previous versions and tracks them. You'll be able to tell who made changes, when, and (if the contributor writes a message in their commit) why.
 
 **You'll have a stable platform to collaborate with clients and partners**
-Because the system is decentralized, it's designed to handle multiple people can work on the same document at the same time. While some centralized systems (such as Joomla) will lock you out of a page as a protective measure while someone else is editing it, you won't run into this challenge with Git and GitHub. 
+Because the system is decentralized, it's designed to handle multiple people working on the same document at the same time. While some centralized systems (such as Joomla) will lock you out of a page as a protective measure while someone else is editing it, you won't run into this challenge with Git and GitHub. 
 
 **One formatting language to rule them all**
 Markdown is a lightweight markup language you'll swear by once you start using it. Because it's formatted using plain text, your content will transfer easily wherever you need to put it. It will also open and display as intended in any modern word processor.
@@ -132,6 +134,20 @@ You don't just create content once for a singular format and forget about it. Mo
 
 **Each repository is essentially a backup**
 My client (who's used Git for several years) says he has yet to lose a large amount of data on any project using Git. Even if one machine goes down, you can still access your data from other machines. The decentralized system is a nice backup feature in disguise. If you didn't have this, you'd need to consider backups and disaster recovery strategies. Not having to be so worried about this means you reduce the mental burden on you and your team, and reduce the risk of a devastating loss of data and hours. 
+
+**Undo and redo changes with version control**
+
+Though GitHub can be hard to pick up for the casual user, rolling changes forward or backward is easy thanks to version control - a big plus when you have an entire team creating and reviewing a piece of content. 
+
+Although your trusty word processor offers Undo and Redo buttons, once you undo your most recent changes, save and then close your document, that text is gone forever. In contrast, GitHub not only provides an overview of your changes over time, it tells you who made them. 
+
+Bonus: Version control boosts the accountability factor among team members, since you'll now be able to track each person's contribution and easily discover who did what, when. 
+
+**A clean, reader-friendly comments section**
+
+When two or more people collaborate on content, they usually have discussions about various aspects of that content, including writing or design. Most word processors and editing programs handle these horribly, to the point where you end up with a mess of many mind-numbing paragraphs in the margins of your document. As contributors add their comments, conversations flows quickly become difficult to keep track of.
+
+In GitHub, you'll quickly discover comments appear in a neat box directly under the paragraph being discussed. You can clearly see which contributor made the comments, the dates conversations occurred, easily track the flow of conversations and resolve them once decisions have been made.
 
 
 
@@ -143,27 +159,25 @@ You'll need to install and set up a few tools that will help you do your work fa
 
 ### Install a Markdown editor
 
-You'll want to work in Markdown for this exercise (read this to find out why). Markdown is a simple markup language that's ideal for writers that lets us control the display of the document. We can create lists, add images, format words in bold or italic, include quotes or raw HTML or do other things using a few keys and non-alphabetic characters such as #, *, or _. 
+You'll want to work in Markdown for this exercise ([read the passage titled Philosophy in Daring Fireball's Markdown: Syntax](https://daringfireball.net/projects/markdown/syntax) to find out why). Markdown is a simple markup language that's ideal for writers that lets us control the display of the document. We can create lists, add images, format words in bold or italic, include quotes or raw HTML or do other things using a few keys and non-alphabetic characters such as #, *, or _. 
 
-Brush up on Markdown with a tutorial, and keep a cheat sheet on hand. https://www.markdowntutorial.com/
+[Brush up on Markdown with a tutorial](https://www.markdowntutorial.com/), and keep a [cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet) on hand. I also like [Markdown Guide](https://www.markdownguide.org/). 
 
-https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet
+
 
 ### Typora
 
-[Typora]: https://typora.io/	"Typora"
+[Typora](https://typora.io/ ) gives you a distraction-free space to write, complete with a live preview feature that helps you focus on your content. I love how it helps me see an outline of my document at a glance, import and export different file types and keep track of the size of my documents in terms of words, reading minutes and even lines and characters. 
 
-gives you a distraction-free space to write, complete with a live preview feature that helps you focus on your content. I love how it helps me see an outline of my document at a glance, import and export different file types and keep track of the size of my documents in terms of words, reading minutes and even lines and characters. 
-
-Bonus: The Auto pair feature, which auto-completes pairs of brackets and quotes similar to a code editor, is a huge time saver.
+Bonus: The auto pair feature, which auto-completes pairs of brackets and quotes similar to a code editor, is a huge time saver.
 
 You can use Typora on Windows, Linux and OS X.
 
 Other great text editors include:
 
-[iA Writer]: https://ia.net/writer	"iA Writer "
-[Ulysses]: https://ulysses.app/	"Ulysses"
-[Visual]: https://code.visualstudio.com/	"Visual Studio Code"
+- [iA Writer](https://ia.net/writer)
+- [Ulysses](https://ulysses.app/) (Mac-only)
+- [Visual Studio Code](https://code.visualstudio.com/ )
 
 
 
@@ -175,10 +189,10 @@ No matter what type of project we're working on, as writers we need to do a few 
 
 Here's how to set up GitHub to work for you:
 
-1. Download Git to your computer. Find the Windows installer here https://git-scm.com/download/win and the OS X installer here https://git-scm.com/download/mac. Linux users - you can probably find what you need.
-2. Visit https://github.com/.
+1. Download Git to your computer. Find the [Windows installer here](https://git-scm.com/download/win) and the [OS X installer here](https://git-scm.com/download/mac). Linux users - you can probably find what you need.
+2. Visit [github.com](https://github.com/).
 3. Create your account.
-4. Download the GitHub desktop client. https://desktop.github.com/
+4. Download the [GitHub desktop client](https://desktop.github.com/). 
 
 That's it! With Git, you can track your own and others' revisions far easier and cleaner than you could in Google Docs, Word or other tools. Plus, you can all simultaneously edit the document by "pushing" your changes.
 
@@ -186,9 +200,9 @@ That's it! With Git, you can track your own and others' revisions far easier and
 
 ### So, now you have:
 
-- A working knowledge of Markdown
-- A Markdown-focused text editor (Typora highly recommended)
-- A way to upload your content to the web without using confusing word processors or proprietary programs 
+- A working knowledge of Markdown.
+- A Markdown-focused text editor (Typora highly recommended).
+- A way to upload your content to the web without using confusing word processors or proprietary programs. 
 - A central storage place for your content. Your team will be able to edit, publish and re-use it painlessly across devices and platforms.
 
 
@@ -212,7 +226,7 @@ You should have a basic file structure that looks like this:
 
 ### 2. Build your GitHub repository
 
-Git might seem intimidating when you first dig into it (I was lucky enough to have Janis personally tutor me in all things Git/GitHub). If you don't have a tutor, this process can still be easily broken down into steps:
+Git might seem intimidating when you first dig into it (I was lucky enough to have [Janis Lesinskis](https://www.lesinskis.com/) personally tutor me in all things Git/GitHub). If you don't have a tutor, this process can still be easily broken down into steps:
 
 1. Open GitHub Desktop.
 2. Hit **File -> Add Local Repository**.
@@ -220,6 +234,8 @@ Git might seem intimidating when you first dig into it (I was lucky enough to ha
 4. You may have to click **create a repository here**.
 5. Hit **Create Repository** or **Add Repository** as requested by GitHub.
 6. GitHub takes care of everything. You might see hidden files like this in your folder. That's fine, leave 'em there:
+
+   
 7. You'll see your repository in the left pane:
 
 
@@ -229,13 +245,15 @@ Git might seem intimidating when you first dig into it (I was lucky enough to ha
 Right now, your GitHub repository is stored on your computer (what we nerds call "stored locally"), but that won't do - the whole point is to have your stuff secure and backed up in a non-proprietary "cloud", accessible and editable by your team. Here's how to make that happen:
 
 1. Go to GitHub Desktop and hit the **Publish Repository** button in the row along on the top. Here's what it looks like in Windows:
-2. Check **Keep this code private** if you'd like to (you'll need to have a paid account and be an organization owner or have admin permissions for your repository. Learn more about making a public repository private. https://help.github.com/articles/making-a-public-repository-private/).
+
+   
+2. Check **Keep this code private** if you'd like to (you'll need to have a paid account and be an organization owner or have admin permissions for your repository. [Learn more about making a public repository private]( https://help.github.com/articles/making-a-public-repository-private/).
 3. That's it for settings, unless you're an organization owner. 
 4. Hit **Publish Repository**. 
 5. You'll need to log in to GitHub if you're not already. 
-6. GitHub Desktop will push your files to the cloud and create a repository on the web-based app. https://github.com/
+6. GitHub Desktop will push your files to the cloud and create a repository on the web-based app. 
 
-Now comes the fun part! You get to log in to github.com and see your repository all ready to go:
+Now comes the fun part! You get to see your repository all ready to go on [github.com](https://github.com/):
 
 
 
@@ -248,7 +266,7 @@ As we've said above, the real power of Git and GitHub lies in its ability to all
 To do that: 
 
 1. Request the username of the person you want to invite as a collaborator. If they don't have a username, they should sign up for GitHub ([see instructions on signing up here](https://help.github.com/en/articles/signing-up-for-a-new-github-account)).
-2. On the main page of your repository on github.com, go to **Settings ->Collaborators**. In the search box on that page, type in the username, full name or email address of the person(s) you want to add (you'll only be able to find a GitHub user by their email address if they've listed it publicly. Otherwise, use their username). 
+2. On the main page of your repository on [github.com](https://github.com/), go to **Settings -> Collaborators**. In the search box on that page, type in the username, full name or email address of the person(s) you want to add (you'll only be able to find a GitHub user by their email address if they've listed it publicly. Otherwise, use their username). 
 3. Select the collaborator's username from the dropdown menu.
 4. Click **Add collaborator**.
 5. The user will receive an invite by email. Once they accept the invitation, they'll have collaborator access to your repository.
@@ -272,13 +290,13 @@ This is kind of like when you have different versions of the same file, except w
 
 #### Use topic branches in shared repositories 
 
-If you're collaborating or have a review/editing process, use a topic branch. For example, I wrote a bio for each of my team members. When I made my commits, I titled my branches (based on the master)  `bio-team-member-name` . So if I was writing a bio for Alysha, the name of that branch would be `bio-alysha`. All other bios had their own individual branches. 
+If you're collaborating or have a review/editing process, use a topic branch. For example, I wrote a bio for each of my team members. When I made my commits (we'll discuss these in more detail later), I titled my branches (based on the master)  `bio-team-member-name` . So if I was writing a bio for Alysha, the name of that branch would be `bio-alysha`. All other bios had their own individual branches. 
 
-With a topic branch, I can push follow-up commits if edits are required, and the text on the page that's live on the website stays untouched until your changes are merged - important if you've got a client or team members who need final approval on content before it goes live.
+With a topic branch, I can push follow-up commits if edits are required, and the text on the page that's live on the website stays untouched until your changes are merged - important if you've got a client or team members who need final approval on content before it's published live.
 
-Note: When pushing commits to a PR, don't force push, because force pushing can corrupt your PR.
+Note: When pushing commits to a pull request, don't force push, because force pushing can corrupt your pull request.
 
-Learn more about branches in the GitHub Guide https://guides.github.com/activities/hello-world/#branch
+[Learn more about branches in the GitHub Guide](https://guides.github.com/activities/hello-world/#branch).
 
 
 
@@ -286,8 +304,9 @@ Learn more about branches in the GitHub Guide https://guides.github.com/activiti
 
 A README is just like an About or FAQ page for your project.
 
-From makeareadme.com https://www.makeareadme.com/#what-is-it: 
-*"A README file is a text file that introduces and explains a project. It contains information that is commonly required to understand what the project is about."*
+[From makeareadme.com](https://www.makeareadme.com/#what-is-it): 
+
+> A README file is a text file that introduces and explains a project. It contains information that is commonly required to understand what the project is about.
 
 If you want others to use or contribute to your project, creating a README file before you show your project to the public and placing it in the top level directory is a good idea - it will help bring new people up to speed. 
 
@@ -295,7 +314,7 @@ If you want others to use or contribute to your project, creating a README file 
 
 ### So, now you have:
 
-- Someplace to store your stuff, both on your computer and on github.com. 
+- Someplace to store your stuff, both on your computer and on [github.com](https://github.com/). 
 - Added collaborators who have access to your work. 
 - A topic branch, which will later be merged with your master branch.
 - Your first project and README files. 
@@ -436,8 +455,8 @@ Committing pushes your work to GitHub and lets you take advantage of version man
 
    * which text has been deleted (highlighted in red) 
 4. In the bottom left corner, you'll see a summary section. Type a short title and description here to let everyone know what you've updated.
-5. Hit **Commit to master**.
-6. You're done! Your file will now have its title and description attached, and you'll be able to see it on github.com...after you do one last thing. 
+5. Hit **Commit to *name of topic branch***.
+6. You're done! Your file will now have its title and description attached, and you'll be able to see it on [github.com](https://github.com/)...after you do one last thing. 
 
 
 
@@ -446,7 +465,7 @@ Committing pushes your work to GitHub and lets you take advantage of version man
 - Your content structured in a Markdown file, ready for exporting to Word, PDF, HTML or other formats.
 - Images placed where they belong within your content. 
 - Images stored on your computer for uploading into WordPress or your favourite CMS.  
-- Your first committed file ready to push to github.com, via GitHub Desktop. 
+- Your first committed file ready to push to [github.com](https://github.com/), via GitHub Desktop. 
 
 
 
@@ -456,14 +475,12 @@ Committing pushes your work to GitHub and lets you take advantage of version man
 
 Right now, your file is saved to your computer and you've made a commit, but that won't help you if:
 
-   * You want your editor, boss or other team member to take a look at your stuff, but dread the exchange of 40 billion emails or notifications as everyone suggests changes
+   * You want your editor, boss or other team member to take a look at your stuff, but dread the exchange of 40 billion emails or notifications as everyone suggests changes.
 
-   * You leave your computer sitting on a bus when you get off at your stop 
-   * Your hard drive suddenly goes kaput, your document was on your computer and you haven't backed up to the cloud or to an external hard drive 
+   * You leave your computer sitting on a bus when you get off at your stop. 
+   * Your hard drive suddenly goes kaput, your document was on your computer and you haven't backed up to the cloud or to an external hard drive. 
 
-
-
-   To prevent hours of work being tossed away in a catastrophe, you'll want to push your changes to github.com. Here's how to do that:
+   To prevent hours of work being tossed away in a catastrophe, you'll want to push your changes to [github.com](https://github.com/). Here's how to do that:
 
    1. Open GitHub Desktop. 
    2. Click **Push Origin**. 
@@ -479,9 +496,9 @@ Right now, your file is saved to your computer and you've made a commit, but tha
 
    Instead of leaving those words to languish in a notes app or a half-written email you never send to your partners, you could push your document to GitHub, then delete the section, make a commit and push again, so: 
 
-* You can see your idea without having to find and open another document
-* Others can review your words and offer their thoughts 
-* You can recover deleted files (If you've ever feverishly pounded out an idea on your keyboard, sworn you've saved it in one of your umpteen "trusted" places only to never find it again, and cursed the writing gods forever after, this is huge for you.)
+* You can see your idea without having to find and open another document.
+* Others can review your words and offer their thoughts. 
+* You can recover deleted files (If you've ever feverishly pounded out an idea on your keyboard, sworn you've saved it in one of your umpteen "trusted" places only to never find it again, and cursed the writing gods forever after, this is huge for you.).
 
 ###  
 
@@ -489,32 +506,30 @@ Right now, your file is saved to your computer and you've made a commit, but tha
 
 ---
 
-Use Pull Requests (PRs) to tell others about changes you've pushed to a branch in a GitHub repository. These can only be opened if there are differences between your branch and the branch that's upstream. Once you open a PR, you'll be able to review and discuss potential  changes with collaborators. Your changes are proposed in a branch, which ensures only finished and approved work is merged into the master branch. 
+Use Pull Requests (PRs) to tell others about changes you've pushed to a branch in a GitHub repository. These can only be opened if there are differences between your branch and the branch above yours (your base branch). Once you open a pull request, you'll be able to review and discuss potential  changes with collaborators. Your changes are proposed in a branch, which ensures only finished and approved work is merged into the master branch. 
 
-To open a PR in a public repository, you need write access to the head/source branch. On repositories owned by an organization, to open a PR you must be a member of the organization that owns the repository.
+To open a pull request in a public repository, you need write access to the head/source branch. On repositories owned by an organization, to open a pull request you must be a member of the organization that owns the repository.
 
 ### Change your branch range and destination repository
 
-PRs are based on the parent repository's default branch. If the default parent repository is not the right one, you're able to change both the parent repository and the branch with dropdown lists.  You can also swap dropdown lists with your head and base branches to establish diffs between reference points. References here are names of branches in your GitHub repository.
+Pull requests are based on the parent repository's default branch. If the default parent repository is not the right one, you're able to change both the parent repository and the branch with dropdown lists.  You can also swap dropdown lists with your head and base branches to establish diffs between reference points. References here are names of branches in your GitHub repository.
 
 Your base branch is *where* you want changes to be applied, while *what* changes are applied are in your head branch. Change any information in the branch range and you'll also see your Commit and Files changed previews will update to show the new range.
 
-How to create a Pull Request:
+How to create a pull request:
 
-1. Go to the main page of your repository on github.com. 
+1. Go to the main page of your repository on [github.com](https://github.com/). 
 2. In the **Branch** Menu, choose the branch with your commits.
 3. Hit **New pull request**. 
 4. Choose the branch you'd like to merge your changes into from the base branch dropdown menu. In the compare branch dropdown menu, select the topic branch your changes are in.
-5. Create a title and description to describe the changes in your PR.
-6. If your PR is ready for review, click **Create Pull Request**.
+5. Create a title and description to describe the changes in your pull request.
+6. If your pull request is ready for review, click **Create Pull Request**.
    
 
 
 ### Create a draft pull request (different from a Pull Request)
 
-When you create your PR, you also have the option to create a Draft PR to show you'll be continuously making commits. Draft PRs cannot be merged, and code owners won't be automatically requested to review them. 
-
-Mark your PR as ready for review when you'd like feedback on your draft PR. If the author is unavailable, a collaborator with write access to the repository can mark the PR as ready for review. It can then be merged and code owners will be asked to review it. 
+When you create your pull request, you also have the option to create a Draft pull request to show you'll be continuously making commits. Draft pull requests cannot be merged, and code owners won't be automatically requested to review them. 
 
 **Pro tip:** If your commit is still a work in progress, add [WIP] to the front of your title when you create your Pull Request to let your teammates know the status of your work. When it's ready to merge, replace it with [MRG].
 
@@ -522,32 +537,32 @@ Mark your PR as ready for review when you'd like feedback on your draft PR. If t
 
 ## Request a review
 
-
+Mark your pull request as ready for review when you'd like feedback on your draft pull request. If the author is unavailable, a collaborator with write access to the repository can mark the pull request as ready for review. It can then be merged and code owners will be asked to review it. 
 
 ### So, now you have:
 
-- Pushed your work (or changes to it) to GitHub
-- Recorded your ideas for future pieces of content 
-- Created a Draft or regular Pull Request to alert collaborators that their feedback is needed
+- Pushed your work (or changes to it) to GitHub.
+- Recorded your ideas for future pieces of content. 
+- Created a Draft or regular Pull Request to alert collaborators that their feedback is needed.
 - Asked someone to review your work.
 
 
 
-## Exploring Pull Requests 
+## Exploring pull requests 
 
 ---
 
-After you've started a PR, on your review page you'll see a high-level overview of the changes between your branch (a.k.a. the compare branch) and the repository's base branch. Add a summary of the proposed changes, review changes made by commits, and add labels, milestones, and assignees. You can also mention individual contributors or teams.
+After you've started a pull request, on your review page you'll see a high-level overview of the changes between your branch (a.k.a. the compare branch) and the repository's base branch. Add a summary of the proposed changes, review changes made by commits, and add labels, milestones, and assignees. You can also mention individual contributors or teams.
 
-Other contributors can review your proposed changes, comment, add their thoughts to the PR conversation, and add commits to your PR.
+Other contributors can review your proposed changes, comment, add their thoughts to the pull request conversation, and add commits to your pull request.
 
 ### Conversation
 
-Under this tab, you'll get an overview of the branch's past deployment activity and its current deployment status. If you're satisfied with proposed changes, congrats! You can go ahead and click the green "Merge pull request" button. If you're working in a shared repository, proposed changes will be merged from the head branch to the base branch specified in the PR. 
+Under this tab, you'll get an overview of the branch's past deployment activity and its current deployment status. If you're satisfied with proposed changes, congrats! You can go ahead and click the green "Merge pull request" button. If you're working in a shared repository, proposed changes will be merged from the head branch to the base branch specified in the pull request. 
 
 ### Commits and Files changed
 
-Under the Commits tab, you'll see a historical overview of your commits you've pushed from your topic branch added to your existing PR, starting with the oldest.
+Under the Commits tab, you'll see a historical overview of the commits you've pushed from your topic branch added to your existing pull request, starting with the oldest.
 
 Each commit is assigned a dedicated number. When you click on the number, you'll be taken to the Files changed tab, and what we call the Diff Viewer, which allows you to see changes that were made in that commit. Clicking the "Diff settings" button at the top right allows you to view your changes in different layouts. To see just the changes you've made in this commit, choose "Unified". To see the changes compared to your last commit, choose "Split."
 
@@ -555,25 +570,23 @@ When you choose "Split", you'll see your changes highlighted - red on the left (
 
 
 
- 
-
 ### Comments
 
 Collaboration is at the heart of GitHub, and this really shows when it comes to how the platform handles comments. Hover over any numbered line within the green space in your Diff Viewer and you'll see a blue (+) symbol appear. Click on it and you'll be taken to a comment box where you can not only type your comment but also add a file by dragging, dropping, selecting or pasting. You can also insert a quote, add code, links or lists. 
 
-Click the "@" symbol to mention another user team, or the ribbon symbol next to it to reference an issue or Pull Request (insanely valuable when you've got a million works in progress and you're trying to keep track of your issues and PRs). You can even add a saved reply to easily post the replies you use most frequently by clicking the arrow symbol - again saving yourself time! 
+Click the "@" symbol to mention another user on your team, or the ribbon symbol next to it to reference an issue or pull request (insanely valuable when you've got a million works in progress and you're trying to keep track of your issues and pull requests). You can even add a saved reply to easily post the replies you use most frequently by clicking the arrow symbol - again saving yourself time! 
 
-To make a comment on any text not highlighted in green, go to the left hand side of your diff viewer and click the "Expand Up" or "Expand Down" arrows, then click on any numbered line, then the blue (+) symbol.
+To make a comment on any text not highlighted in green, go to the left hand side of your Diff Viewer and click the "Expand Up" or "Expand Down" arrows, then click on any numbered line, then the blue (+) symbol.
 
 
 
 ### Merge Pull Request (Review and publish)
 
-Merge your PR into an upstream (master) branch when your work is done. Anyone with push access to the repository can merge the PR. 
+Merge your pull request into an upstream (base) branch when your work is done. Anyone with push access to the repository can merge the pull request. 
 
-Make sure yours is a regular PR and not a Draft - Draft PRs can't be merged. 
+Remember: Make sure yours is a regular pull request and not a draft - draft pull requests can't be merged. 
 
-If for some reason, you don't want to merge the changes in your topic branch with the upstream branch, you can close your PR without merging.
+If for some reason, you don't want to merge the changes in your topic branch with the upstream branch, you can close your pull request without merging.
 
 #### How to merge a Pull Request
 
@@ -599,8 +612,8 @@ Git is so smart that it can sometimes resolve differences between branches and m
 
 Merge conflicts can happen when: 
 
-- people (for example, you and a client or editor) make different changes to the same line of the same file, or
-- when one person edits a file and someone else deletes that same file
+- People (for example, you and a client or editor) make different changes to the same line of the same file, or
+- One person edits a file and someone else deletes that same file.
 
 Before you can merge a Pull Request on GitHub, you must resolve all merge conflicts. If you've got a merge conflict between a compare branch and base branch in your PR, you can see a list of the files with conflicting changes above the Merge pull request button. You'll see that the button deactivates until all conflicts between the compare and base branch are resolved.
 
@@ -609,8 +622,6 @@ In this example, my client and I both try to add text on the same lines in a REA
 First, my client created a branch (cheese-ipsum) based on the master branch, and opened a PR (as you're supposed to do). I also added my own text and committed to master (a huge no-no in GitHub...when you're committing new content to be reviewed, **never** push to master - always create a branch to avoid your changes going live on your website before they've been approved). 
 
 When that happens, you get a warning on your PR page that the branch has conflicts that must be resolved:
-
-
 
 1. Look at the diff viewer to see the conflicts. 
 
@@ -628,13 +639,11 @@ When that happens, you get a warning on your PR page that the branch has conflic
 
    To resolve the conflict, I need to choose which lines of text to delete (any text appearing between lines 5 and 17, which are highlighted in yellow, is fair game). 
 
-   After choosing to delete my own changes and clicking the **Mark as resolved** button, I see that the conflict has been resolved and a green **Commit merge** button appears in the top right of my screen, next to the title of my client's PR. I click the button, and voilà! There are no conflicts with the base branch and I can now merge my PR by hitting the friendly green **Merge pull request** button as I normally would.
+   After choosing to delete my own changes and clicking the **Mark as resolved** button, I see that the conflict has been resolved and a green **Commit merge** button appears in the top right of my screen, next to the title of my client's pull request. I click the button, and voilà! There are no conflicts with the base branch and I can now merge my pull request by hitting the friendly green **Merge pull request** button as I normally would.
 
 3. Merge is confirmed.
 
-   I then see this screen. At the top, I receive a notification that the merge conflict is resolved. You can also see that the PR has been successfully merged and closed (it's great that the status of PRs is colour-coded, so you immediately know that all is good - or not - before you even start to read).
-
-
+   I then see this screen. At the top, I receive a notification that the merge conflict is resolved. You can also see that the pull request has been successfully merged and closed (it's great that the status of pull requests is colour-coded, so you immediately know that all is good - or not - before you even start to read).
 
 
 
@@ -648,7 +657,7 @@ As much as we love Git and GitHub, this wouldn't be a true "guide" to the softwa
 
 Google Docs will be familiar to many and is easy to use for writers and editors who are even a little tech-literate. Though it's not particularly powerful, you're not likely to get into a battle with your team over adoption, because almost anyone can jump right in on day one. 
 
-In contrast, GitHub is an incredibly powerful piece of software that takes time to learn. It is **not** what I'd call intuitive. It can be frustrating and took me a while to commit the basics (branches, Pull Requests, the diff viewer) to memory. I still haven't run into enough merge conflicts to solve them comfortably. You will make mistakes...and that's okay. Be prepared to invest the time in learning, and helping your teammates learn. Once you start to get proficient with GitHub and build a process that works for you, your patience and persistence will pay off - you'll have a better, more secure tool for true collaboration. 
+In contrast, GitHub is an incredibly powerful piece of software that takes time to learn. It is **not** what I'd call intuitive. It can be frustrating and took me a while to commit the basics (branches, Pull Requests, the Diff Viewer) to memory. I still haven't run into enough merge conflicts to solve them comfortably. You will make mistakes...and that's okay. Be prepared to invest the time in learning, and in helping your teammates learn. Once you start to get proficient with GitHub and build a process that works for you, your patience and persistence will pay off - you'll have a better, more secure tool for true collaboration. 
 
 **You may have to herd some cats to get long-term buy-in.**
 
@@ -658,27 +667,33 @@ If your team is mired in complacency with its current solution, you may be facin
 
 **Get ready for some arguments/discussions about Git and version control.**
 
-
-
-Since Git prevents people from deferring the cost of version control, it drives arguments that need to happen within teams, but wouldn't occur under other conditions. Because some organizations insist on kicking the can down the road indefinitely, this is another area where complacency becomes apparent quickly; with Git's version control, you're forced to 
+Since Git prevents people from deferring the cost of version control, it drives arguments that need to happen within teams, but which wouldn't occur under other conditions. Because some organizations insist on kicking the can down the road indefinitely, this is another area where complacency becomes apparent quickly; with Git's version control, you're forced to confront these realities and deal with them as a team.
 
 **The lack of live editing/preview will grate on those used to modern CMS environments.**
 
+With any modern CMS like WordPress, Squarespace, Drupal and others, you get to see exactly how your content will look before publishing with the click of a Preview button. 
 
+Not so with GitHub. To see how my text will look once published, I click **Pull Requests** and navigate to the **Files changed** tab. Just under the green **Review changes** button on the right hand side are two options - I can toggle between displaying the source diff or the rich diff. The source view shows lets you see your changes in source without formatting, while the rich diff shows you a preview of how the changes will look once you've merged your pull request.  You also have the option of using the aforementioned unified and split view to see existing and new content.
+
+If you're a visual thinker who's used to making changes in one window and immediately seeing your changes take effect in another window (or in WordPress's case, clicking a link to a special preview page), the ability to see precisely how your changes will look once you push them live is a critical final step in your publishing process. Though I found the couple of extra steps in GitHub annoying at first, I eventually got used to the process.
+
+
+
+## The case for using GitHub anyway
 
 That said, the break-even point for any team that publishes content on a regular basis is somewhere between 5 to 10 people. If you're within that range, it makes sense to have some sort of Content Management or revision control system to track your projects and everyone's contributions to them. The kicker, of course, is that the internal quality of your processes and tools is a hidden attribute. As software developer [Martin Fowler writes in his post Tradable Quality Hypothesis](https://martinfowler.com/bliki/TradableQualityHypothesis.html):
 
-'>'...it's vital to focus on the true value of internal quality - that it's the enabler to speed. The purpose of internal quality is to go faster.'>'
+> ...it's vital to focus on the true value of internal quality - that it's the enabler to speed. The purpose of internal quality is to go faster.
 
 In your case, once you structure your content production around GitHub, your improved internal quality will mean your team creates better content faster, using a process that's much more manageable and streamlined thanks to GitHub's revision control system. 
-
-
 
 
 
 ## Wrap up
 
 ---
+
+I won't lie: Navigating GitHub for the first time can be scary! There's an entire process to learn 
 
 Do you use Git and GitHub in your content workflow? Do you love it or hate it? What was the learning process like for you, and do you have any tips, tricks, or advice you think should be included in this guide? Tell me in the comments! 
 
