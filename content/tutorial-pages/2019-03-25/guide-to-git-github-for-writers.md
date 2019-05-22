@@ -161,7 +161,7 @@ You'll need to install and set up a few tools that will help you do your work fa
 
 You'll want to work in Markdown for this exercise ([read the passage titled Philosophy in Daring Fireball's Markdown: Syntax](https://daringfireball.net/projects/markdown/syntax) to find out why). Markdown is a simple markup language that's ideal for writers that lets us control the display of the document. We can create lists, add images, format words in bold or italic, include quotes or raw HTML or do other things using a few keys and non-alphabetic characters such as #, *, or _. 
 
-[Brush up on Markdown with a tutorial](https://www.markdowntutorial.com/), and keep a [cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet) on hand. I also like [Markdown Guide](https://www.markdownguide.org/). 
+[Brush up on Markdown with a tutorial](https://www.markdowntutorial.com/), and keep a [cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet) on hand. I also like [Markdown Guide](https://www.markdownguide.org/) (these can also be found in the list of extra resources at the end of our guide).
 
 
 
@@ -235,7 +235,6 @@ Git might seem intimidating when you first dig into it (I was lucky enough to ha
 5. Hit **Create Repository** or **Add Repository** as requested by GitHub.
 6. GitHub takes care of everything. You might see hidden files like this in your folder. That's fine, leave 'em there:
 
-   
 7. You'll see your repository in the left pane:
 
 
@@ -246,7 +245,6 @@ Right now, your GitHub repository is stored on your computer (what we nerds call
 
 1. Go to GitHub Desktop and hit the **Publish Repository** button in the row along on the top. Here's what it looks like in Windows:
 
-   
 2. Check **Keep this code private** if you'd like to (you'll need to have a paid account and be an organization owner or have admin permissions for your repository. [Learn more about making a public repository private]( https://help.github.com/articles/making-a-public-repository-private/).
 3. That's it for settings, unless you're an organization owner. 
 4. Hit **Publish Repository**. 
@@ -693,16 +691,49 @@ In your case, once you structure your content production around GitHub, your imp
 
 ---
 
-I won't lie: Navigating GitHub for the first time can be scary! There's an entire process to learn 
+I won't lie: Navigating GitHub for the first time can be scary! If you're used to popping open a Google doc or your favourite word processor and getting straight to work, making the transition to such a powerful piece of software feels daunting, but pays off in terms of productivity and time saved once you set up your workflow. In this guide, we covered:
 
-Do you use Git and GitHub in your content workflow? Do you love it or hate it? What was the learning process like for you, and do you have any tips, tricks, or advice you think should be included in this guide? Tell me in the comments! 
+- Defining Git and GitHub
+- Why writers should use GitHub 
+- What you need to get started 
+- Getting ready to work
+- Commits and pushing changes to GitHub 
+- Pull requests 
+- Merge conflicts 
+- Limitations of Git and GitHub for writers and teams 
+- The case for using GitHub anyway
+
+Do you use Git and GitHub in your content workflow? Do you love it or hate it? What was the learning process like for you, and do you have any tips, tricks, or advice you think should be included in this guide? 
+
+We want this guide to be an ever-evolving resource dedicated to helping writers use the platform to its potential, so share your suggestions for additions & revisions in the comments!
 
 
 
 ## Extra resources
 
-------
+Have a question not covered in this guide or looking for guided practices or tutorials? Check out these resources.
+
+### Git and GitHub
 
 [The GitHub Guide - github.com](https://guides.github.com/activities/hello-world/) 
 
 [GitHub Glossary - GitHub Help](https://help.github.com/en/articles/github-glossary)
+
+[Git and GitHub learning resources](https://help.github.com/en/articles/git-and-github-learning-resources) 
+
+[Resources to learn Git](https://try.github.io/)
+
+
+
+### Markdown 
+
+[Markdown Guide](https://www.markdownguide.org/)
+
+[Markdown Here Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet)
+
+[Markdown Tutorial](https://www.markdowntutorial.com/)
+
+
+
+
+
