@@ -58,9 +58,9 @@ I'll cover the following:
 Admittedly, Git isn't the important part here - the command line is terrible and usability leaves much to be desired. In fact, it's often derided as user hostile and although the interface has marginally improved, it's still one of the worst in the world.
 
 
-![github.com-screenshot](C:\Users\Allison\Documents\GitHub\CPS_content\content\tutorial-pages\2019-03-25\github.com-screenshot.png)
-
 ### GitHub
+
+![A screenshot of a README file on my practice repository on github.com](C:\Users\Allison\Documents\GitHub\CPS_content\content\tutorial-pages\2019-03-25\github.com-screenshot.png)
 
 [GitHub](https://github.com/) is a free website that stores files for your projects. Powered by Git, it allows you to: 
 
@@ -74,8 +74,6 @@ Admittedly, Git isn't the important part here - the command line is terrible and
 
 ## Who needs this guide?
 
-------
-
 This is a guide for writers, by a content marketer who's been where you are: frustrated with the constraints and headaches current writing software and workflows foist on us, and wondering if there's anything better - an open source, distraction-free, secure platform that supports hassle-free collaboration between you and your clients. 
 
 That said, you don't have to have "writer" anywhere in your title to use this guide. If you produce text content that gets published online, this primer is for you.
@@ -83,8 +81,6 @@ That said, you don't have to have "writer" anywhere in your title to use this gu
 
 
 ## Why should writers use GitHub?
-
----
 
 Git is a repository hosting service much-loved by developers for its robust version control, issues management and change tracking capabilities. It turns out, writers are on a continual quest for a tool that offers these features and allows them to work on a truly collaborative basis with their clients.
 
@@ -147,8 +143,6 @@ In GitHub, you'll quickly discover comments appear in a neat box directly under 
 
 
 ## What you need to get started
-
----
 
 You'll need to install and set up a few tools that will help you do your work faster and more efficiently. Set up your workflow now and save hours on repeatable tasks. 
 
