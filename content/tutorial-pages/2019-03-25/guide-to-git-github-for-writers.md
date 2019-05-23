@@ -20,8 +20,6 @@ draft: true
 
 ## Introduction
 
----
-
 Earlier this year, my simmering rage at conventional word processors finally boiled to the surface, driving me to take the drastic action I'd been putting off for years: Learn to write and publish content using Git and GitHub (*insert gasp here*.) 
 
 Okay, maybe that's being a *bit* dramatic (hey, I'm a writer - I'm using creative license here). It wasn't exactly rage. More like an underlying frustration I couldn't quite put my finger on. After all, what was different about this project versus the hundreds I've worked on before, that made working with Word (or Google Docs, my old go-to) untenable? 
@@ -41,8 +39,6 @@ I'll cover the following:
 
 ## What are Git and GitHub?
 
----
-
 ### Git
 
 [Git](https://git-scm.com/) is a general purpose, open source distributed revision control system. Essentially, it's version control software (VCS) designed to let you manage your workflow and keep track of versions of documents. 
@@ -57,13 +53,12 @@ I'll cover the following:
 
 - Creating patches (*explanation here*)
 
-
-
-  For Git to be able to calculate differences between files, the files must be stored in a document that the software can "read" so it can detect what's changed. A plain text file (e.g.: a Markdown document) is perfect for this. Any changes to the document will be seen in the lines of the file that are responsible for it. Contrast this to other file types like Word .doc files, where a change to one line is hard to locate in the file, or images, where changing the file won't lead to a nice textual summary of what's changed. 
+ For Git to be able to calculate differences between files, the files must be stored in a document that the software can "read" so it can detect what's changed. A plain text file (e.g.: a Markdown document) is perfect for this. Any changes to the document will be seen in the lines of the file that are responsible for it. Contrast this to other file types like Word .doc files, where a change to one line is hard to locate in the file, or images, where changing the file won't lead to a nice textual summary of what's changed. 
 
 Admittedly, Git isn't the important part here - the command line is terrible and usability leaves much to be desired. In fact, it's often derided as user hostile and although the interface has marginally improved, it's still one of the worst in the world.
 
 
+![github.com-screenshot](C:\Users\Allison\Documents\GitHub\CPS_content\content\tutorial-pages\2019-03-25\github.com-screenshot.png)
 
 ### GitHub
 
