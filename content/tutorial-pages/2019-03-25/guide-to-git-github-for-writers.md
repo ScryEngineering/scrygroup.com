@@ -60,7 +60,7 @@ Admittedly, Git isn't the important part here - the command line is terrible and
 
 ### GitHub
 
-![A screenshot of a README file on my practice repository on github.com](C:\Users\Allison\Documents\GitHub\CPS_content\content\tutorial-pages\2019-03-25\github.com-screenshot.png)
+![A screenshot of a README file on my practice repository on github.com](github.com-screenshot.png)
 
 [GitHub](https://github.com/) is a free website that stores files for your projects. Powered by Git, it allows you to: 
 
@@ -198,18 +198,18 @@ That's it! With Git, you can track your own and others' revisions far easier and
 
 ## Getting ready to work
 
-------
-
 Now that you've got your workspace set up (think of it as having put one of those IKEA desks together), it's time to create a place for your files and make them accessible to your team via GitHub (kind of like setting up a filing cabinet with folders inside). Here's how to do that. 
 
 ### 1. Create a folder and file
 
-1.  Just like on Google Drive, you should keep all related work in one folder so anyone who needs it can find it. I'll share my folder structure for this repository dedicated to the Guide to Git and GitHub. I've got one folder for the main document and supporting files, and one for images. 
+1.  Just like on Google Drive, you should keep all related work in one folder so anyone who needs it can find it. I'll share my folder structure for one of my practice repositories. I've got one folder for the main document and supporting files, and one for images. 
 2. Open Typora.
 3. Hit **File -> New**.
 4. Name your Typora file whatever you want and save it in your work folder (a file name that describes what's in the document is best). 
 
-You should have a basic file structure that looks like this:
+You should have a basic file structure that looks like this (the folder with my practice repository is highlighted in grey, in the red box):
+
+![A screenshot showing the folder structure of one of my practice repositories on GitHub.](C:\Users\Allison\Documents\GitHub\CPS_content\content\tutorial-pages\2019-03-25\github-folder-structure.PNG)
 
 
 
@@ -218,21 +218,28 @@ You should have a basic file structure that looks like this:
 Git might seem intimidating when you first dig into it (I was lucky enough to have [Janis Lesinskis](https://www.lesinskis.com/) personally tutor me in all things Git/GitHub). If you don't have a tutor, this process can still be easily broken down into steps:
 
 1. Open GitHub Desktop.
+
 2. Hit **File -> Add Local Repository**.
+
 3. Select your work folder you created in Step 1.
+
 4. You may have to click **create a repository here**.
+
 5. Hit **Create Repository** or **Add Repository** as requested by GitHub.
-6. GitHub takes care of everything. You might see hidden files like this in your folder. That's fine, leave 'em there:
 
-7. You'll see your repository in the left pane:
+6. Check the box beside the words "Initialize this repository with a README".
 
+7. GitHub takes care of everything. You might see hidden files like this in your folder. That's fine, leave 'em there:
 
+   ![A screenshot showing the hidden files in my repository.](C:\Users\Allison\Documents\GitHub\CPS_content\content\tutorial-pages\2019-03-25\github-hidden-files.PNG)
+
+   
 
 ### 3. Push your repository to github.com 
 
 Right now, your GitHub repository is stored on your computer (what we nerds call "stored locally"), but that won't do - the whole point is to have your stuff secure and backed up in a non-proprietary "cloud", accessible and editable by your team. Here's how to make that happen:
 
-1. Go to GitHub Desktop and hit the **Publish Repository** button in the row along on the top. Here's what it looks like in Windows:
+1. Go to GitHub Desktop and hit the **Publish Repository** button in the row along on the top. 
 
 2. Check **Keep this code private** if you'd like to (you'll need to have a paid account and be an organization owner or have admin permissions for your repository. [Learn more about making a public repository private]( https://help.github.com/articles/making-a-public-repository-private/).
 3. That's it for settings, unless you're an organization owner. 
@@ -240,13 +247,19 @@ Right now, your GitHub repository is stored on your computer (what we nerds call
 5. You'll need to log in to GitHub if you're not already. 
 6. GitHub Desktop will push your files to the cloud and create a repository on the web-based app. 
 
-Now comes the fun part! You get to see your repository all ready to go on [github.com](https://github.com/):
+Now comes the fun part! You get to see your repository all ready to go on [github.com](https://github.com/). Log in and click on the **Repositories** menu. You'll see your repository below:
 
+![A screenshot of a list of my repositories on github.com](repositories-screenshot-github.png)
 
+Here's what your repository itself will look like:
+
+![A screenshot of my practice repository on github.com](github-repository-screenshot.png)
 
 ### Some extra stuff to do
 
 #### 1. Invite collaborators to your repository
+
+![Search for collaborators to add to your repository.](add-collaborators-screenshot.png)
 
 As we've said above, the real power of Git and GitHub lies in its ability to allow groups and remote teams to collaborate easily when it's time to edit and revise your work. Therefore, you'll want to invite collaborators to your repository. 
 
@@ -269,6 +282,8 @@ When you create your repository, you start with one master definitive branch. A 
 This is kind of like when you have different versions of the same file, except with the power of Git and GitHub, it's easy to eventually merge them all together and see changes, instead of ending up with different versions of the same file floating around your team and confusing everyone.
 
 ##### How to create a branch
+
+![Create a branch in your repository in GitHub Desktop.](create-branch-screenshot.png)
 
 1. In GitHub Desktop, go to the **Branch** menu (second from right).
 2. Click **Branch -> New Branch**.
@@ -296,6 +311,8 @@ A README is just like an About or FAQ page for your project.
 > A README file is a text file that introduces and explains a project. It contains information that is commonly required to understand what the project is about.
 
 If you want others to use or contribute to your project, creating a README file before you show your project to the public and placing it in the top level directory is a good idea - it will help bring new people up to speed. 
+
+![An example of the README file I've started for my practice repository](README-file-example-screenshot.PNG)
 
 
 
@@ -378,11 +395,8 @@ You'll notice that each time you hit the Enter key in a list,  another bullet po
 
 In Rich Text Format (RTF) or Microsoft Word, you'll see proper headings. Export to HTML and, like the syntax above, this becomes proper HTML format: 
 
-<ul>
-    <li>List item 1</li>
-    <li>List item 2</li>
-    <li>List item 3</li>
-</ul>
+![An unordered list in HTML format](HTML-list.PNG)
+
 
 
 
@@ -406,13 +420,11 @@ Here's where it gets interesting. Because Markdown is text-only, you won't embed
 
 
 
-To insert the code, go to **Format -> Image** in Typora or use the shortcut CTRL+SHIFT+I
+To insert the code, go to **Format -> Image** in Typora or use the shortcut CTRL+SHIFT+I. You can also drag and drop the photo from your repository photo into your document.
 
 When I do so, I end up with a photo embedded in my Markdown document:
 
-![Hand using laptop trackpad](C:\Users\Allison\Downloads\hand-using-laptop-trackpad.jpg)
-
-
+![meeting](C:\Users\Allison\Documents\GitHub\CPS_content\content\tutorial-pages\2019-03-25\meeting.png)
 
 Click on the photo and you'll see the file path. This will transfer when you export to Word (.doc), PDF or Google Docs. In your GitHub document, you'll see what looks like a link.
 
@@ -430,7 +442,9 @@ Typora's Outline viewer gives you a nifty way to see exactly how your headlines 
 
 As writers, we're used to saving our work to a folder or the cloud. With GitHub, your saved changes are called commits. Each time you commit a change, you're able to attach a description explaining why you made that change (for example, if you describe the section you've written in both the title and description for your commit, you'll have an at-a-glance-history of the progress of your work from the day you started until now.)
 
-Committing pushes your work to GitHub and lets you take advantage of version management. Get into the habit of making your commits at natural break points - when you complete a main section, after adding links and support files, after making major edits, when you pack it in for the day, etc. Here's how to do that: 
+![Hit the commit button to start the process of sending your changes to GitHub.](commit-changes.PNG)
+
+Committing lets you take advantage of version management. Get into the habit of making your commits at natural break points - when you complete a main section, after adding links and support files, after making major edits, when you pack it in for the day, etc. Here's how to do that: 
 
 1. Open GitHub Desktop.
 2. Choose your project.
@@ -443,7 +457,7 @@ Committing pushes your work to GitHub and lets you take advantage of version man
    * which text has been deleted (highlighted in red) 
 4. In the bottom left corner, you'll see a summary section. Type a short title and description here to let everyone know what you've updated.
 5. Hit **Commit to *name of topic branch***.
-6. You're done! Your file will now have its title and description attached, and you'll be able to see it on [github.com](https://github.com/)...after you do one last thing. 
+6. You're done! Your file will now have its title and description attached, and you'll be able to see it on [github.com](https://github.com/)...after you do one last thing. Keep GitHub Desktop open.
 
 
 
@@ -458,7 +472,7 @@ Committing pushes your work to GitHub and lets you take advantage of version man
 
    ## Push your changes to GitHub
 
----
+![After you've committed your changes, hit the blue Push Origin button to push your changes to GitHub.](push-origin.PNG)
 
 Right now, your file is saved to your computer and you've made a commit, but that won't help you if:
 
@@ -467,15 +481,11 @@ Right now, your file is saved to your computer and you've made a commit, but tha
    * You leave your computer sitting on a bus when you get off at your stop. 
    * Your hard drive suddenly goes kaput, your document was on your computer and you haven't backed up to the cloud or to an external hard drive. 
 
-   To prevent hours of work being tossed away in a catastrophe, you'll want to push your changes to [github.com](https://github.com/). Here's how to do that:
+   To prevent hours of work being tossed away in a catastrophe, you'll want to push your changes to [github.com](https://github.com/). With GitHub Desktop open:
 
-   1. Open GitHub Desktop. 
    2. Click **Push Origin**. 
-   3. That's it! All your changes have been pushed to GitHub - the most reliable, secure backup you'll probably ever have.
-
-   You'll be able to see a history of your commits by clicking Code, then History at the top right corner of your GitHub document.
-
-
+      2. That's it! All your changes have been pushed to GitHub - the most reliable, secure backup you'll probably ever have.
+         
 
    ### Another cool thing about GitHub
 
@@ -491,8 +501,6 @@ Right now, your file is saved to your computer and you've made a commit, but tha
 
 ## Collaborate (Create a Pull Request)
 
----
-
 Use Pull Requests (PRs) to tell others about changes you've pushed to a branch in a GitHub repository. These can only be opened if there are differences between your branch and the branch above yours (your base branch). Once you open a pull request, you'll be able to review and discuss potential  changes with collaborators. Your changes are proposed in a branch, which ensures only finished and approved work is merged into the master branch. 
 
 To open a pull request in a public repository, you need write access to the head/source branch. On repositories owned by an organization, to open a pull request you must be a member of the organization that owns the repository.
@@ -506,12 +514,20 @@ Your base branch is *where* you want changes to be applied, while *what* changes
 How to create a pull request:
 
 1. Go to the main page of your repository on [github.com](https://github.com/). 
-2. In the **Branch** Menu, choose the branch with your commits.
-3. Hit **New pull request**. 
+
+2. You'll see a green button with the words **Compare & pull request**. Click the button. (You can also go to the **Branch** Menu and choose the branch with your commits.)
+
+   ![Click the green Compare & pull request button.](compare-pull-request.PNG)
+
+3. Hit **New pull request** if required. 
+
 4. Choose the branch you'd like to merge your changes into from the base branch dropdown menu. In the compare branch dropdown menu, select the topic branch your changes are in.
+
 5. Create a title and description to describe the changes in your pull request.
+
 6. If your pull request is ready for review, click **Create Pull Request**.
-   
+
+   ![Click the green Create pull request button.](create-pull-request.PNG)
 
 
 ### Create a draft pull request (different from a Pull Request)
@@ -537,17 +553,19 @@ Mark your pull request as ready for review when you'd like feedback on your draf
 
 ## Exploring pull requests 
 
----
-
 After you've started a pull request, on your review page you'll see a high-level overview of the changes between your branch (a.k.a. the compare branch) and the repository's base branch. Add a summary of the proposed changes, review changes made by commits, and add labels, milestones, and assignees. You can also mention individual contributors or teams.
 
 Other contributors can review your proposed changes, comment, add their thoughts to the pull request conversation, and add commits to your pull request.
 
 ### Conversation
 
+![This is where you'll see comments and deployment status on your pull request.](pull-request-conversation.PNG)
+
 Under this tab, you'll get an overview of the branch's past deployment activity and its current deployment status. If you're satisfied with proposed changes, congrats! You can go ahead and click the green "Merge pull request" button. If you're working in a shared repository, proposed changes will be merged from the head branch to the base branch specified in the pull request. 
 
 ### Commits and Files changed
+
+![A history of my commits.](commits-history.PNG)
 
 Under the Commits tab, you'll see a historical overview of the commits you've pushed from your topic branch added to your existing pull request, starting with the oldest.
 
@@ -555,9 +573,13 @@ Each commit is assigned a dedicated number. When you click on the number, you'll
 
 When you choose "Split", you'll see your changes highlighted - red on the left (your previous commit) and green on the right (current commit). 
 
+![A screenshot of the changes in my commit in the Diff Viewer. This is a Split layout.](files-changed.PNG)
+
 
 
 ### Comments
+
+![An example of a comment.](comment-example.PNG)
 
 Collaboration is at the heart of GitHub, and this really shows when it comes to how the platform handles comments. Hover over any numbered line within the green space in your Diff Viewer and you'll see a blue (+) symbol appear. Click on it and you'll be taken to a comment box where you can not only type your comment but also add a file by dragging, dropping, selecting or pasting. You can also insert a quote, add code, links or lists. 
 
@@ -577,6 +599,8 @@ If for some reason, you don't want to merge the changes in your topic branch wit
 
 #### How to merge a Pull Request
 
+![Click the green Merge pull request button.](merge-pull-request.PNG)
+
 1. Click "Pull requests" under your repository name. 
 
 2. Under the "Pull Requests" tab, click the pull request you want to merge.
@@ -591,8 +615,6 @@ If for some reason, you don't want to merge the changes in your topic branch wit
 
 ## Resolve a merge conflict 
 
-------
-
 If you spend enough late nights writing content and making commits, you'll inevitably end up with a merge conflict. These happen when you merge branches which have competing commits, and Git needs your help to decide which changes it should incorporate in the final merge. 
 
 Git is so smart that it can sometimes resolve differences between branches and merge them automatically. Usually these changes are on different lines or in different files. This makes the merge easy for the program to understand. But sometimes, Git won't be able to resolve competing changes without your help. 
@@ -606,11 +628,15 @@ Before you can merge a Pull Request on GitHub, you must resolve all merge confli
 
 In this example, my client and I both try to add text on the same lines in a README.md file at the same time, creating a conflict. 
 
+![A merge conflict presents itself in a README file.](1-README-merge-conflict.png)
+
 First, my client created a branch (cheese-ipsum) based on the master branch, and opened a PR (as you're supposed to do). I also added my own text and committed to master (a huge no-no in GitHub...when you're committing new content to be reviewed, **never** push to master - always create a branch to avoid your changes going live on your website before they've been approved). 
 
 When that happens, you get a warning on your PR page that the branch has conflicts that must be resolved:
 
 1. Look at the diff viewer to see the conflicts. 
+
+   ![Diff viewer view of a merge conflict in a README file.](2-diff-merge-conflict.png)
 
    `# merge-conflict-example` is the name of the repository (at the top of the file). 
 
@@ -626,17 +652,19 @@ When that happens, you get a warning on your PR page that the branch has conflic
 
    To resolve the conflict, I need to choose which lines of text to delete (any text appearing between lines 5 and 17, which are highlighted in yellow, is fair game). 
 
+   ![Resolving a merge conflict.](C:\Users\Allison\Desktop\Merge conflict screenshots\3-merge-commit-merge-conflict.png)
+
    After choosing to delete my own changes and clicking the **Mark as resolved** button, I see that the conflict has been resolved and a green **Commit merge** button appears in the top right of my screen, next to the title of my client's pull request. I click the button, and voilà! There are no conflicts with the base branch and I can now merge my pull request by hitting the friendly green **Merge pull request** button as I normally would.
+
+   ![4-merge-conflict-PR-resolved](C:\Users\Allison\Desktop\Merge conflict screenshots\4-merge-conflict-PR-resolved.png)
 
 3. Merge is confirmed.
 
    I then see this screen. At the top, I receive a notification that the merge conflict is resolved. You can also see that the pull request has been successfully merged and closed (it's great that the status of pull requests is colour-coded, so you immediately know that all is good - or not - before you even start to read).
 
-
+![Merge conflict resolved.](C:\Users\Allison\Desktop\Merge conflict screenshots\5-merge-conflict-resolved-merged.png)
 
 ## Limitations of Git and GitHub for writers and teams
-
----
 
 As much as we love Git and GitHub, this wouldn't be a true "guide" to the software if we weren't honest about its drawbacks and limitations (and there are a few). The ones we've discovered in our work include:
 
@@ -721,6 +749,14 @@ Have a question not covered in this guide or looking for guided practices or tut
 [Markdown Here Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet)
 
 [Markdown Tutorial](https://www.markdowntutorial.com/)
+
+
+
+### How to make a README
+
+[Make a README file](https://www.makeareadme.com/#what-is-it)
+
+
 
 
 
