@@ -41,9 +41,11 @@ I'll cover the following:
 
 ### Git
 
-[Git](https://git-scm.com/) is a general purpose, open source distributed revision control system. Essentially, it's version control software (VCS) designed to let you manage your workflow and keep track of versions of documents. 
+[Git](https://git-scm.com/) is a powerful tool for tracking and making changes to documents. It makes it easy for several people to collaborate on the same document simultaneously, then merge those changes together automatically. They can then comment and reference individual changes. 
 
- VCS systems calculate differences, or deltas, between documents. Comparing differences between versions means some exciting options appear at your fingertips, including:
+Git does this by comparing documents and creating a list of changes, or differences between files. These are known as *[deltas](https://study.com/academy/lesson/what-is-delta-definition-lesson-quiz.html)*, derived from the fourth letter of the Greek alphabet (comparable to our 'D'). Its most common meaning is the difference, or change, in a certain quantity.
+
+Essentially, Git is open source software built and used by software engineers, developers and the like. For us writers, content creators and publishers, some exciting options appear at our fingertips, including:
 
 - Reports on differences between versions
 
@@ -51,12 +53,8 @@ I'll cover the following:
 
 - Referencing change sets directly (so you and your collaborators each understand exactly which changes are being discussed)
 
-- Creating patches (*explanation here*)
-
- For Git to be able to calculate differences between files, the files must be stored in a document that the software can "read" so it can detect what's changed. A plain text file (e.g.: a Markdown document) is perfect for this. Any changes to the document will be seen in the lines of the file that are responsible for it. Contrast this to other file types like Word .doc files, where a change to one line is hard to locate in the file, or images, where changing the file won't lead to a nice textual summary of what's changed. 
-
-Admittedly, Git isn't the important part here - the command line is terrible and usability leaves much to be desired. In fact, it's often derided as user hostile and although the interface has marginally improved, it's still one of the worst in the world.
-
+You'll want to download a text editor and use Markdown (a lightweight, plain text formatting syntax that makes documents easy to write) to create your content. (We'll expand on Markdown and its benefits later in this post.)
+ 
 
 ### GitHub
 
