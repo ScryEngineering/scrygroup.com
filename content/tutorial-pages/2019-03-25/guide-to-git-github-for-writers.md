@@ -54,18 +54,18 @@ Essentially, Git is open source software built and used by software engineers, d
 - Referencing change sets directly (so you and your collaborators each understand exactly which changes are being discussed)
 
 You'll want to download a text editor and use Markdown (a lightweight, plain text formatting syntax that makes documents easy to write) to create your content. (We'll expand on Markdown and its benefits later in this post.)
- 
+
 
 ### GitHub
 
 ![A screenshot of a README file on my practice repository on github.com](github.com-screenshot.png)
 
-[GitHub](https://github.com/) is a free website that stores files for your projects. Powered by Git, it allows you to: 
+[GitHub](https://github.com/) is an online service that allows users to use Git online, while providing powerful tools for collaboration. With these tools, you can:
 
 - collaborate with other authors on code, web pages, etc.,
 -  review one another's edits 
 - create or start a dialogue using Issues 
-- make your repositories public or private, accessible only by contributors you choose (paid version)
+- make your repositories public or private, accessible only by contributors you choose (you can use private repositories with up to 3 contributors for free, but will need the paid version for teams of 4+)
 - allow your repositories to be cloned or downloaded, so other people can work on the files they contain
 
 
@@ -84,21 +84,26 @@ Git is a repository hosting service much-loved by developers for its robust vers
 
 ### The problem(s) with word processors and web-based writing tools 
 
-Have you ever worked on a document with multiple authors? Some of you may be Mac people, while others are Windows diehards. Regardless, you all need to be able to see and give feedback on each other's work. This is where conventional Word processors and web-based programs can get a little clunky. Here are some common pitfalls:
+Have you ever worked on a document with multiple authors? Some of you may be Mac people, while others are Windows or Linux diehards. Regardless, you all need to be able to see and give feedback on each other's work. This is where conventional Word processors and web-based programs can get a little clunky. Here are some common pitfalls:
 
-**Duplicate or redundant content**
+#### Duplicate or redundant content
+
 With word processors, you often end up with a Definitely-Final-Revised-Version-12, or even worse, there are multiple documents floating around with changes that will have to be vetted and amalgamated into one. 
 
-**Unfriendly file formats make for wasted time**
+#### Unfriendly file formats make for wasted time
+
 Sometimes things can go wonky if documents are saved and opened in different file formats or programs, or saved on different versions of the same program (not all is equal in the land of Mac, Windows and other operating systems). Even today, devices don't always play nicely with one another. Consequently, you can't be 100% sure your document will open and display correctly for everyone.
 
-**Content loses formatting when transferred**
+#### Content loses formatting when transferred
+
 If you've ever spent a tedious half-hour formatting your document in Word, then copied and pasted it to the web, a Content Management System, or somewhere else, you've probably watched the formatting disappear before your eyes or some of your text turn to gibberish. This is because the formatting rules you used were specific to the software you used to create the document. Depending on where you transfer your content, you could end up having to reformat all over again, doubling your time spent on task.
 
-**True collaboration is a hassle**
+#### True collaboration is a hassle
+
 Dialogue makes collaboration work, and the ability to easily provide feedback on documents (especially if you work remotely) is essential. The commenting systems in both conventional and web-based programs leave much to be desired, as your page gets so messy, the content becomes obscured. You find yourself actually dreading giving or receiving feedback, as each comment adds to a tangled web of suggestions, crossed-out paragraphs, and different-coloured replies in the margin. The content takes a back seat to noise. 
 
-**Losing data could mean a frustrating setback**
+#### Losing data could mean a frustrating setback
+
 We've all done it: spent days working away painstakingly on a document, saving it, shutting down and forgetting to back up. Then disaster strikes: our laptop goes missing, a flood happens, or a hard drive quits. All of our work is up in smoke and we've got some explaining to do. Always frustrating, and sometimes devastating to a project on a tight timeline. Unless you save your file in the right place and take the time to back up, you're taking a huge unnecessary risk with your team's hard work.
 
 
