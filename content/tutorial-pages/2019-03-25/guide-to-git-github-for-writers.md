@@ -47,13 +47,13 @@ Git does this by comparing documents and creating a list of changes, or differen
 
 Essentially, Git is open source software built and used by software engineers, developers and the like. For us writers, content creators and publishers, some exciting options appear at our fingertips, including:
 
-- Reports on differences between versions
+- reports on differences between versions
 
-- Easily merging changes to documents (which can be confusing with Word or other word processors) 
+- easily merging changes to documents (which can be confusing with Word or other word processors) 
 
-- Referencing change sets directly (so you and your collaborators each understand exactly which changes are being discussed)
+- referencing change sets directly (so you and your collaborators each understand exactly which changes are being discussed)
 
-You'll want to download a text editor and use Markdown (a lightweight, plain text formatting syntax that makes documents easy to write) to create your content. (We'll expand on Markdown and its benefits later in this post.)
+You'll want to download a text editor and use Markdown (a lightweight, plain text formatting syntax that makes documents easy to write) to create your content. (We'll expand on Markdown and its benefits later in this post. Essentially, formatting your content in text-based documents will work well with GitHub, and Markdown is one such format that plays nice with Git.)
 
 
 ### GitHub
@@ -94,10 +94,6 @@ With word processors, you often end up with a Definitely-Final-Revised-Version-1
 
 Sometimes things can go wonky if documents are saved and opened in different file formats or programs, or saved on different versions of the same program (not all is equal in the land of Mac, Windows and other operating systems). Even today, devices don't always play nicely with one another. Consequently, you can't be 100% sure your document will open and display correctly for everyone.
 
-#### Content loses formatting when transferred
-
-If you've ever spent a tedious half-hour formatting your document in Word, then copied and pasted it to the web, a Content Management System, or somewhere else, you've probably watched the formatting disappear before your eyes or some of your text turn to gibberish. This is because the formatting rules you used were specific to the software you used to create the document. Depending on where you transfer your content, you could end up having to reformat all over again, doubling your time spent on task.
-
 #### True collaboration is a hassle
 
 Dialogue makes collaboration work, and the ability to easily provide feedback on documents (especially if you work remotely) is essential. The commenting systems in both conventional and web-based programs leave much to be desired, as your page gets so messy, the content becomes obscured. You find yourself actually dreading giving or receiving feedback, as each comment adds to a tangled web of suggestions, crossed-out paragraphs, and different-coloured replies in the margin. The content takes a back seat to noise. 
@@ -114,34 +110,59 @@ In contrast, distributed systems *just work*. Your content will be ready for the
 
 Git is what we call a *decentralized version control system*. Here's why that's important: 
 
-**One master document means everyone is (literally) on the same page**
-No more wasting time trying to figure out which is the authoritative or most up to date version! When anyone clones a repository to their local machine (computer), opens their document, then makes and commits changes, Git checks those changes against previous versions and tracks them. You'll be able to tell who made changes, when, and (if the contributor writes a message in their commit) why.
+#### One master document means everyone is (literally) on the same page
 
-**You'll have a stable platform to collaborate with clients and partners**
+One of the most annoying parts of creating, publishing and maintaining content is often tracking changes. Content is a living, breathing entity - it's not a "set it and forget it" thing. Over the lifespan of just one piece of content, there may be hundreds of changes by different contributors. You can see why changes get messy! 
+
+Fortunately, Git has us covered. Its sole purpose is to: 
+
+- track which changes derive from which 
+- which are the latest changes 
+- how the changes have evolved, and
+- what the corresponding hierarchy looks like
+
+For us, this means more wasting time trying to figure out which is the authoritative or most up to date version. When anyone clones a repository to their local machine (computer), opens their document, then makes and commits changes, Git checks those changes against previous versions and tracks them. 
+
+
+#### You'll have a stable platform to collaborate with clients and partners
+
 Because the system is decentralized, it's designed to handle multiple people working on the same document at the same time. While some centralized systems (such as Joomla) will lock you out of a page as a protective measure while someone else is editing it, you won't run into this challenge with Git and GitHub. 
 
-**One formatting language to rule them all**
-Markdown is a lightweight markup language you'll swear by once you start using it. Because it's formatted using plain text, your content will transfer easily wherever you need to put it. It will also open and display as intended in any modern word processor.
+#### Each repository is essentially a backup
 
-**Content is easily re-purposed**
-You don't just create content once for a singular format and forget about it. More than ever, a modern marketing strategy demands content that's re-purposed and reused. As [Daring Fireball](https://daringfireball.net/projects/markdown/syntax) mentions, with Markdown readability is emphasized above all else, and its syntax is intended for the singular purpose of being used as a format for writing for the web. The potential is endless, meaning you've unlocked your content from unwieldy programs and proprietary software. It's free!
+Even if one machine goes down, you can still access your data on GitHub from other machines. The decentralized system is a nice backup feature in disguise. If you didn't have this, you'd need to consider backups and disaster recovery strategies. Not having to be so worried about this means you reduce the mental burden on you and your team, and reduce the risk of a devastating loss of data and hours. 
 
-**Each repository is essentially a backup**
-My client (who's used Git for several years) says he has yet to lose a large amount of data on any project using Git. Even if one machine goes down, you can still access your data from other machines. The decentralized system is a nice backup feature in disguise. If you didn't have this, you'd need to consider backups and disaster recovery strategies. Not having to be so worried about this means you reduce the mental burden on you and your team, and reduce the risk of a devastating loss of data and hours. 
-
-**Undo and redo changes with version control**
+#### Undo and redo changes with version control
 
 Though GitHub can be hard to pick up for the casual user, rolling changes forward or backward is easy thanks to version control - a big plus when you have an entire team creating and reviewing a piece of content. 
 
 Although your trusty word processor offers Undo and Redo buttons, once you undo your most recent changes, save and then close your document, that text is gone forever. In contrast, GitHub not only provides an overview of your changes over time, it tells you who made them. 
 
-Bonus: Version control boosts the accountability factor among team members, since you'll now be able to track each person's contribution and easily discover who did what, when. 
+Bonus: Version control boosts the accountability factor among team members, since you'll now be able to track each person's contribution and easily discover who did what, when, and (if the contributor writes a message in their commit) why. 
 
-**A clean, reader-friendly comments section**
+> The fact that these version changes are kept in a distributed manner is an amazing, and literally game-changing, engineering achievement. - Janis Lesinskis
+
+#### A clean, reader-friendly comments section
 
 When two or more people collaborate on content, they usually have discussions about various aspects of that content, including writing or design. Most word processors and editing programs handle these horribly, to the point where you end up with a mess of many mind-numbing paragraphs in the margins of your document. As contributors add their comments, conversations flows quickly become difficult to keep track of.
 
 In GitHub, you'll quickly discover comments appear in a neat box directly under the paragraph being discussed. You can clearly see which contributor made the comments, the dates conversations occurred, easily track the flow of conversations and resolve them once decisions have been made.
+
+
+
+## The case for Markdown
+
+In this guide, we're advocating pairing Markdown with Git and GitHub. Here's why:
+
+#### One formatting language to rule them all
+
+[Markdown](https://www.markdownguide.org/) is a lightweight markup language you'll swear by once you start using it. Because it's formatted using plain text, your content will transfer easily wherever you need to put it. It will also open and display as intended in any modern word processor.
+
+#### Content is easily re-purposed
+
+You don't just create content once for a singular format and forget about it. More than ever, a modern marketing strategy demands content that's re-purposed and reused. As [Daring Fireball](https://daringfireball.net/projects/markdown/syntax) mentions, with Markdown readability is emphasized above all else, and its syntax is intended for the singular purpose of being used as a format for writing for the web. The potential is endless, meaning you've unlocked your content from unwieldy programs and proprietary software. It's free!
+
+Quick note: Git is formatting unaware, meaning it will track the content of your document, but the formatting of your content is up to the document format itself (if you use Markdown, the syntax used dictates the formatting). The format of the document is independent of Git.
 
 
 
@@ -181,7 +202,7 @@ No matter what type of project we're working on, as writers we need to do a few 
 
 Here's how to set up GitHub to work for you:
 
-1. Download Git to your computer. Find the [Windows installer here](https://git-scm.com/download/win) and the [OS X installer here](https://git-scm.com/download/mac). Linux users - you can probably find what you need.
+1. Download Git to your computer. Find the [Windows installer here](https://git-scm.com/download/win). Mac and Linux users: look to [Homebrew](https://brew.sh/) for the most recent version. 
 2. Visit [github.com](https://github.com/).
 3. Create your account.
 4. Download the [GitHub desktop client](https://desktop.github.com/). 
@@ -240,14 +261,24 @@ Git might seem intimidating when you first dig into it (I was lucky enough to ha
 
 ### 3. Push your repository to github.com 
 
-Right now, your GitHub repository is stored on your computer (what we nerds call "stored locally"), but that won't do - the whole point is to have your stuff secure and backed up in a non-proprietary "cloud", accessible and editable by your team. Here's how to make that happen:
+Right now, your GitHub repository is stored on your computer (what we nerds call "stored locally"), but that won't do - the whole point is to have your stuff secure and backed up in an open-source "cloud", accessible and editable by your team. Here's how to make that happen:
 
 1. Go to GitHub Desktop and hit the **Publish Repository** button in the row along on the top. 
 
-2. Check **Keep this code private** if you'd like to (you'll need to have a paid account and be an organization owner or have admin permissions for your repository. [Learn more about making a public repository private]( https://help.github.com/articles/making-a-public-repository-private/).
+2. Check **Keep this code private** if you'd like to. A note about public and private repositories from [GitHub's Help site](https://help.github.com/en/articles/setting-repository-visibility):
+
+   > Public repositories are accessible to everyone using GitHub.com, while private repositories are accessible to you and the people you share them with. 
+
+   With a GitHub Free personal account, you can have up to three collaborators on a private repository.
+
+   [Learn more about making a repository private](https://help.github.com/en/articles/setting-repository-visibility#making-a-repository-private).
+
 3. That's it for settings, unless you're an organization owner. 
+
 4. Hit **Publish Repository**. 
+
 5. You'll need to log in to GitHub if you're not already. 
+
 6. GitHub Desktop will push your files to the cloud and create a repository on the web-based app. 
 
 Now comes the fun part! You get to see your repository all ready to go on [github.com](https://github.com/). Log in and click on the **Repositories** menu. You'll see your repository below:
@@ -282,7 +313,7 @@ Keep in mind that if you're using GitHub Free, you can add unlimited collaborato
 
 When you create your repository, you start with one master definitive branch. A branch is a copy or "snapshot" of the master as it was at a specific point in time. Anyone working on the repository can create a branch to experiment or make edits before committing them to master. 
 
-This is kind of like when you have different versions of the same file, except with the power of Git and GitHub, it's easy to eventually merge them all together and see changes, instead of ending up with different versions of the same file floating around your team and confusing everyone.
+This is kind of like when you have different versions of the same file, except with the power of Git, it's easy to eventually merge them all together and see changes, instead of ending up with different versions of the same file floating around your team and confusing everyone.
 
 ##### How to create a branch
 
@@ -378,9 +409,22 @@ Lists are another thing that make your content easily scannable. If you've ever 
 
 `* List item 3`
 
+or:
+
+`<ul>`
+
+`<li>List item 1</li>`
+
+`<li>List item 2</li>`
+
+`<li>List item 3</li>`
+
+`</ul>`
+
 This automagically becomes: 
 
-* List item 1
+- List item 1
+
 * List item 2
 * List item 3
 
@@ -447,7 +491,7 @@ As writers, we're used to saving our work to a folder or the cloud. With GitHub,
 
 ![Hit the commit button to start the process of sending your changes to GitHub.](commit-changes.PNG)
 
-Committing lets you take advantage of version management. Get into the habit of making your commits at natural break points - when you complete a main section, after adding links and support files, after making major edits, when you pack it in for the day, etc. Here's how to do that: 
+Committing lets you take advantage of version management. Get into the habit of making your commits often, and at natural break points - when you complete a main section, after adding links and support files, after making major edits, when you pack it in for the day, etc. Here's how to do that: 
 
 1. Open GitHub Desktop.
 2. Choose your project.
@@ -462,13 +506,36 @@ Committing lets you take advantage of version management. Get into the habit of 
 5. Hit **Commit to *name of topic branch***.
 6. You're done! Your file will now have its title and description attached, and you'll be able to see it on [github.com](https://github.com/)...after you do one last thing. Keep GitHub Desktop open.
 
+> Committing early and often will let you take advantage of GitHub's unparalleled version management features.
 
+#### How to write a good commit message
+
+It may seem like a tiny, trivial detail, but writing a great commit message is critical to effectively communicating with your team members, and there is definitely a right and a wrong way to do it. Thanks to a member of my client's team for pointing me to this primer on [how to write a Git commit message](https://chris.beams.io/posts/git-commit/#seven-rules). 
+
+A well-written commit message communicates the context of your changes to your fellow collaborators (and your future self!). Your commit message explains why something has changed, while a diff tells you what has changed. 
+
+One of the 7 rules of a great commit message, as noted on Chris Beams' blog, is to use the imperative mood in your subject line. So, instead of using the indicative mood in past tense (which reads like this):
+
+- Explained merge conflicts
+- Added content re commits and comments
+
+I should be writing subject lines that complete this sentence:
+
+- If applied, this commit will *subject line here*. 
+
+For example:
+
+- Explain merge conflicts 
+- Add content re commits and comments
+
+One reason Beams advocates for the imperative is that Git itself uses the imperative whenever it creates a commit on your behalf. It also shortens the length of your subject line, which you want to limit to 50 characters as a rule of thumb to keep them readable and concise. See his post for a complete rundown of the 7 rules.
 
 ### So, now you have:
 
 - Your content structured in a Markdown file, ready for exporting to Word, PDF, HTML or other formats.
 - Images placed where they belong within your content. 
 - Images stored on your computer for uploading into WordPress or your favourite CMS.  
+- Guidance on how to write good commit messages.
 - Your first committed file ready to push to [github.com](https://github.com/), via GitHub Desktop. 
 
 
@@ -535,7 +602,7 @@ How to create a pull request:
 
 ### Create a draft pull request (different from a Pull Request)
 
-When you create your pull request, you also have the option to create a Draft pull request to show you'll be continuously making commits. Draft pull requests cannot be merged, and code owners won't be automatically requested to review them. 
+When you create your pull request, you also have the option to create a Draft pull request to show you'll be continuously making commits. Draft pull requests cannot be merged, and code owners won't be automatically requested to review them. (Note: When we checked, draft pull requests were only available on paid accounts.)
 
 **Pro tip:** If your commit is still a work in progress, add [WIP] to the front of your title when you create your Pull Request to let your teammates know the status of your work. When it's ready to merge, replace it with [MRG].
 
@@ -620,7 +687,7 @@ If for some reason, you don't want to merge the changes in your topic branch wit
 
 If you spend enough late nights writing content and making commits, you'll inevitably end up with a merge conflict. These happen when you merge branches which have competing commits, and Git needs your help to decide which changes it should incorporate in the final merge. 
 
-Git is so smart that it can sometimes resolve differences between branches and merge them automatically. Usually these changes are on different lines or in different files. This makes the merge easy for the program to understand. But sometimes, Git won't be able to resolve competing changes without your help. 
+Git is so smart that it can resolve differences between branches and merge them automatically...most of the time. Usually, these changes are on different lines or in different files. This makes the merge easy for the program to understand. But there will be times when Git won't be able to resolve competing changes without your help. 
 
 Merge conflicts can happen when: 
 
@@ -725,13 +792,17 @@ I won't lie: Navigating GitHub for the first time can be scary! If you're used t
 
 Do you use Git and GitHub in your content workflow? Do you love it or hate it? What was the learning process like for you, and do you have any tips, tricks, or advice you think should be included in this guide? 
 
-We want this guide to be an ever-evolving resource dedicated to helping writers use the platform to its potential, so share your suggestions for additions & revisions in the comments!
+We want this guide to be an ever-evolving resource dedicated to helping writers use the platform to its potential, so share your suggestions for additions, revisions and resources in the comments!
 
 
 
-## Extra resources
+## Resources
 
-Have a question not covered in this guide or looking for guided practices or tutorials? Check out these resources.
+These are the resources we mentioned in this guide:
+
+### How to write a Git commit message
+
+[How to write a Git commit message - Chris Beams](https://chris.beams.io/posts/git-commit/)
 
 ### Git and GitHub
 
