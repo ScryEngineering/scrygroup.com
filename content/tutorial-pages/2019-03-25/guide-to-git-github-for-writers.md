@@ -233,7 +233,7 @@ Now that you've got your workspace set up (think of it as having put one of thos
 
 You should have a basic file structure that looks like this (the folder with my practice repository is highlighted in grey, in the red box):
 
-![A screenshot showing the folder structure of one of my practice repositories on GitHub.](C:\Users\Allison\Documents\GitHub\CPS_content\content\tutorial-pages\2019-03-25\github-folder-structure.PNG)
+![A screenshot showing the folder structure of one of my practice repositories on GitHub.](github-folder-structure.PNG)
 
 
 
@@ -255,7 +255,7 @@ Git might seem intimidating when you first dig into it (I was lucky enough to ha
 
 7. GitHub takes care of everything. You might see hidden files like this in your folder. That's fine, leave 'em there:
 
-   ![A screenshot showing the hidden files in my repository.](C:\Users\Allison\Documents\GitHub\CPS_content\content\tutorial-pages\2019-03-25\github-hidden-files.PNG)
+   ![A screenshot showing the hidden files in my repository.](github-hidden-files.PNG)
 
    
 
@@ -471,7 +471,7 @@ To insert the code, go to **Format -> Image** in Typora or use the shortcut CTRL
 
 When I do so, I end up with a photo embedded in my Markdown document:
 
-![meeting](C:\Users\Allison\Documents\GitHub\CPS_content\content\tutorial-pages\2019-03-25\meeting.png)
+![meeting](meeting.png)
 
 Click on the photo and you'll see the file path. This will transfer when you export to Word (.doc), PDF or Google Docs. In your GitHub document, you'll see what looks like a link.
 
@@ -722,17 +722,17 @@ When that happens, you get a warning on your PR page that the branch has conflic
 
    To resolve the conflict, I need to choose which lines of text to delete (any text appearing between lines 5 and 17, which are highlighted in yellow, is fair game). 
 
-   ![Resolving a merge conflict.](C:\Users\Allison\Desktop\Merge conflict screenshots\3-merge-commit-merge-conflict.png)
+   ![Resolving a merge conflict.](3-merge-commit-merge-conflict.png)
 
    After choosing to delete my own changes and clicking the **Mark as resolved** button, I see that the conflict has been resolved and a green **Commit merge** button appears in the top right of my screen, next to the title of my client's pull request. I click the button, and voilà! There are no conflicts with the base branch and I can now merge my pull request by hitting the friendly green **Merge pull request** button as I normally would.
 
-   ![4-merge-conflict-PR-resolved](C:\Users\Allison\Desktop\Merge conflict screenshots\4-merge-conflict-PR-resolved.png)
+   ![4-merge-conflict-PR-resolved](4-merge-conflict-PR-resolved.png)
 
 3. Merge is confirmed.
 
    I then see this screen. At the top, I receive a notification that the merge conflict is resolved. You can also see that the pull request has been successfully merged and closed (it's great that the status of pull requests is colour-coded, so you immediately know that all is good - or not - before you even start to read).
 
-![Merge conflict resolved.](C:\Users\Allison\Desktop\Merge conflict screenshots\5-merge-conflict-resolved-merged.png)
+![Merge conflict resolved.](5-merge-conflict-resolved-merged.png)
 
 ## Limitations of Git and GitHub for writers and teams
 
@@ -775,8 +775,6 @@ In your case, once you structure your content production around GitHub, your imp
 
 
 ## Wrap up
-
----
 
 I won't lie: Navigating GitHub for the first time can be scary! If you're used to popping open a Google doc or your favourite word processor and getting straight to work, making the transition to such a powerful piece of software feels daunting, but pays off in terms of productivity and time saved once you set up your workflow. In this guide, we covered:
 
