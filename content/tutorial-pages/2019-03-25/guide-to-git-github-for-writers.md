@@ -58,9 +58,7 @@ You'll want to download a text editor and use Markdown (a lightweight, plain tex
 
 ### GitHub
 
-![A screenshot of a README file on my practice repository on github.com](github.com-screenshot.png)
-
-[GitHub](https://github.com/) is an online service that allows users to use Git online, while providing powerful tools for collaboration. With these tools, you can:
+![A screenshot of a README file on my practice repository on github.com](github.com-screenshot.png)[GitHub](https://github.com/) is an online service that allows users to use Git online, while providing powerful tools for collaboration. With these tools, you can:
 
 - collaborate with other authors on code, web pages, etc.,
 -  review one another's edits 
@@ -465,17 +463,29 @@ Here's where it gets interesting. Because Markdown is text-only, you won't embed
 
 `![caption for image](image/folder/imageabc.png)`
 
+To insert the code, place your images in the same folder as your Markdown file. 
 
-
-To insert the code, go to **Format -> Image** in Typora or use the shortcut CTRL+SHIFT+I. You can also drag and drop the photo from your repository photo into your document.
+Go to **Format -> Image** in Typora or use the shortcut CTRL+SHIFT+I. You can also drag and drop the photo from your repository photo into your document.
 
 When I do so, I end up with a photo embedded in my Markdown document:
 
 ![meeting](meeting.png)
 
-Click on the photo and you'll see the file path. This will transfer when you export to Word (.doc), PDF or Google Docs. In your GitHub document, you'll see what looks like a link.
+Click on the photo and you'll see the file path. This will transfer when you export to Word (.doc), PDF or Google Docs. In your GitHub document, you'll see what looks like a link. 
 
-However, if you're converting to WordPress or another CMS, you'll have to insert the images again. Inserting the images now is still worth your time, though, because then you'll know where they belong within your content, and you'll have them stored on your computer, so inserting them into your post in WordPress shouldn't take long.
+You'll want to use a relative file path, since you're linking to a file on your own domain:
+
+`![meeting](meeting.png)`
+
+rather than an absolute path, which is for linking to files off-site: 
+
+`![meeting (C:\Users\Allison\Documents\GitHub\CPS_content\content\tutorial-pages\2019-03-25\meeting.png)`
+
+To use a relative file path, I just delete the extra stuff that appears before the file name (meeting.png). 
+
+Lifewire has a comprehensive [explanation of absolute and relative file paths](https://www.lifewire.com/absolute-and-relative-paths-3466467). 
+
+If you're converting to WordPress or another CMS, you'll have to insert the images again. Inserting the images now is still worth your time, though, because then you'll know where they belong within your content, and you'll have them stored on your computer, so inserting them into your post in WordPress shouldn't take long.
 
 
 
