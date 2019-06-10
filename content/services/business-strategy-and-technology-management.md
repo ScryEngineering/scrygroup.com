@@ -10,7 +10,7 @@ In a world where we've seen more technological advancement in the past 30 years 
 
 ## Why work with us?
 
-At (COMPANY NAME), we believe in bringing teams and technology together. While our clients often encounter technical challenges, the culture of every business is unique. Therefore, so are its obstacles and the solutions we help you implement.  
+At (**COMPANY NAME**), we believe in bringing teams and technology together. While our clients often encounter technical challenges, the culture of every business is unique. Therefore, so are its obstacles and the solutions we help you implement.  
 
 When you work with us, we partner with you to conquer your challenges, seize opportunities and use current resources even more efficiently. Sometimes, we take non-technical approaches to solving problems traditionally seen as technology related, and vice-versa.
 
