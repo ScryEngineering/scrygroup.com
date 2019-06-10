@@ -19,12 +19,12 @@ By defining the problem and choosing the right equations, algorithms and systems
 
 Here are just a few practical applications for mathematical optimization:
 
-- Manufacturing companies use objective functions to determine production costs, or ____ to find the most effective packing methods 
-- Warehouses and other buildings can be organized so every square foot of space is used as efficiently as possible
-- Transportation apps use mathematical optimization to find the best routes for their vehicles
+- Manufacturing companies use objective functions to determine production costs, or ____ to find the most effective packing methods. 
+- Warehouses and other buildings can be organized so every square foot of space is used as efficiently as possible.
+- Transportation apps use mathematical optimization to find the best routes for their vehicles.
 - Service companies (e.g. electrical) consider complex supply and demand formulas to determine pricing for commodities. Small efficiencies at this scale can add up to an enormous savings quickly.
-- Airlines use systems to determine the fastest way for passengers to board an airplane 
-- Policy makers can use mathematical optimization to determine the popularity of policies a candidate wants to propose
+- Airlines use systems to determine the fastest way for passengers to board an airplane. 
+- Policy makers can use mathematical optimization to determine the popularity of policies a candidate wants to propose.
 
 Mathematical optimization also has many practical uses in finance, engineering, economics, mechanics and more. 
 
@@ -61,11 +61,11 @@ Today, you can combine high-power cloud computing services such as AWS with expe
 
 It's easy to feel overwhelmed when thinking about all the processes you should take inventory of and potentially optimize to get the most ROI for your business. Where do you even start: should you tackle the warehouse, have a chat with your logistics team or take a look at production and manufacturing first? 
 
-At (**NEW COMPANY NAME**), we do more than crunch numbers. We partner with you to define the challenges you face in your business every day, from product marketing to sales, production and delivery, then 
+At (**COMPANY NAME**), we do more than crunch numbers. We partner with you to define the challenges you face in your business every day, from product marketing to sales, production and delivery, then (**what?**)
 
-Of course, the numbers behind the strategy are critical to your success. To find the right answers to your problem, it's vital to have skilled professionals with comprehensive experience who not only know which algorithms, equations and systems to use but how to interpret the results, then put them into 
+Of course, the numbers behind the strategy are critical to your success. To find the right answers to your problem, it's vital to have skilled professionals with comprehensive experience who not only know which algorithms, equations and systems to use but how to interpret the results, then put them into action.
 
-Our team at (**NEW COMPANY NAME**) brings years of experience in (more details on experience and knowledge of math optimization here)
+Our team at (**COMPANY NAME**) brings years of experience in (**more details on experience and knowledge of math optimization here**)
 
 
 
