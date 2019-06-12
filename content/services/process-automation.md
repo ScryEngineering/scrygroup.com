@@ -23,9 +23,9 @@ Process automation integrates with data science and has many practical uses in t
 
 ## What process automation can do for you
 
-Ever feel so overwhelmed by your to-do list that you don't know which task to tackle first? While you wonder how you'll get it all done, hiring an employee or sub-contracting doesn't seem practical, since you'd have to manage, train and pay them. 
+People drive your company's success. With the right tools and processes in place, they can ditch the manual labour and get back to bringing in revenue - the lifeblood of every business. 
 
-But you have a viable alternative: automation. Software solves everyday problems in business, from compiling an error-free report for a pressing deadline to sending leads and customers the information they need in a timely manner. 
+Software solves everyday problems in business, from compiling an error-free report for a pressing deadline to sending leads and customers the information they need in a timely manner. 
 
 Process automation and optimization can help you: 
 
@@ -43,29 +43,9 @@ Process automation and optimization can help you:
 
 ## Why work with us?
 
-People drive your company's success. With the right tools and processes in place, they can ditch the manual labour and get back to bringing in revenue - the lifeblood of every business.
+Effectively automating and optimizing your processes gives you a solid foundation to build on when it comes to engineering, managing, publishing and learning from your data. We guide you through every step, including helping you to define which areas of your business will benefit most from automation, developing a precisely planned approach and working with you to implement a solution customized to your needs.
 
-find efficiencies in critical areas such as internal communication, marketing, customer service and lead generation, human resources, data collection, reporting, and others. 
-
- It's critical to have the right partner who can 
-
-We guide you through every step, including helping you to define which areas of your business will benefit most from automating and optimizing your processes. 
-
-create systems to automate your most menial tasks 
-
-
-
-The success of any project depends on having an experienced, highly skilled partner, a strategy customized to your needs, and clean data to work with.
-
-There's a critical difference between techniques that are data-oriented and those that aren't. While performance engineering involves data and statistics, it can be done without either. Data is an intrinsic and essential part of data science projects, which always have data pipeline requirements. 
-
-These two disciplines require drastically different skillsets. You need a partner who knows which one applies to your problem, and how to correctly build and implement a solid, cost-effective solution the first time.
-
-We excel in this area, combining a strong background in mathematics with elite software development skills to solve complex problems and rigorously analyze data. When you work with us, we custom develop a precisely planned approach to address your specific challenge, then work with you to implement the solution. 
-
-
-
-(COMPANY NAME) offers 
+Leveraging years of experience in process automation and data science, we find efficiencies in critical areas such as internal communication, marketing, customer service and lead generation, human resources, data collection, reporting, and others. 
 
 We can help you:
 
@@ -74,7 +54,5 @@ We can help you:
 - Move Excel and other similar applications into web applications that are easy to deploy and use
 - Create APIs for software that needs to "talk" to legacy software or new applications
 - Integrate software with our [mathematical optimization](mathematical-optimization.md), [machine learning](machine-learning.md) and [operations research](operations-research.md) capabilities to create more value from those systems with reduced data handling time
-
-
 
 Related skills: [Data science](data-science.md) is greatly enabled by better process automation. See the data science pyramid for a good visualization of how this works.
