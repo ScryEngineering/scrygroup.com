@@ -20,7 +20,7 @@ In this post, we'll explain how automating your processes can help you get to in
 
 **The situation:** You've collected a few hundred email addresses from leads you've met and conferences and regular clients, and added them to your list (with permission, right?). You hate letting them languish in your CRM, but you're not sure how to reach out.
 
-**The fix:** Make marketing hassle-free by setting up email workflows using marketing automation software. Imagine if instead of having to chase each lead individually, you tracked your visitors' actions on your website. When they subscribe to your blog, fill out a contact form or download your content, it triggers an email to be sent - and all you had to do was set up the workflow once. STAT
+**The fix:** Make marketing hassle-free by setting up email workflows using marketing automation software. Imagine if instead of having to chase each lead individually, you tracked your visitors' actions on your website. When they subscribe to your blog, fill out a contact form or download your content, it triggers an email to be sent - and all you had to do was set up the workflow once. 
 
 Bonus: Don't lose your best opportunities to miscommunication. If you create a workflow that emails your sales person the info they need about visitors who engage with your pricing or contact page, you'll never let another lead fall through the cracks. Even better, your system sends the emails so you can focus on nurturing relationships.
 
