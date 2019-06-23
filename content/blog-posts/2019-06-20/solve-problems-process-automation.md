@@ -20,7 +20,7 @@ In this post, we'll explain how automating your processes can help you get to in
 
 **The situation:** You've collected a few hundred email addresses from leads you've met and conferences and regular clients, and added them to your list (with permission, right?). You hate letting them languish in your CRM, but you're not sure how to reach out.
 
-**The fix:** Make marketing hassle-free by setting up email workflows using marketing automation software. Imagine if instead of having to chase each lead individually, you tracked your visitors' actions on your website. When they subscribe to your blog, fill out a contact form or download your content, it triggers an email to be sent - and all you had to do was set up the workflow once. 
+**The fix:** Make marketing hassle-free by setting up email workflows using marketing automation software. Imagine if instead of having to chase each lead individually, you tracked your visitors' actions on your website. When they subscribe to your blog, fill out a contact form or download your content, it triggers an email to be sent - and all you had to do was set up the workflow once. Businesses are seeing the value in automating their marketing - according to an [Invesp infographic](https://www.invespcro.com/blog/marketing-automation/), marketing automation drives a 14.5% increase in sales productivity and a 12.2% reduction in marketing overhead.
 
 Bonus: Don't lose your best opportunities to miscommunication. If you create a workflow that emails your sales person the info they need about visitors who engage with your pricing or contact page, you'll never let another lead fall through the cracks. Even better, your system sends the emails so you can focus on nurturing relationships.
 
@@ -40,9 +40,13 @@ For example, if you run an online store visitors might have questions before ord
 
 **The situation:** You loathe the thought of having to hire, train and manage another employee for such a simple task, but you've got hundreds of spreadsheets to manage and reports to generate on a regular basis. It's become a running joke on your team about who gets stuck doing it every month and worse, errors creep in. You can't be sure it's getting completed accurately and you think there must be a faster way.
 
-**The fix:** Your instincts are correct. You'll want to automate your most time consuming, error-prone processes like data entry and report generation first. 
+**The fix:** Statistics prove your instincts are correct - about 10% to 20% of human work hours are spent on dull, repetitive computer tasks, state [figures published on Towards Data Science](https://towardsdatascience.com/all-the-robotic-process-automation-rpa-stats-you-need-to-know-bcec22eaaad9).
+
+ You'll want to automate your most repetitive, error-prone processes like data entry and report generation first. 
 
 Have your process automation software start with scraping data from documents, place the data in Excel and even email the completed spreadsheet to your contacts.
+
+One caveat: understanding the types of processes you're automating and the nuances of process automation is critical. For example, for data entry your best option might be an attended bot, which runs on a computer and helps employees complete simple, repetitive tasks more quickly and accurately. Avoid using bots to automate complex, higher value tasks as this can cause further problems, [as explained in this Forbes article](https://www.forbes.com/sites/cognitiveworld/2018/12/02/the-big-rpa-bubble/#480d945d68d9). 
 
 ## 4. You need to push software updates on a tight schedule
 
@@ -62,7 +66,9 @@ Needless to say, a lot can go wrong at critical points in these processes, with 
 
 **The situation:** Think about all the software and applications you use in the span of an average week in your business - probably a dozen or more, right? Some are legacy programs while others are newer cloud-based or onsite applications, and they need to interact seamlessly so data can be transferred quickly between programs.
 
-**The fix:** Business process automation software can help your most vital systems "talk" to each other, glitch-free. At Custom Programming Solutions, we specialize in assessing your software challenges and building the right solution to address them. A new system that integrates all of these programs will improve efficiency and eliminate the frustrating bottlenecks that happen when applications don't interact properly.
+**The fix:** Business process automation software can help your most vital systems "talk" to each other, glitch-free. At Custom Programming Solutions, we specialize in assessing your software and technological challenges and building the right solution to address them. A new system that integrates all of these programs will improve efficiency and eliminate the frustrating bottlenecks that happen when applications don't interact properly.
 
 Inefficient processes, outdated systems and tedious manual labour can make running a business feel like a Sisyphean challenge. By automating your processes, you can streamline your operations, improve profitability and give your employees the tools to do their best work so you can focus on building your business.
+
+
 
