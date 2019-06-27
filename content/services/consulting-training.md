@@ -80,6 +80,3 @@ Here is our approach:
 4. Get ready to learn
 
    While we work, your team learns the vital "hard" and "soft" skillsets, as well as the tools and techniques to successfully execute projects in-house.
-
-------
-
