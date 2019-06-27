@@ -17,6 +17,7 @@ hideCallToAction: false
 A good strategy when managing your packages is to have a strategy for deprecating functionality across versions.
 This way developers get some advance warning when APIs they depend on change.
 Doing this right makes it much easier for developers to use your code and *especially* when they have direct dependencies on your packages.
+Part of this strategy should involve good documentation and good communication, and part of this strategy should involve using the features of whatever programming language you are using.
 
 Python makes informational warnings fairly easy with classes and functions.
 We can use the [warnings module](https://docs.python.org/3/library/warnings.html#warning-categories) to report information to *developers* who are using our code in such a way that doesn't break the code like an exception would.
