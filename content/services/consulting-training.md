@@ -6,21 +6,31 @@ hideCallToAction: false
 
 ## Learning, reimagined.
 
-How often have you sat through a course, listened to a presentation or read a book and wondered how much you actually mastered the concepts? Now imagine a technology consulting and training program that teaches your team a whole new way to work - one customized to your needs, challenges and goals.
+You've hired top talent, grown your client base and taken on exciting new projects. But you have a problem: your crew needs to build their skills, and you're not sure where to turn. 
 
-### We don't just teach you how to use technology. We teach you how to learn.
+You dread the traditional training experience - boring PowerPoints and uninspired presentations. Time for something that keeps your team engaged and gets results. 
 
-While most training programs use a top-down approach to teaching new tools and concepts, today's constantly evolving technological landscape demands a new approach to skills development. 
+When it comes to learning, there's no substitute for direct experience - working side-by-side a team of experts who guide you through the entire process. We love teaching talented teams to solve their own problems, and that's why we're turning the traditional consulting & training program on its head. 
 
 With extensive experience in and countless stories from the trenches of software consulting, training and development, we understand the critical importance of building a true partnership based on trust, transparency and experiential learning.
 
-Instead of talking *at* you, we work *with* you to develop and implement a consulting and training strategy that gets results. We create a truly agile learning environment and share our knowledge in an interactive, collaborative context.
+We engage your team as partners, not students, from the first day.
 
-First, our experts in data science, machine learning and mathematical optimization collaborate with your team on a consulting basis.
+### The problem with traditional consulting and training
 
-The next step is to teach you the same cutting-edge technologies and meta-cognitive strategies we use every day, tailored to your requirements. From learning about open technology stacks and developing Python programming skills to knowledge transfer, improving communication and stakeholder management, you'll acquire valuable new expertise.
+Traditional consultants create tangible deliverables (studies, reports, etc.), but they don't teach you their creative process, so you're unable to reproduce these projects using your in-house staff. You're left with a single deliverable that hopefully yields value, but you'll need to hire the consultant again if you need another deliverable. And trainers may teach you *how* to do something, they don't actually *create* the final product. Obviously, this costs your organization valuable time and revenue. You need a more cost-effective solution.  
 
-With this framework, you'll have the capacity to handle these projects in-house - no consultants required.
+### We don't just teach you how to use technology. We teach you how to learn.
+
+While most training programs use a top-down approach to teaching new tools and concepts, today's constantly evolving technological landscape demands a hands-on, interactive approach to skills development focused on experiential learning.
+
+We believe people learn best by doing. Instead of talking *at* you, our experts in data science, machine learning and mathematical optimization work *with* you to build internal capacity to create the products you'll use on a continual basis.
+
+**You learn the tips, tools and techniques from industry experts who show you exactly *what* to do and *how* to do it, step-by-step!**
+
+We work together to create specific, high-quality deliverables that directly result in ROI for your organization. During our project, we teach you the same cutting-edge technologies and meta-cognitive strategies we use every day, tailored to your requirements. From learning about open technology stacks and developing Python programming skills to knowledge transfer, improving communication and stakeholder management, you'll acquire valuable new expertise.
+
+With this framework, you'll have the capacity to handle these projects in-house - **no consultants required**.
 
 ------
 
@@ -57,7 +67,7 @@ Here is our approach:
 
 1. Define your needs:
 
-    We meet with you to understand your team's strengths, goals and areas to improve, then plan a roadmap to get you there.
+    We meet with you to understand your team's existing skills, knowledge, strengths and areas to improve, then plan a roadmap to fill in the critical skills and knowledge gaps. 
 
 2. Build a custom strategy
 
