@@ -10,11 +10,9 @@ You've hired top talent, grown your client base and taken on exciting new projec
 
 You dread the traditional training experience - boring PowerPoints and uninspired presentations. Time for something that keeps your team engaged and gets results. 
 
-When it comes to learning, there's no substitute for direct experience - working side-by-side a team of experts who guide you through the entire process. We love teaching talented teams to solve their own problems, and that's why we're turning the traditional consulting & training program on its head. 
+When it comes to learning, there's no substitute for direct experience - working side-by-side a team of experts who guide you through the entire process. We love teaching talented teams how they can be more efficient, effective and productive. That's why we deeply integrate consulting *with* training - to set our knowledge free AND deliver a high-quality product, that your in-house team helped to create.
 
-With extensive experience in and countless stories from the trenches of software consulting, training and development, we understand the critical importance of building a true partnership based on trust, transparency and experiential learning.
-
-We engage your team as partners, not students, from the first day.
+With extensive experience in and countless stories from the trenches of software consulting, training and development, we engage your team as partners, not students, from the first day.
 
 ### The problem with traditional consulting and training
 
@@ -30,7 +28,7 @@ We believe people learn best by doing. Instead of talking *at* you, our experts 
 
 We work together to create specific, high-quality deliverables that directly result in ROI for your organization. During our project, we teach you the same cutting-edge technologies and meta-cognitive strategies we use every day, tailored to your requirements. From learning about open technology stacks and developing Python programming skills to knowledge transfer, improving communication and stakeholder management, you'll acquire valuable new expertise.
 
-With this framework, you'll have the capacity to handle these projects in-house - **no consultants required**.
+With this framework, you'll build the capacity to handle these projects in-house - **no consultants required**.
 
 ------
 
@@ -82,4 +80,22 @@ Here is our approach:
    While we work, your team learns the vital "hard" and "soft" skillsets, as well as the tools and techniques to successfully execute projects in-house.
 
 ------
+
+## Testimonials 
+
+Include testimonials when available - headshots and names with quotes
+
+
+
+## 
+
+## Clients We've Worked With
+
+Put client's logos here
+
+
+
+Get ready to boost your skills! Contact Custom Programming Solutions today! 
+
+Call to action button to contact CPS - linked to contact page 
 
