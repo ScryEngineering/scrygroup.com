@@ -81,4 +81,21 @@ Here is our approach:
 
 ------
 
- 
+##  Testimonials 
+
+Include testimonials when available - headshots and names with quotes
+
+------
+
+## Clients We've Worked With
+
+Put client's logos here
+
+
+
+Get ready to boost your skills! Contact Custom Programming Solutions today! 
+
+
+
+Call to Action button: [Contact Custom Programming Solutions](https://www.customprogrammingsolutions.com/contact/)
+
