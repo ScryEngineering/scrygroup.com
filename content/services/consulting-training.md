@@ -28,7 +28,7 @@ We believe people learn best by doing. Instead of talking *at* you, our experts 
 
 We work together to create specific, high-quality deliverables that directly result in ROI for your organization. During our project, we teach you how and when to use the same cutting-edge technologies and meta-cognitive strategies we use every day (and when *not* to use them). Topics are tailored to your specific requirements. From learning about machine learning, open technology stacks and developing Python programming skills to knowledge transfer, improving communication and stakeholder management, you'll acquire valuable new expertise.
 
-With this framework, you'll build the capacity to handle these projects in-house - **no consultants required**.
+With this framework, you'll build the capacity to execute these projects in-house - **no consultants required**.
 
 ------
 
