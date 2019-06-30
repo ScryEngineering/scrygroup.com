@@ -95,7 +95,5 @@ Put client's logos here
 
 Get ready to boost your skills! Contact Custom Programming Solutions today! 
 
-
-
-Call to Action button: [Contact Custom Programming Solutions](https://www.customprogrammingsolutions.com/contact/)
+[Contact Custom Programming Solutions](https://www.customprogrammingsolutions.com/contact/)
 
