@@ -1,6 +1,6 @@
 ---
 name: "Consulting and Training"
-callToActionText: "Would a mix of consulting and dedicated training deliver better value for your organization? We'd love to learn more about your consulting and training needs. Contact us today."
+callToActionText: "We'd love to discuss how a mix of consulting and dedicated training can deliver better value for your organization. Contact us today."
 hideCallToAction: false
 ---
 
