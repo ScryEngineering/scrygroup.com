@@ -4,10 +4,10 @@ authors:
 		- "Allison Smith"
 date: "2019-06-21"
 tags: 
-		- process automation
-		- machine learning
-		- customer service
-		- marketing
+     - process automation
+     - machine learning
+     - customer service
+     - marketing
 contentType: "blog"
 callToActionText: "Are you looking to learn more about how process automation can solve problems in your business? We'd love to chat. Fill in the form below and we will get back to you."
 ---
@@ -54,7 +54,7 @@ One caveat: understanding the types of processes you're automating and the nuanc
 
 **The fix:** To eliminate as many bugs as possible before release, risk management and testing are key. 
 
- Continuous Integration (CI) "is the process of automatically detecting, pulling, building" and testing units as source code is changed. CI identifies changes in source code repositories using several different methods and tests them to validate the code. Developers test the software continuously to ensure its quality and continuous deployment brings the end product to users. A continuous delivery pipeline brings together all the different tasks involved in turning source code into software. The completion of one process kicks off another, and almost all parts of this pipeline should be automated, with people potentially interacting at specific points, such as testing for usability after a major update.
+ Continuous Integration (CI) "is the process of automatically detecting, pulling, building" and testing units as source code is changed. CI identifies changes in source code repositories using several different methods and tests them to validate the code. Developers test the software continuously to ensure its quality and continuous deployment brings the end product to users, shortening feedback loops substantially. A continuous delivery pipeline brings together all the different tasks involved in turning source code into software. The completion of one process kicks off another, and almost all parts of this pipeline should be automated, with people potentially interacting at specific points, such as testing for usability after a major update.
 
 Continuous Deployment (CD) brings the end product to users. A continuous delivery pipeline brings together all the different tasks involved in turning source code into software. The completion of one process kicks off another, and almost all parts of this pipeline should be automated, with people potentially interacting at specific points.
 
@@ -64,9 +64,10 @@ Needless to say, a lot can go wrong at critical points in these processes, with 
 
 ## 5. You need your legacy systems and new applications to communicate
 
-**The situation:** Think about all the software and applications you use in the span of an average week in your business - probably a dozen or more, right? Some are legacy programs while others are newer cloud-based or onsite applications, and they need to interact seamlessly so data can be transferred quickly between programs.
+**The situation:** Think about all the software and applications you use in the span of an average week in your business - probably a dozen or more, right? Some are legacy programs while others are newer cloud-based or onsite applications, and they need to interact seamlessly so data can be transferred quickly between programs. You may have heard of APIs (Application Programming Interfaces) - these are critical because they let applications interact with one another and exchange information. When programs provide poor interfaces, it makes it more difficult for them to cooperate smoothly with other software. 
 
-**The fix:** Business process automation software can help your most vital systems "talk" to each other, glitch-free. At Custom Programming Solutions, we specialize in assessing your software and technological challenges and building the right solution to address them. A new system that integrates all of these programs will improve efficiency and eliminate the frustrating bottlenecks that happen when applications don't interact properly.
+**The fix:** Business process automation software can help your most vital systems "talk" to each other, glitch-free. At Custom Programming Solutions, we specialize in assessing your software and technological challenges and building the right solution to address them. 
+A new system that integrates all of these programs will improve efficiency and eliminate the frustrating bottlenecks that happen when applications don't interact properly.
 
 Inefficient processes, outdated systems and tedious manual labour can make running a business feel like a Sisyphean challenge. By automating your processes, you can streamline your operations, improve profitability and give your employees the tools to do their best work so you can focus on building your business.
 
