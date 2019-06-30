@@ -1,6 +1,6 @@
 ---
 name: "Consulting and Training"
-callToActionText: "We'd love to learn more about your consulting and training needs. Contact us today."
+callToActionText: "Would a mix of consulting and dedicated training deliver better value for your organization? We'd love to learn more about your consulting and training needs. Contact us today."
 hideCallToAction: false
 ---
 
@@ -26,7 +26,7 @@ We believe people learn best by doing. Instead of talking *at* you, our experts 
 
 **You learn the tips, tools and techniques from industry experts who show you exactly *what* to do and *how* to do it, step-by-step!**
 
-We work together to create specific, high-quality deliverables that directly result in ROI for your organization. During our project, we teach you the same cutting-edge technologies and meta-cognitive strategies we use every day, tailored to your requirements. From learning about open technology stacks and developing Python programming skills to knowledge transfer, improving communication and stakeholder management, you'll acquire valuable new expertise.
+We work together to create specific, high-quality deliverables that directly result in ROI for your organization. During our project, we teach you how and when to use the same cutting-edge technologies and meta-cognitive strategies we use every day (and when *not* to use them). Topics are tailored to your specific requirements. From learning about machine learning, open technology stacks and developing Python programming skills to knowledge transfer, improving communication and stakeholder management, you'll acquire valuable new expertise.
 
 With this framework, you'll build the capacity to handle these projects in-house - **no consultants required**.
 
@@ -65,15 +65,15 @@ Here is our approach:
 
 1. Define your needs:
 
-    We meet with you to understand your team's existing skills, knowledge, strengths and areas to improve, then plan a roadmap to fill in the critical skills and knowledge gaps. 
+    We meet with you to understand your team's existing skills, knowledge, strengths and areas to improve. We spend time understanding *your* industry niche better, as better domain knowledge leads to better results. 
 
 2. Build a custom strategy
 
-   Every team is different, and yours requires a unique approach to achieve your desired results. Together we build a custom strategy with the precise mix of consulting and training needed to reach your goals.
+   Every team is different, and yours requires a unique approach to achieve your desired results. We learn the context of the industry you work in, and how your team fits within this larger context. Together we build a custom strategy with the precise mix of consulting and training needed to reach your goals. This includes identifying critical skills and knowledge gaps that need to be filled.
 
 3. Work with your team
 
-   Time to put our strategy into action! Working in collaboration with your IT and technical support staff on a specific project, we use tools and tactics tailored to your team, needs and workflow.
+   Time to put our strategy into action! Working in collaboration with your developers, IT and technical support staff on a specific project, we use tools and tactics tailored to your team, needs and workflow.
 
 4. Get ready to learn
 
