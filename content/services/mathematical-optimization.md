@@ -17,7 +17,7 @@ By defining the problem and choosing the right equations, algorithms and systems
 
 Here are just a few practical applications for mathematical optimization:
 
-- Manufacturing companies use objective functions to determine production costs, or ____ to find the most effective packing methods. 
+- Manufacturing companies use objective functions to determine production costs, then use algorithms to optimize those functions to reduce costs.
 - Warehouses and other buildings can be organized so every square foot of space is used as efficiently as possible.
 - Transportation apps use mathematical optimization to find the best routes for their vehicles.
 - Service companies (e.g. electrical) consider complex supply and demand formulas to determine pricing for commodities. Small efficiencies at this scale can add up to an enormous savings quickly.
