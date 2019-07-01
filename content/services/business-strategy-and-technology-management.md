@@ -48,7 +48,5 @@ Our Business Strategy and Technology Management services can include:
 
 - Research and define your current and future software assets and requirements
 
-
-
 A solid business strategy and technology management plan is essential to building a strong foundation for future growth and finding efficiencies in your company. We would love to discuss your specific requirements.
 
