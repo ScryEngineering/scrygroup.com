@@ -55,4 +55,5 @@ We can help you:
 - Create APIs for software that needs to "talk" to legacy software or new applications
 - Integrate software with our [mathematical optimization](mathematical-optimization.md), [machine learning](machine-learning.md) and [operations research](operations-research.md) capabilities to create more value from those systems with reduced data handling time
 
-Related skills: [Data science](data-science.md) is greatly enabled by better process automation. See the data science pyramid for a good visualization of how this works.
+Related skills: [Data science](data-science.md) is greatly enabled by better process automation. 
+
