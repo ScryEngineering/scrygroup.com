@@ -8,8 +8,8 @@ Authors: Janis Lesinskis
 Summary: A day in the life of an open source package maintainer
 ---
 
-I was bumping some versions for the Persephone project today to try remove some security issues from the project dependencies.
-Package maintenance like this is the sort of thing that is good to do for the health of projects but tends often be annoying or thankless work.
+I was bumping some versions for the [Persephone project](https://github.com/persephone-tools/persephone/) today to try remove some security issues from the project dependencies.
+Package maintenance like this is the sort of thing that is good to do for the health of projects but tends often be annoying or thankless work ([we have worked on this library on and off for a while now](/blog/2018-02-25/Persephone-project/)).
 It's often thankless because packaging is a mostly invisible job when things go right but not when they go wrong, this imbalance is probably a large factor in
 why package maintenance is often neglected and just generally avoided.
 
