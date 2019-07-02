@@ -2,7 +2,6 @@
 name: "Process automation and optimization"
 callToActionText: "We'd love to help you find more efficiencies through process automation. Contact us today."
 hideCallToAction: true
-draft: true
 ---
 
 ## What is process automation?
