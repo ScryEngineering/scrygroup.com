@@ -9,7 +9,7 @@ tags:
      - customer service
      - marketing
 contentType: "blog"
-callToActionText: "Are you looking to learn more about how process automation can solve problems in your business? We'd love to chat. Fill in the form below and we will get back to you."
+callToActionText: "Are you looking to learn more about how process automation can solve problems in your business? We'd love to chat. Fill in the form below and we will be in touch."
 ---
 
 If you've ever spent an entire day at the office slogging through a mountain of paperwork or felt your eyes glaze over while staring at  *another* simple customer inquiry on your screen, you know the feeling of wishing you could be doing almost anything else. Lucky for you, you can be. You can likely solve some of your most annoying problems with process automation.
@@ -52,7 +52,7 @@ One caveat: understanding the types of processes you're automating and the nuanc
 
 **The situation:** In software development, the race to release is real; you've got to beat the competition to the punch on the next great feature. Iterating quickly and releasing more often lead to less bugs than releasing on an infrequent timeline. Schedule pressure, or "time crunch" is another issue and happens when developers are under immense pressure to push releases faster than proper QA (Quality Assurance) testing can be completed. This can reduce the quality of the final product and lead to user dissatisfaction, and a number of other problems.
 
-**The fix:** To eliminate as many bugs as possible before release, risk management and testing are key. Best practice is to release regularly, largely because it forces teams to automate and organize their processes. With better processes, you can release more often and spend your time making minor updates to address bugs and user feedback, as opposed to struggling with major issues. 
+**The fix:** To eliminate as many bugs as possible before release, risk management and testing are key. Best practice is to release regularly, largely because it forces teams to automate and organize their processes. With better processes, you can release more often and spend your time making minor updates to address bugs and user feedback, as opposed to releasing based on large milestones and struggling with major issues. 
 
  Continuous Integration (CI) "is the process of automatically detecting, pulling, building" and testing units as source code is changed. CI identifies changes in source code repositories using several different methods and tests them to validate the code. Developers test the software continuously to ensure its quality and continuous deployment brings the end product to users, shortening feedback loops substantially. A continuous delivery pipeline brings together all the different tasks involved in turning source code into software. The completion of one process kicks off another, and almost all parts of this pipeline should be automated, with people potentially interacting at specific points, such as testing for usability after a major update.
 
@@ -67,6 +67,7 @@ Needless to say, a lot can go wrong at critical points in these processes, with 
 **The situation:** Think about all the software and applications you use in the span of an average week in your business - probably a dozen or more, right? Some are legacy programs while others are newer cloud-based or onsite applications, and they need to interact seamlessly so data can be transferred quickly between programs. You may have heard of APIs (Application Programming Interfaces) - these are critical because they let applications interact with one another and exchange information. When programs provide poor interfaces, it makes it more difficult for them to cooperate smoothly with other software. 
 
 **The fix:** Business process automation software can help your most vital systems "talk" to each other, glitch-free. At Custom Programming Solutions, we specialize in assessing your software and technological challenges and building the right solution to address them. 
+
 A new system that integrates all of these programs will improve efficiency and eliminate the frustrating bottlenecks that happen when applications don't interact properly.
 
 Inefficient processes, outdated systems and tedious manual labour can make running a business feel like a Sisyphean challenge. By automating your processes, you can streamline your operations, improve profitability and give your employees the tools to do their best work so you can focus on building your business.
