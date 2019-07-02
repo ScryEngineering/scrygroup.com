@@ -38,21 +38,19 @@ Process automation and optimization can help you:
 
 - Enable other activities in data science and analytics such as reporting and statistical modeling
 
-  
 
 ## Why work with us?
 
 Effectively automating and optimizing your processes gives you a solid foundation to build on when it comes to engineering, managing, publishing and learning from your data. We guide you through every step, including helping you to define which areas of your business will benefit most from automation, developing a precisely planned approach and working with you to implement a solution customized to your needs.
 
-Leveraging years of experience in process automation and data science, we find efficiencies in critical areas such as internal communication, marketing, customer service and lead generation, human resources, data collection, reporting, and others. 
+Leveraging years of experience in process automation and data science, we find efficiencies in critical areas such as internal communication, marketing, customer service and lead generation, human resources, data collection, reporting, and others.
 
 We can help you:
 
-- Reduce or eliminate time-consuming data-entry activities 
-- Update or revamp in-house applications that are difficult to use 
+- Reduce or eliminate time-consuming data-entry activitiesW
+- Update or revamp in-house applications that are difficult to use
 - Move Excel and other similar applications into web applications that are easy to deploy and use
 - Create APIs for software that needs to "talk" to legacy software or new applications
-- Integrate software with our [mathematical optimization](mathematical-optimization.md), [machine learning](machine-learning.md) and [operations research](operations-research.md) capabilities to create more value from those systems with reduced data handling time
+- Integrate software with our [mathematical optimization](/services/mathematical-optimization), [machine learning](/services/machine-learning) and [operations research](services/operations-research) capabilities to create more value from those systems with reduced data handling time
 
-Related skills: [Data science](data-science.md) is greatly enabled by better process automation. 
-
+Related skills: [Data science](services/data-science.md) is greatly enabled by better process automation.
