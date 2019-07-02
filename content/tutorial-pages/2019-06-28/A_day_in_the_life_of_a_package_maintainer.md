@@ -1,7 +1,7 @@
 ---
-Title: A day in the life of a package maintainer
-Date: "2019-06-28"
-Tags:
+title: A day in the life of a package maintainer
+date: "2019-06-28"
+tags:
     - dependency-management
     - travisCI
     - python
@@ -11,8 +11,8 @@ Tags:
     - software-lifecycle
 contentType: "blog"
 Slug:  A-day-in-the-life-of-a-package-maintainer
-Authors: Janis Lesinskis
-Summary: A day in the life of an open source package maintainer
+authors: Janis Lesinskis
+summary: A day in the life of an open source package maintainer
 callToActionText: "Have you got a system that requires in depth knowledge of Python? We'd love to hear about it so fill in the form below with some details."
 hideCallToAction: false
 ---
