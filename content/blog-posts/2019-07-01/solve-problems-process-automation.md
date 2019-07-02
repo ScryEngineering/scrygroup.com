@@ -1,7 +1,7 @@
 ---
 title: "5 problems process automation can solve"
 authors:
-		- "Allison Smith"
+       - "Allison Smith"
 date: "2019-07-01"
 tags: 
      - process automation
