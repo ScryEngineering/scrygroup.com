@@ -1,11 +1,20 @@
 ---
 Title: A day in the life of a package maintainer
-Date: 2019-06-28 10:20
-Category: Software-engineering
-Tags: dependency-management, travisCI, python, packages, maintenance, persephone
+Date: "2019-06-28"
+Tags:
+    - dependency-management
+    - travisCI
+    - python
+    - packages
+    - maintenance
+    - persephone
+    - software-lifecycle
+contentType: "blog"
 Slug:  A-day-in-the-life-of-a-package-maintainer
 Authors: Janis Lesinskis
 Summary: A day in the life of an open source package maintainer
+callToActionText: "Have you got a system that requires in depth knowledge of Python? We'd love to hear about it so fill in the form below with some details."
+hideCallToAction: false
 ---
 
 I was bumping some versions for the [Persephone project](https://github.com/persephone-tools/persephone/) today to try remove some security issues from the project dependencies.
