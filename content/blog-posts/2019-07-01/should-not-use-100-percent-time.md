@@ -1,6 +1,6 @@
 ---
-title: "Why 100% utilization of your time is a bad goal"
-authors: 
+title: "Why you shouldn't use 100 percent of your time"
+authors:
         - "Allison Smith"
         - "Janis Lesinskis"
 date: "2019-07-01"
@@ -11,6 +11,8 @@ tags:
 contentType: "blog"
 callToActionText: "Wondering how you and your team could be using your time more effectively (and getting better results)? We'd love to discuss how we can help. Get in touch and one of our business strategy consultants will connect with you."
 ---
+
+![should-not-use-100-percent-time](C:\Users\Allison\Documents\GitHub\CPS_content\content\blog-posts\2019-07-01\should-not-use-100-percent-time.png)
 
 Do you ever look at your calendar and wonder where the week (or month) went? Thinking back, you may be startled that you've become one of those people who responds with "crazy busy" when you're asked how things are going. You're exhausted, overwhelmed and concerned about what the future holds. After all, how long can you and your team keep running at 100% capacity without a break? 
 
