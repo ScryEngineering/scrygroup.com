@@ -8,32 +8,31 @@ Authors: Janis Lesinskis
 Summary: A day in the life of an open source package maintainer
 ---
 
-I was bumping some versions for the Persephone project today to try remove some security issues from the project dependencies.
+I was bumping some versions for the [Persephone project](https://www.customprogrammingsolutions.com/blog/2018-02-25/Persephone-project/) today to try to remove some security issues from the project dependencies.
 Package maintenance like this is the sort of thing that is good to do for the health of projects but tends often be annoying or thankless work.
-It's often thankless because packaging is a mostly invisible job when things go right but not when they go wrong, this imbalance is probably a large factor in
-why package maintenance is often neglected and just generally avoided.
+It's often thankless because packaging is a mostly invisible job when things go right, but not when they go wrong. This imbalance is probably a large factor in why package maintenance is often neglected and just generally avoided.
 
-PR's such as this [carry costs](https://rgommers.github.io/2019/06/the-cost-of-an-open-source-contribution/) that are not so visible, in this case the improvements to the CI system here reduce those costs for future contributions substantially.
+PRs such as this [carry costs](https://rgommers.github.io/2019/06/the-cost-of-an-open-source-contribution/) that are not so visible, in this case the improvements to the CI system here reduce those costs for future contributions substantially.
 
 I'm posting this just in case there's something that helps other package maintainers realize that they aren't the only ones dealing with frustrating work.
-I'd like to remind people that this is important work, keeping package dependencies maintained is a great help to the broader ecosystem from avoiding bugs and security issues.
-With open source being so widespread this sort of work is crucial to the overall health of the ecosystem see [Roads and bridges](https://www.fordfoundation.org/about/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure/) for a discussion about the efforts that have built modern tech infrastructure that runs much of the world.
+
+I'd like to remind people that this is important work. Keeping package dependencies maintained is a great help to the broader ecosystem, as it helps avoid bugs and security issues.
+
+With open source being so widespread, this sort of work is crucial to the overall health of the ecosystem. See [Roads and Bridges: The Unseen Labor Behind Our Digital Infrastructure](https://www.fordfoundation.org/about/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure/) for a discussion about the efforts that have built modern tech infrastructure that runs much of the world.
 
 Today was a great example of one such frustration where I had to spend a lot of time just to get the functionality back to where it was previously.
 Fighting this "bit rot" is a great example of the sort of package maintenance work that is especially valuable, the type of work that keeps everything running behind the scenes.
 
 ## What I planned to do today
 
-There's a CVE in an older version of tensorflow, I wanted to update the version we were using.
-Sounds simple right? (That grimacing smiley seems appropriate here...)
+There's a CVE in an older version of tensorflow. I wanted to update the version we were using. Sounds simple right? (That grimacing smiley seems appropriate here...)
 
 ## What I actually did today
 
-I first off started by updating the dependency for tensorflow in the `setup.py` file, unfortunately this version was pinned exactly (something that's a mistake for a base library).
-Upon updating this I wanted to see if travisCI would give the all clear.
+I first off started by updating the dependency for tensorflow in the `setup.py` file. Unfortunately, this version was pinned exactly (something that's a mistake for a base library). Upon updating this I wanted to see if travisCI would give the all clear.
 
-Unfortunately for me a worse outcome than the test cases failing occurred, the tests couldn't run at all.
-Because the test dependencies were not pinned exactly newer versions of the test dependencies had a mutually incompatible version.
+Unfortunately for me, a worse outcome than the test cases failing occurred - the tests couldn't run at all.
+Because the test dependencies were not pinned exactly, newer versions of the test dependencies had a mutually incompatible version.
 `Pytest` and `pytest-cov` had a mutually incompatible versioning for their dependency `pluggy`:
 
 ```
@@ -131,8 +130,8 @@ The command "mypy persephone" exited with 1.
 ```
 
 Honestly this is a bit annoying, and the error message is very poor here.
-As far as I understand this is an issue with how mypy internally tracks state, it assigns one variable to keep track of the types of variables as the program flows through.
-Because of how it parses the code mypy doesn't quite recognize that `self.exp_dir` here can only even be the type `str`.
+As far as I understand, this is an issue with how mypy internally tracks state. It assigns one variable to keep track of the types of variables as the program flows through.
+Because of how it parses the code, mypy doesn't quite recognize that `self.exp_dir` here can only even be the type `str`.
 So I made a nasty hack to work around this:
 
 ```python
@@ -140,7 +139,7 @@ So I made a nasty hack to work around this:
         self.exp_dir = str(exp_dir) if isinstance(exp_dir, Path) else exp_dir # type: str
 ```
 
-This got mypy to stop complaining despite being almost the exact same code. (If I had any energy left over I'd check this with the [`dis` module](https://docs.python.org/3/library/dis.html) and if they were the same I'd go open an issue over on mypy)
+This got mypy to stop complaining despite being almost the exact same code. (If I had any energy left over, I'd check this with the [`dis` module](https://docs.python.org/3/library/dis.html) and if they were the same I'd go open an issue over on mypy)
 
 I figured it would be nice to add in support for Python 3.7 in the CI system.
 
@@ -227,6 +226,4 @@ after_success:
 Note how we are now explicitly setting the distribution to be using `xenial`.
 This caused a breakage in the install because of a missing PPA, `ffmpeg` got moved into the official packages so the addition of a PPA is no longer needed.
 
-So at the end of the day no new features were shipped but I think important work was done.
-People will have installs that have updated and more secure dependencies.
-Also the CI system will actually be able to run, this is an important thing to keep running in an open source project because it is a feedback mechanism that will help new contributors.
+So at the end of the day no new features were shipped but I think important work was done. People will have installs that have updated and more secure dependencies. Also, the CI system will actually be able to run. This is an important thing to keep running in an open source project because it is a feedback mechanism that will help new contributors.
