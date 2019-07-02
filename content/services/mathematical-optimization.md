@@ -1,6 +1,6 @@
 ---
 name: "Mathematical optimization"
-callToActionText: "Looking to see how the power of mathematical optimization can increase efficiency, reduce waste and improve profitability? We would be happy to talk about how mathematical optimization could be utilized by your organization"
+callToActionText: "Looking to see how the power of mathematical optimization can increase efficiency, reduce waste and improve profitability? We would be happy to talk about how mathematical optimization could be utilized by your organization."
 ---
 
 In business, anything that can be measured can be optimized and improved. 
@@ -40,18 +40,18 @@ Today, you can combine high-power cloud computing services such as AWS with expe
 
 ## What mathematical optimization can do for you
 
-- If you've ever wondered how you can tighten up your processes, find operational savings and use your staff's time and experience more  effectively, you've discovered a problem mathematical optimization can solve. Practical applications include:
+If you've ever wondered how you can tighten up your processes, find operational savings and use your staff's time and experience more  effectively, you've discovered a problem mathematical optimization can solve. Practical applications include:
 
-  - Logistics and transport 
-  - Warehouse planning (capacity and inventory)
-  - Scheduling and sequencing 
-  - Bin, box and container packing
+- Logistics and transport 
+- Warehouse planning (capacity and inventory)
+- Scheduling and sequencing 
+- Bin, box and container packing
 
-  Specifically, we can use the power of mathematics to:
+Specifically, we can use the power of mathematics to:
 
-  - Reduce logistics costs 
-  - Reduce time required to create, deliver and stock inventory 
-  - Improve productivity 
+- Reduce logistics costs 
+- Reduce time required to create, deliver and stock inventory 
+- Improve productivity 
 
 
 
@@ -59,13 +59,9 @@ Today, you can combine high-power cloud computing services such as AWS with expe
 
 It's easy to feel overwhelmed when thinking about all the processes you should take inventory of and potentially optimize to get the most ROI for your business. Where do you even start: should you tackle the warehouse, have a chat with your logistics team or take a look at production and manufacturing first? 
 
-At (**COMPANY NAME**), we do more than crunch numbers. We partner with you to define the challenges you face in your business every day, from product marketing to sales, production and delivery, then (**what?**)
+At Custom Programming Solutions, we do more than crunch numbers. We partner with you to define the challenges you face in your business every day, from product marketing to sales, production and delivery.
 
 Of course, the numbers behind the strategy are critical to your success. To find the right answers to your problem, it's vital to have skilled professionals with comprehensive experience who not only know which algorithms, equations and systems to use but how to interpret the results, then put them into action.
-
-Our team at (**COMPANY NAME**) brings years of experience in (**more details on experience and knowledge of math optimization here**)
-
-
 
 Related skills: Machine learning has substantial overlap with algorithms and techniques that can be used in applied problems in the mathematical optimization space. 
 
