@@ -48,10 +48,16 @@ These are the fundamental technical skills you'll use across a diverse range of 
 
 ### Learning Skills
 
-These interpersonal skills are the foundation of an effective, productive and focused team:
+Being able to effectively learn is a skill that itself can be learned:
 
 - Metacognitive skills (Planning, problem solving, goal-setting, etc.)
-- Scheduling
+- Scheduling and sequencing of learning
+- Domain specific learning topics
+
+### Interpersonal Skills
+
+These interpersonal skills are the foundation of an effective, productive and focused team:
+
 - Communications
 - Stakeholder management
 
