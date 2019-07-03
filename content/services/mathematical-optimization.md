@@ -5,7 +5,7 @@ callToActionText: "Looking to see how the power of mathematical optimization can
 
 In business, anything that can be measured can be optimized and improved. 
 
-From manufacturing processes and inventory control to packing, logistics, scheduling and even marketing, it's more important than ever to know your processes are as lean, mean and efficient as possible. That's where mathematical optimization can help; replacing best-guess estimates with proven algorithms and computer software, we can build solid processes to help businesses in a wide range of industries deliver even more value to their customers, find cost savings and significantly increase productivity. 
+From manufacturing processes and inventory control to packing, logistics, scheduling and even marketing, it's more important than ever to know your processes are as lean, mean and efficient as possible. That's where mathematical optimization can help; replacing best-guess estimates with proven algorithms and computer software, we can build solid processes to help businesses in a wide range of industries deliver even more value to their customers, find cost savings and significantly increase productivity. Depending on requirements, we can also integrate mathematical optimization with process automation.
 
 
 
@@ -62,7 +62,7 @@ Mathematical optimization is about much more than discovering how you can cut co
 
 It's easy to feel overwhelmed when thinking about all the processes you should take inventory of and potentially optimize to get the most ROI for your business. Where do you even start: should you tackle the warehouse, have a chat with your logistics team or take a look at production and manufacturing first? 
 
-At Custom Programming Solutions, we do more than crunch numbers. We partner with you to define the challenges you face in your business every day, from product marketing to sales, production and delivery.
+At Custom Programming Solutions, we do more than crunch numbers. We partner with you to define the challenges you face in your business every day, from product marketing to sales, production and delivery. 
 
 Of course, the numbers behind the strategy are critical to your success. When discussing mathematical optimization, picking the *right* parts of a process to optimize is one of our core skillsets and a critical piece of the puzzle - focusing on the wrong areas can be a costly and time-consuming mistake.
 
