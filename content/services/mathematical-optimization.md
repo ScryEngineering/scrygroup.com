@@ -5,24 +5,23 @@ callToActionText: "Looking to see how the power of mathematical optimization can
 
 In business, anything that can be measured can be optimized and improved. 
 
-From manufacturing processes and inventory control to packing, logistics, scheduling and even marketing, it's more important than ever to know your processes are as lean, mean and efficient as possible. That's where mathematical optimization can help; replacing best-guess estimates with proven algorithms and computer software, we can build solid processes to help businesses in a wide range of industries find cost savings and significantly increase productivity. 
+From manufacturing processes and inventory control to packing, logistics, scheduling and even marketing, it's more important than ever to know your processes are as lean, mean and efficient as possible. That's where mathematical optimization can help; replacing best-guess estimates with proven algorithms and computer software, we can build solid processes to help businesses in a wide range of industries deliver even more value to their customers, find cost savings and significantly increase productivity. 
 
 
 
 ## What is mathematical optimization?
 
-With mathematical optimization, we leverage mathematical algorithms and computer software to improve processes.
+With mathematical optimization, we leverage mathematical algorithms and computer software to improve processes and discover new opportunities, potential product and service offerings, and more.
 
 By defining the problem and choosing the right equations, algorithms and systems to solve it, we can take the guesswork out of building solutions and identify a clear course of action to take.
 
 Here are just a few practical applications for mathematical optimization:
 
-- Manufacturing companies use objective functions to determine production costs, then use algorithms to optimize those functions to reduce costs.
+- Manufacturing companies use objective functions to determine production costs, then use algorithms to optimize those functions to reduce costs. (While objective functions describe a thing in a mathematical sense, optimization is an entirely different skill set. We have in-depth experience in both of these areas.)
 - Warehouses and other buildings can be organized so every square foot of space is used as efficiently as possible.
 - Transportation apps use mathematical optimization to find the best routes for their vehicles.
 - Service companies (e.g. electrical) consider complex supply and demand formulas to determine pricing for commodities. Small efficiencies at this scale can add up to an enormous savings quickly.
 - Airlines use systems to determine the fastest way for passengers to board an airplane. 
-- Policy makers can use mathematical optimization to determine the popularity of policies a candidate wants to propose.
 
 Mathematical optimization also has many practical uses in finance, engineering, economics, mechanics and more. 
 
@@ -40,18 +39,22 @@ Today, you can combine high-power cloud computing services such as AWS with expe
 
 ## What mathematical optimization can do for you
 
-If you've ever wondered how you can tighten up your processes, find operational savings and use your staff's time and experience more  effectively, you've discovered a problem mathematical optimization can solve. Practical applications include:
+If you've ever wondered how you can tighten up your processes, find operational savings and use your staff's time and experience more effectively, you've discovered a problem mathematical optimization can solve. Practical applications include:
 
 - Logistics and transport 
 - Warehouse planning (capacity and inventory)
 - Scheduling and sequencing 
 - Bin, box and container packing
 
-Specifically, we can use the power of mathematics to:
+Specifically, we can use the power of mathematics to allow you to:
 
-- Reduce logistics costs 
-- Reduce time required to create, deliver and stock inventory 
-- Improve productivity 
+- Integrate seasonal forecasting so you can stock your warehouses with the right items at the right locations, taking into account the predicted demand
+- Deliver items with faster time guarantees (examples include some of the major online retailers being able to guarantee a delivery by a certain date)
+- Dedicate your best professional staff to work on delivering more value instead of working on tedious scheduling tasks 
+- Schedule usage of inventory, spaces, etc. better 
+- Optimize maintenance schedules so that equipment is maintained on a logical timeline, including using machine learning to detect trends for upcoming breakdowns 
+
+Mathematical optimization is about much more than discovering how you can cut costs and operate more efficiently (although these are huge benefits). Using optimization and simulation techniques, you can discover entirely new areas of value you haven't even thought of yet.
 
 
 
@@ -61,7 +64,11 @@ It's easy to feel overwhelmed when thinking about all the processes you should t
 
 At Custom Programming Solutions, we do more than crunch numbers. We partner with you to define the challenges you face in your business every day, from product marketing to sales, production and delivery.
 
-Of course, the numbers behind the strategy are critical to your success. To find the right answers to your problem, it's vital to have skilled professionals with comprehensive experience who not only know which algorithms, equations and systems to use but how to interpret the results, then put them into action.
+Of course, the numbers behind the strategy are critical to your success. When discussing mathematical optimization, picking the *right* parts of a process to optimize is one of our core skillsets and a critical piece of the puzzle - focusing on the wrong areas can be a costly and time-consuming mistake.
+
+To find the right answers to your problem, it's vital to have skilled professionals with comprehensive experience who not only know which areas to optimize and the algorithms, equations and systems to use but how to interpret results, then put them into action.  
+
+
 
 Related skills: Machine learning has substantial overlap with algorithms and techniques that can be used in applied problems in the mathematical optimization space. 
 
