@@ -8,6 +8,7 @@ tags:
      - machine learning
      - customer service
      - marketing
+     - RPA
 contentType: "blog"
 callToActionText: "Are you looking to learn more about how process automation can solve problems in your business? We'd love to chat. Fill in the form below and we will be in touch."
 ---
@@ -71,6 +72,3 @@ Needless to say, a lot can go wrong at critical points in these processes, with 
 A new system that integrates all of these programs will improve efficiency and eliminate the frustrating bottlenecks that happen when applications don't interact properly.
 
 Inefficient processes, outdated systems and tedious manual labour can make running a business feel like a Sisyphean challenge. By automating your processes, you can streamline your operations, improve profitability and give your employees the tools to do their best work so you can focus on building your business.
-
-
-
