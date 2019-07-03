@@ -17,6 +17,8 @@ If you've ever spent an entire day at the office slogging through a mountain of 
 
 In this post, we'll explain how automating your processes can help you get to inbox zero, respond to customer feedback, deploy software and more.
 
+<!-- end excerpt -->
+
 ## 1. You need to send emails to leads, customers and sales reps
 
 **The situation:** You've collected a few hundred email addresses from leads you've met and conferences and regular clients, and added them to your list (with permission, right?). You hate letting them languish in your CRM, but you're not sure how to reach out.
