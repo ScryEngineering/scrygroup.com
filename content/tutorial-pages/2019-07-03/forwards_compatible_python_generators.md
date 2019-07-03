@@ -14,6 +14,10 @@ callToActionText: "Have you got a project that requires in depth knowledge of Py
 hideCallToAction: false
 ---
 
+PEP 479 changed how Python handled generators in a backwards incompatible manner, here's how to get compatible code working from Python 3.5+
+
+<!-- end excerpt -->
+
 The other day I was getting a variety of issues fixed in the Persephone library, one such issue was setting up the CI environment to actually test with Python 3.7 in the test matrix.
 This turned out to be much more annoying than I estimated, so much so I wrote a [post about it](blog/2019-06-28/A_day_in_the_life_of_a_package_maintainer/).
 The reason for setting up these tests was that the codebase didn't support Python 3.7 due to a section of code that raised `StopIteration` directly to signal there was nothing to generate. So having the CI working for Python 3.7 was something I wanted before I started changing the codebase and advertising Python 3.7 support.
