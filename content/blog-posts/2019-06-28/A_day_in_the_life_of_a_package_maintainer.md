@@ -19,9 +19,9 @@ hideCallToAction: false
 ---
 
 I was bumping some versions for the [Persephone project](https://github.com/persephone-tools/persephone/) today to try remove some security issues from the project dependencies.
-Package maintenance like this is the sort of thing that is good to do for the health of projects but tends often be annoying or thankless work ([we have worked on this library on and off for a while now](/blog/2018-02-25/Persephone-project/)).
-It's often thankless because packaging is a mostly invisible job when things go right but not when they go wrong, this imbalance is probably a large factor in
-why package maintenance is often neglected and just generally avoided.
+Package maintenance like this is the sort of thing that is good to do for the health of projects but tends often be annoying or thankless work ([we have worked on this library on and off for a while now](/blog/2018-02-25/Persephone-project/) and it's definitely been a good experience overall to be involved in this project for many reasons).
+It's often thankless because packaging is a mostly invisible job when things go right but not when they go wrong. This is in contrast to pushing new features where new work has highly visible and obvious benefits (*especially* to people outside the dev team).
+This imbalance is probably a large factor in why package maintenance is often neglected and just generally avoided.
 
 PR's such as this [carry costs](https://rgommers.github.io/2019/06/the-cost-of-an-open-source-contribution/) that are not so visible, in this case the improvements to the CI system here reduce those costs for future contributions substantially.
 
