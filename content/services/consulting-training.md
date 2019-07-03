@@ -30,13 +30,13 @@ We work together to create specific, high-quality deliverables that directly res
 
 With this framework, you'll build the capacity to execute these projects in-house - **no consultants required**.
 
-------
+
 
 ## What you'll learn
 
 An effective training program teaches a hybrid of cutting-edge technical skills and essential interpersonal skills that get your team results. The skillsets we teach include:
 
-### Tools & Techniques
+### Technical Tools & Techniques
 
 These are the fundamental technical skills you'll use across a diverse range of projects:
 
@@ -46,7 +46,18 @@ These are the fundamental technical skills you'll use across a diverse range of 
 - Python programming
 - QA (Quality Assurance) and testing tools
 
-### Learning Skills
+
+
+### Skills 
+
+#### Interpersonal Skills 
+
+These interpersonal skills are the foundation of an effective, productive and focused team:
+
+- Communications
+- Stakeholder management
+
+#### Learning Skills
 
 Being able to effectively learn is a skill that itself can be learned:
 
@@ -54,14 +65,7 @@ Being able to effectively learn is a skill that itself can be learned:
 - Scheduling and sequencing of learning
 - Domain specific learning topics
 
-### Interpersonal Skills
 
-These interpersonal skills are the foundation of an effective, productive and focused team:
-
-- Communications
-- Stakeholder management
-
-------
 
 ## How we work
 
@@ -69,35 +73,21 @@ No cookie cutter PowerPoints here! We believe a truly effective consulting and t
 
 Here is our approach:
 
-1. Define your needs:
+**1. Define your needs:**
 
-    We meet with you to understand your team's existing skills, knowledge, strengths and areas to improve. We spend time understanding *your* industry niche better, as better domain knowledge leads to better results. 
+We meet with you to understand your team's existing skills, knowledge, strengths and areas to improve. We spend time understanding *your* industry niche better, as better domain knowledge leads to better results. 
 
-2. Build a custom strategy
+**2. Build a custom strategy**
 
-   Every team is different, and yours requires a unique approach to achieve your desired results. We learn the context of the industry you work in, and how your team fits within this larger context. Together we build a custom strategy with the precise mix of consulting and training needed to reach your goals. This includes identifying critical skills and knowledge gaps that need to be filled.
+Every team is different, and yours requires a unique approach to achieve your desired results. We learn the context of the industry you work in, and how your team fits within this larger context. Together we build a custom strategy with the precise mix of consulting and training needed to reach your goals. This includes identifying critical skills and knowledge gaps that need to be filled.
 
-3. Work with your team
+**3. Work with your team** 
 
-   Time to put our strategy into action! Working in collaboration with your developers, IT and technical support staff on a specific project, we use tools and tactics tailored to your team, needs and workflow.
+Time to put our strategy into action! Working in collaboration with your developers, IT and technical support staff on a specific project, we use tools and tactics tailored to your team, needs and workflow.
 
-4. Get ready to learn
+**4. Get ready to learn** 
 
-   While we work, your team learns the vital "hard" and "soft" skillsets, as well as the tools and techniques to successfully execute projects in-house.
-
-------
-
-##  Testimonials 
-
-Include testimonials when available - headshots and names with quotes
-
-------
-
-## Clients We've Worked With
-
-Put client's logos here
-
-
+While we work, your team learns the vital "hard" and "soft" skillsets, as well as the tools and techniques to successfully execute projects in-house.
 
 
 
