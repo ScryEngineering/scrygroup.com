@@ -1,5 +1,5 @@
 ---
-title: A day in the life of a package maintainer
+title: "A day in the life of a package maintainer"
 date: "2019-06-28"
 tags:
     - dependency-management
