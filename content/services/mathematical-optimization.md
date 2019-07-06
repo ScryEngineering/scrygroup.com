@@ -62,7 +62,7 @@ Mathematical optimization is about much more than discovering how you can cut co
 
 It's easy to feel overwhelmed when thinking about all the processes you should take inventory of and potentially optimize to get the most ROI for your business. Where do you even start: should you tackle the warehouse, have a chat with your logistics team or take a look at production and manufacturing first? 
 
-At Custom Programming Solutions, we do more than crunch numbers. We partner with you to define the challenges you face in your business every day, from product marketing to sales, production and delivery. 
+At Custom Programming Solutions, we do more than crunch numbers. We partner with you to define the challenges you face in your business every day, from product marketing to sales, production and delivery. We're well-positioned to create optimized systems that can help you make intelligent, data-driven decisions in almost every area of your business.
 
 Of course, the numbers behind the strategy are critical to your success. When discussing mathematical optimization, picking the *right* parts of a process to optimize is one of our core skillsets and a critical piece of the puzzle - focusing on the wrong areas can be a costly and time-consuming mistake.
 
