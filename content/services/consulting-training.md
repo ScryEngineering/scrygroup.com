@@ -59,9 +59,11 @@ These interpersonal skills are the foundation of an effective, productive and fo
 
 #### Learning Skills
 
-Being able to effectively learn is a skill that itself can be learned:
+Essentially, these are the skills you use to effectively learn new concepts:
 
-- Metacognitive skills (Planning, problem solving, goal-setting, etc.)
+
+Metacognitive skills (Planning, problem solving, goal-setting, etc.)
+
 - Scheduling and sequencing of learning
 - Domain specific learning topics
 
