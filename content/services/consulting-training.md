@@ -93,7 +93,3 @@ While we work, your team learns the vital "hard" and "soft" skillsets, as well a
 
 
 
-Get ready to boost your skills! Contact Custom Programming Solutions today! 
-
-[Contact Custom Programming Solutions](https://www.customprogrammingsolutions.com/contact/)
-
