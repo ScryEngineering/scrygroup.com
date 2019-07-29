@@ -38,17 +38,35 @@ When considering whether to partially or fully automate a process, we must remem
 
 **Myth.**
 
+Process automation has many practical applications across a wide range of industries, including marketing, finance, manufacturing, retail and others. But this doesn't mean that *all* processes should be automated, or that the job should be entrusted to just anyone. 
+
+As [this article about which processes should be automated and which shouldn't on DevOps Zone](https://dzone.com/articles/what-to-automate-and-what-not-to-automate) states:
+
+> If processes are low volume, require less than three people, no deadline don't link other systems and have no need for transparency, automation is a waste of time. It could even be a wasted investment, as it would take a long time to see any ROI on these workflow items.
+
+Choosing the wrong process to automate (or doing it incorrectly) could have dire consequences for your business and even lead to serious setbacks in productivity, operations and other areas. To avoid that, it's worth it to work with someone who has demonstrated and specialized expertise in process automation. They should act as your partner, helping you navigating your way through what can be a long and confusing process, and be able to plan the best approach according to your specific requirements. Leveraging our years of experience, we can help you find efficiencies in critical areas such as internal communication, marketing, customer service or other areas, then develop and implement a precise strategy that works for you.
 
 
-## Automation always increases your capacity.
+
+## Automation always increases your capacity or makes you more efficient 
 
 **Myth.**
+
+This is another pervasive and stubborn myth that often gets repeated by those without a nuanced understanding of the purposes or advantages of process automation. It's important to note that automation done right can absolutely bring value in the form of savings on labour costs, integration of legacy systems, more efficient customer service (which allows your staff to focus on building relationships and generating revenue), and more. 
+
+But if oversights happen in the ever-important planning or implementation stages, automating your processes can actually have the opposite effect, and *cost* you valuable time and money, or lead to embarrassing public mishaps. If you automate a process that you consider 100% reliable, and decrease human oversight and supervision as a result, this can go very wrong. An unfortunate consequence of automating a process is that it's possible to forget to check in on it to ensure everything is working as planned. 
+
+Take marketing as an example. Many businesses automate their social media and email marketing, but we're often hearing about embarrassing mistakes, such as someone forgetting to cancel scheduled messages if a horrific attack or tragedy happens in the news. Or, sometimes we receive emails with a blank [NAME] or other field. 
+
+The old adage that it takes years to build a reputation but minutes to destroy it applies here.
 
 
 
 ## The most tedious, mindless tasks are the most ripe for automation.
 
 **Truth.**
+
+Make a list of your most mind-numbing, repetitive and error-prone tasks that everyone dreads being assigned. We bet you're thinking of data entry, but you can also add 
 
 
 
