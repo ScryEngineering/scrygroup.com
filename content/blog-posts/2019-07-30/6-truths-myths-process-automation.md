@@ -2,7 +2,7 @@
 title: "6 truths and myths about process automation"
 authors: - "Allison Smith"
          - "Janis Lesinskis"
-date: "2019-07-29"
+date: "2019-07-30"
 tags: - process automation
 contentType: "blog"
 callToActionText: "Automating your processes doesn't have to be  but We'd love to chat. Fill in the form below and we will be in touch."
@@ -10,7 +10,7 @@ callToActionText: "Automating your processes doesn't have to be  but We'd love t
 
 There's a lot of information (and some hype) out there about what process automation can do for your business. How do you separate fact from fiction? In this post, we'll review some of the most common truths, myths and misconceptions business owners have when they start to consider automating their own processes. 
 
-## Process automation can be rolled out as soon as the automated process is as good as a manual one.
+## 1. Process automation can be rolled out as soon as the automated process is as good as a manual one.
 
 **Myth.**
 
@@ -20,7 +20,7 @@ Think of a process that needs a lot of oversight, but that works 95% of the time
 
 
 
-## Once a process has been automated, you don't need anyone to oversee it.
+## 2. Once a process has been automated, you don't need anyone to oversee it.
 
 **Myth.**
 
@@ -34,7 +34,7 @@ When considering whether to partially or fully automate a process, we must remem
 
 
 
-## Any process can be automated by anyone.
+## 3. Any process can be automated by anyone.
 
 **Myth.**
 
@@ -48,36 +48,58 @@ Choosing the wrong process to automate (or doing it incorrectly) could have dire
 
 
 
-## Automation always increases your capacity or makes you more efficient 
+## 4. Automation always increases your capacity or makes you more efficient 
 
 **Myth.**
 
 This is another pervasive and stubborn myth that often gets repeated by those without a nuanced understanding of the purposes or advantages of process automation. It's important to note that automation done right can absolutely bring value in the form of savings on labour costs, integration of legacy systems, more efficient customer service (which allows your staff to focus on building relationships and generating revenue), and more. 
 
-But if oversights happen in the ever-important planning or implementation stages, automating your processes can actually have the opposite effect, and *cost* you valuable time and money, or lead to embarrassing public mishaps. If you automate a process that you consider 100% reliable, and decrease human oversight and supervision as a result, this can go very wrong. An unfortunate consequence of automating a process is that it's possible to forget to check in on it to ensure everything is working as planned. 
+But if oversights happen in the ever-important planning or implementation stages, automating your processes can actually have the opposite effect, and *cost* you valuable time and money, or lead to embarrassing public mishaps. 
+
+ If you automate a process that you consider 100% reliable, and decrease human oversight and supervision as a result, this can go very wrong. An unfortunate consequence of automating a process is that it's possible to forget to check in on it to ensure everything is working as planned. 
 
 Take marketing as an example. Many businesses automate their social media and email marketing, but we're often hearing about embarrassing mistakes, such as someone forgetting to cancel scheduled messages if a horrific attack or tragedy happens in the news. Or, sometimes we receive emails with a blank [NAME] or other field. 
 
 The old adage that it takes years to build a reputation but minutes to destroy it applies here.
 
+In addition, while improved efficiency is an essential reason to automate a process, it can't be the *only* reason you do it. 
 
 
-## The most tedious, mindless tasks are the most ripe for automation.
+
+## 5. The most tedious, mindless tasks are the most ripe for automation.
 
 **Truth.**
 
-Make a list of your most mind-numbing, repetitive and error-prone tasks that everyone dreads being assigned. We bet you're thinking of data entry, but you can also add 
+Make a list of your most mind-numbing, repetitive and error-prone tasks that everyone dreads being assigned. We bet you're thinking of data entry, but you can also add expense tracking, complex calculations and projections, onboarding new employees and customers and more to your list. 
 
 
 
-## There's always a cost benefit to automation.
+## 6. There's always a cost benefit to automation.
 
 **Myth.** 
+
+Beware of "always" and "never" statements when it comes to automation. Since so much will depend on the process you're considering automating, your industry, services and requirements, organizational structure and culture, and your overarching business strategy, it's impossible to say that you'll always see a direct cost benefit to automation. One thing people often forget to consider is that automated processes cost resources to maintain. 
+
+As we alluded to earlier, you'll likely need someone to "babysit" that process, whether you automate it or outsource (keep in mind: deciding whether to outsource entails an entirely separate list of considerations - a topic we'll explore in a future post). 
 
 
 
 ## Points to consider when thinking of automating processes:
 
+Deciding whether process automation will work for you involves making a number of critical decisions that will have immediate and long-term impacts on your organization. Here are some questions to consider before moving ahead:
 
+1. **What am I automating?** 
 
-## Wrapping up 
+   Know the process you're automating inside and out. Define and document it.
+
+2. **Why am I automating it?**
+
+   Without knowing why you're automating a process and what your goals are, it will be next to impossible to track ROI and find out whether it was a success.
+
+3. **How will automation impact our departments and employees?**
+
+   How will responsibilities and division of labour change after you've automated the process? Who will oversee the newly automated process? What value will automation bring to your workforce, and what new challenges or opportunities await once the process is automated?
+
+4. **What costs are involved in automating this process?** 
+
+   Which direct and indirect costs do you need to consider when weighing whether there's a cost-benefit to automation? Don't forget: automated processes need to be maintained.
