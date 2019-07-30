@@ -62,7 +62,7 @@ But if oversights happen in the ever-important planning or implementation stages
 
  If you automate a process that you consider 100% reliable, and decrease human oversight and supervision as a result, this can go very wrong. An unfortunate consequence of automating a process is that it's possible to forget to check in on it to ensure everything is working as planned. 
 
-Take marketing as an example. Many businesses automate their social media and email marketing, but we're often hearing about embarrassing mistakes, such as someone forgetting to cancel scheduled messages if a horrific attack or tragedy happens in the news. Or, sometimes we receive emails with a blank [NAME] or other field. 
+Take marketing as an example. Many businesses automate their social media and email marketing, but we often hear about embarrassing mistakes, such as someone forgetting to cancel scheduled messages if a horrific attack or tragedy happens in the news. Or, sometimes we receive emails with a blank [NAME] or other field. 
 
 The old adage that it takes years to build a reputation but minutes to destroy it applies here.
 
@@ -98,7 +98,7 @@ Deciding whether process automation will work for you involves making a number o
 
 2. **Why am I automating it?**
 
-   Without knowing why you're automating a process and what your goals are, it will be next to impossible to track ROI and find out whether it was a success.
+   Without knowing why you're automating a process and what your goals are, it will be next to impossible to track ROI and discover whether it was a success.
 
 3. **How will automation impact our departments and employees?**
 
