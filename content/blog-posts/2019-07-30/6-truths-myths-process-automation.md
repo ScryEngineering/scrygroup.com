@@ -5,10 +5,14 @@ authors: - "Allison Smith"
 date: "2019-07-30"
 tags: - process automation
 contentType: "blog"
-callToActionText: "Automating your processes doesn't have to be  but We'd love to chat. Fill in the form below and we will be in touch."
+callToActionText: "Have you heard conflicting information about process automation? Confused about whether you should automate? Fill in the form below and we will be in touch."
 ---
 
 There's a lot of information (and some hype) out there about what process automation can do for your business. How do you separate fact from fiction? In this post, we'll review some of the most common truths, myths and misconceptions business owners have when they start to consider automating their own processes. 
+
+<!-- end excerpt -->
+
+![6 truths and myths about process automation](truths-myths-process-automation.png)
 
 ## 1. Process automation can be rolled out as soon as the automated process is as good as a manual one.
 
@@ -48,11 +52,11 @@ Choosing the wrong process to automate (or doing it incorrectly) could have dire
 
 
 
-## 4. Automation always increases your capacity or makes you more efficient 
+## 4. Automation always increases your capacity or makes you more efficient.
 
 **Myth.**
 
-This is another pervasive and stubborn myth that often gets repeated by those without a nuanced understanding of the purposes or advantages of process automation. It's important to note that automation done right can absolutely bring value in the form of savings on labour costs, integration of legacy systems, more efficient customer service (which allows your staff to focus on building relationships and generating revenue), and more. 
+This is another pervasive and stubborn myth that often gets repeated by those without a nuanced understanding of the purposes or advantages of process automation. It's important to note that automation done right can absolutely solve practical problems and bring value in the form of savings on labour costs, integration of legacy systems, more efficient customer service (which allows your staff to focus on building relationships and generating revenue), and more. 
 
 But if oversights happen in the ever-important planning or implementation stages, automating your processes can actually have the opposite effect, and *cost* you valuable time and money, or lead to embarrassing public mishaps. 
 
