@@ -3,6 +3,7 @@ title: "Different ways to drop into an interactive Python shell"
 authors:
     - "Janis Lesinskis"
 date: "2019-07-29"
+modified: "2019-07-31"
 tags:
     - Python
     - Debugging
@@ -43,6 +44,9 @@ import code
 code.interact(locals=locals())
 ```
 
+Note that `code.interact` is *not* the actual main Python interpreter but is a class that very closely emulates it (and the [`interact` documentation](https://docs.python.org/3/library/code.html#code.InteractiveConsole.interact) states this).
+This is why we have to pass in explicitly the local variables that will be in scope via `locals=locals()` (see [the documentation](https://docs.python.org/3/library/code.html#code.InteractiveInterpreter)).
+
 ## PDB
 
 The Python Debugger, [PDB](https://docs.python.org/3/library/pdb.html) can give you a REPL like shell to interact with the code.
@@ -54,6 +58,21 @@ pdb.set_trace()
 ```
 
 This will then pop up the debugger shell at this line where `set_trace()` is called.
+
+Note that unlike `code.interact` this does access the exact variables that are currently in scope.
+
+There's also an argument to `set_trace` called `header` that allows you to print out a header message when the interactive debugger is started ([`pdb.set_trace` documentation](https://docs.python.org/3/library/pdb.html#pdb.set_trace)). This can sometimes be useful for sharing additional information.
+
+### Other PDB related tools
+
+PDB is *especially* useful and since its in the standard library you'll always have it when you need it, but sometimes you want/need more.
+
+If you found PDB useful but wanted some more power with postmortem debugging or wanted syntax highlighted output you may find the [PDB++](https://github.com/pdbpp/pdbpp) package to be of interest.
+
+There's a variety of situations in which a debugging via dropping into a local interactive shell might not be possible, for example
+on a headless system you won't be able to SSH in and drop into such a shell.
+If you are working with tools like [Celery](http://www.celeryproject.org/) where the worker processes aren't local you might find
+[python-remote-pdb](https://github.com/ionelmc/python-remote-pdb), a remote debugger equivalent of PDB useful.
 
 ## IPython
 
@@ -68,10 +87,5 @@ This uses [`IPython.terminal.embed`](https://ipython.readthedocs.io/en/stable/ap
 embed an IPython shell into your script.
 
 ## Other debugging tools
-
-There's a variety of situations in which a debugging via dropping into a local interactive shell might not be possible, for example
-on a headless system you won't be able to SSH in and drop into such a shell.
-If you are working with tools like [Celery](http://www.celeryproject.org/) where the worker processes aren't local you might find
-[python-remote-pdb](https://github.com/ionelmc/python-remote-pdb), a remote debugger equivalent of PDB useful.
 
 If you have some other situation you may find the list of suggestions over on the Python.org wiki useful: <https://wiki.python.org/moin/PythonDebuggingTools>
