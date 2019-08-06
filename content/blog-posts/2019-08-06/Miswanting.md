@@ -12,7 +12,7 @@ Anyone in marketing will tell you that people make decisions based on emotion, n
 
 We humans like to believe that we know what we want, and will continue to want those things in the future. But sometimes, that isn't the case and we make an inaccurate prediction about how and what we'll feel when we finally get that thing - we *miswant* something. So, what exactly is miswanting? How do we avoid it, and the subsequent impacts of a poor prediction or bad decision? We'll cover that in this post (at least in one context).
 
-Psychologists Dan Gilbert and Tim Wilson, who study *affective forecasting*, define *miswanting* as follows:
+Psychologists Dan Gilbert and Tim Wilson, who study *affective forecasting*, [define *miswanting*](https://www.apa.org/science/about/psa/2004/04/pelham) as follows:
 
 
 > Miswanting refers to the fact that people sometimes make mistakes about how much they will like something in the future. That is, people often mispredict the duration of their good and bad feelings. 
@@ -28,7 +28,7 @@ He started this process with a list of basic requirements he knew he definitely 
 
 Paul fears that by not giving his staff the best possible system, he'd be shortchanging them. He's convinced they need these features, so he tables it with both the agency and his staff. While the agency agrees with him and jumps at the chance to further customize (and make more profit from the project), the employees discourage adding to the feature list. They contend they'll already have to learn a new system. Why add extra complexity where it's currently not warranted (and potentially will never be used)? After a couple of weeks of arguing, they relent and Paul signs off on the deal. Six months after implementation, Paul is dealing with some livid staff, one confused new employee, and is bewildered at how he was conned into wanting something he thought he liked the looks of, even needed. 
 
-In the conclusion of a paper summarizing their study, Gilbert and Wilson explain how our wants can steer us wrong, even when we're sure of them:
+In the conclusion of a [paper titled "Miswanting: Some Problems in the Forecasting of Future Affective States", which summarizes their study](https://dash.harvard.edu/handle/1/14549983), Gilbert and Wilson explain how our wants can steer us wrong, even when we're sure of them:
 
 > First, our wants are, like any other prediction, susceptible to error. We may misconstrue events, misunderstand ourselves, misinterpret our feelings - and any of these mistakes can be a cause of miswanting. In short, things do not always feel the way we expect them to feel. Second, even if we could predict how much we would like an event when it happened, we might still be unable to predict how that event would affect us in the long run.
 
@@ -43,3 +43,5 @@ Sometimes, when complex systems are implemented, those using it find that not on
 
 
 ## How to avoid miswanting when making decisions
+
+So, how do we avoid *miswanting* something, and the resulting financial and interpersonal disasters that result? Here are some tips to keep in mind: 
