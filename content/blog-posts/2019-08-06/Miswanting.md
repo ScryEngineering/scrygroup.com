@@ -18,7 +18,7 @@ Psychologists Dan Gilbert and Tim Wilson, who study *affective forecasting*, [de
 > Miswanting refers to the fact that people sometimes make mistakes about how much they will like something in the future. That is, people often mispredict the duration of their good and bad feelings. 
 > 
 
-When we're charged with making what may easily be million-dollar decisions about the direction of a project, features we need in our software, hiring a new team member or the recruiting process itself, we can't afford miscalculations. One critical mistake could mean we chart the wrong path and end up with a solution that doesn't satisfy our pain points or solve our problem. 
+When we're tasked with making what may easily be million-dollar decisions about the direction of a project, features we need in our software, hiring a new team member or the recruiting process itself, we can't afford miscalculations. One critical mistake could mean we chart the wrong path and end up with a solution that doesn't satisfy our pain points or solve our problem. 
 
 For example, imagine the following situation: Paul is an IT manager for a manufacturing company with 150 employees. He needs to find a better system for employee onboarding, as the company's current process is piecemeal and convoluted. He's even a bit embarrassed by it, so he commits to tackling the issue.
 
@@ -44,4 +44,4 @@ Sometimes, when complex systems are implemented, those using it find that not on
 
 ## How to avoid miswanting when making decisions
 
-So, how do we avoid *miswanting* something, and the resulting financial and interpersonal disasters that result? Here are some tips to keep in mind: 
+So, how do we avoid *miswanting* something, and the resulting financial and interpersonal disasters? Here are some tips to keep in mind: 
