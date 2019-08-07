@@ -3,7 +3,7 @@ title: "Why you shouldn't use 100 percent of your time"
 authors:
         - "Allison Smith"
         - "Janis Lesinskis"
-date: "2019-07-01"
+date: "2019-08-07"
 tags: 
         - productivity
         - leadership
