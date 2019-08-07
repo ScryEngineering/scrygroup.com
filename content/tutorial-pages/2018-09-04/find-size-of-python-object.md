@@ -24,6 +24,8 @@ That said it's still very valuable to know approximately how many bytes of memor
 
 (All the code in the article can be found over on our GitHub organizations page: https://github.com/customprogrammingsolutions/python-memory-usage/)
 
+If you want to get an introduction to how CPython manages memory have a look at [our PyCon 2019 poster](https://www.lesinskis.com/images/CPythonMemoryStructurePosterJanisLesinskisAlyshaIannetta.pdf) that summarizes the core concepts.
+
 # sys.sizeof
 
 The starting point for these things is the functionality in the `sys` library called [getsizeof](https://docs.python.org/dev/library/sys.html#sys.getsizeof) that will let you do some sizeof checks:
