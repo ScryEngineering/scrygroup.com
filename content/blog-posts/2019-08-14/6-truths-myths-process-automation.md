@@ -12,7 +12,9 @@ There's a lot of information (and some hype) out there about what process automa
 
 <!-- end excerpt -->
 
-![6 truths and myths about process automation](truths-myths-process-automation.png)
+![Person using whiteboard and marker to plan automation of process](truths-myths-process-automation.png) 
+
+
 
 ## 1. Process automation can be rolled out as soon as the automated process is as good as a manual one.
 
@@ -60,7 +62,7 @@ Choosing the wrong process to automate (or doing it incorrectly) could have dire
 
 
 
-![Automated processes will still often need human supervision. It's important to factor this in when deciding whether automating is the right decision for you and your business.](employee-supervising-automated-process.jpg)
+![Automated processes will still often need human supervision. It's important to factor this in when deciding whether automating is the right decision for you and your business.](employee-supervising-automated-process.png)
 
 *Automated processes will still often need human supervision. It's important to factor this in when deciding which, if any, processes to automate in your business.*
 
@@ -121,3 +123,7 @@ Deciding whether process automation will work for you involves making a number o
 4. **What costs are involved in automating this process?** 
 
    Which direct and indirect costs do you need to consider when weighing whether there's a cost-benefit to automation? Don't forget: automated processes need to be maintained.
+
+
+
+*Images in this article courtesy of [StartupStockPhotos from Pixabay](https://pixabay.com/users/StartupStockPhotos-690514/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=849810)*
