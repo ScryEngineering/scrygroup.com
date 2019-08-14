@@ -1,7 +1,8 @@
 ---
 title: "6 truths and myths about process automation"
-authors: - "Allison Smith"
-         - "Janis Lesinskis"
+authors:
+    - "Allison Smith"
+    - "Janis Lesinskis"
 date: "2019-08-14"
 tags: 
     - process automation
