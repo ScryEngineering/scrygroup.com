@@ -1,7 +1,6 @@
 ---
 name: "Business strategy and technology management"
 callToActionText: "Want to learn more about how our business strategy and technology management services can help you improve your firm's efficiency and profitability? Complete the form below and we'll get in touch."
-draft: true
 ---
 
 People are at the center of every high-performing team, and we're passionate about working with yours to help you become even more productive, efficient and competitive. 
@@ -18,7 +17,7 @@ A clear strategy and sound plan will help you:
 
 ## Why work with us?
 
-At Horizon Insights, we believe in bringing teams and technology together. We understand the critical impact staffing and software have on your business; with the right combination of tools and talent, your team is unstoppable. When these factors are unaligned, it costs you valuable time, money and resources you can't afford to lose. 
+We believe in bringing teams and technology together. We understand the critical impact staffing and software have on your business; with the right combination of tools and talent, your team is unstoppable. When these factors are unaligned, it costs you valuable time, money and resources you can't afford to lose. 
 
 In addition, while our clients often encounter technical challenges, the culture of every business is unique. Therefore, so are its obstacles and the solutions we help you implement.  
 
@@ -46,7 +45,7 @@ Our Business Strategy and Technology Management services can include:
 - Assess problems, research potential technological solutions and present you with best options
 - Compare cost and profitability of solutions vs. alternatives 
 - Highlight interdependencies between the tools you use and the people you hire 
-
+- Create custom learning plans to help you and your staff explore and master new technologies (such as Anki, an open-source flashcard program that makes remembering things easy)
 - Research and define your current and future software assets and requirements
 
 A solid business strategy and technology management plan is essential to building a strong foundation for future growth and finding efficiencies in your company. We would love to discuss your specific requirements.
