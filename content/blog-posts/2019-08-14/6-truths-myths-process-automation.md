@@ -18,6 +18,20 @@ There's a lot of information (and some hype) out there about what process automa
 
 ![Person using whiteboard and marker to plan automation of process](truths-myths-process-automation.png) 
 
+First things first; before we explore truths and myths, let's define [process automation](https://www.customprogrammingsolutions.com/services/process-automation-and-optimization/):
+
+> Process automation (also known as Robotic Process Automation, or RPA) lets us use digital technology such as software to accomplish almost any task, workflow or activity we'd otherwise have to do manually. Think of your favorite accounting, marketing automation or batch file processing software. 
+
+There are several practical uses for process automation in our daily lives, including:
+
+- Expense tracking
+- Data analysis and reports 
+- Complex calculations and projections 
+- Flagging transactions for human review or intervention 
+- Onboarding new employees and customers 
+
+Do a [search for process automation](https://duckduckgo.com/?q=process+automation+&t=h_&ia=news) and you'll quickly find it's a hot topic. But how do you separate truth from myth? That can be difficult, so let's take a closer look at some popular statements to see if they hold up.
+
 ## 1. Process automation can be rolled out as soon as the automated process is as good as a manual one.
 
 **Myth.**
