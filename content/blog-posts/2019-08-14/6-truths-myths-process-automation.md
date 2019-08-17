@@ -1,9 +1,13 @@
 ---
 title: "6 truths and myths about process automation"
-authors: - "Allison Smith"
-         - "Janis Lesinskis"
+authors:
+    - "Allison Smith"
+    - "Janis Lesinskis"
 date: "2019-08-14"
-tags: - process automation
+tags: 
+    - process automation
+    - process improvement
+    - systems thinking
 contentType: "blog"
 callToActionText: "Have you heard conflicting information about process automation? Confused about whether you should automate? Fill in the form below and we will be in touch."
 ---
@@ -13,8 +17,6 @@ There's a lot of information (and some hype) out there about what process automa
 <!-- end excerpt -->
 
 ![Person using whiteboard and marker to plan automation of process](truths-myths-process-automation.png) 
-
-
 
 First things first; before we explore truths and myths, let's define [process automation](https://www.customprogrammingsolutions.com/services/process-automation-and-optimization/):
 
@@ -60,8 +62,6 @@ For example, consider Amazon shipping. If you're a small manufacturer that makes
 
 When considering whether to partially or fully automate a process, remember that automation isn't free and it doesn't happen in isolation - there are often direct or indirect costs involved in doing it, and it's imperative to assess how much value it will bring, as well as the short-term and long-term impacts to your business overall. 
 
-
-
 ## 3. Any process can be automated by anyone.
 
 **Myth.**
@@ -75,11 +75,9 @@ As [this article about which processes should be automated and which shouldn't o
 Choosing the wrong process to automate (or doing it incorrectly) could have dire consequences for your business and even lead to serious setbacks in productivity, operations and other areas. To avoid that, it's worth it to consult someone with demonstrated and specialized expertise in process automation. They should act as your partner, helping you navigate your way through what can be a long and confusing process, and be able to plan the best approach according to your specific requirements. Leveraging our years of experience, we can help you find efficiencies in critical areas such as internal communication, marketing, customer service or other areas, then develop and implement a precise strategy that works for you.
 
 
-
 ![Automated processes will still often need human supervision. It's important to factor this in when deciding whether automating is the right decision for you and your business.](employee-supervising-automated-process.png)
 
 *Automated processes will still often need human supervision. It's important to factor this in when deciding which, if any, processes to automate in your business.*
-
 
 
 ## 4. Automation always increases your capacity or makes you more efficient.
@@ -98,15 +96,11 @@ The old adage that it takes years to build a reputation but minutes to destroy i
 
 In addition, while improved efficiency is an essential reason to automate a process, it shouldn't be the *only* reason you do it. 
 
-
-
 ## 5. The most tedious, mindless tasks are the most ripe for automation.
 
 **Truth.**
 
 Make a list of your most mind-numbing, repetitive and error-prone tasks that everyone dreads taking on. We bet you're thinking of data entry, but you can also add expense tracking, complex calculations and projections, onboarding new employees and customers and more to your list. 
-
-
 
 ## 6. There's always a cost benefit to automation.
 
@@ -115,8 +109,6 @@ Make a list of your most mind-numbing, repetitive and error-prone tasks that eve
 Beware of "always" and "never" statements when it comes to automation. Since so much will depend on the process you're considering automating, your industry, services and requirements, organizational structure and culture, and your overarching business strategy, it's impossible to say that you'll always see a direct cost benefit to automation. One thing people often forget to consider is that automated processes cost resources to maintain. 
 
 As we alluded to earlier, you'll likely need someone to "babysit" that process, whether you automate it or outsource (keep in mind: deciding whether to outsource entails an entirely separate list of considerations - a topic we'll explore in a future post). 
-
-
 
 ## Points to consider when thinking of automating processes:
 
@@ -137,7 +129,6 @@ Deciding whether process automation will work for you involves making a number o
 4. **What costs are involved in automating this process?** 
 
    Which direct and indirect costs do you need to consider when weighing whether there's a cost-benefit to automation? Don't forget: automated processes need to be maintained.
-
 
 
 *Images in this article courtesy of [StartupStockPhotos from Pixabay](https://pixabay.com/users/StartupStockPhotos-690514/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=849810)*
