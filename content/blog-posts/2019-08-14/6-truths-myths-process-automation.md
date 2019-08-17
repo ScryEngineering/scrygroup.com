@@ -28,7 +28,7 @@ There are several practical uses for process automation in our daily lives, incl
 - Flagging transactions for human review or intervention 
 - Onboarding new employees and customers 
 
-Do a [Google search for process automation](https://www.google.com/search?client=firefox-b-d&q=process+automation) and you'll quickly find it's a hot topic - when we did ours in August 2019, more than 331,000,000 results came back! But how do you separate truth from myth? That can be difficult, so let's take a closer look at some popular statements to see if they hold up.
+Do a [search for process automation](https://duckduckgo.com/?q=process+automation+&t=h_&ia=news) and you'll quickly find it's a hot topic. But how do you separate truth from myth? That can be difficult, so let's take a closer look at some popular statements to see if they hold up.
 
 ## 1. Process automation can be rolled out as soon as the automated process is as good as a manual one.
 
