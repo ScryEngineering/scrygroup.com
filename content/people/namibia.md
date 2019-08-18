@@ -11,8 +11,3 @@ Namibia was inspired to tackle the issue of recruitment and interview processes 
 "Creating a compassionate candidate experience is simply understanding that the person interviewing for the job is human, and not a cog in a machine. Showing the human side of a company will always maintain a great candidate pool, and attract people who are truly passionate about their work."
 
 Previously, she worked as a backend engineer for a company that developed an employee feedback platform in Melbourne, Australia. She now works with clients worldwide to build great software.
-
-
-
-
-
