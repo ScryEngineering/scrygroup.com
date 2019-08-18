@@ -1,8 +1,25 @@
+---
+name: "Namibia Torres"
+teamMember: true
+image: "namibia.jpg"
+location: "Australia"
+bio: "Junior Engineer"
+socialUrls:
+    - "https://www.linkedin.com/in/namibiatorres/"
+    - "mailto:namibia@customprogrammingsolutions.com.au"
+shortBlurb: "Namibia joins Custom Programming Solutions as a Junior Engineer, and is growing her machine learning skill set while contributing to the team's Python projects. 
+
+Well-versed in using technology to influence change in user behavior, she' s passionate about creating stellar interview processes for technical candidates."
+miniBlurb: "As Junior Engineer, Namibia is building her machine learning skill set and contributing to the team's Python projects. She is also growing her own business to help companies craft inclusive and enjoyable candidate experiences."
+---
+
+
+
 Namibia joins Custom Programming Solutions as a Junior Engineer, and is growing her machine learning skill set while contributing to the team's Python projects. 
 
 "The opportunity to work on innovative technology and build the best products for clients" attracted her to the role, she says. "The team is absolutely brilliant! Having the opportunity to collaborate with everyone on the team is an enriching experience. The work is exciting and challenging, and the best part is getting to problem solve on a daily basis."
 
-Well-versed in using technology to influence change in user behavior, she' s passionate about creating stellar interview processes for technical candidates. She helps companies craft inclusive and enjoyable candidate experiences, retain excellent candidates and reduce recruitment costs. Her efforts also help her clients discover how they can best fill gaps in engineering teams
+Well-versed in using technology to influence change in user behavior, she' s passionate about creating stellar interview processes for technical candidates. She helps companies craft inclusive and enjoyable candidate experiences, retain excellent candidates and reduce recruitment costs. Her efforts also help her clients discover how they can best fill gaps in engineering teams.
 
 Namibia was inspired to tackle the issue of recruitment and interview processes partly due to her own experiences interviewing for jobs when she first arrived in San Francisco, her current home. 
 
