@@ -736,6 +736,8 @@ When that happens, you get a warning on your PR page that the branch has conflic
 
    After choosing to delete my own changes and clicking the **Mark as resolved** button, I see that the conflict has been resolved and a green **Commit merge** button appears in the top right of my screen, next to the title of my client's pull request. I click the button, and voilà! There are no conflicts with the base branch and I can now merge my pull request by hitting the friendly green **Merge pull request** button as I normally would.
 
+   Note: Alternatively, I could have chosen to delete the `<<<<<< cheese-ipsum` on line 5, the `======` on line 12 and the `>>>>>>> master` on line 17. 
+
    ![4-merge-conflict-PR-resolved](4-merge-conflict-PR-resolved.png)
 
 3. Merge is confirmed.
