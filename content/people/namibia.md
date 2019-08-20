@@ -2,7 +2,7 @@
 name: "Namibia Torres"
 teamMember: true
 image: "namibia.jpg"
-location: "Australia"
+location: "United States"
 bio: "Junior Engineer"
 socialUrls:
     - "https://www.linkedin.com/in/namibiatorres/"
