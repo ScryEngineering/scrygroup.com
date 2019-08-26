@@ -6,16 +6,12 @@ date: "2019-08-28"
 tags: 
         - management
 contentType: "blog"
-callToActionText: ""
+callToActionText: "Are you planning your next data science or software project? Let us help you define which features are essential to your success - and which to leave out. Get in touch today."
 ---
 
-Think back to when you were a kid. If you were lucky enough to get a weekly allowance, you probably looked forward to saving it for a major big-ticket item like a video game console, a brand new bike or the latest gadget. Sometimes, you splurged on something that had caught your eye the day before. 
+Think back to when you were a kid. If you were lucky enough to get a weekly allowance or birthday money from relatives, you'll remember your heart pounding with excitement over saving your cash to buy a major big-ticket item like a video game console or the latest gadget you've been eyeing. 
 
-Have you ever been caught in one of these scenarios?: Your team has been trying every web-based project management app out there. While they all seem like your silver bullet solution when you first research them, you soon begin to feel dis
-
-
-
-Anyone in marketing will tell you that people make decisions based on emotion, not logic. We can see this in action when researching a new product or service, whether it's a project management system you'll use with your team, a new laptop for work or the dishwasher you've been putting off replacing. 
+Or, maybe you were less patient and splurged on something that had caught your eye as soon as the dough landed in your pocket. Sometimes, you felt confused after bringing your newest purchase home, unwrapping it and...being disappointed or underwhelmed with something you were positive you wanted. If this sounds familiar, you've suffered from an unfortunate case of *miswanting*.  
 
 We humans like to believe that we know what we want, and will continue to want those things in the future. But sometimes, that isn't the case and we make an inaccurate prediction about how and what we'll feel when we finally get that thing - we *miswant* something. So, what exactly is miswanting? How do we avoid it, and the subsequent impacts of a poor prediction or bad decision? We'll cover that in this post (at least in one context).
 
@@ -23,9 +19,8 @@ Psychologists Dan Gilbert and Tim Wilson, who study *affective forecasting*, [de
 
 
 > Miswanting refers to the fact that people sometimes make mistakes about how much they will like something in the future. That is, people often mispredict the duration of their good and bad feelings. 
-> 
 
-When we're tasked with making what may easily be million-dollar decisions about the direction of a project, features we need in our software, hiring a new team member or the recruiting process itself, we can't afford miscalculations. One critical mistake could mean we chart the wrong path and end up with a solution that doesn't satisfy our pain points or solve our problem. 
+While it's disheartening to waste $5 on a toy that ends up at the bottom of your closet, once we get older, the consequences of miswanting can be much more serious: Maybe we're tasked with making what may be million-dollar decisions about the direction of a project, features we need in our software, hiring a new team member or the recruiting process itself. These are times we can't afford miscalculations. One critical mistake could mean we chart the wrong path and end up with a solution that doesn't satisfy our pain points or solve our problem. In worst case scenarios, jobs or investors could be lost, and projects cancelled.
 
 For example, imagine the following situation: Paul is an IT manager for a manufacturing company with 150 employees. He needs to find a better system for employee onboarding because the company's current process is piecemeal and convoluted. He's even a bit embarrassed by it, so he commits to tackling the issue.
 
