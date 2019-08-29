@@ -6,7 +6,7 @@ tags:
         - management
         - startups
 contentType: "blog"
-callToActionText: 
+callToActionText: ""
 ---
 
 ![never-outsource-core-competency](never-outsource-core-competency.png)
