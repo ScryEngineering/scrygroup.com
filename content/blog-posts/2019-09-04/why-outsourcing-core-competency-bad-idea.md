@@ -6,10 +6,10 @@ tags:
         - management
         - startups
 contentType: "blog"
-callToActionText: ""
+callToActionText: "Are you considering outsourcing services and would like a second opinion? Get in touch today."
 ---
 
-![never-outsource-core-competency](never-outsource-core-competency.png)
+![keys with green fob in the palm of a hand with text overlay: Why you should never outsource your core competency](never-outsource-core-competency.jpg)
 
 
 
