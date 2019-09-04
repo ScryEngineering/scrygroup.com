@@ -1,10 +1,11 @@
 ---
 title: "Miswanting: What it is and how to avoid it"
-authors: - "Allison Smith"
-         - "Janis Lesinskis"
+authors:
+    - "Allison Smith"
+    - "Janis Lesinskis"
 date: "2019-08-28"
 tags: 
-        - management
+    - management
 contentType: "blog"
 callToActionText: "Are you planning your next data science or software project? Let us help you define which features are essential to your success - and which to leave out. Get in touch today."
 ---
@@ -46,7 +47,7 @@ In the conclusion of a [paper titled "Miswanting: Some Problems in the Forecasti
 
 In this case, we can take a few lessons from the example above:
 
-- Having no system is very different to having a system, and again very different than having a complex system.   
+- Having no system is very different to having a system, and again very different than having a complex system.
 - Paul let his embarrassment about and memories of the non-existent system his team had in the past cloud his judgement about requirements. 
 - He overlooked the downside of moving from no system to a complex system, and assumed  a complex system with more features meant it would be a better system. In reality, the complexity negatively impacted his staff. 
 
@@ -64,10 +65,8 @@ So, how do we avoid *miswanting* something, and the resulting financial and inte
 
 - Remember that with new systems, sometimes it's better to make progress iteratively than introduce huge milestone changes that overwhelm your team and don't satisfy your requirements. 
 
-- If you're making decisions on behalf of a group, understand and listen to their requirements. Have a high standard for making significant changes to scope after the project has begun. 
-
-  
+- If you're making decisions on behalf of a group, understand and listen to their requirements. Have a high standard for making significant changes to scope after the project has begun.
 
 ## Conclusion
 
-Miswanting involves making poor decisions about what we think we'll like in the future. By understanding the term and admitting that we're vulnerable to this psychological trap, we can avoid falling prey to it, improve our decision-making skills, and save precious time and revenue. 
+Miswanting involves making poor decisions about what we think we'll like in the future. By understanding the term and admitting that we're vulnerable to this psychological trap, we can avoid falling prey to it, improve our decision-making skills, and save precious time and revenue.
