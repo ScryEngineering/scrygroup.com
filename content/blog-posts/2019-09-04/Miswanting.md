@@ -3,7 +3,7 @@ title: "Miswanting: What it is and how to avoid it"
 authors:
     - "Allison Smith"
     - "Janis Lesinskis"
-date: "2019-08-28"
+date: "2019-09-04"
 tags: 
     - management
 contentType: "blog"
