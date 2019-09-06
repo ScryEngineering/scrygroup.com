@@ -6,6 +6,7 @@ authors:
 date: "2019-09-04"
 tags: 
     - management
+    - forecasting
 contentType: "blog"
 callToActionText: "Are you planning your next data science or software project? Let us help you define which features are essential to your success - and which to leave out. Get in touch today."
 ---
@@ -14,7 +15,7 @@ We humans like to believe that we know what we want, and will continue to want t
 
 <!-- end excerpt -->
 
-![Open spiral notebook with lightbulb drawn on page and blue ball of paper in the center. Text overlay: Miswanting: What it is and how to avoid it](miswanting.png)
+![Open spiral notebook with lightbulb drawn on page and blue ball of paper in the center. Text overlay: Miswanting: What it is and how to avoid it](Miswanting.png)
 
 Think back to when you were a kid. If you were lucky enough to get a weekly allowance or birthday money from relatives, you'll remember your heart pounding with excitement over saving your cash to buy a major big-ticket item like a video game console or the latest gadget you've been eyeing. 
 
