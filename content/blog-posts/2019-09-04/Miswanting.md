@@ -15,7 +15,7 @@ We humans like to believe that we know what we want, and will continue to want t
 
 <!-- end excerpt -->
 
-![Open spiral notebook with lightbulb drawn on page and blue ball of paper in the center. Text overlay: Miswanting: What it is and how to avoid it](Miswanting.png)
+![Open spiral notebook with lightbulb drawn on page and blue ball of paper in the center. Text overlay: Miswanting: What it is and how to avoid it](Miswanting.jpg)
 
 Think back to when you were a kid. If you were lucky enough to get a weekly allowance or birthday money from relatives, you'll remember your heart pounding with excitement over saving your cash to buy a major big-ticket item like a video game console or the latest gadget you've been eyeing. 
 
@@ -30,7 +30,7 @@ Psychologists Dan Gilbert and Tim Wilson, who study *affective forecasting*, [de
 
 While it's disheartening to waste $5 on a toy that ends up at the bottom of your closet, once we get older, the consequences of miswanting can be much more serious: Maybe we're tasked with making what may be million-dollar decisions about the direction of a project, features we need in our software, hiring a new team member or the recruiting process itself. These are times we can't afford miscalculations. One critical mistake could mean we chart the wrong path and end up with a solution that doesn't satisfy our pain points or solve our problem. In worst case scenarios, jobs or investors could be lost, and projects cancelled.
 
-![People in a planning meeting with woman attaching sticky notes to wall](planning-meeting-miswanting.png)
+![People in a planning meeting with woman attaching sticky notes to wall](planning-meeting-miswanting.jpg)
 
 *When planning new projects, it's essential to remember the danger inherent in miswanting. Do not add more complexity to a new system than is absolutely necessary - you can always add features iteratively.*
 
