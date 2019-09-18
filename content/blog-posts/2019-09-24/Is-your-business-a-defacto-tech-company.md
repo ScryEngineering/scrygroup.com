@@ -32,11 +32,19 @@ In automation, those lines are often substantially blurred. For illustrations of
 
 Sometimes, these roles can evolve depending on your situation and requirements. For example, most WordPress users use plugins on top of their plain WordPress install to extend the functionality of their websites. They may have a third party create a new plugin to meet their needs. While they're still a consumer in terms of capacities, it becomes blurry quite quickly if their business strongly depends on the features and functions of that plugin. In other capacities, your business might use a technology, but not rely on it. 
 
-In some cases, the transition between consumer and producer is driven by business concerns and in others, it's driven by talent issues. With some consulting gigs, it can be exceedingly profitable (and possible) for consumers to become producers (think of people who use a cloud service for convenience as consumers, but then take that service back in-house to save on costs). 
+In some cases, the transition between consumer and producer is driven by business concerns and in others, it's driven by talent issues. With some consulting gigs, it can be exceedingly profitable (and possible) for consumers to become producers (consider people who use a cloud service for convenience as consumers, but then take that service back in-house to save on costs). 
 
-SaaS (Software as a Service), these roles can sometimes become less definitive, as 
+SaaS (Software as a Service), these roles can sometimes become less definitive, as people who were once producers become consumers of a product (think of subscription-based software that lets you edit photos, create proposals, manage documents or content, do your accounting and more).
 
-While you can obviously use these tools as a user, there are also power users (people whose skills and expertise are more advanced than most casual users and who are sometimes assigned additional administrative rights and responsibilities)
+When considering whether to rely on technology built by third parties or produce it in-house, consider the continuity risk to your business. Look to Microsoft Excel for an example - (DETAILS) . In this case, using external tools would have been a massive liability; it made sense not to outsource these things, since they were at the core of what makes the product unique. 
+
+If the people behind Excel lost the ability to change the core functionality due to a third party's decisions, the entire product would effectively die. Many technology products face a similar situation; they can't outsource their technology since the technology is their core competency. 
+
+In Excel's case, continuity risk isn't the only factor - it would be exceptionally difficult to find another party who could maintain and grow the software. This is partly why deciding whether to outsource is one of the most meaningful decisions a tech company has to make (if outsourcing is even possible considering their circumstances). 
+
+Sometimes, non-technical managers - especially those with expertise in commodity products but not tech - mistakenly assume a third party always exists or is available to supply key components, even at high price points. This isn't always the case, and can prove to be a serious error that can result in costly delays or cancellation, and of course, lost revenue and opportunities.
+
+
 
 
 
