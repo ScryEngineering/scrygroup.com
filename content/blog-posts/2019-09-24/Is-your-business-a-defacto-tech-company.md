@@ -12,7 +12,7 @@ callToActionText:
 
 Whether we're hailing a ride, ordering food to our door or shopping online, we buy from businesses that call themselves tech companies almost every day.
 
-But what really makes a tech company, and how do you know if you are one? Are there advantages and drawbacks to calling yourself one? Today, we'll explore what it means to be a tech company in 2019 and beyond.
+But what really makes a tech company, and how do you know if you are one? Today, we'll explore what it means to be a tech company in 2019 and beyond.
 
 ## What is a tech company, anyway?
 
@@ -37,15 +37,17 @@ To find out whether you've got a blind spot in this area, look around at your of
 - Will your current suppliers, vendors and technologies be around in the next three, five, ten (or even two) years?
 - Are you a consumer or producer of technology (or both)?
 
-In the 21st century, every single company has technical needs and dependencies. If your first thought is that you'd have to close up shop if you lost your most technically intelligent staff or could no longer access the tools they use, you are likely a tech company. If nothing would change, you're clearly not one.
-
-For example, within a relatively short timespan, automation has drastically changed how both digital and bricks-and-mortar businesses operate. We can now automate tedious tasks such as data entry, sorting and responding to emails, appointment scheduling, sending recurring invoices, customer support and more. 
+In the 21st century, every single company has technical needs and dependencies. For example, within a relatively short timespan, automation has drastically changed how both digital and bricks-and-mortar businesses operate. We can now automate tedious tasks such as data entry, sorting and responding to emails, appointment scheduling, sending recurring invoices, customer support and more. 
 
 You might start with a few Excel spreadsheets before moving on to Enterprise Resource Planning (ERP) and ordering, and be automating with APIs before you know it. 
 
 The logistics industry is another timely example - just a few years ago, no one would have thought of a trucking business as tech-oriented, but even "traditional" companies like these have gradually shifted to become more tech-heavy with the arrival of autonomous driving vehicles. 
 
 We can also look to the airline industry; without using technology for everything from security to flight control and navigation, every airport in the world would be at a standstill. 
+
+If your first thought is that you'd have to close up shop if you lost your most technically intelligent staff or could no longer access the tools they use, you are likely a tech company. If nothing would change, you're clearly not one.
+
+### Are you a consumer or producer of technology?
 
 There's also a clear distinction between whether we're using these technologies as a consumer or as a producer. 
 
@@ -69,7 +71,9 @@ In some cases, the transition between consumer and producer is driven by busines
 
 In SaaS (Software as a Service), producer/consumer roles can sometimes become less definitive, as people who were once producers become consumers of a product (think subscription-based software that lets you edit photos, create proposals, manage documents or content, do your accounting and more).
 
-When considering whether to rely on technology built by third parties or produce it in-house, consider the continuity risk to your business. Look to Microsoft Excel for an example - (DETAILS) . In this case, using external tools would have been a massive liability; it made sense not to outsource these things, since they were at the core of what makes the product unique. 
+When debating whether to rely on technology built by third parties or produce it in-house, consider the continuity risk to your business. Look to Microsoft Excel for an example - as [Joel on Software](https://www.joelonsoftware.com/2001/10/14/in-defense-of-not-invented-here-syndrome/) notes, their development team's motto was. 'Find the dependencies - and eliminate them.' In fact, Excel even had its own C compiler - a calculated measure designed to give Microsoft the quality control they needed.
+
+In this scenario, using external tools would have been a massive liability; it made sense not to outsource these things, since they were at the core of what made the product unique. 
 
 If the people behind Excel lost the ability to change the core functionality due to a third party's decisions, the entire product would effectively die. Many technology products face a similar situation; they can't outsource their technology since the technology is their core competency. 
 
@@ -77,11 +81,11 @@ In Excel's case, continuity risk isn't the only factor - it would be exceptional
 
 Sometimes, non-technical managers - especially those with expertise in commodity products but not tech - mistakenly assume a third party always exists or is available to supply key components, even at high price points. This isn't always the case, and can prove to be a serious error that can result in costly delays or cancellation, and of course, lost revenue and opportunities.
 
-
-
 ## The takeaway: Every company is technical to some degree 
+
+One of the costliest mistakes we make in business is making false comparisons, and here the danger is imminent; compare yourself to the Googles and Amazons of the world and 
 
 Companies continue to automate their systems extensively and often don't have non-technical redundancies or backups on hand. While we often compare our own use of technology to that of tech giants, this is a distraction. 
 
-Remember: How technical any other company is is irrelevant. What matters is whether you need technical experts on staff, how you plan to find, hire and retain them, and that their skills and job descriptions should match your needs.
+
 
