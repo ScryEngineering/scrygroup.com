@@ -1,5 +1,5 @@
 ---
-title: "IS your business a tech company?"
+title: "Is your business a tech company?"
 authors:
        - "Allison Smith"
        - "Janis Lesinskis"
@@ -7,12 +7,16 @@ date: "2019-09-25"
 tags:
       - management
 contentType: "blog"
-callToActionText: 
+callToActionText: Still wondering whether you should call yourself a tech company? Our experts can help you make the best marketing and management decisions for your business.
 ---
 
 Whether we're hailing a ride, ordering dinner to our door or shopping online, we buy from businesses that call themselves tech companies almost every day.
 
 But what really makes a tech company, and how do you know if you are one? Today, we'll explore what it means to be a tech company in 2019 and beyond.
+
+<!-- end excerpt -->
+
+![Is your business a tech company?](is-your-business-tech-company.jpg)
 
 ## What is a tech company, anyway?
 
