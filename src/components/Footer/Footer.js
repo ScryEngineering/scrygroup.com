@@ -17,7 +17,7 @@ class Footer extends Component {
                 <h4>Get in touch</h4>
                 <ul>
                   <li><Link className={styles.grouplink} to="/contact">Contact form</Link></li>
-                  <li><a className={styles.grouplink} href="https://www.linkedin.com/company/customprogrammingsolutions/">LinkedIn</a></li>
+                  <li><a className={styles.grouplink} href="https://www.linkedin.com/company/scryengineering/">LinkedIn</a></li>
                   {/*<li><a className={styles.grouplink} href="">Facebook</a></li>*/}
                   <li><a className={styles.grouplink} href="https://twitter.com/C_P_S_online">Twitter</a></li>
                   <li><a className={styles.grouplink} href="/rss.xml">RSS</a></li>
