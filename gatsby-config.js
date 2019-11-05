@@ -101,7 +101,7 @@ module.exports = {
       resolve: `gatsby-plugin-sitemap`
     },
     {
-      resolve: `gatsby-plugin-feed`
+      resolve: `gatsby-plugin-sass`
     },
     {
       resolve: `gatsby-plugin-feed`,
