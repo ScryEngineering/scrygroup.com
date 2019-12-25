@@ -3,8 +3,8 @@ title: "Is your business a tech company?"
 authors:
        - "Allison Smith"
        - "Janis Lesinskis"
-date: "2019-09-28"
-tags:
+date: "2019-12-26"
+tags
       - management
 contentType: "blog"
 callToActionText: Still wondering whether you should call yourself a tech company? Our experts can help you make the best marketing and management decisions for your business.
@@ -30,7 +30,7 @@ While it definitely [includes businesses that focus on developing and manufactur
 
 "I think there's a false dichotomy in the idea that a company either is or is not a tech company. I think it's possible for a company to be a hybrid if tech is giving it an edge over incumbents." - Hayley Barna, Venture Partner, First Round Capital
 
-One of the most clear-cut examples of a non-tech entity [trying to call itself a tech company](https://www.vox.com/recode/2019/8/14/20804029/wework-ipo-tech-company-valuation) is WeWork, which operates a series of coworking spaces around the world. Its owner the We Company recently [postponed its initial public offering](https://www.businessinsider.com/wework-ipo-fiasco-adam-neumann-explained-events-timeline-2019-9#heres-a-30-second-explanation-of-whats-going-on-1) amid concerns from investors and the media about its finances, path to profitability and leadership. Following that, WeWork hit rocky waters as its co-founder and CEO Adam Neumann stepped down and WeWork's valuation tumbled from $47 billion to about $10 billion. News website Vice [recapped a comparison](https://www.vice.com/en_ca/article/ne8dbw/ceo-of-wework-which-has-lost-an-unfathomable-amount-of-money-is-stepping-down) between WeWork and Uber: 
+One of the most clear-cut examples of a non-tech entity [trying to call itself a tech company](https://www.vox.com/recode/2019/8/14/20804029/wework-ipo-tech-company-valuation) is WeWork, which operates a series of coworking spaces around the world. Its owner the We Company recently [shelved its initial public offering](https://www.businessinsider.com/wework-ipo-fiasco-adam-neumann-explained-events-timeline-2019-9#heres-a-30-second-explanation-of-whats-going-on-1) amid concerns from investors and the media about its finances, path to profitability and leadership. Following that, WeWork hit rocky waters as its co-founder and CEO Adam Neumann stepped down, thousands of employees were laid off and WeWork's valuation tumbled from $47 billion to about $10 billion. News website Vice [recapped a comparison](https://www.vice.com/en_ca/article/ne8dbw/ceo-of-wework-which-has-lost-an-unfathomable-amount-of-money-is-stepping-down) between WeWork and Uber: 
 
 > ...Both founders thrived precisely because of a founder cult, a "growth at all costs" mentality that burned through billions, sky-high valuations that were fairy tales, and constant attempts to label themselves as tech companies to pump valuation.
 
@@ -78,7 +78,7 @@ In automation, those lines are often substantially blurred. For illustrations of
 
 - **Beginner or casual user** 
 
-  This is the bucket most of us fall into; casual users who use the tool or software on a regular basis. We understand enough to get done what we need to (or who/where to ask for help), but wouldn't qualify as experts). 
+  This is the bucket most of us fall into; casual users who use the tool or software on a regular basis. We understand enough to do what we need to (or who/where to ask for help), but wouldn't qualify as experts). 
 
 - **Admin or expert user** 
 
