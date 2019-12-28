@@ -1,8 +1,8 @@
 ---
 Title: "Running pip as a Python module"
 Authors:
-    - Janis Lesinskis
-Date: 2019-11-03
+    - "Janis Lesinskis"
+Date: "2019-11-03"
 Tags: 
     - Python
     - pip
