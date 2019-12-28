@@ -1,5 +1,22 @@
+---
+Title: "Why using C as an application development language is increasingly unsound"
+Authors:
+    - "Janis Lesinskis"
+Date: "2019-12-30"
+Tags: 
+    - C
+    - history
+    - economics
+    - programming-languages
+    - application-security
+    - language-security
+contentType: "blog"
+callToActionText: "Need help choosing which programming languages to use for your projects? Get in touch today."
+---
 
 Honestly towards the end of 2019 I think using C for a new project is mostly going to be a poor choice for most projects.
+
+I say this as someone who's had extensive development experience with C and embedded systems.
 
 Here's why I think this.
 
