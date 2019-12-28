@@ -15,7 +15,7 @@ const ServicesPage = props => (
       <ul>
         <li><a href="/services/mathematical-optimization">Mathematical optimization</a></li>
         <li><a href="/services/data-science">Data science</a></li>
-        <li>Business strategy and technology management</li>
+        <li><a href="/services/business-strategy-and-technology-management">Business strategy and technology management</a></li>
         <li><a href="/services/natural-language-processing">Natural language processing</a></li>
         <li><a href="/services/machine-learning">Machine learning and artificial intelligence</a></li>
         <li><a href="/services/process-automation-and-optimization">Process automation and optimization</a></li>
