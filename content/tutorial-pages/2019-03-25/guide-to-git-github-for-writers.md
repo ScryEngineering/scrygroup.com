@@ -20,7 +20,7 @@ draft: true
 
 ## Introduction
 
-Earlier this year, my simmering rage at conventional word processors finally boiled to the surface, driving me to take the drastic action I'd been putting off for years: Learn to write and publish content using Git and GitHub (*insert gasp here*.) 
+Last year, my simmering rage at conventional word processors finally boiled to the surface, driving me to take the drastic action I'd been putting off for years: Learn to write and publish content using Git and GitHub (*insert gasp here*.) 
 
 Okay, maybe that's being a *bit* dramatic (hey, I'm a writer - I'm using creative license here). It wasn't exactly rage. More like an underlying frustration I couldn't quite put my finger on. After all, what was different about this project versus the hundreds I've worked on before, that made working with Word (or Google Docs, my old go-to) untenable? 
 
@@ -31,7 +31,7 @@ Actually, a few things:
 - We had several collaborators, each with valuable insights and perspectives to offer on the content I created. 
 - With so many small pieces of content, we needed an easy way to track progress, revisions and dialogue on each one. 
 
-Enter GitHub. After a couple of months plugging away on Google Docs (a tool I'd sworn by previously and still use for collaborating with less technically savvy clients on short-term projects), we all began to discover its limitations when it came to formalizing an efficient content production and approval process. My client (Custom Programming Solutions) generously offered to teach me how to use Git and GitHub so we could collaborate more productively long-term. *Bonus: I get to share what I learned with you!* 
+Enter GitHub. After a couple of months plugging away on Google Docs (a tool I'd sworn by previously and still use for collaborating with less technically savvy clients on short-term projects), we all began to discover its limitations when it came to formalizing an efficient content production and approval process. My client (Scry Engineering) generously offered to teach me how to use Git and GitHub so we could collaborate more productively long-term. *Bonus: I get to share what I learned with you!* 
 
 I'll cover the following: 
 
