@@ -1,9 +1,9 @@
 ---
-Title: "Running pip as a Python module"
-Authors:
+title: "Running pip as a Python module"
+authors:
     - "Janis Lesinskis"
-Date: "2019-11-03"
-Tags: 
+date: "2019-11-03"
+tags: 
     - Python
     - pip
     - paths
