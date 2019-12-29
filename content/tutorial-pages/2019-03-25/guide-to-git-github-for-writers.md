@@ -34,6 +34,25 @@ Actually, a few things:
 Enter GitHub. After a couple of months plugging away on Google Docs (a tool I'd sworn by previously and still use for collaborating with less technically savvy clients on short-term projects), we all began to discover its limitations when it came to formalizing an efficient content production and approval process. My client (Scry Engineering) generously offered to teach me how to use Git and GitHub so we could collaborate more productively long-term. *Bonus: I get to share what I learned with you!* 
 
 I'll cover the following: 
+[Guide to Git and GitHub for Writers] (#guide-to-git-and-github-for-writers)
+[Introduction] (##introduction)
+[What are Git and GitHub?] (##what-are-git-and-GitHub)
+[Git] (###git)
+[GitHub] (###github)
+[Who needs this guide?] (##who-needs-this-guide)
+[Why should writers use GitHub?] (##why-should-writers-use-github)
+[The problem(s) with word processors and web-based writing tools] (###the-problems-with-word-processors-and-web-based-writing-tools)
+[Duplicate or redundant content] (####duplicate-or-redundant-content)
+[Unfriendly file formats make for wasted time] (####unfriendly-file-formats-make-for-wasted-time)
+[True collaboration is a hassle] (####true-collaboration-is-a-hassle)
+[Losing data could mean a frustrating setback] (####losing-data-could-mean-a-frustrating-setback)
+[Benefits of distributed vs. centralized systems] (###benefits-of-distributed-vs-centralized-systems)
+[One master document means everyone is (literally) on the same page] (####one-master-documents-means-everyone-is-literally-on-the-same-page)
+[You'll have a stable platform to collaborate with clients and partners] (####youll-have-a-stable-platform-to-collaborate-with-clients-and-partners)
+[Each repository is essentially a backup] (####each-repository-is-essentially-a-backup)
+[Undo and redo changes with version control] (####undo-and-redo-changes-with-version-control)
+[A clean, reader-friendly comments section] (####a-clean, reader-friendly-comments-section)
+
 
 [TOC]
 
