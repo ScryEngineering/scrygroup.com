@@ -52,6 +52,28 @@ I'll cover the following:
 [Each repository is essentially a backup] (####each-repository-is-essentially-a-backup)
 [Undo and redo changes with version control] (####undo-and-redo-changes-with-version-control)
 [A clean, reader-friendly comments section] (####a-clean, reader-friendly-comments-section)
+[The case for Markdown] (##the-case-for-markdown)
+[One formatting language to rule them all (###one-formatting-language-to-rule-them-all)
+[Content is easily repurposed] (###content-is-easily-repurposed)
+[What you need to get started] (##what-you-need-to-get-started)
+[Install a Markdown editor] (###install-a-markdown-editor)
+[Typora] (###typora)
+[Set up Version Control on GitHub] (###set-up-version-control-on-github)
+[So, now you have] (###so-now-you-have)
+[Getting ready to work] (##getting-ready-to-work)
+[1. Create a folder and file] (###1-create-a-folder-and-file)
+[2. Build your GitHub repository] (###2-build-your-github-repository)
+[3. Push your repository to github.com] (###3-push-your-repository-to-github.com)
+[Some extra stuff to do] (###some-extra-stuff-to-do)
+[1. Invite collaborators to your repository] (####1-invite-collaborators-to-your-repository)
+[2. Create a branch] (####2-create-a-branch)
+[How to create a branch] (#####how-to-create-a-branch)
+[Use topic branches in shared repositories] (####use-topic-branches-in-shared-repositories)
+[3. Write a good README file] (####3-write-a-good-readme-file)
+[So, now you have:] (###so-now-you-have)
+[Write](###write)
+[1. Give your document structure] (###1-give-your-document-structure)
+
 
 
 [TOC]
