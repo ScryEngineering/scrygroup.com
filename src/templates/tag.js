@@ -16,15 +16,13 @@ export default class TagTemplate extends React.Component {
     //TODO: Note that if more than one entry for a tags has the exact same name this will take only the first and not warn
     //TODO: Warn about duplicates somewhere
     const tag_has_summary = tag_summary.edges.length === 1;
-    if (tag_has_summary) {
-      const data = tag_summary.edges[0].node;
-    }
+    const data = tag_summary.edges[0].node;
     return (
       <Layout location={this.props.location}>
         <HelmetWrapper title={tag + " posts"} />
         <Masthead heading={"Posts tagged with \"" + tag + "\""} />
         <div className="contentdiv">
-          {tag_has_summary &&
+          {data.html !== "" &&
           <div className="tagSummary" dangerouslySetInnerHTML={{ __html: data.html }}></div>
           }
           <PostListing postEdges={this.props.data.allMarkdownRemark.edges} allAuthorsInfo={this.props.data.authors.edges} />
@@ -57,15 +55,17 @@ export const pageQuery = graphql`
     }
     tag_summary: allMarkdownRemark(
       filter: { 
-        fields: {isTagSummary: {eq: true}}
+        fields: {isTag: {eq: true}}
         frontmatter: {
           name: {eq: $tag}
         }
       }) {
       edges {
         node {
+          html
           frontmatter {
             name
+            slug
           }
         }
       }

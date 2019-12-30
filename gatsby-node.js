@@ -59,7 +59,12 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       })
       pageType = "service";
     } else if (isOfType("tags")) {
-      pageType = "tag_summary"
+      pageType = "tag"
+      createNodeField({
+        node,
+        name: `internalURL`,
+        value: `/tag/${node.frontmatter.slug}/`,
+      })
     } else {
       throw new Error(`Unknown markdown document encountered: ${node}`)
     }
@@ -85,8 +90,8 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     })
     createNodeField({
       node,
-      name: `isTagSummary`,
-      value: pageType === "tag_summary",
+      name: `isTag`,
+      value: pageType === "tag",
     })
   }
 };
@@ -98,7 +103,7 @@ exports.createPages = ({ graphql, actions }) => {
   const postPage = path.resolve("src/templates/post.js");
   const servicePage = path.resolve("src/templates/service.js");
 
-  const create_people_pages= new Promise((resolve, reject) => {
+  const create_people_pages = new Promise((resolve, reject) => {
     if (
       !fs.existsSync(
         path.resolve(`content/people/`)
@@ -143,6 +148,44 @@ exports.createPages = ({ graphql, actions }) => {
       resolve()
     })
   })
+
+  const create_tag_pages = new Promise((resolve, reject) => {
+    graphql(`
+      {
+        allMarkdownRemark (filter: { fields: { isTag: { eq: true } } }) {
+          edges {
+            node {
+              frontmatter {
+                name
+              }
+              fields {
+                internalURL
+              }
+            }
+          }
+        }
+      }
+    `).then(result => {
+      if (result.errors) {
+        /* eslint no-console: "off" */
+        console.log(result.errors);
+        reject(result.errors);
+      }
+
+      console.log("Creating tag pages")
+      result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+        createPage({
+          path: node.fields.internalURL,
+          component: tagPage,
+          context: {
+            tag: node.frontmatter.name
+          }
+        });
+      });
+      resolve()
+    })
+  })
+
   const create_blog_and_tutorial_pages = new Promise((resolve, reject) => {
     graphql(`
     {
@@ -175,27 +218,6 @@ exports.createPages = ({ graphql, actions }) => {
         console.log(result.errors);
         reject(result.errors);
       }
-
-      const tagSet = new Set();
-
-      result.data.allMarkdownRemark.edges.forEach(edge => {
-        if (edge.node.frontmatter.tags) {
-          edge.node.frontmatter.tags.forEach(tag => {
-            tagSet.add(tag);
-          });
-        }
-      });
-
-      const tagList = Array.from(tagSet);
-      tagList.forEach(tag => {
-        createPage({
-          path: `/tags/${_.kebabCase(tag)}/`,
-          component: tagPage,
-          context: {
-            tag
-          }
-        });
-      });
 
       console.log("Creating markdown pages")
       result.data.allMarkdownRemark.edges.forEach(({ node }) => {
@@ -269,7 +291,7 @@ exports.createPages = ({ graphql, actions }) => {
       resolve()
     })
   })
-  return Promise.all([create_people_pages, create_service_pages, create_blog_and_tutorial_pages]);
+  return Promise.all([create_people_pages, create_service_pages, create_blog_and_tutorial_pages, create_tag_pages]);
 };
 
 exports.onCreateWebpackConfig = ({ actions, stage }) => {

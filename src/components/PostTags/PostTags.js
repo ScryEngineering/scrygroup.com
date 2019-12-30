@@ -14,7 +14,7 @@ class PostTags extends Component {
             <Link
               key={tag}
               className={styles.tag}
-              to={`/tags/${_.kebabCase(tag)}`}
+              to={`/tag/${_.kebabCase(tag)}`}
             >
               {tag}
             </Link>
