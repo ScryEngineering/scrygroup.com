@@ -91,7 +91,7 @@ exports.createPages = ({ graphql, actions }) => {
   const postPage = path.resolve("src/templates/post.js");
   const servicePage = path.resolve("src/templates/service.js");
 
-  return new Promise((resolve, reject) => {
+  const create_people_pages= new Promise((resolve, reject) => {
     if (
       !fs.existsSync(
         path.resolve(`content/people/`)
@@ -101,18 +101,6 @@ exports.createPages = ({ graphql, actions }) => {
         "The 'people' folder is missing within the 'content' folder."
       );
     }
-    if (
-      !fs.existsSync(
-        path.resolve(`content/services/`)
-      )
-    ) {
-      reject(
-        "The 'services' folder is missing within the 'content' folder."
-      );
-    }
-
-
-
     graphql(`
       {
         allMarkdownRemark (filter: { fields: { isPerson: { eq: true } } }) {
@@ -145,122 +133,136 @@ exports.createPages = ({ graphql, actions }) => {
           }
         });
       });
-
-      graphql(`
-        {
-          allMarkdownRemark (
-            filter: {
-              fields: {
-                isPost: { eq: true }
-              }
-              frontmatter: {
-                draft: { ne: true }
-              }
-            })
-          {
-            edges {
-              node {
-                frontmatter {
-                  tags
-                  draft
-                }
-                fields {
-                  slug
-                }
-              }
-            }
-          }
-        }
-      `).then(result => {
-        if (result.errors) {
-          /* eslint no-console: "off" */
-          console.log(result.errors);
-          reject(result.errors);
-        }
-
-        const tagSet = new Set();
-
-        result.data.allMarkdownRemark.edges.forEach(edge => {
-          if (edge.node.frontmatter.tags) {
-            edge.node.frontmatter.tags.forEach(tag => {
-              tagSet.add(tag);
-            });
-          }
-        });
-
-        const tagList = Array.from(tagSet);
-        tagList.forEach(tag => {
-          createPage({
-            path: `/tags/${_.kebabCase(tag)}/`,
-            component: tagPage,
-            context: {
-              tag
-            }
-          });
-        });
-
-        console.log("Creating markdown pages")
-        result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-          if (node.frontmatter.draft !== true) {
-            const pagePath = node.fields.slug
-            createPage({
-              path: pagePath,
-              component: postPage,
-              context: {
-                // Data passed to context is available in page queries as GraphQL variables.
-                slug: pagePath,
-              },
-            })
-          }
-        });
-
-
-        graphql(`
-        {
-          allMarkdownRemark (
-            filter: {
-              fields: {
-                isService: { eq: true }
-              }
-              frontmatter: {
-                draft: { ne: true }
-              }
-            })
-          {
-            edges {
-              node {
-                frontmatter {
-                  name
-                }
-                fields {
-                  internalURL
-                }
-              }
-            }
-          }
-        }
-      `).then(result => {
-          if (result.errors) {
-            /* eslint no-console: "off" */
-            console.log(result.errors);
-            reject(result.errors);
-          }
-
-          console.log("Creating service pages")
-          result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-            createPage({
-              path: node.fields.internalURL,
-              component: servicePage,
-              context: {
-                service: node.frontmatter.name
-              }
-            });
-          });
-          resolve()
-        })
-      })
+      resolve()
     })
   })
+  const create_blog_and_tutorial_pages = new Promise((resolve, reject) => {
+    graphql(`
+    {
+      allMarkdownRemark (
+        filter: {
+          fields: {
+            isPost: { eq: true }
+          }
+          frontmatter: {
+            draft: { ne: true }
+          }
+        })
+      {
+        edges {
+          node {
+            frontmatter {
+              tags
+              draft
+            }
+            fields {
+              slug
+            }
+          }
+        }
+      }
+    }
+    `).then(result => {
+      if (result.errors) {
+        /* eslint no-console: "off" */
+        console.log(result.errors);
+        reject(result.errors);
+      }
+
+      const tagSet = new Set();
+
+      result.data.allMarkdownRemark.edges.forEach(edge => {
+        if (edge.node.frontmatter.tags) {
+          edge.node.frontmatter.tags.forEach(tag => {
+            tagSet.add(tag);
+          });
+        }
+      });
+
+      const tagList = Array.from(tagSet);
+      tagList.forEach(tag => {
+        createPage({
+          path: `/tags/${_.kebabCase(tag)}/`,
+          component: tagPage,
+          context: {
+            tag
+          }
+        });
+      });
+
+      console.log("Creating markdown pages")
+      result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+        if (node.frontmatter.draft !== true) {
+          const pagePath = node.fields.slug
+          createPage({
+            path: pagePath,
+            component: postPage,
+            context: {
+              // Data passed to context is available in page queries as GraphQL variables.
+              slug: pagePath,
+            },
+          })
+        }
+      });
+    resolve()
+    })
+  })
+
+  const create_service_pages = new Promise((resolve, reject) => {
+    if (
+      !fs.existsSync(
+        path.resolve(`content/services/`)
+      )
+    ) {
+      reject(
+        "The 'services' folder is missing within the 'content' folder."
+      );
+    }
+    graphql(`
+    {
+      allMarkdownRemark (
+        filter: {
+          fields: {
+            isService: { eq: true }
+          }
+          frontmatter: {
+            draft: { ne: true }
+          }
+        })
+      {
+        edges {
+          node {
+            frontmatter {
+              name
+            }
+            fields {
+              internalURL
+            }
+          }
+        }
+      }
+    }
+  `).then(result => {
+      if (result.errors) {
+        /* eslint no-console: "off" */
+        console.log(result.errors);
+        reject(result.errors);
+      }
+
+      console.log("Creating service pages")
+      result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+        createPage({
+          path: node.fields.internalURL,
+          component: servicePage,
+          context: {
+            service: node.frontmatter.name
+          }
+        });
+      });
+      resolve()
+    })
+  })
+  return Promise.all([create_people_pages, create_service_pages, create_blog_and_tutorial_pages]);
 };
 
 exports.onCreateWebpackConfig = ({ actions, stage }) => {
