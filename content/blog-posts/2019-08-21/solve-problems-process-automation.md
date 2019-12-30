@@ -5,6 +5,9 @@ authors:
 date: "2019-08-21"
 tags: 
      - process automation
+     - automation
+     - tooling
+     - productivity
      - machine learning
      - customer service
      - marketing
