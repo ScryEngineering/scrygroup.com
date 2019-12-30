@@ -63,7 +63,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       createNodeField({
         node,
         name: `internalURL`,
-        value: `/tag/${node.frontmatter.slug}/`,
+        value: `/tags/${node.frontmatter.slug}/`,
       })
     } else {
       throw new Error(`Unknown markdown document encountered: ${node}`)
@@ -112,6 +112,7 @@ exports.createPages = ({ graphql, actions }) => {
             node {
               frontmatter {
                 name
+                slug
               }
               fields {
                 internalURL
@@ -132,6 +133,10 @@ exports.createPages = ({ graphql, actions }) => {
 
       console.log("Creating tag pages")
       result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+        if (node.frontmatter.slug !== node.frontmatter.name.toLowerCase().replace(/ /g, '-')) {
+          console.error(`Tag slug and name don't match, expecting: "${node.frontmatter.name.toLowerCase().replace(/ /g, '-')}" but got ${node.frontmatter.slug}`)
+          reject()
+        }
         createPage({
           path: node.fields.internalURL,
           component: tagPage,
@@ -142,7 +147,7 @@ exports.createPages = ({ graphql, actions }) => {
         tagNameSet.add(node.frontmatter.name)
         tagSlugSet.add(node.frontmatter.slug)
       });
-      resolve(tagNameSet, tagSlugSet)
+      resolve({names: tagNameSet, slugs: tagSlugSet})
     })
   })
 
@@ -192,7 +197,7 @@ exports.createPages = ({ graphql, actions }) => {
     })
   })
 
-  const create_blog_and_tutorial_pages = new Promise((resolve, reject) => {
+  const create_blog_and_tutorial_pages = (tag_names_and_slugs) => new Promise((resolve, reject) => {
     graphql(`
     {
       allMarkdownRemark (
@@ -237,6 +242,13 @@ exports.createPages = ({ graphql, actions }) => {
               slug: pagePath,
             },
           })
+          if (node.frontmatter.tags) {
+            node.frontmatter.tags.forEach(tag => {
+              if (!tag_names_and_slugs.names.has(tag)) {
+                console.log(`Unknown tag "${tag}" in post ${node.fields.slug}`)
+              }
+            })
+          }
         }
       });
     resolve()
@@ -297,7 +309,7 @@ exports.createPages = ({ graphql, actions }) => {
       resolve()
     })
   })
-  return Promise.all([create_people_pages, create_service_pages, create_blog_and_tutorial_pages, create_tag_pages]);
+  return Promise.all([create_people_pages, create_service_pages, create_tag_pages.then(res => create_blog_and_tutorial_pages(res)), ]);
 };
 
 exports.onCreateWebpackConfig = ({ actions, stage }) => {

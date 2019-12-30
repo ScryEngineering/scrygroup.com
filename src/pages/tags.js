@@ -5,9 +5,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from 'gatsby'
 
-// Utilities
-import kebabCase from "lodash/kebabCase";
-
 // Components
 import HelmetWrapper from "../components/HelmetWrapper/HelmetWrapper";
 import Link from "gatsby-link";
@@ -29,7 +26,7 @@ const TagsPage = ({
       <ul>
         {group.map(tag => (
           <li key={tag.fieldValue}>
-            <Link to={`/tag/${kebabCase(tag.fieldValue)}/`}>
+            <Link to={`/tags/${tag.fieldValue.toLowerCase().replace(/ /g, '-')}/`}>
               {tag.fieldValue} ({tag.totalCount})
             </Link>
           </li>
