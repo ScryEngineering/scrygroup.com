@@ -91,7 +91,7 @@ exports.createPages = ({ graphql, actions }) => {
   const postPage = path.resolve("src/templates/post.js");
   const servicePage = path.resolve("src/templates/service.js");
 
-  const create_everything = new Promise((resolve, reject) => {
+  const create_people_pages= new Promise((resolve, reject) => {
     if (
       !fs.existsSync(
         path.resolve(`content/people/`)
@@ -262,7 +262,7 @@ exports.createPages = ({ graphql, actions }) => {
       resolve()
     })
   })
-  return Promise.all([create_everything, create_service_pages, create_blog_and_tutorial_pages]);
+  return Promise.all([create_people_pages, create_service_pages, create_blog_and_tutorial_pages]);
 };
 
 exports.onCreateWebpackConfig = ({ actions, stage }) => {
