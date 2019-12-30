@@ -6,6 +6,10 @@ authors:
 date: "2019-12-26"
 tags:
       - management
+      - tech-strategy
+      - strategy
+      - outsourcing
+      - capabilities
 contentType: "blog"
 callToActionText: Still wondering whether you should call yourself a tech company? Our experts can help you make the best marketing and management decisions for your business.
 ---
