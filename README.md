@@ -10,6 +10,11 @@ This site uses the setup in the Vagrantfile over in:
 https://github.com/ScryEngineering/gatsbyjs-vagrant
 
 We are using the Yarn package manager to deal with package dependencies.
+If you don't have yarn you can install it to your system with:
+
+```sh
+npm i -g yarn
+```
 
 If you can't use the Vagrant file for setting up dependencies you will
 at a minimum need to make sure that you have the Gatsby CLI program installed:
