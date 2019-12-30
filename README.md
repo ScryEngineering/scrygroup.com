@@ -1,7 +1,5 @@
 # Scry group - gatsby site
 
-[![Build status](https://api.travis-ci.org/CustomProgrammingSolutions/CPS_gatsby.svg?branch=master)](https://travis-ci.org/CustomProgrammingSolutions/CPS_gatsby)
-
 This is the repo for the Scry Engineering site made with gatsbyjs.
 
 For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
@@ -9,7 +7,7 @@ For an overview of the project structure please refer to the [Gatsby documentati
 ## Install
 
 This site uses the setup in the Vagrantfile over in:
-https://github.com/CustomProgrammingSolutions/gatsbyjs-vagrant
+https://github.com/ScryEngineering/gatsbyjs-vagrant
 
 We are using the Yarn package manager to deal with package dependencies.
 
@@ -48,7 +46,7 @@ sudo gatsby develop -H 0.0.0.0
 
 (There might be a way set up the linux box such that specifying to serve on 0.0.0.0
 is not necessary but I haven't done that, if you fix this please upstream the fix to:
-https://github.com/CustomProgrammingSolutions/gatsbyjs-vagrant)
+https://github.com/ScryEngineering/gatsbyjs-vagrant)
 
 ## Deploy
 
@@ -144,7 +142,7 @@ Here's some markdown from the post itself:
 ```markdown
 ## Linting via VS Code plugin
 
-Seeing as we use VS Code already we can install a [markdown linter extension](https://github.com/DavidAnson/vscode-markdownlint) that gives immediate linting for our Markdown files.
+If you are using VS Code already you can install a [markdown linter extension](https://github.com/DavidAnson/vscode-markdownlint) that gives immediate linting for our Markdown files.
 
 So for example have a look at this screen-shot from when I was writing a draft for a post on here:
 
@@ -154,6 +152,8 @@ So for example have a look at this screen-shot from when I was writing a draft f
 Note that the post body text starts with a second level heading, this is because a first level heading is generated on the website above the post body text.
 
 So we see that creating an image just involves making a reference to the image file name in the current directory.
+
+There's other VS code addons that are useful too like a spelling checker that's code-aware (meaning it doesn't give spelling suggestions on code blocks).
 
 ### Metadata
 
@@ -294,3 +294,5 @@ hideCallToAction: false
 Writing for this service page goes here
 
 ```
+
+If you wish to link to that page from static content you'll have to create a link over on the page in `/src/pages/`.
