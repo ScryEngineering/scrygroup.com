@@ -41,14 +41,14 @@ Today, you can combine high-power cloud computing services such as AWS with expe
 
 If you've ever wondered how you can tighten up your processes, find operational savings and use your staff's time and experience more effectively, you've discovered a problem mathematical optimization can solve. Practical applications include:
 
-- Logistics and transport 
-- Warehouse planning (capacity and inventory)
-- Scheduling and sequencing 
+- Logistics and transport route planning
+- Warehouse planning (including location planning, capacity forecasting and integrations with inventory management)
+- Scheduling and sequencing
 - Bin, box and container packing
 
 Specifically, we can use the power of mathematics to allow you to:
 
-- Integrate seasonal forecasting so you can stock your warehouses with the right items at the right locations, taking into account the predicted demand
+- Integrate seasonal forecasting so you can stock your warehouses with the right items at the right locations, taking into account the predicted future demand for items
 - Deliver items with faster time guarantees (examples include some of the major online retailers being able to guarantee a delivery by a certain date)
 - Dedicate your best professional staff to work on delivering more value instead of working on tedious scheduling tasks 
 - Schedule usage of inventory, spaces, etc. better 
