@@ -58,6 +58,8 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
         value: `/services/${_.kebabCase(node.frontmatter.name)}/`,
       })
       pageType = "service";
+    } else if (isOfType("tags")) {
+      pageType = "tag_summary"
     } else {
       throw new Error(`Unknown markdown document encountered: ${node}`)
     }
@@ -80,6 +82,11 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       node,
       name: `isService`,
       value: pageType === "service",
+    })
+    createNodeField({
+      node,
+      name: `isTagSummary`,
+      value: pageType === "tag_summary",
     })
   }
 };

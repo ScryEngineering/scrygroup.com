@@ -11,11 +11,16 @@ import Layout from '../components/Layout/Layout'
 export default class TagTemplate extends React.Component {
   render(){
     const tag = this.props.pageContext.tag;
+    const tag_summary = this.props.data.tag_summary;
+    //Note that if 2 tags have the exact same name this will fail
+    console.log(tag_summary)
+    const data = tag_summary.edges[0].node;
     return (
       <Layout location={this.props.location}>
         <HelmetWrapper title={tag + " posts"} />
         <Masthead heading={"Posts tagged with \"" + tag + "\""} />
         <div className="contentdiv">
+        <div className="tagSummary">{data.html}</div>
           <PostListing postEdges={this.props.data.allMarkdownRemark.edges} allAuthorsInfo={this.props.data.authors.edges} />
         </div>
       </Layout>
@@ -40,6 +45,21 @@ export const pageQuery = graphql`
           }
           fields {
             internalURL
+          }
+        }
+      }
+    }
+    tag_summary: allMarkdownRemark(
+      filter: { 
+        fields: {isTagSummary: {eq: true}}
+        frontmatter: {
+          name: {eq: $tag}
+        }
+      }) {
+      edges {
+        node {
+          frontmatter {
+            name
           }
         }
       }
