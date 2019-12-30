@@ -25,10 +25,9 @@ Our Business Strategy and Technology Management services can include:
 
 ### Business Strategy
 
-- Analyze how you and your team are bringing value to your target market
+- Assess your current position in the market and how you're offering unique value
 - Research tools and resources to help increase efficiency and productivity while reducing waste
 - Evaluate decision-making processes, and whether these should be revised
-- Assess your current position in the market and how you're offering unique value
 - Analyze your ROI on investment
 - Provide advice regarding staffing and hiring decisions, offering expertise on both the skills required to help your team excel and the overall market for technical talent
 - Review your current metrics for success and analyze whether these need to be changed or modified
