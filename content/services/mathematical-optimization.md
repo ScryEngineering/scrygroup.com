@@ -3,7 +3,7 @@ name: "Mathematical optimization"
 callToActionText: "Looking to see how the power of mathematical optimization can increase efficiency, reduce waste and improve profitability? We would be happy to talk about how mathematical optimization could be utilized by your organization."
 ---
 
-In business, anything that can be measured can be optimized and improved. 
+In business, most things that can be measured can be optimized and improved.
 
 From manufacturing processes and inventory control to packing, logistics, scheduling and even marketing, it's more important than ever to know your processes are as lean, mean and efficient as possible. That's where mathematical optimization can help; replacing best-guess estimates with proven algorithms and computer software, we can build solid processes to help businesses in a wide range of industries deliver even more value to their customers, find cost savings and significantly increase productivity. Depending on requirements, we can also integrate mathematical optimization with [process automation and optimization](/services/process-automation-and-optimization/).
 
