@@ -60,10 +60,15 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       pageType = "service";
     } else if (isOfType("tags")) {
       pageType = "tag"
+      const slug = node.frontmatter.name.toLowerCase().replace(/ /g, '-')
+      if (!node.fileAbsolutePath.includes(`content/tags/${slug}.md`)) {
+        console.error(`Filename for tag "${node.frontmatter.name}" does not match expected filename "content/tags/${slug}.md" (got ${node.fileAbsolutePath})`)
+        reject()
+      }
       createNodeField({
         node,
         name: `internalURL`,
-        value: `/tags/${node.frontmatter.slug}/`,
+        value: `/tags/${slug}/`,
       })
     } else {
       throw new Error(`Unknown markdown document encountered: ${node}`)
@@ -112,7 +117,6 @@ exports.createPages = ({ graphql, actions }) => {
             node {
               frontmatter {
                 name
-                slug
               }
               fields {
                 internalURL
@@ -129,14 +133,9 @@ exports.createPages = ({ graphql, actions }) => {
       }
 
       const tagNameSet = new Set();
-      const tagSlugSet = new Set();
 
       console.log("Creating tag pages")
       result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-        if (node.frontmatter.slug !== node.frontmatter.name.toLowerCase().replace(/ /g, '-')) {
-          console.error(`Tag slug and name don't match, expecting: "${node.frontmatter.name.toLowerCase().replace(/ /g, '-')}" but got ${node.frontmatter.slug}`)
-          reject()
-        }
         createPage({
           path: node.fields.internalURL,
           component: tagPage,
@@ -145,9 +144,8 @@ exports.createPages = ({ graphql, actions }) => {
           }
         });
         tagNameSet.add(node.frontmatter.name)
-        tagSlugSet.add(node.frontmatter.slug)
       });
-      resolve({names: tagNameSet, slugs: tagSlugSet})
+      resolve(tagNameSet)
     })
   })
 
@@ -197,7 +195,7 @@ exports.createPages = ({ graphql, actions }) => {
     })
   })
 
-  const create_blog_and_tutorial_pages = (tag_names_and_slugs) => new Promise((resolve, reject) => {
+  const create_blog_and_tutorial_pages = (tag_names) => new Promise((resolve, reject) => {
     graphql(`
     {
       allMarkdownRemark (
@@ -244,7 +242,7 @@ exports.createPages = ({ graphql, actions }) => {
           })
           if (node.frontmatter.tags) {
             node.frontmatter.tags.forEach(tag => {
-              if (!tag_names_and_slugs.names.has(tag)) {
+              if (!tag_names.has(tag)) {
                 console.log(`Unknown tag "${tag}" in post ${node.fields.slug}`)
               }
             })

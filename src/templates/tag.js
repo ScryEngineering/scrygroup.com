@@ -65,7 +65,6 @@ export const pageQuery = graphql`
           html
           frontmatter {
             name
-            slug
           }
         }
       }
