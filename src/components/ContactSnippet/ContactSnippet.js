@@ -72,25 +72,25 @@ class ContactSnippet extends Component {
             <p className={styles.blurb}>{ this.props.blurb }</p>
           </div>
           {
-            this.state.status == "sending" &&
+            this.state.status === "sending" &&
             <div className={styles.submittedContainer}>
               <p>Submitting form...</p>
             </div>
           }
           {
-            this.state.status == "success" &&
+            this.state.status === "success" &&
             <div className={styles.submittedContainer}>
               <p>{this.props.submittedBlurb}</p>
             </div>
           }
           {
-            this.state.status == "error" &&
+            this.state.status === "error" &&
             <div className={styles.submittedContainer}>
               <p>There was an error submitting the form, please try again.</p>
             </div>
           }
           {
-            (this.state.status == "empty" || this.state.status == "error") &&
+            (this.state.status === "empty" || this.state.status === "error") &&
               <div className={styles.snippetContainer}>
                 <div className={styles.inputDiv}>
                   <div className={styles.nameDiv}>

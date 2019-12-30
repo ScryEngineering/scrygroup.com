@@ -1,3 +1,5 @@
+ /* eslint jsx-a11y/label-has-associated-control: "off" */
+
 import React from 'react'
 import Link from 'gatsby-link'
 

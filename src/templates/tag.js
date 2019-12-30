@@ -1,7 +1,6 @@
 import React from "react";
 import { graphql } from 'gatsby'
 import HelmetWrapper from "../components/HelmetWrapper/HelmetWrapper";
-import Link from "gatsby-link";
 
 import Masthead from '../components/Masthead/Masthead'
 import PostListing from "../components/PostListing/PostListing";
@@ -15,7 +14,6 @@ export default class TagTemplate extends React.Component {
     const tag_summary = this.props.data.tag_summary;
     //TODO: Note that if more than one entry for a tags has the exact same name this will take only the first and not warn
     //TODO: Warn about duplicates somewhere
-    const tag_has_summary = tag_summary.edges.length === 1;
     const data = tag_summary.edges[0].node;
     return (
       <Layout location={this.props.location}>

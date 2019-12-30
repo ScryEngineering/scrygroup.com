@@ -25,7 +25,7 @@ export function authorAndDateLine(authors, date) {
   if (authors.length > 0) {
     out.push(<span> by </span>);
     for (let i = 0; i < authors.length - 1; i++) {
-      out.push(<span><AuthorLink author={authors[i]} />{i == authors.length - 2 ? "" : ","} </span>);
+      out.push(<span><AuthorLink author={authors[i]} />{i === authors.length - 2 ? "" : ","} </span>);
     }
     if (authors.length > 1) {
       out.push(<span>and </span>);
