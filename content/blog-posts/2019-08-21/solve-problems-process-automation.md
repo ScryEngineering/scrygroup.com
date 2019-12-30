@@ -5,12 +5,15 @@ authors:
 date: "2019-08-21"
 tags: 
      - process automation
+     - automation
+     - tooling
+     - productivity
      - machine learning
      - customer service
      - marketing
      - RPA
 contentType: "blog"
-callToActionText: "Are you looking to learn more about how process automation can solve problems in your business? We'd love to chat. Fill in the form below and we will be in touch."
+callToActionText: "Are you looking to learn more about how robotic process automation can solve problems in your business? We'd love to chat. Fill in the form below and we will be in touch."
 ---
 
 If you've ever spent an entire day at the office slogging through a mountain of paperwork or felt your eyes glaze over while staring at  *another* simple customer inquiry on your screen, you know the feeling of wishing you could be doing almost anything else. Lucky for you, you can be. You can likely solve some of your most annoying problems with [process automation](/services/process-automation-and-optimization/).
@@ -33,7 +36,7 @@ Bonus: Don't lose your best opportunities to miscommunication. If you create a w
 
 **The situation:** Have you ever had one of these days?: You get back from lunch and your phone is ringing with your 1:00 call. A regular customer is asking a question via chat. You've just received a Facebook message from a lead wanting more information on one of your products, and an email from a dissatisfied customer awaits your reply. Of course, all of them expect immediate attention.
 
-**The fix:** Automating your processes will let you prioritize which of these can be handled purely through automation, solve performance problems and free up your support staff's time for the most urgent and complex issues.
+**The fix:** Automating your processes will let you prioritize which of these can be handled purely through robotic process automation, solve performance problems and free up your support staff's time for the most urgent and complex issues.
 
 Leverage machine learning and AI (artificial intelligence) to significantly improve your customer experience. By using a chat bot to answer simple questions received through social media and your website, you can streamline your service department, eliminate inefficiencies and send the most complex problems to your staff to be addressed. Machine learning and natural language processing can also be used to define types of requests and segment them. 
 
@@ -51,7 +54,7 @@ For example, if you run an online store visitors might have questions before ord
 
 Have your process automation software start with scraping data from documents, place the data in Excel and even email the completed spreadsheet to your contacts.
 
-One caveat: understanding the types of processes you're automating and the nuances of process automation is critical. For example, for data entry your best option might be an attended bot, which runs on a computer and helps employees complete simple, repetitive tasks more quickly and accurately. Avoid using bots to automate complex, higher value tasks as this can cause further problems, [as explained in this Forbes article](https://www.forbes.com/sites/cognitiveworld/2018/12/02/the-big-rpa-bubble/#480d945d68d9). 
+One caveat: understanding the types of processes you're automating and the nuances of robotic process automation is critical. For example, for data entry your best option might be an attended bot, which runs on a computer and helps employees complete simple, repetitive tasks more quickly and accurately. Avoid using bots to automate complex, higher value tasks as this can cause further problems, [as explained in this Forbes article](https://www.forbes.com/sites/cognitiveworld/2018/12/02/the-big-rpa-bubble/#480d945d68d9). 
 
 ## 4. You need to push software updates on a regular schedule
 
