@@ -260,8 +260,8 @@ exports.createPages = ({ graphql, actions }) => {
         })
       })
     })
-  return Promise.all([create_everything]);
   })
+  return Promise.all([create_everything]);
 };
 
 exports.onCreateWebpackConfig = ({ actions, stage }) => {
