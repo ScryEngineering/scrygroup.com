@@ -231,7 +231,7 @@ Now that you've got your workspace set up (think of it as having put one of thos
 
 You should have a basic file structure that looks like this (the folder with my practice repository is highlighted in grey, in the red box):
 
-![A screenshot showing the folder structure of one of my practice repositories on GitHub.](github-folder-structure.PNG)
+![A screenshot showing the folder structure of one of my practice repositories on GitHub.](github-folder-structure.png)
 
 
 
@@ -253,7 +253,7 @@ Git might seem intimidating when you first dig into it (I was lucky enough to ha
 
 7. GitHub takes care of everything. You might see hidden files like this in your folder. That's fine, leave 'em there:
 
-   ![A screenshot showing the hidden files in my repository.](github-hidden-files.PNG)
+   ![A screenshot showing the hidden files in my repository.](github-hidden-files.png)
 
    
 
@@ -344,7 +344,7 @@ A README is just like an About or FAQ page for your project.
 
 If you want others to use or contribute to your project, creating a README file before you show your project to the public and placing it in the top level directory is a good idea - it will help bring new people up to speed. 
 
-![An example of the README file I've started for my practice repository](README-file-example-screenshot.PNG)
+![An example of the README file I've started for my practice repository](README-file-example-screenshot.png)
 
 
 
@@ -440,7 +440,7 @@ You'll notice that each time you hit the Enter key in a list,  another bullet po
 
 In Rich Text Format (RTF) or Microsoft Word, you'll see proper headings. Export to HTML and, like the syntax above, this becomes proper HTML format: 
 
-![An unordered list in HTML format](HTML-list.PNG)
+![An unordered list in HTML format](HTML-list.png)
 
 
 
@@ -469,19 +469,19 @@ Go to **Format -> Image** in Typora or use the shortcut CTRL+SHIFT+I. You can al
 
 When I do so, I end up with a photo embedded in my Markdown document:
 
-![meeting](meeting.png)
+![meeting](meeting.jpg)
 
 Click on the photo and you'll see the file path. This will transfer when you export to Word (.doc), PDF or Google Docs. In your GitHub document, you'll see what looks like a link. 
 
 You'll want to use a relative file path, since you're linking to a file on your own domain:
 
-`![meeting](meeting.png)`
+`![meeting](meeting.jpg)`
 
 rather than an absolute path, which is for linking to files off-site: 
 
-`![meeting (C:\Users\Allison\Documents\GitHub\CPS_content\content\tutorial-pages\2019-03-25\meeting.png)`
+`![meeting (C:\Users\Allison\Documents\GitHub\CPS_content\content\tutorial-pages\2019-03-25\meeting.jpg)`
 
-To use a relative file path, I just delete the extra stuff that appears before the file name (meeting.png). 
+To use a relative file path, I just delete the extra stuff that appears before the file name (meeting.jpg). 
 
 Lifewire has a comprehensive [explanation of absolute and relative file paths](https://www.lifewire.com/absolute-and-relative-paths-3466467). 
 
@@ -499,7 +499,7 @@ Typora's Outline viewer gives you a nifty way to see exactly how your headlines 
 
 As writers, we're used to saving our work to a folder or the cloud. With GitHub, your saved changes are called commits. Each time you commit a change, you're able to attach a description explaining why you made that change (for example, if you describe the section you've written in both the title and description for your commit, you'll have an at-a-glance-history of the progress of your work from the day you started until now.)
 
-![Hit the commit button to start the process of sending your changes to GitHub.](commit-changes.PNG)
+![Hit the commit button to start the process of sending your changes to GitHub.](commit-changes.png)
 
 Committing lets you take advantage of version management. Get into the habit of making your commits often, and at natural break points - when you complete a main section, after adding links and support files, after making major edits, when you pack it in for the day, etc. Here's how to do that: 
 
@@ -552,7 +552,7 @@ One reason Beams advocates for the imperative is that Git itself uses the impera
 
    ## Push your changes to GitHub
 
-![After you've committed your changes, hit the blue Push Origin button to push your changes to GitHub.](push-origin.PNG)
+![After you've committed your changes, hit the blue Push Origin button to push your changes to GitHub.](push-origin.png)
 
 Right now, your file is saved to your computer and you've made a commit, but that won't help you if:
 
@@ -597,7 +597,7 @@ How to create a pull request:
 
 2. You'll see a green button with the words **Compare & pull request**. Click the button. (You can also go to the **Branch** Menu and choose the branch with your commits.)
 
-   ![Click the green Compare & pull request button.](compare-pull-request.PNG)
+   ![Click the green Compare & pull request button.](compare-pull-request.png)
 
 3. Hit **New pull request** if required. 
 
@@ -607,7 +607,7 @@ How to create a pull request:
 
 6. If your pull request is ready for review, click **Create Pull Request**.
 
-   ![Click the green Create pull request button.](create-pull-request.PNG)
+   ![Click the green Create pull request button.](create-pull-request.png)
 
 
 ### Create a draft pull request (different from a Pull Request)
@@ -639,13 +639,13 @@ Other contributors can review your proposed changes, comment, add their thoughts
 
 ### Conversation
 
-![This is where you'll see comments and deployment status on your pull request.](pull-request-conversation.PNG)
+![This is where you'll see comments and deployment status on your pull request.](pull-request-conversation.png)
 
 Under this tab, you'll get an overview of the branch's past deployment activity and its current deployment status. If you're satisfied with proposed changes, congrats! You can go ahead and click the green "Merge pull request" button. If you're working in a shared repository, proposed changes will be merged from the head branch to the base branch specified in the pull request. 
 
 ### Commits and Files changed
 
-![A history of my commits.](commits-history.PNG)
+![A history of my commits.](commits-history.png)
 
 Under the Commits tab, you'll see a historical overview of the commits you've pushed from your topic branch added to your existing pull request, starting with the oldest.
 
@@ -653,13 +653,13 @@ Each commit is assigned a dedicated number. When you click on the number, you'll
 
 When you choose "Split", you'll see your changes highlighted - red on the left (your previous commit) and green on the right (current commit). 
 
-![A screenshot of the changes in my commit in the Diff Viewer. This is a Split layout.](files-changed.PNG)
+![A screenshot of the changes in my commit in the Diff Viewer. This is a Split layout.](files-changed.png)
 
 
 
 ### Comments
 
-![An example of a comment.](comment-example.PNG)
+![An example of a comment.](comment-example.png)
 
 Collaboration is at the heart of GitHub, and this really shows when it comes to how the platform handles comments. Hover over any numbered line within the green space in your Diff Viewer and you'll see a blue (+) symbol appear. Click on it and you'll be taken to a comment box where you can not only type your comment but also add a file by dragging, dropping, selecting or pasting. You can also insert a quote, add code, links or lists. 
 
@@ -679,7 +679,7 @@ If for some reason, you don't want to merge the changes in your topic branch wit
 
 #### How to merge a Pull Request
 
-![Click the green Merge pull request button.](merge-pull-request.PNG)
+![Click the green Merge pull request button.](merge-pull-request.png)
 
 1. Click "Pull requests" under your repository name. 
 
