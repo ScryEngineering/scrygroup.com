@@ -4,7 +4,7 @@ authors:
     - "Janis Lesinskis"
 date: "2018-05-11"
 tags:
-    - Git
+    - git
 contentType: "tutorial"
 ---
 

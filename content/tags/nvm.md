@@ -1,4 +1,4 @@
 ---
-name: nvm
+name: NVM
 slug: nvm
 ---

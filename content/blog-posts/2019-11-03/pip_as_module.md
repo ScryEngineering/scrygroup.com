@@ -4,10 +4,10 @@ authors:
     - "Janis Lesinskis"
 date: "2019-11-03"
 tags: 
-    - Python
+    - python
     - pip
     - paths
-    - package-management
+    - package management
 contentType: "blog"
 callToActionText: "Are you working on a project that requires in depth knowledge of Python? Get in touch today."
 ---

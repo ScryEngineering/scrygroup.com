@@ -2,9 +2,9 @@
 title: Forwards compatibility with Python generators
 date: "2019-07-03"
 tags:
-    - Python
+    - python
     - generators
-    - software-engineering
+    - software engineering
     - persephone
 authors:
     - "Janis Lesinskis"

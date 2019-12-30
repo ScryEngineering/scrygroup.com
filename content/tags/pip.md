@@ -1,4 +1,4 @@
 ---
-name: PIP
+name: pip
 slug: pip
 ---

@@ -2,9 +2,9 @@
 title: "This site is now open source"
 date: "2018-07-10"
 tags:
-    - open-source
+    - open source 
     - gatsby
-    - web-development
+    - web development
 contentType: "blog"
 ---
 

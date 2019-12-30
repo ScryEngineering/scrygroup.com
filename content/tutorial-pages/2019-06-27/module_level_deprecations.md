@@ -4,11 +4,11 @@ authors:
     - "Janis Lesinskis"
 date: "2019-06-27"
 tags:
-    - Python
-    - package-maintenance
+    - python
+    - package maintenance
     - deprecation
     - versioning
-    - software-lifecycle
+    - software lifecycle
 contentType: "tutorial"
 callToActionText: "Have you got a project that requires in depth knowledge of Python? We'd love to hear about it so fill in the form below with some details."
 hideCallToAction: false

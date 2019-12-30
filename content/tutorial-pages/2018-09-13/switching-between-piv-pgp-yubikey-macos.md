@@ -6,15 +6,15 @@ date: "2018-09-13"
 tags:
     - security
     - yubikey
-    - gpg
-    - pgp
-    - piv
+    - GPG
+    - PGP
+    - PIV
     - privacy
     - encryption
     - x509
     - cryptography
-    - digital-signatures
-    - elliptic-curve-cryptography
+    - digital signatures
+    - elliptic curve cryptography
 contentType: "tutorial"
 callToActionText: "Are you interested in ultimate security for your company? Could hardware security devices improve your internal processes and security policies? Fill in the form below to have one of our knowledgeable security experts contact you."
 hideCallToAction: false

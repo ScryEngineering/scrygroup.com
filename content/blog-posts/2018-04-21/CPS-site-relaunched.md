@@ -5,7 +5,7 @@ tags:
 - gatsby
 - drupal
 - CMS
-- web-development
+- web development
 contentType: "blog"
 callToActionText: "Are you interested in improving the technology that powers your websites? Fill in the form below with some details about your needs and we can start a discussion about what would most effectively meet your needs while giving you room to scale."
 hideCallToAction: false

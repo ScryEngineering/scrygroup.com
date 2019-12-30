@@ -4,10 +4,10 @@ authors:
     - "Janis Lesinskis"
 date: "2018-06-23"
 tags:
-    - Python
+    - python
     - testing
     - pytest
-    - unit-tests
+    - unit tests
 contentType: "tutorial"
 callToActionText: "Are you looking to improve your Python testing? Fill in the form below with some details and one of our Python experts will get back to you."
 hideCallToAction: false

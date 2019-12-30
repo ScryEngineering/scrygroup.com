@@ -4,7 +4,7 @@ authors:
     - "Janis Lesinskis"
 date: "2018-04-24"
 tags:
-    - Python
+    - python
     - OpenAPI
     - REST
 draft: true

@@ -4,7 +4,7 @@ authors:
     - "Janis Lesinskis"
 date: "2018-05-24"
 tags:
-    - Git
+    - git
 contentType: "tutorial"
 callToActionText: "Got any tips for using Git that you'd like to share? Fill in the form below, we'd love to hear from you!"
 hideCallToAction: false

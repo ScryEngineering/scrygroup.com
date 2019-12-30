@@ -6,9 +6,9 @@ date: "2018-04-23"
 tags:
     - javascript
     - ES6
-    - Python
-    - API-design
-    - programming-languages
+    - python
+    - API design
+    - programming languages
 contentType: "blog"
 ---
 

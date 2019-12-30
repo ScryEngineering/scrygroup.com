@@ -9,11 +9,11 @@ tags:
     - ethereum
     - hashing
     - cryptography
-    - merkle-tree
+    - merkle tree
     - mining
     - ASICs
-    - digital-signatures
-    - elliptic-curve-cryptography
+    - digital signatures
+    - elliptic curve cryptography
 contentType: "blog"
 callToActionText: "Is your business interested in exploring blockchain as a solution to your business needs? Fill in the form below and one of our expert partners will get back to you about how we could apply blockchain in your use case."
 hideCallToAction: false

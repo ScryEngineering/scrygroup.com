@@ -6,9 +6,9 @@ date: "2018-07-12"
 tags:
     - nodejs
     - yarn
-    - npm
+    - NPM
     - NVM
-    - package-management
+    - package management
 contentType: "tutorial"
 ---
 
