@@ -1,4 +1,3 @@
 ---
 name: deprecation
-slug: deprecation
 ---

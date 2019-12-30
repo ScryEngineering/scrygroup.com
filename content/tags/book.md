@@ -1,4 +1,3 @@
 ---
 name: book
-slug: book
 ---

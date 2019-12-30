@@ -1,4 +1,3 @@
 ---
 name: capabilities
-slug: capabilities
 ---

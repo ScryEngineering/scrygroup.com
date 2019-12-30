@@ -1,4 +1,3 @@
 ---
 name: SIMD
-slug: simd
 ---

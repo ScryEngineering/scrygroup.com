@@ -1,4 +1,3 @@
 ---
 name: maintenance
-slug: maintenance
 ---

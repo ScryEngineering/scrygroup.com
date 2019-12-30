@@ -1,4 +1,3 @@
 ---
 name: packages
-slug: packages
 ---

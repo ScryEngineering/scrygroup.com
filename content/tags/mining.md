@@ -1,4 +1,3 @@
 ---
 name: mining
-slug: mining
 ---

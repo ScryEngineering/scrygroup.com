@@ -1,4 +1,3 @@
 ---
 name: yarn
-slug: yarn
 ---

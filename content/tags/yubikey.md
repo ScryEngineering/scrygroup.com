@@ -1,4 +1,3 @@
 ---
 name: yubikey
-slug: yubikey
 ---

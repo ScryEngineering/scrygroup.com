@@ -1,4 +1,3 @@
 ---
 name: performance
-slug: performance
 ---

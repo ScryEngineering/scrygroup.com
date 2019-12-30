@@ -1,4 +1,3 @@
 ---
 name: leadership
-slug: leadership
 ---

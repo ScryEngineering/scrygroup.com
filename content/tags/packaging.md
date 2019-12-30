@@ -1,4 +1,3 @@
 ---
 name: packaging
-slug: packaging
 ---

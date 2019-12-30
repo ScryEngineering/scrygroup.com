@@ -1,4 +1,3 @@
 ---
 name: minizinc
-slug: minizinc
 ---

@@ -1,4 +1,3 @@
 ---
 name: workshops
-slug: workshops
 ---

@@ -1,4 +1,3 @@
 ---
 name: SSL
-slug: ssl
 ---

@@ -1,4 +1,3 @@
 ---
 name: GPG
-slug: gpg
 ---

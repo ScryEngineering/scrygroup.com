@@ -1,4 +1,3 @@
 ---
 name: blockchain
-slug: blockchain
 ---

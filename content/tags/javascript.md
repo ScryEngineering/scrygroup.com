@@ -1,4 +1,3 @@
 ---
 name: javascript
-slug: javascript
 ---

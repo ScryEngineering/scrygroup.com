@@ -1,4 +1,3 @@
 ---
 name: mypy
-slug: mypy
 ---

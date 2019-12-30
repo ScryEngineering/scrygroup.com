@@ -1,4 +1,3 @@
 ---
 name: gatsby
-slug: gatsby
 ---

@@ -1,4 +1,3 @@
 ---
 name: SQLite
-slug: sqlite
 ---

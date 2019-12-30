@@ -1,4 +1,3 @@
 ---
 name: training
-slug: training
 ---

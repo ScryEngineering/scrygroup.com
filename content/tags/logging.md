@@ -1,4 +1,3 @@
 ---
 name: logging
-slug: logging
 ---

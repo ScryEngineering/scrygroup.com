@@ -1,4 +1,3 @@
 ---
 name: management
-slug: management
 ---

@@ -1,4 +1,3 @@
 ---
 name: cpython
-slug: cpython
 ---

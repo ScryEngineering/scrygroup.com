@@ -1,4 +1,3 @@
 ---
 name: paths
-slug: paths
 ---

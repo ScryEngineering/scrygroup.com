@@ -1,4 +1,3 @@
 ---
 name: PIV
-slug: piv
 ---

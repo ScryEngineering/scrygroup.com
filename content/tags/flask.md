@@ -1,4 +1,3 @@
 ---
 name: flask
-slug: flask
 ---

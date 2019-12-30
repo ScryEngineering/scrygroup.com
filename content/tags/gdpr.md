@@ -1,4 +1,3 @@
 ---
 name: GDPR
-slug: gdpr
 ---

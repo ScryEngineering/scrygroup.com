@@ -1,4 +1,3 @@
 ---
 name: OpenAPI
-slug: openapi
 ---

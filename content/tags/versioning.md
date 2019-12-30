@@ -1,4 +1,3 @@
 ---
 name: versioning
-slug: versioning
 ---

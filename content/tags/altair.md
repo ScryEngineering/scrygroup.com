@@ -1,4 +1,3 @@
 ---
 name: altair
-slug: altair
 ---

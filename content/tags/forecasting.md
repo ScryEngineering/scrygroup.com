@@ -1,4 +1,3 @@
 ---
 name: forecasting
-slug: forecasting
 ---

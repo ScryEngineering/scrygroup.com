@@ -1,4 +1,3 @@
 ---
 name: encryption
-slug: encryption
 ---

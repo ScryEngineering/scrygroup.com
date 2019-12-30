@@ -1,4 +1,3 @@
 ---
 name: jupyter
-slug: jupyter
 ---

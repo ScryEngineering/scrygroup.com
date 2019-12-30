@@ -1,4 +1,3 @@
 ---
 name: partnerships
-slug: partnerships
 ---

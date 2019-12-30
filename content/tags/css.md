@@ -1,4 +1,3 @@
 ---
 name: CSS
-slug: css
 ---

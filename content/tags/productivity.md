@@ -1,4 +1,3 @@
 ---
 name: productivity
-slug: productivity
 ---

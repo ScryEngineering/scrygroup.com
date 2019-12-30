@@ -1,4 +1,3 @@
 ---
 name: hashing
-slug: hashing
 ---

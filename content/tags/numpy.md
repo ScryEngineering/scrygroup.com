@@ -1,4 +1,3 @@
 ---
 name: numpy
-slug: numpy
 ---

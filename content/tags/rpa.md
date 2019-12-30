@@ -1,4 +1,3 @@
 ---
 name: RPA
-slug: rpa
 ---

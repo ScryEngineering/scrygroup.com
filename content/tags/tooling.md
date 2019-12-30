@@ -1,4 +1,3 @@
 ---
 name: tooling
-slug: tooling
 ---

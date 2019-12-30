@@ -1,4 +1,3 @@
 ---
 name: REST
-slug: rest
 ---

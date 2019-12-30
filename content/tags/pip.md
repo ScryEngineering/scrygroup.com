@@ -1,4 +1,3 @@
 ---
 name: pip
-slug: pip
 ---

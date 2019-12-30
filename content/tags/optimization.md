@@ -1,4 +1,3 @@
 ---
 name: optimization
-slug: optimization
 ---

@@ -1,4 +1,3 @@
 ---
 name: debugging
-slug: debugging
 ---

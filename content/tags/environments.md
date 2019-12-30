@@ -1,4 +1,3 @@
 ---
 name: environments
-slug: environments
 ---

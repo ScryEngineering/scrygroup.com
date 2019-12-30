@@ -1,4 +1,3 @@
 ---
 name: satisfiability
-slug: satisfiability
 ---

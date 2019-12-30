@@ -1,4 +1,3 @@
 ---
 name: ethereum
-slug: ethereum
 ---

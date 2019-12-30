@@ -1,4 +1,3 @@
 ---
 name: community
-slug: community
 ---

@@ -1,4 +1,3 @@
 ---
 name: cryptography
-slug: cryptography
 ---
