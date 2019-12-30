@@ -101,18 +101,6 @@ exports.createPages = ({ graphql, actions }) => {
         "The 'people' folder is missing within the 'content' folder."
       );
     }
-    if (
-      !fs.existsSync(
-        path.resolve(`content/services/`)
-      )
-    ) {
-      reject(
-        "The 'services' folder is missing within the 'content' folder."
-      );
-    }
-
-
-
     graphql(`
       {
         allMarkdownRemark (filter: { fields: { isPerson: { eq: true } } }) {
@@ -221,6 +209,15 @@ exports.createPages = ({ graphql, actions }) => {
   })
 
   const create_service_pages = new Promise((resolve, reject) => {
+    if (
+      !fs.existsSync(
+        path.resolve(`content/services/`)
+      )
+    ) {
+      reject(
+        "The 'services' folder is missing within the 'content' folder."
+      );
+    }
     graphql(`
     {
       allMarkdownRemark (
