@@ -91,7 +91,7 @@ exports.createPages = ({ graphql, actions }) => {
   const postPage = path.resolve("src/templates/post.js");
   const servicePage = path.resolve("src/templates/service.js");
 
-  return new Promise((resolve, reject) => {
+  const create_everything = new Promise((resolve, reject) => {
     if (
       !fs.existsSync(
         path.resolve(`content/people/`)
@@ -260,6 +260,7 @@ exports.createPages = ({ graphql, actions }) => {
         })
       })
     })
+  return Promise.all([create_everything]);
   })
 };
 
