@@ -5,7 +5,7 @@ author:
 date: "2019-03-25"
 tags:
     - GitHub
-    - Git
+    - git
 contentType: "tutorial"
 callToActionText: "Have you got a project that requires a copywriter who uses GitHub? Did we miss any tips you think should be in this guide? We'd love to hear from you - fill in the form below with some details."
 hideCallToAction: false
