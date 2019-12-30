@@ -145,79 +145,81 @@ exports.createPages = ({ graphql, actions }) => {
           }
         });
       });
-
-      graphql(`
-        {
-          allMarkdownRemark (
-            filter: {
-              fields: {
-                isPost: { eq: true }
-              }
-              frontmatter: {
-                draft: { ne: true }
-              }
-            })
-          {
-            edges {
-              node {
-                frontmatter {
-                  tags
-                  draft
-                }
-                fields {
-                  slug
-                }
-              }
-            }
-          }
-        }
-      `).then(result => {
-        if (result.errors) {
-          /* eslint no-console: "off" */
-          console.log(result.errors);
-          reject(result.errors);
-        }
-
-        const tagSet = new Set();
-
-        result.data.allMarkdownRemark.edges.forEach(edge => {
-          if (edge.node.frontmatter.tags) {
-            edge.node.frontmatter.tags.forEach(tag => {
-              tagSet.add(tag);
-            });
-          }
-        });
-
-        const tagList = Array.from(tagSet);
-        tagList.forEach(tag => {
-          createPage({
-            path: `/tags/${_.kebabCase(tag)}/`,
-            component: tagPage,
-            context: {
-              tag
-            }
-          });
-        });
-
-        console.log("Creating markdown pages")
-        result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-          if (node.frontmatter.draft !== true) {
-            const pagePath = node.fields.slug
-            createPage({
-              path: pagePath,
-              component: postPage,
-              context: {
-                // Data passed to context is available in page queries as GraphQL variables.
-                slug: pagePath,
-              },
-            })
-          }
-        });
-        resolve()
-
-      })
+      resolve()
     })
   })
+  const create_blog_and_tutorial_pages = new Promise((resolve, reject) => {
+    graphql(`
+    {
+      allMarkdownRemark (
+        filter: {
+          fields: {
+            isPost: { eq: true }
+          }
+          frontmatter: {
+            draft: { ne: true }
+          }
+        })
+      {
+        edges {
+          node {
+            frontmatter {
+              tags
+              draft
+            }
+            fields {
+              slug
+            }
+          }
+        }
+      }
+    }
+    `).then(result => {
+      if (result.errors) {
+        /* eslint no-console: "off" */
+        console.log(result.errors);
+        reject(result.errors);
+      }
+
+      const tagSet = new Set();
+
+      result.data.allMarkdownRemark.edges.forEach(edge => {
+        if (edge.node.frontmatter.tags) {
+          edge.node.frontmatter.tags.forEach(tag => {
+            tagSet.add(tag);
+          });
+        }
+      });
+
+      const tagList = Array.from(tagSet);
+      tagList.forEach(tag => {
+        createPage({
+          path: `/tags/${_.kebabCase(tag)}/`,
+          component: tagPage,
+          context: {
+            tag
+          }
+        });
+      });
+
+      console.log("Creating markdown pages")
+      result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+        if (node.frontmatter.draft !== true) {
+          const pagePath = node.fields.slug
+          createPage({
+            path: pagePath,
+            component: postPage,
+            context: {
+              // Data passed to context is available in page queries as GraphQL variables.
+              slug: pagePath,
+            },
+          })
+        }
+      });
+    resolve()
+    })
+  })
+
   const create_service_pages = new Promise((resolve, reject) => {
     graphql(`
     {
@@ -263,7 +265,7 @@ exports.createPages = ({ graphql, actions }) => {
       resolve()
     })
   })
-  return Promise.all([create_everything, create_service_pages]);
+  return Promise.all([create_everything, create_service_pages, create_blog_and_tutorial_pages]);
 };
 
 exports.onCreateWebpackConfig = ({ actions, stage }) => {
