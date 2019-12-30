@@ -213,55 +213,57 @@ exports.createPages = ({ graphql, actions }) => {
             })
           }
         });
+        resolve()
 
-
-        graphql(`
-        {
-          allMarkdownRemark (
-            filter: {
-              fields: {
-                isService: { eq: true }
-              }
-              frontmatter: {
-                draft: { ne: true }
-              }
-            })
-          {
-            edges {
-              node {
-                frontmatter {
-                  name
-                }
-                fields {
-                  internalURL
-                }
-              }
-            }
-          }
-        }
-      `).then(result => {
-          if (result.errors) {
-            /* eslint no-console: "off" */
-            console.log(result.errors);
-            reject(result.errors);
-          }
-
-          console.log("Creating service pages")
-          result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-            createPage({
-              path: node.fields.internalURL,
-              component: servicePage,
-              context: {
-                service: node.frontmatter.name
-              }
-            });
-          });
-          resolve()
-        })
       })
     })
   })
-  return Promise.all([create_everything]);
+  const create_service_pages = new Promise((resolve, reject) => {
+    graphql(`
+    {
+      allMarkdownRemark (
+        filter: {
+          fields: {
+            isService: { eq: true }
+          }
+          frontmatter: {
+            draft: { ne: true }
+          }
+        })
+      {
+        edges {
+          node {
+            frontmatter {
+              name
+            }
+            fields {
+              internalURL
+            }
+          }
+        }
+      }
+    }
+  `).then(result => {
+      if (result.errors) {
+        /* eslint no-console: "off" */
+        console.log(result.errors);
+        reject(result.errors);
+      }
+
+      console.log("Creating service pages")
+      result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+        createPage({
+          path: node.fields.internalURL,
+          component: servicePage,
+          context: {
+            service: node.frontmatter.name
+          }
+        });
+      });
+      resolve()
+    })
+  })
+  return Promise.all([create_everything, create_service_pages]);
 };
 
 exports.onCreateWebpackConfig = ({ actions, stage }) => {
