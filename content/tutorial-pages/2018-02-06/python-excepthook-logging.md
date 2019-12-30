@@ -4,8 +4,8 @@ authors:
     - "Janis Lesinskis"
 date: "2018-02-06"
 tags:
-    - exception-handling
-    - Python
+    - exception handling
+    - python
     - logging
 contentType: "tutorial"
 ---

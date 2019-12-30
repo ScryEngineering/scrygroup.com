@@ -2,9 +2,9 @@
 title: "Improving the Persephone library"
 date: "2018-02-21"
 tags:
-    - project-management
-    - software-engineering
-    - open-source
+    - project management
+    - software engineering
+    - open source
 contentType: "blog"
 callToActionText: "Is your business interested in discussing the benefits/costs of open sourcing code? Fill in the form below and one of our expert partners will get back to you about how open source could help you."
 hideCallToAction: false

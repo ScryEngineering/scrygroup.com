@@ -3,7 +3,7 @@ title: "GDPR regulations are now in force"
 date: "2018-05-26"
 tags:
     - GDPR
-    - software-industry
+    - software industry
     - regulations
 contentType: "blog"
 ---

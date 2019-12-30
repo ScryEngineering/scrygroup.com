@@ -5,11 +5,11 @@ authors:
 date: "2018-11-17"
 modified: "2019-08-07"
 tags:
-    - Python
+    - python
     - talks
     - community
-    - unit-tests
-    - CPython
+    - unit tests
+    - cpython
 contentType: "blog"
 callToActionText: "Are you looking to improve the memory footprint of your Python programs? Fill in the form below with some details and one of our Python experts will get back to you."
 hideCallToAction: false

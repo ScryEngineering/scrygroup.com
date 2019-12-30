@@ -4,9 +4,9 @@ authors:
     - "Janis Lesinskis"
 date: "2018-06-26"
 tags:
-    - Tensorflow
-    - Python
-    - Packaging
+    - tensorflow
+    - python
+    - packaging
 contentType: "blog"
 ---
 

@@ -6,9 +6,9 @@ authors:
 tags:
     - book
     - software
-    - project-management
-    - software-industry
-    - book-review
+    - project management
+    - software industry
+    - book review
     - non-technical
 contentType: "blog"
 ---

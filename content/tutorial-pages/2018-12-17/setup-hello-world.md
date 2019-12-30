@@ -4,7 +4,7 @@ authors:
     - "Janis Lesinskis"
 date: "2018-12-17"
 tags:
-    - Python
+    - python
     - packaging
 contentType: "tutorial"
 callToActionText: "Have you got a project that requires in depth knowledge of python packaging or deployment? Or do you have a topic about Python packaging you would like to see a post about? We'd love to hear about it so fill in the form below with some details."

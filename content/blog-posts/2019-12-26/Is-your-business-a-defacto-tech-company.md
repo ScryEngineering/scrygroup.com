@@ -6,7 +6,7 @@ authors:
 date: "2019-12-26"
 tags:
       - management
-      - tech-strategy
+      - tech strategy
       - strategy
       - outsourcing
       - capabilities

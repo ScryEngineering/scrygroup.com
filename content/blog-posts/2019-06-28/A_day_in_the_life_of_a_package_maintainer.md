@@ -2,13 +2,13 @@
 title: "A day in the life of a package maintainer"
 date: "2019-06-28"
 tags:
-    - dependency-management
-    - travisCI
+    - dependency management
+    - travis-ci
     - python
     - packages
     - maintenance
     - persephone
-    - software-lifecycle
+    - software lifecycle
 contentType: "blog"
 Slug:  A-day-in-the-life-of-a-package-maintainer
 authors:

@@ -4,7 +4,7 @@ authors:
     - "Janis Lesinskis"
 date: "2018-05-23"
 tags:
-    - web-development
+    - web development
     - web-API
     - CURL
     - testing

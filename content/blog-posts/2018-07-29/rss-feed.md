@@ -2,7 +2,7 @@
 title: "We now have an RSS feed"
 date: "2018-07-29"
 tags:
-    - rss
+    - RSS
 contentType: "blog"
 ---
 

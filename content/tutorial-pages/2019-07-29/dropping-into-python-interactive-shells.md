@@ -5,8 +5,8 @@ authors:
 date: "2019-07-29"
 modified: "2019-07-31"
 tags:
-    - Python
-    - Debugging
+    - python
+    - debugging
 contentType: "tutorial"
 callToActionText: "Have you got a project that requires in depth knowledge of Python? We'd love to hear about it so fill in the form below with some details."
 hideCallToAction: false

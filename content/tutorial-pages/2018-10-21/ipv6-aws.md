@@ -4,7 +4,7 @@ authors:
     - "Aapeli Vuorinen"
 date: "2018-10-21"
 tags:
-    - aws
+    - AWS
     - IPv6
 contentType: "tutorial"
 ---

@@ -4,11 +4,11 @@ authors:
     - "Janis Lesinskis"
 date: "2018-05-07"
 tags:
-    - Python
+    - python
     - SQLite
     - SQLAlchemy
     - SQL
-    - Flask
+    - flask
 contentType: "tutorial"
 ---
 

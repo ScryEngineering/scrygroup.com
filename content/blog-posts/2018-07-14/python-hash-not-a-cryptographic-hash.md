@@ -4,7 +4,7 @@ authors:
     - "Janis Lesinskis"
 date: "2018-07-14"
 tags:
-    - Python
+    - python
     - hashing
     - cryptography
 contentType: "blog"

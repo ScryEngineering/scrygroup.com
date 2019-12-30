@@ -4,13 +4,13 @@ authors:
     - "Janis Lesinskis"
 date: "2018-05-27"
 tags:
-    - Python
+    - python
     - pytest
     - OpenAPI
     - REST
-    - Flask
+    - flask
     - testing
-    - web-API
+    - web API
 contentType: "tutorial"
 ---
 

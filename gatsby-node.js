@@ -58,6 +58,18 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
         value: `/services/${_.kebabCase(node.frontmatter.name)}/`,
       })
       pageType = "service";
+    } else if (isOfType("tags")) {
+      pageType = "tag"
+      const slug = node.frontmatter.name.toLowerCase().replace(/ /g, '-')
+      if (!node.fileAbsolutePath.includes(`content/tags/${slug}.md`)) {
+        console.error(`Filename for tag "${node.frontmatter.name}" does not match expected filename "content/tags/${slug}.md" (got ${node.fileAbsolutePath})`)
+        reject()
+      }
+      createNodeField({
+        node,
+        name: `internalURL`,
+        value: `/tags/${slug}/`,
+      })
     } else {
       throw new Error(`Unknown markdown document encountered: ${node}`)
     }
@@ -81,6 +93,11 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       name: `isService`,
       value: pageType === "service",
     })
+    createNodeField({
+      node,
+      name: `isTag`,
+      value: pageType === "tag",
+    })
   }
 };
 
@@ -91,7 +108,48 @@ exports.createPages = ({ graphql, actions }) => {
   const postPage = path.resolve("src/templates/post.js");
   const servicePage = path.resolve("src/templates/service.js");
 
-  const create_people_pages= new Promise((resolve, reject) => {
+  // We have to run this first so we know all the tags and can check content only uses valid ones
+  const create_tag_pages = new Promise((resolve, reject) => {
+    graphql(`
+      {
+        allMarkdownRemark (filter: { fields: { isTag: { eq: true } } }) {
+          edges {
+            node {
+              frontmatter {
+                name
+              }
+              fields {
+                internalURL
+              }
+            }
+          }
+        }
+      }
+    `).then(result => {
+      if (result.errors) {
+        /* eslint no-console: "off" */
+        console.log(result.errors);
+        reject(result.errors);
+      }
+
+      const tagNameSet = new Set();
+
+      console.log("Creating tag pages")
+      result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+        createPage({
+          path: node.fields.internalURL,
+          component: tagPage,
+          context: {
+            tag: node.frontmatter.name
+          }
+        });
+        tagNameSet.add(node.frontmatter.name)
+      });
+      resolve(tagNameSet)
+    })
+  })
+
+  const create_people_pages = new Promise((resolve, reject) => {
     if (
       !fs.existsSync(
         path.resolve(`content/people/`)
@@ -136,7 +194,8 @@ exports.createPages = ({ graphql, actions }) => {
       resolve()
     })
   })
-  const create_blog_and_tutorial_pages = new Promise((resolve, reject) => {
+
+  const create_blog_and_tutorial_pages = (tag_names) => new Promise((resolve, reject) => {
     graphql(`
     {
       allMarkdownRemark (
@@ -169,27 +228,6 @@ exports.createPages = ({ graphql, actions }) => {
         reject(result.errors);
       }
 
-      const tagSet = new Set();
-
-      result.data.allMarkdownRemark.edges.forEach(edge => {
-        if (edge.node.frontmatter.tags) {
-          edge.node.frontmatter.tags.forEach(tag => {
-            tagSet.add(tag);
-          });
-        }
-      });
-
-      const tagList = Array.from(tagSet);
-      tagList.forEach(tag => {
-        createPage({
-          path: `/tags/${_.kebabCase(tag)}/`,
-          component: tagPage,
-          context: {
-            tag
-          }
-        });
-      });
-
       console.log("Creating markdown pages")
       result.data.allMarkdownRemark.edges.forEach(({ node }) => {
         if (node.frontmatter.draft !== true) {
@@ -202,6 +240,13 @@ exports.createPages = ({ graphql, actions }) => {
               slug: pagePath,
             },
           })
+          if (node.frontmatter.tags) {
+            node.frontmatter.tags.forEach(tag => {
+              if (!tag_names.has(tag)) {
+                console.log(`Unknown tag "${tag}" in post ${node.fields.slug}`)
+              }
+            })
+          }
         }
       });
     resolve()
@@ -262,7 +307,7 @@ exports.createPages = ({ graphql, actions }) => {
       resolve()
     })
   })
-  return Promise.all([create_people_pages, create_service_pages, create_blog_and_tutorial_pages]);
+  return Promise.all([create_people_pages, create_service_pages, create_tag_pages.then(res => create_blog_and_tutorial_pages(res)), ]);
 };
 
 exports.onCreateWebpackConfig = ({ actions, stage }) => {

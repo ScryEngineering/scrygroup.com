@@ -50,6 +50,13 @@ module.exports = {
         path: `${config.contentDir}/content/services`
       }
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `tags`,
+        path: `${config.contentDir}/content/tags`,
+      },
+    },
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-transformer-json`,

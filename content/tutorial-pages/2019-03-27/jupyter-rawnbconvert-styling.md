@@ -4,8 +4,8 @@ authors:
     - "Janis Lesinskis"
 date: "2019-03-27"
 tags:
-    - Python
-    - Jupyter
+    - python
+    - jupyter
     - CSS
     - usability
     - UX

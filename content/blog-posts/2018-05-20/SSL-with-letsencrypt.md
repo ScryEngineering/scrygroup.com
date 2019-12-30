@@ -6,7 +6,7 @@ date: "2018-05-20"
 tags:
     - SSL
     - encryption
-    - web-development
+    - web development
     - security
 contentType: "blog"
 ---
