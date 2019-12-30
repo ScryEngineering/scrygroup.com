@@ -1,4 +1,4 @@
 ---
 name: book
+slug: book
 ---
-

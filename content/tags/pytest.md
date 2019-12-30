@@ -1,4 +1,4 @@
 ---
 name: pytest
+slug: pytest
 ---
-

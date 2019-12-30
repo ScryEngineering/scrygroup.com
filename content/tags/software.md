@@ -1,4 +1,4 @@
 ---
 name: software
+slug: software
 ---
-

@@ -1,4 +1,4 @@
 ---
 name: testing
+slug: testing
 ---
-

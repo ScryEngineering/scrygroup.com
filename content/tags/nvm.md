@@ -1,4 +1,4 @@
 ---
 name: nvm
+slug: nvm
 ---
-

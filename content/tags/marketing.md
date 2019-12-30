@@ -1,4 +1,4 @@
 ---
 name: marketing
+slug: marketing
 ---
-

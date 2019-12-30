@@ -1,4 +1,4 @@
 ---
 name: git
+slug: git
 ---
-

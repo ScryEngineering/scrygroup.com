@@ -1,4 +1,4 @@
 ---
 name: tensorflow
+slug: tensorflow
 ---
-

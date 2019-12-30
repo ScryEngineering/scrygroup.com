@@ -1,4 +1,4 @@
 ---
 name: talks
+slug: talks
 ---
-

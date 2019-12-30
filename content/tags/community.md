@@ -1,4 +1,4 @@
 ---
 name: community
+slug: community
 ---
-

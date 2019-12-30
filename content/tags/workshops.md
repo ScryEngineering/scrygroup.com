@@ -1,4 +1,4 @@
 ---
 name: workshops
+slug: workshops
 ---
-

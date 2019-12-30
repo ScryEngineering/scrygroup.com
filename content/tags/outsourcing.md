@@ -1,4 +1,4 @@
 ---
 name: outsourcing
+slug: outsourcing
 ---
-

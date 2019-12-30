@@ -1,4 +1,4 @@
 ---
 name: SIMD
+slug: simd
 ---
-

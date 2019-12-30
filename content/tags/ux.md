@@ -1,4 +1,4 @@
 ---
 name: UX
+slug: ux
 ---
-

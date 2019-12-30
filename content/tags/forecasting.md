@@ -1,4 +1,4 @@
 ---
 name: forecasting
+slug: forecasting
 ---
-

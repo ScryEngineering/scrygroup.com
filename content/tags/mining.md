@@ -1,4 +1,4 @@
 ---
 name: mining
+slug: mining
 ---
-

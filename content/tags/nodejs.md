@@ -1,4 +1,4 @@
 ---
 name: nodejs
+slug: nodejs
 ---
-

@@ -1,4 +1,4 @@
 ---
 name: generators
+slug: generators
 ---
-

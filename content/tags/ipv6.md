@@ -1,4 +1,4 @@
 ---
 name: IPv6
+slug: ipv6
 ---
-

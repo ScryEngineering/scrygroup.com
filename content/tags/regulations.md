@@ -1,4 +1,4 @@
 ---
 name: regulations
+slug: regulations
 ---
-

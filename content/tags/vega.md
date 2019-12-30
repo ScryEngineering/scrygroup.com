@@ -1,4 +1,4 @@
 ---
 name: vega
+slug: vega
 ---
-

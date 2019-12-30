@@ -1,4 +1,4 @@
 ---
 name: profiling
+slug: profiling
 ---
-

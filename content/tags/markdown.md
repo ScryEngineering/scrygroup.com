@@ -1,4 +1,4 @@
 ---
 name: markdown
+slug: markdown
 ---
-

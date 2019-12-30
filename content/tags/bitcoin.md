@@ -1,4 +1,4 @@
 ---
 name: bitcoin
+slug: bitcoin
 ---
-

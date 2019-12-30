@@ -1,4 +1,4 @@
 ---
 name: mocks
+slug: mocks
 ---
-

@@ -1,4 +1,4 @@
 ---
 name: CMS
+slug: cms
 ---
-

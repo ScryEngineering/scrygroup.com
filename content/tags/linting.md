@@ -1,4 +1,4 @@
 ---
 name: linting
+slug: linting
 ---
-

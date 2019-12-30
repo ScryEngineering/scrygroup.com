@@ -1,4 +1,4 @@
 ---
 name: PGP
+slug: pgp
 ---
-

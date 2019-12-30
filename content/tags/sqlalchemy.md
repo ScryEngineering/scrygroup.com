@@ -1,4 +1,4 @@
 ---
 name: SQLAlchemy
+slug: sqlalchemy
 ---
-

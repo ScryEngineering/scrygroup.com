@@ -1,4 +1,4 @@
 ---
 name: trivia
+slug: trivia
 ---
-

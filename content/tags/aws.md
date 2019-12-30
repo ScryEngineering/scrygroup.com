@@ -1,4 +1,4 @@
 ---
 name: AWS
+slug: aws
 ---
-

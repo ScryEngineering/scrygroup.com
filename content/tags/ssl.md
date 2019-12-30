@@ -1,4 +1,4 @@
 ---
 name: SSL
+slug: ssl
 ---
-

@@ -1,4 +1,4 @@
 ---
 name: drupal
+slug: drupal
 ---
-

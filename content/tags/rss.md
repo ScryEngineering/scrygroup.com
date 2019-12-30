@@ -1,4 +1,4 @@
 ---
 name: RSS
+slug: rss
 ---
-

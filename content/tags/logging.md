@@ -1,4 +1,4 @@
 ---
 name: logging
+slug: logging
 ---
-

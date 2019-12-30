@@ -1,4 +1,4 @@
 ---
 name: security
+slug: security
 ---
-

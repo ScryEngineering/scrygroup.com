@@ -1,4 +1,4 @@
 ---
 name: automation
+slug: automation
 ---
-

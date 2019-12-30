@@ -1,4 +1,4 @@
 ---
 name: arrays
+slug: arrays
 ---
-

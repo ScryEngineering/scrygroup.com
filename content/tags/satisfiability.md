@@ -1,4 +1,4 @@
 ---
 name: satisfiability
+slug: satisfiability
 ---
-

@@ -1,4 +1,4 @@
 ---
 name: education
+slug: education
 ---
-

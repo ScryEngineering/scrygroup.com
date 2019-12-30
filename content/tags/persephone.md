@@ -1,4 +1,4 @@
 ---
 name: persephone
+slug: persephone
 ---
-

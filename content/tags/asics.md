@@ -1,4 +1,4 @@
 ---
 name: ASICs
+slug: asics
 ---
-

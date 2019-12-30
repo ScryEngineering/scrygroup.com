@@ -1,4 +1,4 @@
 ---
 name: mypy
+slug: mypy
 ---
-

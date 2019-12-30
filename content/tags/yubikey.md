@@ -1,4 +1,4 @@
 ---
 name: yubikey
+slug: yubikey
 ---
-

@@ -1,4 +1,4 @@
 ---
 name: maintenance
+slug: maintenance
 ---
-

@@ -1,4 +1,4 @@
 ---
 name: usability
+slug: usability
 ---
-
