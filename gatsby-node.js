@@ -103,6 +103,49 @@ exports.createPages = ({ graphql, actions }) => {
   const postPage = path.resolve("src/templates/post.js");
   const servicePage = path.resolve("src/templates/service.js");
 
+  // We have to run this first so we know all the tags and can check content only uses valid ones
+  const create_tag_pages = new Promise((resolve, reject) => {
+    graphql(`
+      {
+        allMarkdownRemark (filter: { fields: { isTag: { eq: true } } }) {
+          edges {
+            node {
+              frontmatter {
+                name
+              }
+              fields {
+                internalURL
+              }
+            }
+          }
+        }
+      }
+    `).then(result => {
+      if (result.errors) {
+        /* eslint no-console: "off" */
+        console.log(result.errors);
+        reject(result.errors);
+      }
+
+      const tagNameSet = new Set();
+      const tagSlugSet = new Set();
+
+      console.log("Creating tag pages")
+      result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+        createPage({
+          path: node.fields.internalURL,
+          component: tagPage,
+          context: {
+            tag: node.frontmatter.name
+          }
+        });
+        tagNameSet.add(node.frontmatter.name)
+        tagSlugSet.add(node.frontmatter.slug)
+      });
+      resolve(tagNameSet, tagSlugSet)
+    })
+  })
+
   const create_people_pages = new Promise((resolve, reject) => {
     if (
       !fs.existsSync(
@@ -142,43 +185,6 @@ exports.createPages = ({ graphql, actions }) => {
           component: authorPage,
           context: {
             author: node.frontmatter.name
-          }
-        });
-      });
-      resolve()
-    })
-  })
-
-  const create_tag_pages = new Promise((resolve, reject) => {
-    graphql(`
-      {
-        allMarkdownRemark (filter: { fields: { isTag: { eq: true } } }) {
-          edges {
-            node {
-              frontmatter {
-                name
-              }
-              fields {
-                internalURL
-              }
-            }
-          }
-        }
-      }
-    `).then(result => {
-      if (result.errors) {
-        /* eslint no-console: "off" */
-        console.log(result.errors);
-        reject(result.errors);
-      }
-
-      console.log("Creating tag pages")
-      result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-        createPage({
-          path: node.fields.internalURL,
-          component: tagPage,
-          context: {
-            tag: node.frontmatter.name
           }
         });
       });
