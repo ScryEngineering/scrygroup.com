@@ -1,7 +1,7 @@
 ---
 name: colour spaces
 ---
-Colour spaces are an important concept in defining what colours a specific device can produce.
+Colour spaces are an important concept in defining what colours a specific device can produce and in general, representing a given colour digitally.
 
 Examples of colour spaces include:
 
