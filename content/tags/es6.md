@@ -5,13 +5,13 @@ ECMA Script version 6 (ES6) is a standardized version of Javascript that introdu
 
 This version of the language introduced many constructs that are highly useful for developers including:
 
-- Better handling of variable scope
+- Better handling of variable scope and constants
 - Modules
 - Classes
 - Set and Map data types
 - Arrow functions
 - Promises
 
-A bigger list of differences between ECMAScript versions 5 and 6, along with example code can be see n at: http://es6-features.org/
+A bigger list of differences between ECMAScript versions 5 and 6, along with example code can be seen at: http://es6-features.org/
 
 Note that the official name is "ECMAScript 2015 Language" and the [full text of the standard is available here](http://www.ecma-international.org/ecma-262/6.0/index.html)
