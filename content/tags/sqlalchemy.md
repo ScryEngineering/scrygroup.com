@@ -2,7 +2,7 @@
 name: SQLAlchemy
 website: "https://www.sqlalchemy.org/"
 ---
-[SQLAlchemy](https://www.sqlalchemy.org/) is a library that provides access to SQL databases from Python.
+[SQLAlchemy](https://www.sqlalchemy.org/) is a library that provides access to SQL databases from Python through a unified interface.
 
 The library contains a powerful Object Relational Mapper (ORM) and a variety of tools for dealing with raw SQL which it refers to as "Core".
 

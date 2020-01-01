@@ -1,6 +1,6 @@
 ---
 name: ASICs
 ---
-Application specific integrated circuits (ASICs) are hardware devices that are specifically designed for a particular applications.
+Application Specific Integrated Circuits (ASICs) are integrated circuits specifically designed for a particular application.
 
-These appear in a number of industries where there are enough benefits from doing a certain task with high enough performance to justify the costs of the hardware.
+These appear in a number of industries where there are enough benefits from doing a certain task with high enough performance to justify the high costs of the hardware design and development process.
