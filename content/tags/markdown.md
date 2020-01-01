@@ -13,3 +13,5 @@ There are multiple implementations of markdown in common use:
 - [CommonMark](https://commonmark.org/)
   - [GitHub Flavored markdown](https://github.github.com/gfm/) (which is an extension of CommonMark)
 - [MultiMarkdown](https://fletcherpenney.net/multimarkdown/)
+
+This summary itself was written in markdown and has been transformed via our web publishing pipeline into the web page you are currently seeing.
