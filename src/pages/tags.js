@@ -23,6 +23,9 @@ const TagsPage = ({
     <HelmetWrapper title="Tags" />
     <Masthead heading="Tags" />
     <div className="contentdiv">
+      We use tags to help organize the content on our site.
+      Click on a tag below to see the posts we have on that topic.
+      On more popular topics we have provided a short summary about the tag.
       <ul>
         {group.map(tag => (
           <li key={tag.fieldValue}>
