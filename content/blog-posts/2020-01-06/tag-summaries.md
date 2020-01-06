@@ -1,0 +1,17 @@
+---
+title: "We now have tag summaries"
+authors:
+       - "Janis Lesinskis"
+date: "2020-01-06"
+tags:
+    - blog
+    - cms
+    - taxonomy
+contentType: "blog"
+---
+
+You may have noticed on the posts in our blog that we have tags that represent the type of content in each post.
+
+Recently we added the ability to see a summary of tags. If you are wondering what one of the tags means click on it and you'll be able to see all the posts we wrote on that topic and potentially a summary explaining what that topic is.
+
+Have a look at our [tags page](/tags) to get a sense of the topics we have wrote about.
