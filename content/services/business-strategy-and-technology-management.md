@@ -38,7 +38,7 @@ Our Business Strategy and Technology Management services can include:
 - Assess problems, research potential technological solutions and present you with best options
 - Compare cost and profitability of solutions vs. alternatives
 - Highlight interdependencies between the tools you use and the people you hire
-- Create custom learning plans to help you and your staff explore and master new technologies (such as Anki, an open-source flashcard program that makes remembering things easy)
+- Create custom learning plans to help you and your staff explore and master new technologies (such as [Anki](https://apps.ankiweb.net/), an open-source [spaced repetition](https://en.wikipedia.org/wiki/Spaced_repetition_software) flashcard program that makes remembering things easy)
 - Research and define your current and future software assets and requirements
 
 A solid business strategy and technology management plan is essential to building a strong foundation for future growth and finding efficiencies in your company. We would love to discuss your specific requirements.
