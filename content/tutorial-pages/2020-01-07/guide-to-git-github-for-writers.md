@@ -360,11 +360,11 @@ You might also prefer using keyboard shortcuts to create headings. In Typora, us
 
 Lists are another thing that make your content easily scannable. If you've ever tried to type out a list in HTML in WordPress or another CMS, you feel my pain - the formatting often gets all messed up. Compare that to lists in Markdown, which are as easy as typing:
 
-`* List item 1`
+`- List item 1`
 
-`* List item 2`
+`- List item 2`
 
-`* List item 3`
+`- List item 3`
 
 or:
 
@@ -381,9 +381,8 @@ or:
 This automagically becomes:
 
 - List item 1
-
-* List item 2
-* List item 3
+- List item 2
+- List item 3
 
 For numbered lists:
 
