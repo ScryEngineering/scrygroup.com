@@ -492,33 +492,30 @@ One reason Beams advocates for the imperative is that Git itself uses the impera
 - Guidance on how to write good commit messages.
 - Your first committed file ready to push to [github.com](https://github.com/), via GitHub Desktop.
 
-   ## Push your changes to GitHub
+## Push your changes to GitHub
 
 ![After you've committed your changes, hit the blue Push Origin button to push your changes to GitHub.](push-origin.png)
 
 Right now, your file is saved to your computer and you've made a commit, but that won't help you if:
 
-   * You want your editor, boss or other team member to take a look at your stuff, but dread the exchange of 40 billion emails or notifications as everyone suggests changes.
+- You want your editor, boss or other team member to take a look at your stuff, but dread the exchange of 40 billion emails or notifications as everyone suggests changes.
+- You leave your computer sitting on a bus when you get off at your stop.
+- Your hard drive suddenly goes kaput, your document was on your computer and you haven't backed up to the cloud or to an external hard drive.
 
-   * You leave your computer sitting on a bus when you get off at your stop.
-   * Your hard drive suddenly goes kaput, your document was on your computer and you haven't backed up to the cloud or to an external hard drive.
+To prevent hours of work being tossed away in a catastrophe, you'll want to push your changes to [github.com](https://github.com/). With GitHub Desktop open:
 
-   To prevent hours of work being tossed away in a catastrophe, you'll want to push your changes to [github.com](https://github.com/). With GitHub Desktop open:
+1. Click **Push Origin**.
+2. That's it! All your changes have been pushed to GitHub - the most reliable, secure backup you'll probably ever have.
 
-   2. Click **Push Origin**. 
-      2. That's it! All your changes have been pushed to GitHub - the most reliable, secure backup you'll probably ever have.
+### Another cool thing about GitHub
 
-   ### Another cool thing about GitHub
+Content creation is a messy, non-linear process; I might have an idea that's somewhat related to the content I'm currently writing, but maybe it would be better as its own blog post, video script outline, podcast synopsis, tweet, or whatever.
 
-   Content creation is a messy, non-linear process; I might have an idea that's somewhat related to the content I'm currently writing, but maybe it would be better as its own blog post, video script outline, podcast synopsis, tweet, or whatever.
+Instead of leaving those words to languish in a notes app or a half-written email you never send to your partners, you could push your document to GitHub, then delete the section, make a commit and push again, so:
 
-   Instead of leaving those words to languish in a notes app or a half-written email you never send to your partners, you could push your document to GitHub, then delete the section, make a commit and push again, so:
-
-* You can see your idea without having to find and open another document.
-* Others can review your words and offer their thoughts.
-* You can recover deleted files (If you've ever feverishly pounded out an idea on your keyboard, sworn you've saved it in one of your umpteen "trusted" places only to never find it again, and cursed the writing gods forever after, this is huge for you.).
-
-###  
+- You can see your idea without having to find and open another document.
+- Others can review your words and offer their thoughts.
+- You can recover deleted files (If you've ever feverishly pounded out an idea on your keyboard, sworn you've saved it in one of your umpteen "trusted" places only to never find it again, and cursed the writing gods forever after, this is huge for you.).
 
 ## Collaborate (Create a Pull Request)
 
