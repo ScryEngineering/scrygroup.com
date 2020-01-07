@@ -335,11 +335,13 @@ We don't read content word for word any more. We scan. This means your readers w
 
 To make a heading in your Markdown-focused editor, use this syntax:
 
-`# Heading 1`
+```markdown
+# Heading 1
 
-`## Heading 2`
+## Heading 2
 
-`### Heading 3`
+### Heading 3
+```
 
 ...and so on, all the way to `###### Heading 6`
 
