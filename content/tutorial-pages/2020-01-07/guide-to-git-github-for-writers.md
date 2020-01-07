@@ -15,7 +15,7 @@ hideCallToAction: false
 
 Last year, my simmering rage at conventional word processors finally boiled to the surface, driving me to take the drastic action I'd been putting off for years: Learn to write and publish content using Git and GitHub (*insert gasp here*.)
 
-Okay, maybe that's being a *bit* dramatic (hey, I'm a writer - I'm using creative license here). It wasn't exactly rage. More like an underlying frustration I couldn't quite put my finger on. After all, what was different about this project versus the hundreds I've worked on before, that made working with Word (or Google Docs, my old go-to) untenable? 
+Okay, maybe that's being a *bit* dramatic (hey, I'm a writer - I'm using creative license here). It wasn't exactly rage. More like an underlying frustration I couldn't quite put my finger on. After all, what was different about this project versus the hundreds I've worked on before, that made working with Word (or Google Docs, my old go-to) untenable?
 
 Actually, a few things:
 
@@ -47,7 +47,6 @@ Essentially, Git is open source software built and used by software engineers, d
 - referencing change sets directly (so you and your collaborators each understand exactly which changes are being discussed)
 
 You'll want to download a text editor and use Markdown (a lightweight, plain text formatting syntax that makes documents easy to write) to create your content. (We'll expand on Markdown and its benefits later in this post. Essentially, formatting your content in text-based documents will work well with GitHub, and Markdown is one such format that plays nice with Git.)
-
 
 ### GitHub
 
@@ -455,12 +454,9 @@ Committing lets you take advantage of version management. Get into the habit of 
 1. Open GitHub Desktop.
 2. Choose your project.
 3. Once you've made a few commits, you'll see:
-
-   * which files have changed
-
-   * which text has been added (highlighted in green)
-
-   * which text has been deleted (highlighted in red) 
+   - which files have changed
+   - which text has been added (highlighted in green)
+   - which text has been deleted (highlighted in red)
 4. In the bottom left corner, you'll see a summary section. Type a short title and description here to let everyone know what you've updated.
 5. Hit **Commit to *name of topic branch***.
 6. You're done! Your file will now have its title and description attached, and you'll be able to see it on [github.com](https://github.com/)...after you do one last thing. Keep GitHub Desktop open.
@@ -480,11 +476,11 @@ One of the 7 rules of a great commit message, as noted on Chris Beams' blog, is 
 
 I should be writing subject lines that complete this sentence:
 
-- If applied, this commit will *subject line here*. 
+- If applied, this commit will *subject line here*.
 
 For example:
 
-- Explain merge conflicts 
+- Explain merge conflicts
 - Add content re commits and comments
 
 One reason Beams advocates for the imperative is that Git itself uses the imperative whenever it creates a commit on your behalf. It also shortens the length of your subject line, which you want to limit to 50 characters as a rule of thumb to keep them readable and concise. See his post for a complete rundown of the 7 rules.
@@ -592,19 +588,17 @@ Under the Commits tab, you'll see a historical overview of the commits you've pu
 
 Each commit is assigned a dedicated number. When you click on the number, you'll be taken to the Files changed tab, and what we call the Diff Viewer, which allows you to see changes that were made in that commit. Clicking the "Diff settings" button at the top right allows you to view your changes in different layouts. To see just the changes you've made in this commit, choose "Unified". To see the changes compared to your last commit, choose "Split."
 
-When you choose "Split", you'll see your changes highlighted - red on the left (your previous commit) and green on the right (current commit). 
+When you choose "Split", you'll see your changes highlighted - red on the left (your previous commit) and green on the right (current commit).
 
 ![A screenshot of the changes in my commit in the Diff Viewer. This is a Split layout.](files-changed.png)
-
-
 
 ### Comments
 
 ![An example of a comment.](comment-example.png)
 
-Collaboration is at the heart of GitHub, and this really shows when it comes to how the platform handles comments. Hover over any numbered line within the green space in your Diff Viewer and you'll see a blue (+) symbol appear. Click on it and you'll be taken to a comment box where you can not only type your comment but also add a file by dragging, dropping, selecting or pasting. You can also insert a quote, add code, links or lists. 
+Collaboration is at the heart of GitHub, and this really shows when it comes to how the platform handles comments. Hover over any numbered line within the green space in your Diff Viewer and you'll see a blue (+) symbol appear. Click on it and you'll be taken to a comment box where you can not only type your comment but also add a file by dragging, dropping, selecting or pasting. You can also insert a quote, add code, links or lists.
 
-Click the "@" symbol to mention another user on your team, or the ribbon symbol next to it to reference an issue or pull request (insanely valuable when you've got a million works in progress and you're trying to keep track of your issues and pull requests). You can even add a saved reply to easily post the replies you use most frequently by clicking the arrow symbol - again saving yourself time! 
+Click the "@" symbol to mention another user on your team, or the ribbon symbol next to it to reference an issue or pull request (insanely valuable when you've got a million works in progress and you're trying to keep track of your issues and pull requests). You can even add a saved reply to easily post the replies you use most frequently by clicking the arrow symbol - again saving yourself time!
 
 To make a comment on any text not highlighted in green, go to the left hand side of your Diff Viewer and click the "Expand Up" or "Expand Down" arrows, then click on any numbered line, then the blue (+) symbol.
 
