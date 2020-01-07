@@ -620,18 +620,18 @@ If for some reason, you don't want to merge the changes in your topic branch wit
 
 ## Resolve a merge conflict
 
-If you spend enough late nights writing content and making commits, you'll inevitably end up with a merge conflict. These happen when you merge branches which have competing commits, and Git needs your help to decide which changes it should incorporate in the final merge. 
+If you spend enough late nights writing content and making commits, you'll inevitably end up with a merge conflict. These happen when you merge branches which have competing commits, and Git needs your help to decide which changes it should incorporate in the final merge.
 
-Git is so smart that it can resolve differences between branches and merge them automatically...most of the time. Usually, these changes are on different lines or in different files. This makes the merge easy for the program to understand. But there will be times when Git won't be able to resolve competing changes without your help. 
+Git is so smart that it can resolve differences between branches and merge them automatically...most of the time. Usually, these changes are on different lines or in different files. This makes the merge easy for the program to understand. But there will be times when Git won't be able to resolve competing changes without your help.
 
-Merge conflicts can happen when: 
+Merge conflicts can happen when:
 
 - People (for example, you and a client or editor) make different changes to the same line of the same file, or
 - One person edits a file and someone else deletes that same file.
 
 Before you can merge a Pull Request on GitHub, you must resolve all merge conflicts. If you've got a merge conflict between a compare branch and base branch in your PR, you can see a list of the files with conflicting changes above the Merge pull request button. You'll see that the button deactivates until all conflicts between the compare and base branch are resolved.
 
-In this example, my client and I both try to add text on the same lines in a README.md file at the same time, creating a conflict. 
+In this example, my client and I both try to add text on the same lines in a README.md file at the same time, creating a conflict.
 
 ![A merge conflict presents itself in a README file.](1-README-merge-conflict.png)
 
@@ -639,7 +639,7 @@ First, my client created a branch (cheese-ipsum) based on the master branch, and
 
 When that happens, you get a warning on your PR page that the branch has conflicts that must be resolved:
 
-1. Look at the diff viewer to see the conflicts. 
+1. Look at the diff viewer to see the conflicts.
 
    ![Diff viewer view of a merge conflict in a README file.](2-diff-merge-conflict.png)
 
@@ -649,9 +649,9 @@ When that happens, you get a warning on your PR page that the branch has conflic
 
    `<<<<<< cheese-ipsum` is the name of the branch my client created.
 
-   Next, you'll see the text he wrote on lines 9 and 11. 
+   Next, you'll see the text he wrote on lines 9 and 11.
 
-   The `======` on line 12 separates his text from mine, which appears on lines 13 through 16. On line 17, where `>>>>>>> master` appears, you can see that I committed my changes to the master branch. 
+   The `======` on line 12 separates his text from mine, which appears on lines 13 through 16. On line 17, where `>>>>>>> master` appears, you can see that I committed my changes to the master branch.
 
 2. Choose which text to keep/get rid of.
 
