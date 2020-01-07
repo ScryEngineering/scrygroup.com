@@ -437,11 +437,11 @@ You'll want to use a relative file path, since you're linking to a file on your 
 
 `![meeting](meeting.jpg)`
 
-rather than an absolute path, which is for linking to files off-site: 
+rather than an absolute path, which is for linking to files off-site:
 
 `![meeting (C:\Users\Allison\Documents\GitHub\CPS_content\content\tutorial-pages\2019-03-25\meeting.jpg)`
 
-To use a relative file path, I just delete the extra stuff that appears before the file name (meeting.jpg). 
+To use a relative file path, I just delete the extra stuff that appears before the file name (meeting.jpg).
 
 Lifewire has a comprehensive [explanation of absolute and relative file paths](https://www.lifewire.com/absolute-and-relative-paths-3466467).
 
