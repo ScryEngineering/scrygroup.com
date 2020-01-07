@@ -2,7 +2,7 @@
 title: Guide to Git and GitHub for Writers
 author:
     - "Allison Smith"
-date: "2019-03-25"
+date: "2020-01-07"
 tags:
     - GitHub
     - git
