@@ -704,7 +704,7 @@ Since Git prevents people from deferring the cost of version control, it drives 
 
 **The lack of live editing/preview will grate on those used to modern CMS environments.**
 
-With any modern CMS like WordPress, Squarespace, Drupal and others, you get to see exactly how your content will look before publishing with the click of a Preview button.
+With any modern CMS like WordPress, Squarespace, Drupal and others, you get to see exactly how your content will look before publishing with the click of a Preview button. [^BuildPreviews]
 
 Not so with GitHub. To see how my text will look once published, I click **Pull Requests** and navigate to the **Files changed** tab. Just under the green **Review changes** button on the right hand side are two options - I can toggle between displaying the source diff or the rich diff. The source view shows lets you see your changes in source without formatting, while the rich diff shows you a preview of how the changes will look once you've merged your pull request.  You also have the option of using the aforementioned unified and split view to see existing and new content.
 
@@ -765,3 +765,7 @@ These are the resources we mentioned in this guide:
 ### How to make a README
 
 [Make a README file](https://www.makeareadme.com/#what-is-it)
+
+
+
+[^BuildPreviews]: If you want to have a build preview like what you'd see in Wordpress you can do it but it needs a bit of setup. We make use of build previews with Netlify, when someone makes a pull request we have a build pipeline set up that will build the content exactly as it will be seen when it is published which can then been seen at a temporary URL. You can set up tooling that will allow this sort of build preview if you run your own server and this can be a good thing to do if you are working with a team.
