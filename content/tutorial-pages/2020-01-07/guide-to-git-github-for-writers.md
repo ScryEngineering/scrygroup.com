@@ -392,6 +392,12 @@ For numbered lists:
 3. List item 3
 ```
 
+Which will be rendered as:
+
+1. List item 1
+2. List item 2
+3. List item 3
+
 You'll notice that each time you hit the Enter key in a list,  another bullet point will appear. Hit the Enter key again to go back to typing in regular paragraphs.
 
 In Rich Text Format (RTF) or Microsoft Word, you'll see proper headings. Export to HTML and, like the syntax above, this becomes proper HTML format:
