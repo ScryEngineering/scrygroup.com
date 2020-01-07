@@ -690,7 +690,7 @@ As much as we love Git and GitHub, this wouldn't be a true "guide" to the softwa
 
 Google Docs will be familiar to many and is easy to use for writers and editors who are even a little tech-literate. Though it's not particularly powerful, you're not likely to get into a battle with your team over adoption, because almost anyone can jump right in on day one.
 
-In contrast, GitHub is an incredibly powerful piece of software that takes time to learn. It is **not** what I'd call intuitive. It can be frustrating and took me a while to commit the basics (branches, Pull Requests, the Diff Viewer) to memory. I still haven't run into enough merge conflicts to solve them comfortably. You will make mistakes...and that's okay. Be prepared to invest the time in learning, and in helping your teammates learn. Once you start to get proficient with GitHub and build a process that works for you, your patience and persistence will pay off - you'll have a better, more secure tool for true collaboration.
+In contrast, Git is an incredibly powerful piece of software that takes time to learn. It is **not** what I'd call intuitive. It can be frustrating and took me a while to commit the basics (branches, Pull Requests, the Diff Viewer) to memory. I still haven't run into enough merge conflicts to solve them comfortably. You will make mistakes...and that's okay. Be prepared to invest the time in learning, and in helping your teammates learn. Once you start to get proficient with Git and GitHub and build a process that works for you, your patience and persistence will pay off - you'll have a better, more secure tool for true collaboration.
 
 **You may have to herd some cats to get long-term buy-in.**
 
