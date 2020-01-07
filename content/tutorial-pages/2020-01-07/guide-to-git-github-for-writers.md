@@ -368,7 +368,7 @@ Lists are another thing that make your content easily scannable. If you've ever 
 - List item 3
 ```
 
-or:
+or since markdown allows you to place HTML directly inline you could do the following:
 
 ```html
 <ul>
