@@ -344,11 +344,13 @@ To make a heading in your Markdown-focused editor, use this syntax:
 
 If you transfer your content to HTML, each heading becomes proper markup for heading levels, and will look like this: 
 
-`<h1>Heading 1</h1>`
+```html
+<h1>Heading 1</h1>
 
-`<h2>Heading 2</h2>`
+<h2>Heading 2</h2>
 
-`<h3>Heading 3</h3>`
+<h3>Heading 3</h3>
+```
 
 ...and so on, all the way to `<h6>Heading 6</h6>`
 
