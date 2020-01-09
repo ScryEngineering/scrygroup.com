@@ -1,6 +1,6 @@
 ---
 title: Guide to Git and GitHub for Writers
-author:
+authors:
     - "Allison Smith"
 date: "2020-01-07"
 tags:
