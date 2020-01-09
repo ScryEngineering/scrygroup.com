@@ -66,6 +66,7 @@ module.exports = {
       options: {
         excerpt_separator: `<!-- end excerpt -->`,
         plugins: [
+          `gatsby-remark-autolink-headers`,// Note that this should be before gatsby-remark-prismjs due to https://github.com/gatsbyjs/gatsby/issues/5764
           `gatsby-remark-katex`,
           {
             resolve: `gatsby-remark-images`,
