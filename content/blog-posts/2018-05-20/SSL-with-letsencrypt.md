@@ -46,3 +46,7 @@ Back in the 1990's [when HTTPS was being standardized](https://web.archive.org/w
 ### Some browsers won't support it
 
 HTTPS is ubiquitous enough now that if a browser doesn't support HTTPS you shouldn't be supporting that browser. In 2018 any browser that does not support HTTPS is fundamentally broken. In any case we haven't had any issues with HTTPS browser support in the last few years.
+
+### Getting a certificate will be an annoying and hard to automate process
+
+Many service providers have created automation with Letsencrypt that make deploying these certificates *far easier* than the previously existing paid alternatives.
