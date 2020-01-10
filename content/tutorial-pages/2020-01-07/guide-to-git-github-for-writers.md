@@ -45,7 +45,6 @@ I'll cover the following:
   - [See your outline](#see-your-outline)
   - [Commit your work](#commit-your-work)
 - [Push your changes to GitHub](#push-your-changes-to-github)
- 
 - [Collaborate (Create a Pull Request)](#collaborate-create-a-pull-request)
 - [Request a review](#request-a-review)
 - [Exploring pull requests](#exploring-pull-requests)
