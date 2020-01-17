@@ -11,6 +11,17 @@ It is imperative then that the implementations we rely on are correctly used and
 
 When one ventures beyond the landscape of the ubiquitous and well studied protocols, the challenge of correctly using cryptography becomes orders of magnitude more difficult. Navigating the world of novel protocols, and understanding the strengths and weaknesses of different primitives is an extremely challenging endeavour.
 
+## Security: the grand view
 
+Security, although it involves a good dose of cryptography, involves more than the application, analysis, and application of protocols and primitives. Sophisticated security modelling and analysis is required to guarantee the safety of entire systems.
 
-Correctly implemented cryptography is imperative for modern day applications, protecting 
+- Attack surface/vectors
+- Threat model
+- Risk assessment
+- Human error
+- Key management
+- Whatever whatever whatever
+
+### We can help
+
+Whether you're trying to use TLSv1.3 for secure API calls or developing your own novel cryptocurrency, our team of experienced consultants can give you tailored aid in implementing and verifying your cryptographic needs. With deep knowledge of cryptographic environments and existing cryptosystems, and a thorough understanding of the individual primitives underpinning those systems, we can expedite your software delivery while simultaneously making sure the systems you rely on for business critical needs are safe and secure from prying eyes.
