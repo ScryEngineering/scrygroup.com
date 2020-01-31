@@ -8,7 +8,8 @@ tags:
     - data
     - machine-learning
     - statistics
-    - efficienty
+    - efficiency
+    - project-management
 contentType: "blog"
 ---
 
