@@ -63,7 +63,6 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       const slug = node.frontmatter.name.toLowerCase().replace(/ /g, '-')
       if (!node.fileAbsolutePath.includes(`content/tags/${slug}.md`)) {
         console.error(`Filename for tag "${node.frontmatter.name}" does not match expected filename "content/tags/${slug}.md" (got ${node.fileAbsolutePath})`)
-        reject()
       }
       createNodeField({
         node,
