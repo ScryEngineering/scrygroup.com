@@ -1,7 +1,7 @@
 ---
 name: "Rose Sherwood"
 teamMember: true
-image: "rose.jpg"
+image: "rose.png"
 url: "https://www.linkedin.com/in/roses4242/"
 location: "Canada"
 bio: "User Experience Designer"
