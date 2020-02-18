@@ -8,7 +8,7 @@ bio: "User Experience Designer"
 socialUrls:
     - "mailto:rose@scrygroup.com"
     - "https://www.linkedin.com/in/roses4242/"
-shortBlurb: "Rose is passionate about putting people first.  It doesn't matter if a project is functional, if people can't use it joyfully it's a loss to her mind. Rose brings a background in computer science to the table, as an experienced Front End Developer with hands on experience in the digital marketing space. Rose's interests include A/B testing, accessibility challenges, and the careful application of colours layouts and typography for a mutually beneficial experience."
+shortBlurb: "Rose is a User Experience Designer and Consultant at Scry Engineering. She is passionate about putting people first. If a project is functional but people can't use it joyfully then this is a loss to her mind. Rose brings a background in computer science to the table, as an experienced Front End Developer with hands on experience in the digital marketing space. Rose's interests include A/B testing, accessibility challenges, and the careful application of colours layouts and typography for a mutually beneficial experience."
 miniBlurb: "Rose is a User Experience Designer and Consultant at Scry Engineering. As the company’s in-house UX specialist, she has a passion for creating great user experiences."
 ---
 
