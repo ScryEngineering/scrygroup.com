@@ -2,7 +2,7 @@
 title: "How to get the most from consultants when data is involved"
 authors:
        - "Janis Lesinskis"
-date: "2020"
+date: "2020-02-18"
 tags:
     - consulting
     - data
@@ -13,7 +13,7 @@ tags:
 contentType: "blog"
 ---
 
-We do a lot of work on Machine learning and optmization for various organizations.
+We do a lot of work on Machine learning and optimization for various organizations.
 
 A very common situation is that a client comes to us with some sort of engineering problem with which they want to find some insights and potential operational optimizations.
 
@@ -24,7 +24,6 @@ The thing these all these have in common is not us as a consulting firm but rath
 Because all of these jobs require a representative data to get results and quality data to get the best results the procurement of this data is a crucial blocker.
 
 If you are considering engaging with a machine learning consulting firm make sure that you have the ability to extract the data that the consultants will need to be able to find those insights. Every day that gets bogged down because you are waiting for someone to extract data from a bad data source or for someone to track down some obscure combinations of SQL+Spreadsheets+Jira Tickets + etc etc etc is a day of lost productivity. If the consultants are left waiting that is a very severe opportunity cost that you are incurring.
-
 
 Some suggestions:
 
