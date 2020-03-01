@@ -11,6 +11,7 @@ tags:
     - efficiency
     - project-management
 contentType: "blog"
+callToActionText: "Good data and project management foundations are critical for effective data science and machine learning projects to succeed. Get in contact to discuss how we can help you get the most value out of your data driven projects."
 ---
 
 We do a lot of work on Machine learning and optimization for various organizations.
