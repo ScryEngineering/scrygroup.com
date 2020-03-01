@@ -1,14 +1,15 @@
 ---
-Title: "Happy leap day!"
-Date: "2020-02-29"
-Tags:
-- software-engineering
-- dates
-- datetime
-- intercalations
-- time
-Authors: 
-- "Janis Lesinskis"
+title: "Happy leap day!"
+date: "2020-02-29"
+tags:
+    - software-engineering
+    - dates
+    - datetime
+    - intercalations
+    - time
+authors:
+    - "Janis Lesinskis"
+contentType: "blog"
 callToActionText: "Does your project have any subtle time and date bugs? Get in contact with us "
 ---
 
