@@ -11,8 +11,8 @@ module.exports = {
       resolve: 'gatsby-plugin-matomo',
       options: {
         siteId: '1',
-        matomoUrl: 'https://customprogrammingsolutions.matomo.cloud',
-        siteUrl: 'https://www.customprogrammingsolutions'
+        matomoUrl: 'https://atom.scrygroup.com',
+        siteUrl: 'https://scrygroup.com'
       }
     },
     {
