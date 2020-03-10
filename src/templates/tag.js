@@ -9,7 +9,6 @@ import Layout from '../components/Layout/Layout'
 
 export default class TagTemplate extends React.Component {
   render(){
-    console.log(this.props)
     const tag = this.props.pageContext.tag;
     const tag_summary = this.props.data.tag_summary;
     //TODO: Note that if more than one entry for a tags has the exact same name this will take only the first and not warn

@@ -11,8 +11,8 @@ module.exports = {
       resolve: 'gatsby-plugin-matomo',
       options: {
         siteId: '1',
-        matomoUrl: 'https://customprogrammingsolutions.matomo.cloud',
-        siteUrl: 'https://www.customprogrammingsolutions'
+        matomoUrl: 'https://atom.scrygroup.com',
+        siteUrl: 'https://scrygroup.com'
       }
     },
     {
@@ -66,6 +66,7 @@ module.exports = {
       options: {
         excerpt_separator: `<!-- end excerpt -->`,
         plugins: [
+          `gatsby-remark-autolink-headers`,// Note that this should be before gatsby-remark-prismjs due to https://github.com/gatsbyjs/gatsby/issues/5764
           `gatsby-remark-katex`,
           {
             resolve: `gatsby-remark-images`,

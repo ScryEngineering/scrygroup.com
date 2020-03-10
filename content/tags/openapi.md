@@ -9,3 +9,6 @@ There are also a number of benefits from being able to make machine readable API
 - Unambiguous definition of what API endpoints are supported and what format they are expecting.
 - The ability to automatically check API endpoint routing matches the required specification.
 - The ability to automatically validate API requests.
+
+Knowledge transfer, especially when considering compatibility concerns, is greatly improved by well documented APIs.
+As such we have found that using machine readable API specifications has greatly improved our productivity when we are making and consuming APIs.
