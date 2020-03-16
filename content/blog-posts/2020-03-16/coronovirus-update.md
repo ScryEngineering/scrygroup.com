@@ -29,10 +29,18 @@ One thing that can help you be able to make decisions is to be very mindful of t
 
 Building excess slack mental capacity is always important, but in difficult times this becomes critical.
 
+Unimportant things need to be dropped.
+
 In difficult times it is important to not panic.
 Keep grounded and make the best decisions you can.
 
 Make sure that people are getting enough sleep and are looking after themselves. Remind people to do the important things, even if these are thing that they would routinely do because in moments of added stress people forget things. This is why airlines, despite having exceptionally well trained professional flight staff, have pilot checklists, in tough stressful situations relying on your memory is unreliable.
+
+Some tips:
+
+- Limit notifications for your technology such as phones to just the essentials
+- Get enough sleep
+- If you are working on anything that is critical enough that missing a step due to forgetfulness would be very bad start making checklists to help your execution. The book "The checklist manifesto" has some good guidelines to how to create a good checklist.
 
 ## Flattening the curve
 
