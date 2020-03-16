@@ -23,7 +23,7 @@ So preserving the conditions that allow us to exist at all has to be our priorit
 
 One of the toughest things in difficult times is making decisions. It is easy to do nothing but decisions must still be made and avoiding making the tough decisions tends to make things worse.
 
-One thing that can help you be able to make decisions is to be very mindful of the amount of mental capacity you have available to you. *In times of stress you will have less capacity to think than normal*. Proactively planning 
+One thing that can help you be able to make decisions is to be very mindful of the amount of mental capacity you have available to you. *In times of stress you will have less capacity to think than normal*. Proactively planning to help deal with future stress is especially important.
 
 ## Build mental reserves to avoid panic
 
@@ -43,6 +43,7 @@ Some tips:
 - Get enough sleep, *make sleep a high priority*
 - Limit notifications for your technology such as phones to just the essentials
 - If you are working on anything that is critical enough that missing a step due to forgetfulness would be very bad start making checklists to help your execution. The book "The checklist manifesto" has some good guidelines to how to create a good checklist.
+- Stay up to date with the news but strongly ration it. Only mindfully consume the news, if you get sucked into looking at the news too much you will burn up very valuable mental capacity. Staying informed is important but don't let it consume you.
 
 ## Flattening the curve
 
@@ -57,21 +58,20 @@ In regular times it's important to make sure that people who are sick don't come
 
 One of the best things that companies can do to help the community be less impacted by this pandemic is to help "flatten the curve", which means this is an important time to make sure that everyone who can work from home is forced to work from home.
 
+Every company has a backlog of tasks would be great to do but can't get around to.
+
+Given that there's some time where it might be very much not "business as usual" be proactive in getting through those backlog of tasks that you can still do.
+
 ### Social distancing
 
 ### Help community members and employees who get sick
 
 There's a huge portion of our population that end up putting themselves and their communities at risk due to the lack of support net that they have.
 For example many fast food workers are used to working in extremely bad conditions even when things are going normally.
-[This thread on twitter]() is a good example of some of the difficulties facing those workers with precariat jobs in the food industry.
+[This thread on twitter](https://mobile.twitter.com/NomeDaBarbarian/status/1232922661740613634) is a good example of some of the difficulties facing those workers with precariat jobs in the food industry.
 
 If you know someone is on the verge of going to work sick because they are struggling to make ends meet try to help them out however you can, this will not only help them but will help strengthen your community and your country.
 
-## Clearing out the backlog
-
-Every company has a backlog of tasks would be great to do but can't get around to.
-
-Given that there's some time where it might be very much not "business as usual" be proactive in getting through those backlog of tasks that you can still do.
-
+We strongly believe that sick leave should always be provided to employees and that governments should enforce this via regulations such that the playing field is level for all businesses.
 
 Please stay safe everyone!
