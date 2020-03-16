@@ -29,17 +29,19 @@ One thing that can help you be able to make decisions is to be very mindful of t
 
 Building excess slack mental capacity is always important, but in difficult times this becomes critical.
 
-Unimportant things need to be dropped.
 
 In difficult times it is important to not panic.
-Keep grounded and make the best decisions you can.
+Keep grounded and make the best decisions you can. This is not just a matter of expending willpower because willpower is a very scarce resource and you'll run out of it quickly in disaster situations.
+Relying on having a good supply of willpower is irresponsible and likely to lead you into trouble when you are under pressure, proactive planning is crucial.
+
+Unimportant things need to be dropped.
 
 Make sure that people are getting enough sleep and are looking after themselves. Remind people to do the important things, even if these are thing that they would routinely do because in moments of added stress people forget things. This is why airlines, despite having exceptionally well trained professional flight staff, have pilot checklists, in tough stressful situations relying on your memory is unreliable.
 
 Some tips:
 
+- Get enough sleep, *make sleep a high priority*
 - Limit notifications for your technology such as phones to just the essentials
-- Get enough sleep
 - If you are working on anything that is critical enough that missing a step due to forgetfulness would be very bad start making checklists to help your execution. The book "The checklist manifesto" has some good guidelines to how to create a good checklist.
 
 ## Flattening the curve
@@ -49,22 +51,27 @@ We have always been fans of systems thinking, but now this type of thinking has 
 
 One of the most important things is for everyone to do their part in reducing the peak demand placed on the health system. When the peak demand of the health system is exceeded many people will die, not just people with the virus, but anyone who needs modern healthcare who is unable to get it
 
-## Working from home
+### Working from home
 
 In regular times it's important to make sure that people who are sick don't come into work, but in times like this it's essential for people to not come into work sick.
 
 One of the best things that companies can do to help the community be less impacted by this pandemic is to help "flatten the curve", which means this is an important time to make sure that everyone who can work from home is forced to work from home.
+
+### Social distancing
+
+### Help community members and employees who get sick
+
+There's a huge portion of our population that end up putting themselves and their communities at risk due to the lack of support net that they have.
+For example many fast food workers are used to working in extremely bad conditions even when things are going normally.
+[This thread on twitter]() is a good example of some of the difficulties facing those workers with precariat jobs in the food industry.
+
+If you know someone is on the verge of going to work sick because they are struggling to make ends meet try to help them out however you can, this will not only help them but will help strengthen your community and your country.
 
 ## Clearing out the backlog
 
 Every company has a backlog of tasks would be great to do but can't get around to.
 
 Given that there's some time where it might be very much not "business as usual" be proactive in getting through those backlog of tasks that you can still do.
-
-
-
-
-
 
 
 Please stay safe everyone!
