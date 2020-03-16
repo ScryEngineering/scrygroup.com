@@ -26,9 +26,20 @@ We have always been fans of systems thinking, but now this type of thinking has 
 
 One of the most important things is for everyone to do their part in reducing the peak demand placed on the health system. When the peak demand of the health system is exceeded many people will die, not just people with the virus, but anyone who needs modern healthcare who is unable to get it
 
-
 ## Working from home
 
-One of the best things that companies can do to help the community be less impacted by this pandemic is to help "flatten the curve" 
+In regular times it's important to make sure that people who are sick don't come into work, but in times like this it's essential for people to not come into work sick.
+
+One of the best things that companies can do to help the community be less impacted by this pandemic is to help "flatten the curve", which means this is an important time to make sure that everyone who can work from home is forced to work from home.
+
+
+## Don't panic
+
+In difficult times it is important to not panic.
+Keep grounded and make the best decisions you can.
+
+
+
+
 
 Please stay safe everyone!
