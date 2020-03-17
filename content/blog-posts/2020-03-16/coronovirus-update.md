@@ -62,21 +62,18 @@ We have always been big fans of [systems thinking](https://en.wikipedia.org/wiki
 
 One of the most important things is for everyone to do their part in reducing the peak demand placed on the health system. When the peak demand of the health system is exceeded many people will die, not just people with the virus, but anyone who needs modern healthcare who is unable to get it if the health system is overwhelmed.
 
-
-
 ### Working from home
 
 In regular times it's important to make sure that people who are sick don't come into work, but in times like this it's essential for people to not come into work sick.
 
 One of the best things that companies can do to help the community be less impacted by this pandemic is to help "flatten the curve", which means this is an important time to make sure that everyone who can work from home is forced to work from home.
 
-Every company has a backlog of tasks would be great to do but can't get around to.
-
-Given that there's some time where it might be very much not "business as usual" be proactive in getting through those backlog of tasks that you can still do.
+Every company has a backlog of tasks that would be great to do but can't get around to.
+Given that there's some time where it might be very much not "business as usual" you can be proactive in getting through those backlog of tasks that you can still do.
 
 ### Social distancing
 
-As much as possible avoid events with a large number of attendees. If you are organizing events with a large number of attendees please cancel of postpone them.
+As much as possible avoid events with a large number of attendees. If you are organizing events with a large number of attendees please cancel or postpone them if the virus is widespread in your area.
 
 #### Meetings
 
@@ -95,6 +92,7 @@ For example many fast food workers are used to working in extremely bad conditio
 If you know someone is on the verge of going to work sick because they are struggling to make ends meet try to help them out however you can, this will not only help them but will help strengthen your community and your country.
 
 We strongly believe that sick leave should always be provided to employees and that governments should enforce this via regulations such that the playing field is level for all businesses.
+This like this are why we think access to basic healthcare is not only important but should also not be tied in any way to employment status, since pandemics do not care who your employer is.
 
 ## Keep your spirits up
 
