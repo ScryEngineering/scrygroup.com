@@ -13,11 +13,11 @@ contentType: "blog"
 
 One of the questions we have been asked amidst the recent coronavirus pandemic is how our business will be impacted.
 
-Because we are a distinctly remote-first company we are in a great position to keep working the same way we were before without needing to change much of how we are working internally. *Just like everyone else*, we **will** be impacted by external factors. We are travelling less and various aspects of our supply chain will definitely be impacted.
+Because we are a distinctly remote-first company we are in a great position to keep working the same way we were before without needing to change much of how we are working internally. Seeing as this virus is now a pandemic, we **will** be impacted by external factors, *just like everyone else*. We are travelling far less and various aspects of our supply chain will definitely be impacted.
 
 One of the most important things in times like these is to keep thinking clearly and to be as well informed about developments as possible.
 The community must come first, *we will lose some profits but that is fine*. We as a company can only exist only on top of a strong society and we do not forget this.
-So preserving the conditions that allow us to exist at all has to be our priority, and should be for all organizations out there.
+So preserving the conditions that allow the broader populace thrive has to be our priority, and should be for all organizations out there.
 
 This post is a work in progress, we will update it as new information comes out.
 
@@ -41,20 +41,22 @@ Disaster planning is about being effective when your reserves of slack capacity 
 
 One crucial aspect to prioritize is sleep. Make sure that people are getting enough sleep and are looking after themselves. Make a point of friendly reminders to people to do the important things. In regular times the important things will only occasionally be missed but in moments of high stress people forget things, even routine things. This is why airlines, despite having exceptionally well trained professional flight staff, have pilot checklists, in tough stressful situations your memory is unreliable so proactively planning for this is of enormous benefit.
 
-Some tips:
+Some tips for keeping your mental reserves strong:
 
 - Get enough sleep, *make sleep a high priority*. Remind other people to get sleep as well.
 - Limit notifications for your technology such as phones to just the essentials, you need as much mental capacity as possible and much of modern communications is frankly noise.
 - If you are working on anything that is critical enough that missing a step due to forgetfulness would be very bad start making checklists to help your execution. The book "The checklist manifesto" has some good guidelines to how to create a good checklist.
-- Stay up to date with the news but strongly ration it. Only mindfully consume the news, if you get sucked into looking at the news too much you will burn up very valuable mental capacity. Staying informed is important but don't let it consume you.
+- Stay up to date with the news but strongly ration it. Only mindfully consume the news, if you get sucked into looking at the news too much you will burn up very valuable mental capacity. Staying informed is important but don't let it consume you. Try to find knowledgeable sources for the news.
 - Make sure you eat! In times of high stress it's entirely possible to skip a meal without noticing it, or more than one meal. If this is a one off it's not a problem but if you are consistently not eating this can be serious. Whether it's some great food you have ready or basic rations through to [whatever MRE you can find](https://www.youtube.com/channel/UC2I6Et1JkidnnbWgJFiMeHA), make sure you get enough nutrition! If you don't eat it can impact your ability to think clearly. Remind others to get enough nutrition too.
 
 ## Flattening the curve
 
 In times like these it's especially important to think about the impacts that people have on the entire society and health system.
-We have always been fans of systems thinking, but now this type of thinking has taken on an importance to the health of our staff and our communities in a far more direct and serious way than it usually is.
+We have always been big fans of [systems thinking](https://en.wikipedia.org/wiki/Complex_system), but now this type of thinking has taken on an importance to the health of our staff and our communities in a far more direct and serious way than it usually is.
 
-One of the most important things is for everyone to do their part in reducing the peak demand placed on the health system. When the peak demand of the health system is exceeded many people will die, not just people with the virus, but anyone who needs modern healthcare who is unable to get it
+One of the most important things is for everyone to do their part in reducing the peak demand placed on the health system. When the peak demand of the health system is exceeded many people will die, not just people with the virus, but anyone who needs modern healthcare who is unable to get it if the health system is overwhelmed.
+
+
 
 ### Working from home
 
