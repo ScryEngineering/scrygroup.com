@@ -24,6 +24,7 @@ This post is a work in progress, we will update it as new information comes out.
 ## Don't step down from hard decisions
 
 One of the toughest things in difficult times is making decisions. It is easy to do nothing but decisions must still be made and avoiding making the tough decisions tends to make things worse.
+If you are a leader you must step up, this is not the time to abdicate.
 
 One thing that can help you be able to make decisions is to be very mindful of the amount of mental capacity you have available to you. *In times of stress you will have less capacity to think than normal*. Proactively planning to help deal with future stress is especially important.
 
@@ -32,14 +33,16 @@ Also keep a close eye on denial. Denial is the easy way out, realize it is also 
 ## Build mental reserves to avoid panic
 
 Building excess slack mental capacity is always important, but in difficult times this becomes critical.
-
 In difficult times it is important to not panic, keep grounded and make the best decisions you can.
 
 This is not just a matter of expending willpower because willpower is a very scarce resource that you only have a limited amount of in any given day and you *will* run out of it quickly in disaster situations.
 Relying on having a good supply of willpower is irresponsible and likely to lead you into trouble when you are under pressure, proactive planning is crucial.
 Disaster planning is about being effective when your reserves of slack capacity run out, in a disaster situation you will be operating at 100% capacity far more often. This means prioritization is absolutely key, you won't have the time and energy to be able to do everything, so tasks must be carefully prioritized and unimportant things need to be dropped.
+In times of extreme crisis the top priorities are likely to not be business related and this is how it should be. Don't stress out too much about your business if it puts the lives and health of you and your family at risk, even though this should go without saying, good businesses can only run with people that are alive and well.
 
-One crucial aspect to prioritize is sleep. Make sure that people are getting enough sleep and are looking after themselves. Make a point of friendly reminders to people to do the important things. In regular times the important things will only occasionally be missed but in moments of high stress people forget things, even routine things. This is why airlines, despite having exceptionally well trained professional flight staff, have pilot checklists, in tough stressful situations your memory is unreliable so proactively planning for this is of enormous benefit.
+One crucial aspect to prioritize is sleep. From our experiences with high stress situations such as disaster recovery and "war rooms" we know that sleep can be skipped. If people are showing signs of extreme fatigue resist the temptation to tell them to force themselves through the tiredness or to take drugs (such as energy drinks, coffee, etc) to stay awake (unless it is absolutely unavoidable that they must stay awake for some critical reason). Make sure that people are getting enough sleep and are looking after themselves, tell people to get sleep if needed, if you know you won't be able to go home bring some supplies such as pillows to make sleeping more comfortable. Sleep deprivation massively impacts peoples cognitive functions and eventually becomes a seriously health hazard on its own, so don't feel bad telling someone to get some sleep and don't feel bad asking to take a nap if you are severely exhausted.
+
+Make a point of friendly reminders to people to do the important things. In regular times the important things will only occasionally be missed but in moments of high stress people forget things, even routine things. This is why airlines, despite having exceptionally well trained professional flight staff, have pilot checklists, in tough stressful situations your memory is unreliable so proactively planning for this is of enormous benefit.
 
 Some tips for keeping your mental reserves strong:
 
