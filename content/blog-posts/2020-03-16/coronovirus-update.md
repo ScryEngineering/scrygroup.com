@@ -25,18 +25,19 @@ One of the toughest things in difficult times is making decisions. It is easy to
 
 One thing that can help you be able to make decisions is to be very mindful of the amount of mental capacity you have available to you. *In times of stress you will have less capacity to think than normal*. Proactively planning to help deal with future stress is especially important.
 
+Also keep a close eye on denial. Denial is the easy way out, realize it is also a coping mechanism for people.
+
 ## Build mental reserves to avoid panic
 
 Building excess slack mental capacity is always important, but in difficult times this becomes critical.
 
+In difficult times it is important to not panic, keep grounded and make the best decisions you can.
 
-In difficult times it is important to not panic.
-Keep grounded and make the best decisions you can. This is not just a matter of expending willpower because willpower is a very scarce resource and you'll run out of it quickly in disaster situations.
+This is not just a matter of expending willpower because willpower is a very scarce resource that you only have a limited amount of in any given day and you *will* run out of it quickly in disaster situations.
 Relying on having a good supply of willpower is irresponsible and likely to lead you into trouble when you are under pressure, proactive planning is crucial.
+Disaster planning is about being effective when your reserves of slack capacity run out, in a disaster situation you will be operating at 100% capacity far more often. This means prioritization is absolutely key, you won't have the time and energy to be able to do everything, so tasks must be carefully prioritized and unimportant things need to be dropped.
 
-Unimportant things need to be dropped.
-
-Make sure that people are getting enough sleep and are looking after themselves. Remind people to do the important things, even if these are thing that they would routinely do because in moments of added stress people forget things. This is why airlines, despite having exceptionally well trained professional flight staff, have pilot checklists, in tough stressful situations relying on your memory is unreliable.
+One crucial aspect to prioritize is sleep. Make sure that people are getting enough sleep and are looking after themselves. Make a point of friendly reminders to people to do the important things. In regular times the important things will only occasionally be missed but in moments of high stress people forget things, even routine things. This is why airlines, despite having exceptionally well trained professional flight staff, have pilot checklists, in tough stressful situations your memory is unreliable so proactively planning for this is of enormous benefit.
 
 Some tips:
 
@@ -63,6 +64,16 @@ Every company has a backlog of tasks would be great to do but can't get around t
 Given that there's some time where it might be very much not "business as usual" be proactive in getting through those backlog of tasks that you can still do.
 
 ### Social distancing
+
+As much as possible avoid events with a large number of attendees. If you are organizing events with a large number of attendees please cancel of postpone them.
+
+#### Meetings
+
+Encourage your clients and business partners to move any meetings to teleconference meetings if possible.
+It is best to be proactive about this and to start rescheduling meetings to be online as soon as possible.
+
+Start by preparing internally for teleconferences if you haven't already, make notes on what is most effective for you.
+Share your teleconference notes to help your clients join you this way.
 
 ### Help community members and employees who get sick
 
