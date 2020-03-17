@@ -3,6 +3,7 @@ title: "How coronavirus is impacting our business"
 date: "2020-03-16"
 tags: 
     - coronavirus
+    - COVID-19
     - disasters
     - disaster-recovery
     - management
