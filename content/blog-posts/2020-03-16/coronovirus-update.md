@@ -43,10 +43,11 @@ One crucial aspect to prioritize is sleep. Make sure that people are getting eno
 
 Some tips:
 
-- Get enough sleep, *make sleep a high priority*
-- Limit notifications for your technology such as phones to just the essentials
+- Get enough sleep, *make sleep a high priority*. Remind other people to get sleep as well.
+- Limit notifications for your technology such as phones to just the essentials, you need as much mental capacity as possible and much of modern communications is frankly noise.
 - If you are working on anything that is critical enough that missing a step due to forgetfulness would be very bad start making checklists to help your execution. The book "The checklist manifesto" has some good guidelines to how to create a good checklist.
 - Stay up to date with the news but strongly ration it. Only mindfully consume the news, if you get sucked into looking at the news too much you will burn up very valuable mental capacity. Staying informed is important but don't let it consume you.
+- Make sure you eat! In times of high stress it's entirely possible to skip a meal without noticing it, or more than one meal. If this is a one off it's not a problem but if you are consistently not eating this can be serious. Whether it's some great food you have ready or basic rations through to [whatever MRE you can find](https://www.youtube.com/channel/UC2I6Et1JkidnnbWgJFiMeHA), make sure you get enough nutrition! If you don't eat it can impact your ability to think clearly. Remind others to get enough nutrition too.
 
 ## Flattening the curve
 
