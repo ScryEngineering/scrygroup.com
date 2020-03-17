@@ -20,13 +20,13 @@ Because we are a distinctly remote-first company we are in a great position to k
 
 One of the most important things in times like these is to keep thinking clearly and to be as well informed about developments as possible.
 The community must come first, *we will lose some profits but that is fine*. We as a company can only exist only on top of a strong society and we do not forget this.
-So preserving the conditions that allow the broader populace thrive has to be our priority, and should be for all organizations out there.
+So preserving the conditions that allow the broader populace to be healthy and thrive has to be our priority, and should be for all organizations out there.
 
 This post is a work in progress, we will update it as new information comes out.
 
 ## Don't step down from hard decisions
 
-One of the toughest things in difficult times is making decisions. It is easy to do nothing but decisions must still be made and avoiding making the tough decisions tends to make things worse.
+One of the toughest things in difficult times is making decisions. It is easy to do nothing but decisions must still be made and avoiding making tough decisions tends to make things worse.
 If you are a leader you must step up, this is not the time to abdicate.
 
 One thing that can help you be able to make decisions is to be very mindful of the amount of mental capacity you have available to you. *In times of stress you will have less capacity to think than normal*. Proactively planning to help deal with future stress is especially important.
@@ -38,9 +38,9 @@ Also keep a close eye on denial. Denial is the easy way out, realize it is also 
 Building excess slack mental capacity is always important, but in difficult times this becomes critical.
 In difficult times it is important to not panic, keep grounded and make the best decisions you can.
 
-This is not just a matter of expending willpower because willpower is a very scarce resource that you only have a limited amount of in any given day and you *will* run out of it quickly in disaster situations.
-Relying on having a good supply of willpower is irresponsible and likely to lead you into trouble when you are under pressure, proactive planning is crucial.
-Disaster planning is about being effective when your reserves of slack capacity run out, in a disaster situation you will be operating at 100% capacity far more often. This means prioritization is absolutely key, you won't have the time and energy to be able to do everything, so tasks must be carefully prioritized and unimportant things need to be dropped.
+*Avoiding panic is not just a matter of expending willpower*. This is because willpower is a very scarce resource that you only have a limited amount of in any given day and you *will* run out of it quickly in disaster situations.
+Relying on having a good supply of willpower is irresponsible and will lead you into trouble when you are under pressure, proactive planning is crucial.
+Disaster planning is about being as effective as you can be when your reserves of slack capacity run out since in a disaster situation you will be operating at 100% capacity far more often than usual (it your company already operates in a situation where everyone is at 100% capacity all the time you likely have severe organizational problems, [read our article that discusses why](/blog-posts/2019-08-07/should-not-use-100-percent-time)). This means prioritization is absolutely key, you won't have the time and energy to be able to do everything, so tasks must be carefully prioritized and unimportant things need to be dropped.
 In times of extreme crisis the top priorities are likely to not be business related and this is how it should be. Don't stress out too much about your business if it puts the lives and health of you and your family at risk, even though this should go without saying, good businesses can only run with people that are alive and well.
 
 One crucial aspect to prioritize is sleep. From our experiences with high stress situations such as disaster recovery and "war rooms" we know that sleep can be skipped. If people are showing signs of extreme fatigue resist the temptation to tell them to force themselves through the tiredness or to take drugs (such as energy drinks, coffee, etc) to stay awake (unless it is absolutely unavoidable that they must stay awake for some critical reason). Make sure that people are getting enough sleep and are looking after themselves, tell people to get sleep if needed, if you know you won't be able to go home bring some supplies such as pillows to make sleeping more comfortable. Sleep deprivation massively impacts peoples cognitive functions and eventually becomes a seriously health hazard on its own, so don't feel bad telling someone to get some sleep and don't feel bad asking to take a nap if you are severely exhausted.
