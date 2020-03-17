@@ -19,6 +19,8 @@ One of the most important things in times like these is to keep thinking clearly
 The community must come first, *we will lose some profits but that is fine*. We as a company can only exist only on top of a strong society and we do not forget this.
 So preserving the conditions that allow us to exist at all has to be our priority, and should be for all organizations out there.
 
+This post is a work in progress, we will update it as new information comes out.
+
 ## Don't step down from hard decisions
 
 One of the toughest things in difficult times is making decisions. It is easy to do nothing but decisions must still be made and avoiding making the tough decisions tends to make things worse.
