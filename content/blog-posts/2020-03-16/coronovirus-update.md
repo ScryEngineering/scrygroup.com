@@ -79,7 +79,7 @@ Share your teleconference notes to help your clients join you this way.
 
 There's a huge portion of our population that end up putting themselves and their communities at risk due to the lack of support net that they have.
 For example many fast food workers are used to working in extremely bad conditions even when things are going normally.
-[This thread on twitter](https://mobile.twitter.com/NomeDaBarbarian/status/1232922661740613634) is a good example of some of the difficulties facing those workers with precariat jobs in the food industry.
+[This thread on twitter](https://mobile.twitter.com/NomeDaBarbarian/status/1232922661740613634) is a good example of some of the difficulties facing those workers with [precariat](https://en.wikipedia.org/wiki/Precariat) jobs in the food industry.
 
 If you know someone is on the verge of going to work sick because they are struggling to make ends meet try to help them out however you can, this will not only help them but will help strengthen your community and your country.
 
