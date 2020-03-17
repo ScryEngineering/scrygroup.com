@@ -88,4 +88,8 @@ If you know someone is on the verge of going to work sick because they are strug
 
 We strongly believe that sick leave should always be provided to employees and that governments should enforce this via regulations such that the playing field is level for all businesses.
 
+## Keep your spirits up
+
+These are trying times, but like other trying times these will pass. While these events may seem like they will go on forever this is just an illusion, things will return to normal in the future.
+
 Please stay safe everyone!
