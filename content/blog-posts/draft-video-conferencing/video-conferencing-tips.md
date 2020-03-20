@@ -1,6 +1,8 @@
 ---
 title: "Video Conferencing Saved my Sanity"
 date: "2020-03-19"
+authors:
+    - "Rose Sherwood"
 tags: 
     - remote-working
     - remote-first
