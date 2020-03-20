@@ -18,9 +18,10 @@ export default class PostListing extends React.Component {
     if (this.props.filter) {
       displayedPosts = nonDraftPosts.filter(this.props.filter);
     }
+    const posts_text = displayedPosts.length === 1 ? "Post" : "Posts";  //Handle post vs posts
     return (
       <div className={styles.postContainer}>
-        <h4>{displayedPosts.length} Posts</h4>
+        <h4>{displayedPosts.length} {posts_text}</h4>
         {
         displayedPosts.map(post => (
         <div className={styles.post}>
