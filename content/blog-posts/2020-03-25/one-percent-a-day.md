@@ -7,6 +7,7 @@ tags:
     - "process improvement"
     - "growth"
     - "exponentials"
+    - "compounding-interest"
 authors:
     - "Janis Lesinskis"
 contentType: "blog"
