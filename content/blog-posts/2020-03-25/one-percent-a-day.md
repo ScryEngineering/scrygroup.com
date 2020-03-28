@@ -83,6 +83,6 @@ I think a plot is very useful to see what's going on:
 
 As you can see there's a point in time where the compounding growth catches up with the flat growth rate. *After* this point the compounding growth leaves the linear growth completely behind, more about judging where this point occurs and what implications that has in a later post.
 
-## How does this apply to real software/hardware/etc projects
+## How this applies to real software/hardware/etc projects
 
 It would take a while to do this topic justice and as seen earlier releasing more value incrementally is the way to go to maximize impact. So more on this in another article soon.
