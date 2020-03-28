@@ -1,16 +1,15 @@
 ---
-Title: One percent a day
-Date: "2020-03-24"
-Modified: "2020-03-27"
+title: "One percent a day"
+date: "2020-03-24"
+modified: "2020-03-27"
 tags:
     - "productivity"
     - "process improvement"
     - "growth"
     - "exponentials"
-Authors:
+authors:
     - "Janis Lesinskis"
 contentType: "blog"
-
 ---
 
 Making a 1 percent improvement each and every day will make an enormous impact at the end of a year.
