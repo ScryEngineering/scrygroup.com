@@ -9,7 +9,6 @@ tags:
     - "legacy-rescue"
     - "antipatterns"
     - "stringly-typed"
-    - "legacy-rescue"
 authors:
     - "Janis Lesinskis"
 contentType: "blog"
