@@ -15,7 +15,7 @@ authors:
 contentType: "blog"
 ---
 
-Over my career I've done a lot of work with distressed systems, these are the sorts of projects that have such substantial issues with the code base that the business value is limited due to the implementation. There's one type of antipattern that I notice has a strong tendency to turn into [septic code](https://brucefwebster.com/2013/09/12/septic-code-why-some-large-it-projects-never-go-into-production/), given enough time and change, which is the "stringly typed" system.
+Over my career I've done a lot of work with distressed systems, these are the sorts of projects that have such substantial issues with the code base that the business value is limited due to the implementation. There's one type of antipattern that I notice has a strong tendency to turn into [septic code](https://brucefwebster.com/2013/09/12/septic-code-why-some-large-it-projects-never-go-into-production/), given enough time and change, which is the "stringly typed" system. Recently when I was reviewing a project I came across an example in Python, but this could pretty easily come up in most languages:
 
 Here's an example in Python, but this can pretty easily come up in any language:
 
@@ -32,7 +32,7 @@ There's a lot of things that are bad about the way this function is engineered, 
 
 ## Step zero - should this code even exist at all?
 
-Before I dig into how I'd try to improve something like this I think there's a far more important question to ask. Whenever I see code to interact with the internals of database systems I always start by asking if the code should be written *at all*. There's many good database libraries that handle all sorts of [edge cases]({filename}/software_engineering_posts/tutorials/sqlalchemy_sqlite_foreign_keys.md) that the average user has never even heard of. Even if you know all the various quirks of the databases you most likely aren't getting paid to write a database library so looking for libraries that handle this is probably a good first step.
+Before I dig into how I'd try to improve something like this I think there's a far more important question to ask. Whenever I see code to interact with the internals of database systems I always start by asking if the code should be written *at all*. There's many good database libraries that handle all sorts of [edge cases](/tutorial/2018-05-07/SQLite-foreign-keys/) that the average user has never even heard of. Even if you know all the various quirks of the databases you most likely aren't getting paid to write a database library so looking for libraries that handle this is probably a good first step.
 
 If you do know for a fact that you weill gain value from writing a database engine or contributing to an open source DB project because the existing solutions out there don't cover your needs, go for it, you know who you are.
 
