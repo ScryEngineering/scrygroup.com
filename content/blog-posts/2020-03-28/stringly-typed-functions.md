@@ -1,7 +1,7 @@
 ---
-Title: "Stringly typed functions"
-Date: "2020-03-28"
-Tags: 
+title: "Stringly typed functions"
+date: "2020-03-28"
+tags: 
     - "software-engineering"
     - "type-systems"
     - "septic-code"
