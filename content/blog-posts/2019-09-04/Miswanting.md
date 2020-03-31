@@ -7,6 +7,9 @@ date: "2019-09-04"
 tags: 
     - management
     - forecasting
+    - requirements
+    - project management
+    - stakeholder management
 contentType: "blog"
 callToActionText: "Are you planning your next data science or software project? Let us help you define which features are essential to your success - and which to leave out. Get in touch today."
 ---
