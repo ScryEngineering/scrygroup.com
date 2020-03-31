@@ -6,6 +6,7 @@ Tags:
     - "type-systems"
     - "septic-code"
     - "legacy-systems"
+    - "legacy-rescue"
     - "antipatterns"
     - "stringly-typed"
     - "legacy-rescue"
