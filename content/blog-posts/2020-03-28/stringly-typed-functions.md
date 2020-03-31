@@ -1,6 +1,6 @@
 ---
 Title: "Stringly typed functions"
-Date: 2020-03-28
+Date: "2020-03-28"
 Tags: 
     - "software-engineering"
     - "type-systems"
@@ -11,6 +11,7 @@ Tags:
     - "legacy-rescue"
 Authors:
     - "Janis Lesinskis"
+contentType: "blog"
 ---
 
 Over my career I've done a lot of work with distressed systems, these are the sorts of projects that have such substantial issues with the code base that the business value is limited due to the implementation. There's one type of antipattern that I notice has a strong tendency to turn into [septic code](https://brucefwebster.com/2013/09/12/septic-code-why-some-large-it-projects-never-go-into-production/), given enough time and change, which is the "stringly typed" system.
