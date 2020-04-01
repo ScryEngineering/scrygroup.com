@@ -55,7 +55,11 @@ query TeamQuery {
       }
     }
   }
-  allImages: allFile {
+  allImages: allFile (
+      filter: {
+        extension: { regex: "/(jpg)|(png)|(tif)|(tiff)|(webp)|(jpeg)/" }
+      }
+    ){
     edges {
       node {
         relativePath
