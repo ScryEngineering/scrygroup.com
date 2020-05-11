@@ -1,7 +1,7 @@
 ---
-Title: "Updating your setup.py files to the newer format"
-Date: "2020-05-11"
-Tags:
+title: "Updating your setup.py files to the newer format"
+date: "2020-05-11"
+tags:
     - python
     - software-engineering
     - packaging
