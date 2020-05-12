@@ -137,16 +137,16 @@ The first step we undertook was a quick scan through the code to get a first rou
 
 From our discussions with the author a recurring theme is the desire to get collaborators involved in the project and making it easier to get people involved. Given the nature of the project involving many small but important details I imagine that there's a high probability of people doing [drive-through contributions](https://www.youtube.com/watch?v=q3ie1duhpCg) to fix small issues that get in the way of their work. Making it as easy as possible for people to contribute will make it much easier for people to contribute patches and also make it much easier for people to get involved in the project as long term contributors/community members.
 
-Ease of use concerns cover APIs and packaging. Both have value but the ROI for us is higher in providing help with packaging as that's a relatively straightforward task when you have those skills. Good APIs are immensely valuable but take more knowledge of the domain and more time to get right. So packaging is our second priority.
+Ease of use concerns cover <abbr title="Application Programming Interface">API</abbr>s and packaging. Both have value but the ROI for us is higher in providing help with packaging as that's a relatively straightforward task when you have those skills. Good <abbr title="Application Programming Interface">API</abbr>s are immensely valuable but take more knowledge of the domain and more time to get right. So packaging is our second priority.
 
-Before improving any API or architectural details it's important that we preserve value in the existing code base as much as possible, setting up some tooling to run tests and code quality analysis will help the project but will also make it much safer for us to refactor code and do other high level changes. For this reason setting up a continuous integration system is our 3rd priority, this also helps with contributions as being able to let your contributors get direct feedback on their pull/merge requests is exceedingly valuable and saves a lot of time. This way people can be more effective with their time spent developing.
+Before improving any <abbr title="Application Programming Interface">API</abbr> or architectural details it's important that we preserve value in the existing code base as much as possible, setting up some tooling to run tests and code quality analysis will help the project but will also make it much safer for us to refactor code and do other high level changes. For this reason setting up a continuous integration system is our 3rd priority, this also helps with contributions as being able to let your contributors get direct feedback on their pull/merge requests is exceedingly valuable and saves a lot of time. This way people can be more effective with their time spent developing.
 
 The initial prioritization for our time is as follows:
 
 1. Work required to enable easier contributions (especially since we are contributors and making this easier will help our later work)
 2. Set up packaging
 3. Set up tooling to assist with code quality
-4. Improvements to APIs/architecture
+4. Improvements to <abbr title="Application Programming Interface">API</abbr>s/architecture
 5. Performance
 
 Enabling contributions
@@ -329,11 +329,11 @@ Similarly for the paths to binaries, you want to make sure you only have to spec
 **API work**
 ------------
 
-Getting good APIs is a crucial part of making a good library. Seeing as this code is aiming to split out core parts into a reusable library then use that same library as an application getting the API right is a big deal.
+Getting good <abbr title="Application Programming Interface">API</abbr>s is a crucial part of making a good library. Seeing as this code is aiming to split out core parts into a reusable library then use that same library as an application getting the <abbr title="Application Programming Interface">API</abbr> right is a big deal.
 
 ### **Exception handling**
 
-In Python the exceptions that can be thrown in functions form an important part of the API of those functions. This is because the users at the call site may need to do exception handling.
+In Python the exceptions that can be thrown in functions form an important part of the <abbr title="Application Programming Interface">API</abbr> of those functions. This is because the users at the call site may need to do exception handling.
 
 One thing that makes the code much easier to consume is a good exception handling hierarchy. In some spots the base Exception is being raised. This makes it impossible for the caller to catch exceptions with any granularity, if they wish to catch any exception from the library they have to  catch this base Exception which means catching all the child class of Exception as well. Very frequently this is not what is wanted because a user only wishes to catch a small group of types of exceptions, if you raise a base Exception you prevent the user being able to do this.
 

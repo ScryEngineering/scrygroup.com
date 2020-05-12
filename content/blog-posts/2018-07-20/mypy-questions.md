@@ -22,7 +22,7 @@ There were a few questions he had over email about how mypy could be used in add
 ## mypy background
 
 There's a package called [mypy](http://mypy-lang.org/) that does static type checking analysis for Python.
-We particularly like using this because some bugs get caught by our CI pipeline that would have otherwise slipped though the unit tests.
+We particularly like using this because some bugs get caught by our <abbr title="Continuous Integration">CI</abbr>  pipeline that would have otherwise slipped though the unit tests.
 This has saved us a large amount of debugging time and has improved the correctness of our programs without costing us much at all.
 It fits in with our overall approach of having multiple lines of defense as no one methodology will catch everything.
 
@@ -50,7 +50,7 @@ examples/question1.py:3: error: The return type of "__init__" must be None
 examples/question1.py:7: error: Unsupported operand types for + ("float" and "str")
 ```
 
-So it does correctly catch that you can't add a string to a float. So in this case if you knew you needed the `price` to be a float type this would catch a large number of bugs essentially for free from your CI pipeline.
+So it does correctly catch that you can't add a string to a float. So in this case if you knew you needed the `price` to be a float type this would catch a large number of bugs essentially for free from your <abbr title="Continuous Integration">CI</abbr>  pipeline.
 It also complains that the return type of `__init__` must be `None`, we can fix that as follows:
 
 ```python
