@@ -322,7 +322,7 @@ PREFIXES = [os.path.splitext(fn)[0]
 if fn.endswith(".txt")]
 ```
 
-This is an example of something that is at the module level which means it will be executed at the time the module is imported. Here `ORG_TRANSCRIPT_DIR` is constructed from a path defined in `config.py` and will therefore fail if that path has not been specified at the time of module import. The solution to this is to make sure that this code only executes when Chatino language is actually being processed, which will involve a refactor.
+This is an example of something that is at the module level which means it will be executed at the time the module is imported. Here `ORG_TRANSCRIPT_DIR` is constructed from a path defined in `config.py` and will therefore fail if that path has not been specified at the time of module import. The solution to this is to make sure that this code only executes when [Chatino language](https://en.wikipedia.org/wiki/Chatino_language) is actually being processed, which will involve a refactor.
 
 Similarly for the paths to binaries, you want to make sure you only have to specify the binaries that are actually being used. Defaulting to the system names probably makes sense with the option for the user to override that path with something that that specify themselves in the configuration file.
 
@@ -335,7 +335,7 @@ Getting good <abbr title="Application Programming Interface">API</abbr>s is a cr
 
 In Python the exceptions that can be thrown in functions form an important part of the <abbr title="Application Programming Interface">API</abbr> of those functions. This is because the users at the call site may need to do exception handling.
 
-One thing that makes the code much easier to consume is a good exception handling hierarchy. In some spots the base Exception is being raised. This makes it impossible for the caller to catch exceptions with any granularity, if they wish to catch any exception from the library they have to  catch this base Exception which means catching all the child class of Exception as well. Very frequently this is not what is wanted because a user only wishes to catch a small group of types of exceptions, if you raise a base Exception you prevent the user being able to do this.
+One thing that makes the code much easier to consume is a good exception handling hierarchy. In some spots the base `Exception` is being raised. This makes it impossible for the caller to catch exceptions with any granularity, if they wish to catch any exception from the library they have to catch this base `Exception` which means catching all the child class of `Exception` as well. Very frequently this is not what is wanted because a user only wishes to catch a small group of types of exceptions, if you raise a base `Exception` you prevent the user being able to do this.
 
 <https://github.com/persephone-tools/persephone/pull/47>.
 
@@ -376,6 +376,6 @@ We have outlined some of the steps we took to get a library in a state that was 
 
 This highlights a crucial different between in house vs open source library priorities. Take for example a library that’s hard to install and takes a few hours to install but would take a few days to fix. On a small team where you only have a a couple of people that will ever install the software a case could be made to defer that fix until more people got involved. In an open source library a painful install makes something essentially a non-starter for many people. Make an explicit effort to revisit the project priorities if the project has made a transition in the nature of how it is to be used, as the nature of underlying trade-offs can change substantially.
 
-The Persephone library started out as an in house research tool, so the right choice was made at the time to prioritize some features over the ease of install. Now that it is starting to be a popular library the effort to make it easier to install and collaborate on has become a higher priority. Because of the skill set of CPS we were able to do the work to help the transition from a valuable in-house tool to a more accessible and polished open source library.
+The Persephone library started out as an in house research tool, so the right choice was made at the time to prioritize some features over the ease of install. Now that it is starting to be a popular library the effort to make it easier to install and collaborate on has become a higher priority. Because of our skill set we were able to do the work to help the transition from a valuable in-house tool to a more accessible and polished open source library.
 
 Please feel free to [contact us](/contact) if you wish to discuss work to transition code to open source libraries.
