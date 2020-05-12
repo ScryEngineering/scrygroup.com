@@ -9,7 +9,7 @@ tags:
     - PyPi
     - metadata
     - packaging
-    contentType: "blog"
+contentType: "blog"
 ---
 
 One of those things that comes up from time to time is that you want to be able to find out some information about a package on [PyPi](https://pypi.org/). It turns out that PyPi offers a web <abbr title="Application programming Interface">API</abbr> with super easy to parse <abbr title="JavaScript Object Notation">JSON</abbr> output.
