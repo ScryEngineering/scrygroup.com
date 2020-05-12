@@ -40,7 +40,7 @@ There's a CVE in an older version of tensorflow. I wanted to update the version 
 
 ## What I actually did today
 
-I first off started by updating the dependency for tensorflow in the `setup.py` file. Unfortunately, this version was pinned exactly (something that's a mistake for a base library). Upon updating this I wanted to see if travisCI would give the all clear.
+I first off started by updating the dependency for tensorflow in the `setup.py` file. Unfortunately, this version was pinned exactly (something that's a mistake for a base library). Upon updating this I wanted to see if the TravisCI pipeline would give the all clear.
 
 Unfortunately for me, a worse outcome than the test cases failing occurred - the tests couldn't run at all.
 Because the test dependencies were not pinned exactly, newer versions of the test dependencies had a mutually incompatible version.

@@ -14,7 +14,7 @@ authors:
 contentType: "blog"
 ---
 
-Over my career I've done a lot of work with distressed systems, these are the sorts of projects that have such substantial issues with the code base that the business value is limited due to the implementation. There's one type of antipattern that I notice has a strong tendency to turn into [septic code](https://brucefwebster.com/2013/09/12/septic-code-why-some-large-it-projects-never-go-into-production/), given enough time and change, which is the "stringly typed" system. Recently when I was reviewing a project I came across an example in Python, but this could pretty easily come up in most languages:
+Over my career I've done a lot of work with distressed systems, these are the sorts of projects that have such substantial issues with the code base that the business value is limited due to the implementation. There's one type of antipattern that I notice has a strong tendency to turn into [septic code](https://brucefwebster.com/2013/09/12/septic-code-why-some-large-it-projects-never-go-into-production/), given enough time and change, which is the "stringly typed" system. Recently when I was reviewing a project I came across an example in [Python](https://www.python.org/), but this could pretty easily come up in most languages:
 
 Here's an example in Python, but this can pretty easily come up in any language:
 
@@ -54,7 +54,7 @@ Without *very carefully* looking at the body of the function it's actually impos
 
 Due to the way in which this function is implemented *Python's type system is not able to tell you that you made a mistake*, in order to see a problem you have to run the code and have it crash or worse not crash and silently fail to do what you want.
 
-If we used type annotations and distinct types here we would be able to prevent a large class of problems from being possible at all. By using tooling such as mypy we would immediately be informed that we made a mistake. Life is much easier for the library *user* if we can let them use this sort of tooling:
+If we used type annotations and distinct types here we would be able to prevent a large class of problems from being possible at all. By using tooling such as [mypy](http://www.mypy-lang.org/) we would immediately be informed that we made a mistake. Life is much easier for the library *user* if we can let them use this sort of tooling:
 
 ```python
 results1 = td_fastload(data, "example_table", "", {'month_key':'VARCHAR(6)'}, True, 10, 'system10')
