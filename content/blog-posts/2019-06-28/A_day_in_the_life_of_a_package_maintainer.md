@@ -23,7 +23,7 @@ Package maintenance like this is the sort of thing that is good to do for the he
 It's often thankless because packaging is a mostly invisible job when things go right but not when they go wrong. This is in contrast to pushing new features where new work has highly visible and obvious benefits (*especially* to people outside the dev team).
 This imbalance is probably a large factor in why package maintenance is often neglected and just generally avoided.
 
-PRs such as this [carry costs](https://rgommers.github.io/2019/06/the-cost-of-an-open-source-contribution/) that are not so visible, in this case the improvements to the CI system here reduce those costs for future contributions substantially.
+PRs such as this [carry costs](https://rgommers.github.io/2019/06/the-cost-of-an-open-source-contribution/) that are not so visible, in this case the improvements to the  <abbr title="Continuous Integration">CI</abbr>  system here reduce those costs for future contributions substantially.
 
 I'm posting this just in case there's something that helps other package maintainers realize that they aren't the only ones dealing with frustrating work.
 
@@ -40,7 +40,7 @@ There's a CVE in an older version of tensorflow. I wanted to update the version 
 
 ## What I actually did today
 
-I first off started by updating the dependency for tensorflow in the `setup.py` file. Unfortunately, this version was pinned exactly (something that's a mistake for a base library). Upon updating this I wanted to see if travisCI would give the all clear.
+I first off started by updating the dependency for tensorflow in the `setup.py` file. Unfortunately, this version was pinned exactly (something that's a mistake for a base library). Upon updating this I wanted to see if the TravisCI pipeline would give the all clear.
 
 Unfortunately for me, a worse outcome than the test cases failing occurred - the tests couldn't run at all.
 Because the test dependencies were not pinned exactly, newer versions of the test dependencies had a mutually incompatible version.
@@ -119,7 +119,7 @@ For which I had to pin `pytest-cov` to an exact version:
 pytest-cov==2.6.1
 ```
 
-At this point the CI system started working and actually running tests.
+At this point the  <abbr title="Continuous Integration">CI</abbr>  system started working and actually running tests.
 (There was still another package version issue because between mypy 0.6 and 0.7 some previously working code was now generating false-positive for an error)
 
 Specifically this line was fine with mypy `<.700` but not with `.710`:
@@ -152,7 +152,7 @@ So I made a nasty hack to work around this:
 
 This got mypy to stop complaining despite being almost the exact same code. (If I had any energy left over, I'd check this with the [`dis` module](https://docs.python.org/3/library/dis.html) and if they were the same I'd go open an issue over on mypy)
 
-I figured it would be nice to add in support for Python 3.7 in the CI system.
+I figured it would be nice to add in support for Python 3.7 in the  <abbr title="Continuous Integration">CI</abbr>  system.
 
 So I added the line for `"3.7"` in the `.travis.yml` file:
 
@@ -237,4 +237,4 @@ after_success:
 Note how we are now explicitly setting the distribution to be using `xenial`.
 This caused a breakage in the install because of a missing PPA, `ffmpeg` got moved into the official packages so the addition of a PPA is no longer needed.
 
-So at the end of the day no new features were shipped but I think important work was done. People will have installs that have updated and more secure dependencies. Also, the CI system will actually be able to run. This is an important thing to keep running in an open source project because it is a feedback mechanism that will help new contributors.
+So at the end of the day no new features were shipped but I think important work was done. People will have installs that have updated and more secure dependencies. Also, the  <abbr title="Continuous Integration">CI</abbr>  system will actually be able to run. This is an important thing to keep running in an open source project because it is a feedback mechanism that will help new contributors.

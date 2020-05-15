@@ -18,7 +18,7 @@ We do a lot of work on Machine learning and optimization for various organizatio
 
 A very common situation is that a client comes to us with some sort of engineering problem with which they want to find some insights and potential operational optimizations.
 
-For example a 3rd party logistics company may wish to investigate if there's more efficient ways of moving items around in their warehouses or distribution routes. Or a mining company might wish to see if they can use some advanced ML and anomaly detection to get advanced warning of pumps failing so that they can avoid very expensive production shutdowns. Or a call center might want to use data to see if they can reduce the total handling time for calls and reduce hold times.
+For example a 3rd party logistics company may wish to investigate if there's more efficient ways of moving items around in their warehouses or distribution routes. Or a mining company might wish to see if they can use some advanced <abbr title="Machine Learning">ML</abbr> and anomaly detection to get advanced warning of pumps failing so that they can avoid very expensive production shutdowns. Or a call center might want to use data to see if they can reduce the total handling time for calls and reduce hold times.
 
 The thing these all these have in common is not us as a consulting firm but rather a fundamental aspect of such work, *data*.
 
@@ -28,7 +28,7 @@ If you are considering engaging with a machine learning consulting firm make sur
 
 Some suggestions:
 
-- Before you start the engagement have a conversation with the ML team about the data they will need and when they will need it in the project
+- Before you start the engagement have a conversation with the <abbr title="Machine Learning">ML</abbr> team about the data they will need and when they will need it in the project
 - Figure out what your internal data pipeline capacities are, can you supply the needed data? Who will do this job? How will their time be scheduled to allow them to get this data?
 - Do you have any regulatory requirements with the data? Find these out before you engage.
 - Agree on serialization formats as early on in the project as possible, although allow changes later if need be. If any obscure file or data formats are involved let the data engineers and the consultants know of these as soon as you can, this time allows people to search up documentation and standards.
@@ -39,9 +39,9 @@ Moving fast means having not only good data but good *access* to this data.
 
 ML sits on top of a pyramid of data engineering supports.
 
-Just because you may hire some very skilled ML experts doesn't mean they will be able to put the base of the pyramid in place quickly. And even if they could you might find it far more economical to get some of this work done in house *before* you engage outside help.
+Just because you may hire some very skilled <abbr title="Machine Learning">ML</abbr> experts doesn't mean they will be able to put the base of the pyramid in place quickly. And even if they could you might find it far more economical to get some of this work done in house *before* you engage outside help.
 
-At Scry we like to discuss the data engineering needs with our clients well before we engage so that our ML experts time is best utilized and can provide the best value.
+At Scry we like to discuss the data engineering needs with our clients well before we engage so that our <abbr title="Machine Learning">ML</abbr> experts time is best utilized and can provide the best value.
 
 ## A cautionary tale
 
@@ -51,8 +51,8 @@ Effectively they no longer had easy access to their own data.
 
 As someone who was attempting to help them with their problem the schedule was never possible in such a way that could mean good utilization of my time. I had a bit of an issue with sitting around all day doing nothing most days of the week while waiting for data so I declined to take the work up until they had a better data pipeline in place.
 
-6 months later their relatively simple ML problem that could save multiple hundreds of thousands of dollars a year is still not implemented. And it's not a question of budgets, they could afford very high rates. But what they couldn't get was the data in a timely and correct format.
+6 months later their relatively simple <abbr title="Machine Learning">ML</abbr> problem that could save multiple hundreds of thousands of dollars a year is still not implemented. And it's not a question of budgets, they could afford very high rates. But what they couldn't get was the data in a timely and correct format.
 
-This was highly unfortunate because they were a very friendly and professional team that seemed to know what they were doing. But with this ML task the data was so much of a bottleneck that they couldn't avoid very big schedule slippage.
+This was highly unfortunate because they were a very friendly and professional team that seemed to know what they were doing. But with this <abbr title="Machine Learning">ML</abbr> task the data was so much of a bottleneck that they couldn't avoid very big schedule slippage.
 
-The easier you can make the data available the easier your ML tasks will be to deliver on time, both in house or with consultants. Good clean accessible data is key.
+The easier you can make the data available the easier your <abbr title="Machine Learning">ML</abbr> tasks will be to deliver on time, both in house or with consultants. Good clean accessible data is key.

@@ -12,11 +12,11 @@ The General Data Protection Regulation (GDPR) came in to force on May 25th, if y
 
 <!-- end excerpt -->
 
-Even if you are not in the EU you likely have received a number of emails lately about providers changing their terms of service due to EU regulatory changes. The General Data Protection Regulation (GDPR) is an important EU regulation that has requirements regarding the processing of personally identifiable information of data subjects inside the European Union.
+Even if you are not in the <abbr title="European Union">EU</abbr> you likely have received a number of emails lately about providers changing their terms of service due to <abbr title="European Union">EU</abbr> regulatory changes. The General Data Protection Regulation (GDPR) is an important <abbr title="European Union">EU</abbr> regulation that has requirements regarding the processing of personally identifiable information of data subjects inside the European Union.
 
-We recommend that if you do business with the EU that you see the [official infographic summary](https://ec.europa.eu/justice/smedataprotect/index_en.htm) and the [official GDPR website](https://ec.europa.eu/commission/priorities/justice-and-fundamental-rights/data-protection/2018-reform-eu-data-protection-rules_en) to get an understanding of what is required.
+We recommend that if you do business with the <abbr title="European Union">EU</abbr> that you see the [official infographic summary](https://ec.europa.eu/justice/smedataprotect/index_en.htm) and the [official GDPR website](https://ec.europa.eu/commission/priorities/justice-and-fundamental-rights/data-protection/2018-reform-eu-data-protection-rules_en) to get an understanding of what is required.
 
-Previously the collection of personally identifiable information was not covered by as strongly by existing regulations. With the GDPR in force you are liable for large fines for non-compliance if you are doing business in the EU.
+Previously the collection of personally identifiable information was not covered by as strongly by existing regulations. With the GDPR in force you are liable for large fines for non-compliance if you are doing business in the <abbr title="European Union">EU</abbr>.
 
 # Our analysis
 
@@ -30,7 +30,7 @@ If you are handling sensitive data it is worth having policy in place for preven
 
 This has been a fairly controversial and highly debated regulation. The reactions from different companies and organizations have been quite diverse.
 
-Some companies that do not have any EU customers have taken the step to completely block the EU from using their services because they have judged that the cost of compliance is too high for them.
+Some companies that do not have any <abbr title="European Union">EU</abbr> customers have taken the step to completely block the <abbr title="European Union">EU</abbr> from using their services because they have judged that the cost of compliance is too high for them.
 
 Other companies have overhauled internal systems to make sure that their services are in compliance with the new regulations.
 

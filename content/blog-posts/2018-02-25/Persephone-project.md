@@ -12,7 +12,7 @@ hideCallToAction: false
 
 Recently we have been collaborating with [Oliver Adams](https://oadams.github.io/). He is a computer science researcher who has done some very interesting work in the field of computational linguistics. One of his research projects was creating automatic phonetic transcriptions for low resource languages. This project aims to make it much easier for linguists to transcribe audio from unwritten languages, you can find the [source code on GitHub](https://github.com/persephone-tools/persephone/).
 
-In the interests of reproducible research he has been working on releasing open source code that has powered some of his research. Further he wanted to make it easier for people to use the software in their day-to-day linguistics work as the software has a substantial amount of value beyond the papers and research that the code enabled. Making software more valuable to professional users is a particularly strong area of our skills at CPS so we jumped on the chance to contribute to this project and do the work needed to successfully transition the project to an open source library usable to a wider audience. Making software easier to build and distribute is not an initial priority in an academic environment that has a strong pressure to publish many papers, run classes, attend conferences. Talking to many researchers I have found that they would actually love to improve these aspects of their code, but the harsh reality is that time is very hard to come by and the structural incentives sometimes aren't there to do such work in that environment. Now that this project is starting to deliver gains to professional linguists in the course of their work it became increasingly valuable to work on those aspects of software quality that impact the end users.
+In the interests of reproducible research he has been working on releasing open source code that has powered some of his research. Further he wanted to make it easier for people to use the software in their day-to-day linguistics work as the software has a substantial amount of value beyond the papers and research that the code enabled. Making software more valuable to professional users is a particularly strong area of our skills so we jumped on the chance to contribute to this project and do the work needed to successfully transition the project to an open source library usable to a wider audience. Making software easier to build and distribute is not an initial priority in an academic environment that has a strong pressure to publish many papers, run classes, attend conferences. Talking to many researchers I have found that they would actually love to improve these aspects of their code, but the harsh reality is that time is very hard to come by and the structural incentives sometimes aren't there to do such work in that environment. Now that this project is starting to deliver gains to professional linguists in the course of their work it became increasingly valuable to work on those aspects of software quality that impact the end users.
 
 Keeping this very practical we will focus on this initial stage of consultation on improving the library and show you some of the process that we took to decide on the initial scope of work. We outline what improvements can be made, the various methodologies involved and show via links to the repository where we created code to meet these requirements. Some of these tasks will be common to projects transitioning from a proof-of-concept that is supporting research into standalone libraries.
 
@@ -137,16 +137,16 @@ The first step we undertook was a quick scan through the code to get a first rou
 
 From our discussions with the author a recurring theme is the desire to get collaborators involved in the project and making it easier to get people involved. Given the nature of the project involving many small but important details I imagine that there's a high probability of people doing [drive-through contributions](https://www.youtube.com/watch?v=q3ie1duhpCg) to fix small issues that get in the way of their work. Making it as easy as possible for people to contribute will make it much easier for people to contribute patches and also make it much easier for people to get involved in the project as long term contributors/community members.
 
-Ease of use concerns cover APIs and packaging. Both have value but the ROI for us is higher in providing help with packaging as that's a relatively straightforward task when you have those skills. Good APIs are immensely valuable but take more knowledge of the domain and more time to get right. So packaging is our second priority.
+Ease of use concerns cover <abbr title="Application Programming Interface">API</abbr>s and packaging. Both have value but the ROI for us is higher in providing help with packaging as that's a relatively straightforward task when you have those skills. Good <abbr title="Application Programming Interface">API</abbr>s are immensely valuable but take more knowledge of the domain and more time to get right. So packaging is our second priority.
 
-Before improving any API or architectural details it's important that we preserve value in the existing code base as much as possible, setting up some tooling to run tests and code quality analysis will help the project but will also make it much safer for us to refactor code and do other high level changes. For this reason setting up a continuous integration system is our 3rd priority, this also helps with contributions as being able to let your contributors get direct feedback on their pull/merge requests is exceedingly valuable and saves a lot of time. This way people can be more effective with their time spent developing.
+Before improving any <abbr title="Application Programming Interface">API</abbr> or architectural details it's important that we preserve value in the existing code base as much as possible, setting up some tooling to run tests and code quality analysis will help the project but will also make it much safer for us to refactor code and do other high level changes. For this reason setting up a continuous integration system is our 3rd priority, this also helps with contributions as being able to let your contributors get direct feedback on their pull/merge requests is exceedingly valuable and saves a lot of time. This way people can be more effective with their time spent developing.
 
 The initial prioritization for our time is as follows:
 
 1. Work required to enable easier contributions (especially since we are contributors and making this easier will help our later work)
 2. Set up packaging
 3. Set up tooling to assist with code quality
-4. Improvements to APIs/architecture
+4. Improvements to <abbr title="Application Programming Interface">API</abbr>s/architecture
 5. Performance
 
 Enabling contributions
@@ -322,20 +322,20 @@ PREFIXES = [os.path.splitext(fn)[0]
 if fn.endswith(".txt")]
 ```
 
-This is an example of something that is at the module level which means it will be executed at the time the module is imported. Here `ORG_TRANSCRIPT_DIR` is constructed from a path defined in `config.py` and will therefore fail if that path has not been specified at the time of module import. The solution to this is to make sure that this code only executes when Chatino language is actually being processed, which will involve a refactor.
+This is an example of something that is at the module level which means it will be executed at the time the module is imported. Here `ORG_TRANSCRIPT_DIR` is constructed from a path defined in `config.py` and will therefore fail if that path has not been specified at the time of module import. The solution to this is to make sure that this code only executes when [Chatino language](https://en.wikipedia.org/wiki/Chatino_language) is actually being processed, which will involve a refactor.
 
 Similarly for the paths to binaries, you want to make sure you only have to specify the binaries that are actually being used. Defaulting to the system names probably makes sense with the option for the user to override that path with something that that specify themselves in the configuration file.
 
 **API work**
 ------------
 
-Getting good APIs is a crucial part of making a good library. Seeing as this code is aiming to split out core parts into a reusable library then use that same library as an application getting the API right is a big deal.
+Getting good <abbr title="Application Programming Interface">API</abbr>s is a crucial part of making a good library. Seeing as this code is aiming to split out core parts into a reusable library then use that same library as an application getting the <abbr title="Application Programming Interface">API</abbr> right is a big deal.
 
 ### **Exception handling**
 
-In Python the exceptions that can be thrown in functions form an important part of the API of those functions. This is because the users at the call site may need to do exception handling.
+In Python the exceptions that can be thrown in functions form an important part of the <abbr title="Application Programming Interface">API</abbr> of those functions. This is because the users at the call site may need to do exception handling.
 
-One thing that makes the code much easier to consume is a good exception handling hierarchy. In some spots the base Exception is being raised. This makes it impossible for the caller to catch exceptions with any granularity, if they wish to catch any exception from the library they have to  catch this base Exception which means catching all the child class of Exception as well. Very frequently this is not what is wanted because a user only wishes to catch a small group of types of exceptions, if you raise a base Exception you prevent the user being able to do this.
+One thing that makes the code much easier to consume is a good exception handling hierarchy. In some spots the base `Exception` is being raised. This makes it impossible for the caller to catch exceptions with any granularity, if they wish to catch any exception from the library they have to catch this base `Exception` which means catching all the child class of `Exception` as well. Very frequently this is not what is wanted because a user only wishes to catch a small group of types of exceptions, if you raise a base `Exception` you prevent the user being able to do this.
 
 <https://github.com/persephone-tools/persephone/pull/47>.
 
@@ -376,6 +376,6 @@ We have outlined some of the steps we took to get a library in a state that was 
 
 This highlights a crucial different between in house vs open source library priorities. Take for example a library that’s hard to install and takes a few hours to install but would take a few days to fix. On a small team where you only have a a couple of people that will ever install the software a case could be made to defer that fix until more people got involved. In an open source library a painful install makes something essentially a non-starter for many people. Make an explicit effort to revisit the project priorities if the project has made a transition in the nature of how it is to be used, as the nature of underlying trade-offs can change substantially.
 
-The Persephone library started out as an in house research tool, so the right choice was made at the time to prioritize some features over the ease of install. Now that it is starting to be a popular library the effort to make it easier to install and collaborate on has become a higher priority. Because of the skill set of CPS we were able to do the work to help the transition from a valuable in-house tool to a more accessible and polished open source library.
+The Persephone library started out as an in house research tool, so the right choice was made at the time to prioritize some features over the ease of install. Now that it is starting to be a popular library the effort to make it easier to install and collaborate on has become a higher priority. Because of our skill set we were able to do the work to help the transition from a valuable in-house tool to a more accessible and polished open source library.
 
 Please feel free to [contact us](/contact) if you wish to discuss work to transition code to open source libraries.
