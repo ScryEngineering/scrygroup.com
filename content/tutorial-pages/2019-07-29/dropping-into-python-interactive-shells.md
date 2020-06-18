@@ -28,7 +28,7 @@ For example:
 python -i my_script.py
 ```
 
-This will execute `my_script.py` then drop into an interactive python REPL shell at the end of that scripts execution.
+This will execute `my_script.py` then drop into an interactive python <abbr title="Read Evaluate Print Loop">REPL</abbr> shell at the end of that scripts execution.
 
 This is a nice way to do this from the command line but there's other options for invoking this from code:
 
@@ -49,7 +49,7 @@ This is why we have to pass in explicitly the local variables that will be in sc
 
 ## PDB
 
-The Python Debugger, [PDB](https://docs.python.org/3/library/pdb.html) can give you a REPL like shell to interact with the code.
+The Python Debugger, [PDB](https://docs.python.org/3/library/pdb.html) can give you a <abbr title="Read Evaluate Print Loop">REPL</abbr> like shell to interact with the code.
 To invoke this create a breakpoint like so:
 
 ```python

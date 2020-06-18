@@ -34,7 +34,7 @@ except:
 
 One really important thing to note with this approach is that you *must* re-raise the exception via `raise` here otherwise you have altered the program substantially. Silently catching exceptions leads to all sorts of nasty bugs that can cause a large amount of damage.
 
-(Note that there are some exceptions that you want to not catch such as a `KeyboardInterrupt` when people are running your code from the REPL. We will account for this in the next step)
+(Note that there are some exceptions that you want to not catch such as a `KeyboardInterrupt` when people are running your code from the <abbr title="Read Evaluate Print Loop">REPL</abbr>. We will account for this in the next step)
 
 A better approach that doesn't require modifying existing code is to make use of the [sys module](https://docs.python.org/3/library/sys.html) which provides [excepthook](https://docs.python.org/3/library/sys.html#sys.excepthook) to allow you to attach a handler for any unhandled exception.
 
@@ -56,7 +56,7 @@ def handle_unhandled_exception(exc_type, exc_value, exc_traceback):
 sys.excepthook = handle_unhandled_exception
 ```
 
-This is something we can use with logging to make sure any unhandled exception will end up in our log files without us having to modify the source of other modules. Unfortunately this won't work well with threading or multiprocessing without a few modifications that we will explain shortly. Take for example the situation where some code runs on another thread such as a GUI thread:
+This is something we can use with logging to make sure any unhandled exception will end up in our log files without us having to modify the source of other modules. Unfortunately this won't work well with threading or multiprocessing without a few modifications that we will explain shortly. Take for example the situation where some code runs on another thread such as a <abbr title="Graphical User Interface Programming Interface">GUI</abbr> thread:
 
 ```python
 Exception in thread Thread-1:

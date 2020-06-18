@@ -30,7 +30,7 @@ Upsides:
 
 Downsides:
 
-- Can't save the file along with with the `multipart/form-data` request which greatly reduces the utility of the collections runner in the GUI.
+- Can't save the file along with with the `multipart/form-data` request which greatly reduces the utility of the collections runner in the <abbr title="Graphical User Interface Programming Interface">GUI</abbr>.
 
 ## CURL
 
