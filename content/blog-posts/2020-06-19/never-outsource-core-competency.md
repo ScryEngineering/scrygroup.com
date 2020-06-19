@@ -1,7 +1,7 @@
 ---
 title: "Why you should never outsource your core competency"
 authors: - "Allison Smith"
-date: "2019-09-04"
+date: "2020-06-19"
 tags:
         - management
         - startups
