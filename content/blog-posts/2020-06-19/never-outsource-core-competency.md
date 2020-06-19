@@ -5,6 +5,8 @@ date: "2020-06-19"
 tags:
         - management
         - startups
+        - outsourcing
+        - strategy
 contentType: "blog"
 callToActionText: "Are you considering outsourcing services and would like a second opinion? Get in touch today."
 ---
