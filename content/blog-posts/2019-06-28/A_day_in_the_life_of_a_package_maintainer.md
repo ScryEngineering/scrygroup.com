@@ -23,7 +23,7 @@ Package maintenance like this is the sort of thing that is good to do for the he
 It's often thankless because packaging is a mostly invisible job when things go right but not when they go wrong. This is in contrast to pushing new features where new work has highly visible and obvious benefits (*especially* to people outside the dev team).
 This imbalance is probably a large factor in why package maintenance is often neglected and just generally avoided.
 
-PRs such as this [carry costs](https://rgommers.github.io/2019/06/the-cost-of-an-open-source-contribution/) that are not so visible, in this case the improvements to the  <abbr title="Continuous Integration">CI</abbr>  system here reduce those costs for future contributions substantially.
+Pull requests such as this [carry costs](https://rgommers.github.io/2019/06/the-cost-of-an-open-source-contribution/) that are not so visible, in this case the improvements to the  <abbr title="Continuous Integration">CI</abbr>  system here reduce those costs for future contributions substantially.
 
 I'm posting this just in case there's something that helps other package maintainers realize that they aren't the only ones dealing with frustrating work.
 
@@ -36,7 +36,7 @@ Fighting this "bit rot" is a great example of the sort of package maintenance wo
 
 ## What I planned to do today
 
-There's a CVE in an older version of tensorflow. I wanted to update the version we were using. Sounds simple right? (That grimacing smiley seems appropriate here...)
+There's a <abbr title="Common Vulnerabilities and Exposures">CVE</abbr> in an older version of tensorflow with a high severity security issues. I wanted to only update the version of tensorflow we were using. Sounds simple right? (That grimacing smiley seems appropriate here...)
 
 ## What I actually did today
 
@@ -76,7 +76,7 @@ Traceback (most recent call last):
     self.pluginmanager.load_setuptools_entrypoints("pytest11")
   File "/home/travis/virtualenv/python3.5.6/lib/python3.5/site-packages/pluggy/manager.py", line 259, in load_setuptools_entrypoints
     message="Plugin %r could not be loaded: %s!" % (ep.name, e))
-pluggy.manager.PluginValidationError: Plugin 'pytest_cov' could not be loaded: (pluggy 0.7.1 (/home/travis/virtualenv/python3.5.6/lib/python3.5/site-packages), Requirement.parse('pluggy<1.0,>=0.12'), {'pytest'})!
+pluggy.manager.PluginValidationError: Plugin 'pytest_cov' could not be loaded: (pluggy 0.7.1 (/home/travis/virtualenv/python3.5.6/lib/python3.5/site-packaCommon Vulnerabilities and Exposuresges), Requirement.parse('pluggy<1.0,>=0.12'), {'pytest'})!
 The command "pytest --cov=persephone" exited with 1.
 ```
 
@@ -175,7 +175,7 @@ Unable to download 3.7 archive. The archive may not exist. Please consider a dif
 
 Which is because of this: <https://github.com/travis-ci/travis-ci/issues/9815>
 
-The default travis runs on an old ubuntu LTS and Python 3.7 cannot run on that same LTS because of a variety of issues (effectively Python 3.7 requires a more modern version of the system dependencies than those that are available in Ubuntu 14.04).
+The default travis runs on an old ubuntu <abbr title="Long Term Support">LTS</abbr> version and Python 3.7 cannot run on that same LTS because of a variety of issues (effectively Python 3.7 requires a more modern version of the system dependencies than those that are available in Ubuntu 14.04).
 
 So when you add Python 3.7 to the matrix of jobs you have to explicitly specify a different, and more modern, distro image to run from.
 Here's the original `.travis.yml` file:
