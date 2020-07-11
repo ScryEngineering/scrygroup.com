@@ -13,17 +13,19 @@ callToActionText: "Are you working on a project that requires in depth knowledge
 
 I saw this post over on Linkedin:
 
-> What do you reckon?
->
-> x += -1
-> or
-> x -= 1
-> 
-> They both do the same thing in python: decrement x by 1.
->
-> The first looks a lot more intuitive to me though
-> 
-> #python
+```
+What do you reckon?
+
+x += -1
+or
+x -= 1
+ 
+They both do the same thing in python: decrement x by 1.
+
+The first looks a lot more intuitive to me though
+
+#python
+```
 
 I think what is seen to be *intuitive* will depend heavily on how much the people reading the code are familiar with [Python's data model](https://docs.python.org/3/reference/datamodel.html).
 
@@ -62,5 +64,5 @@ subtraction assignment
 ## Designing intuitive interfaces
 
 This is a somewhat contrived example, but it shows that these statements don't have to execute the same code.
-People who's intuition is built on how the built in data types work might find behavior that's not in line with this to be confusing.
+People who have had intuition from their experiences of how the built in data types work might find any behavior that isn't like the built in types to be confusing.
 It's a good idea to consider the [principle of least astonishment](https://en.wikipedia.org/wiki/Principle_of_least_astonishment) when designing the interface for your classes, if most of the users of your class would expect these operators to do the same thing then if you have to do otherwise it should be prominently documented as it will likely cause confusion.
